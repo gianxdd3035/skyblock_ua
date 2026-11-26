@@ -12,7 +12,7 @@ You found a {item}!	Ти знайшов: {item}!
 You found {item} x{0}!	Ти знайшов: {item} x{0}!
 You received {0}x {item} for killing a {any}!	Ти отримав {0}x {item} за вбивство: {any}!
 You received {0}x {item} for killing an {any}!	Ти отримав {0}x {item} за вбивство: {any}!
-{item} ({0} Magic Find)	{item} ({0} Магічної знахідки)
+{item} ({0} Magic Find)	{item} ({0} Магічної удачі)
 You dug out a {item}!	Ти відкопав: {item}!
 You received {0} {item} for assisting {any}!	Ти отримав {0} {item} за допомогу гравцю {any}!
 You received loot for assisting {any}!	Ти отримав здобич за допомогу гравцю {any}!
@@ -44,12 +44,12 @@ Your {any} leveled up to level {0}!	Твій улюбленець {any} дося
 # --- Інше ---
 {any} joined the lobby!	{any} заходить у лобі!
 {any} fainted from pressure.	{any} знепритомнює від тиску.
-Blaze Slayer LVL {0} - Next LVL in {1} XP!	Винищувач іфритів РІВ. {0} — наступний рівень через {1} досвіду!
-Zombie Slayer LVL {0} - Next LVL in {1} XP!	Винищувач зомбі РІВ. {0} — наступний рівень через {1} досвіду!
-Spider Slayer LVL {0} - Next LVL in {1} XP!	Винищувач павуків РІВ. {0} — наступний рівень через {1} досвіду!
-Wolf Slayer LVL {0} - Next LVL in {1} XP!	Винищувач вовків РІВ. {0} — наступний рівень через {1} досвіду!
-Enderman Slayer LVL {0} - Next LVL in {1} XP!	Винищувач ендерменів РІВ. {0} — наступний рівень через {1} досвіду!
-Vampire Slayer LVL {0} - Next LVL in {1} XP!	Винищувач вампірів РІВ. {0} — наступний рівень через {1} досвіду!
+Blaze Slayer LVL {0} - Next LVL in {1} XP!	Вбивця іфритів РІВ. {0} — наступний рівень через {1} досвіду!
+Zombie Slayer LVL {0} - Next LVL in {1} XP!	Вбивця зомбі РІВ. {0} — наступний рівень через {1} досвіду!
+Spider Slayer LVL {0} - Next LVL in {1} XP!	Вбивця павуків РІВ. {0} — наступний рівень через {1} досвіду!
+Wolf Slayer LVL {0} - Next LVL in {1} XP!	Вбивця вовків РІВ. {0} — наступний рівень через {1} досвіду!
+Enderman Slayer LVL {0} - Next LVL in {1} XP!	Вбивця ендерменів РІВ. {0} — наступний рівень через {1} досвіду!
+Vampire Slayer LVL {0} - Next LVL in {1} XP!	Вбивця вампірів РІВ. {0} — наступний рівень через {1} досвіду!
 Thanks for the {any}, {any2}!	Дякую за {any}, {any2}!
 What's up, {any}?	Як справи, {any}?
 
@@ -87,9 +87,9 @@ Friend > {any} joined.	Друг > {any} заходить.
 ☠ {any} fell into the void.	☠ {any} падає в порожнечу.
 ☠ You fell into the void.	☠ Ти падаєш у порожнечу.
 Enchanted Book ({item})	Зачарована книга ({item})
-{any} RNG Meter	Лічильник удачі: {any}
-{any} Drops	Здобич: {any}
-{any} Recipes	Рецепти: {any}
+{known} RNG Meter	Лічильник РНГ: {known}
+{known} Drops	Здобич: {known}
+{known} Recipes	Рецепти: {known}
 [Sacks] {0} items. (Last {1}s.)	[Мішки] {0} предметів. (За {1} с)
 [Sacks] {0} items, {1} items. (Last {2}s.)	[Мішки] {0} предметів, {1} предметів. (За {2} с)
 You Supercrafted {item} x{0}!	Створено суперкрафтом: {item} x{0}!
@@ -112,5 +112,37 @@ Auctions: "{any}"	Аукціони: «{any}»
 {item} (Farming)	{item} (фермерство)
 {item} (Mining)	{item} (копання)
 {item} (Hunting)	{item} (полювання)
-{item} Family	Родина: {item}
-{item} Recipe	Рецепт: {item}
+{known} Family	Родина: {known}
+{known} Recipe	Рецепт: {known}
+Your {any} Ranking	Твій рейтинг: {any}
+{known} Shard	Осколок: {known}
+Odds: Pray RNGesus ({0})	Шанс: молися РНГісусу ({0})
+Odds: RNGesus Incarnate ({0})	Шанс: втілений РНГісус ({0})
+{known} or higher!	{known} або вище!
+{known} Bonuses	Бонуси: {known}
+{known}: Tier {any}	{known}: ступінь {any}
+{known}: {0} (Top {1})	{known}: {0} (топ {1})
+View all your {known} Collection	Переглянь усю свою колекцію: {known}
+{known} Rewards:	Нагороди «{known}»:
+To {known}	Назад: {known}
+COMMON WATER SHARD (ID {any})	ЗВИЧАЙНИЙ ВОДЯНИЙ ОСКОЛОК (ID {any})
+COMMON FOREST SHARD (ID {any})	ЗВИЧАЙНИЙ ЛІСОВИЙ ОСКОЛОК (ID {any})
+COMMON COMBAT SHARD (ID {any})	ЗВИЧАЙНИЙ БОЙОВИЙ ОСКОЛОК (ID {any})
+UNCOMMON WATER SHARD (ID {any})	НЕЗВИЧАЙНИЙ ВОДЯНИЙ ОСКОЛОК (ID {any})
+UNCOMMON FOREST SHARD (ID {any})	НЕЗВИЧАЙНИЙ ЛІСОВИЙ ОСКОЛОК (ID {any})
+UNCOMMON COMBAT SHARD (ID {any})	НЕЗВИЧАЙНИЙ БОЙОВИЙ ОСКОЛОК (ID {any})
+RARE WATER SHARD (ID {any})	РІДКІСНИЙ ВОДЯНИЙ ОСКОЛОК (ID {any})
+RARE FOREST SHARD (ID {any})	РІДКІСНИЙ ЛІСОВИЙ ОСКОЛОК (ID {any})
+RARE COMBAT SHARD (ID {any})	РІДКІСНИЙ БОЙОВИЙ ОСКОЛОК (ID {any})
+EPIC WATER SHARD (ID {any})	ЕПІЧНИЙ ВОДЯНИЙ ОСКОЛОК (ID {any})
+EPIC FOREST SHARD (ID {any})	ЕПІЧНИЙ ЛІСОВИЙ ОСКОЛОК (ID {any})
+EPIC COMBAT SHARD (ID {any})	ЕПІЧНИЙ БОЙОВИЙ ОСКОЛОК (ID {any})
+LEGENDARY WATER SHARD (ID {any})	ЛЕГЕНДАРНИЙ ВОДЯНИЙ ОСКОЛОК (ID {any})
+LEGENDARY FOREST SHARD (ID {any})	ЛЕГЕНДАРНИЙ ЛІСОВИЙ ОСКОЛОК (ID {any})
+LEGENDARY COMBAT SHARD (ID {any})	ЛЕГЕНДАРНИЙ БОЙОВИЙ ОСКОЛОК (ID {any})
+MYTHIC WATER SHARD (ID {any})	МІФІЧНИЙ ВОДЯНИЙ ОСКОЛОК (ID {any})
+MYTHIC FOREST SHARD (ID {any})	МІФІЧНИЙ ЛІСОВИЙ ОСКОЛОК (ID {any})
+MYTHIC COMBAT SHARD (ID {any})	МІФІЧНИЙ БОЙОВИЙ ОСКОЛОК (ID {any})
+{known} (Global)	{known} (загальний)
+Buffed by {known} attribute.	Посилено атрибутом: {known}.
+{known} Backpack	Рюкзак: {known}

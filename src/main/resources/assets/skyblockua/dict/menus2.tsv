@@ -28,7 +28,7 @@ Lava Fishing	Риболовля в лаві
 Magmafish	Магмова риба
 Mob Drops	Здобич з мобів
 Baits	Наживки
-Slayers	Винищувачі
+Slayers	Вбивці
 Rare Crops	Рідкісні врожаї
 Sprayonator	Розпилювач
 Other	Інше
@@ -45,18 +45,18 @@ Attribute Menu	Меню атрибутів
 Attribute Transfer	Перенесення атрибутів
 Hoppity's Collection	Колекція Хоппіті
 Bestiary Milestones	Віхи бестіарію
-Zombie Slayer LVL Rewards	Нагороди рівнів винищувача зомбі
-Spider Slayer LVL Rewards	Нагороди рівнів винищувача павуків
-Wolf Slayer LVL Rewards	Нагороди рівнів винищувача вовків
-Enderman Slayer LVL Rewards	Нагороди рівнів винищувача ендерменів
-Blaze Slayer LVL Rewards	Нагороди рівнів винищувача іфритів
-Vampire Slayer LVL Rewards	Нагороди рівнів винищувача вампірів
-Zombie Slayer LVL {0}	Винищувач зомбі, рівень {0}
-Spider Slayer LVL {0}	Винищувач павуків, рівень {0}
-Wolf Slayer LVL {0}	Винищувач вовків, рівень {0}
-Enderman Slayer LVL {0}	Винищувач ендерменів, рівень {0}
-Blaze Slayer LVL {0}	Винищувач іфритів, рівень {0}
-Vampire Slayer LVL {0}	Винищувач вампірів, рівень {0}
+Zombie Slayer LVL Rewards	Нагороди рівнів вбивці зомбі
+Spider Slayer LVL Rewards	Нагороди рівнів вбивці павуків
+Wolf Slayer LVL Rewards	Нагороди рівнів вбивці вовків
+Enderman Slayer LVL Rewards	Нагороди рівнів вбивці ендерменів
+Blaze Slayer LVL Rewards	Нагороди рівнів вбивці іфритів
+Vampire Slayer LVL Rewards	Нагороди рівнів вбивці вампірів
+Zombie Slayer LVL {0}	Вбивця зомбі, рівень {0}
+Spider Slayer LVL {0}	Вбивця павуків, рівень {0}
+Wolf Slayer LVL {0}	Вбивця вовків, рівень {0}
+Enderman Slayer LVL {0}	Вбивця ендерменів, рівень {0}
+Blaze Slayer LVL {0}	Вбивця іфритів, рівень {0}
+Vampire Slayer LVL {0}	Вбивця вампірів, рівень {0}
 Backpack Slot {0}	Слот рюкзака {0}
 Tier {0}	Ступінь {0}
 Ender Chest Page {0}	Сторінка ендер-скрині {0}
@@ -115,3 +115,5 @@ Refuse Offer	Відхилити пропозицію
 {0} Copper	{0} міді
 CLICK	НАТИСНИ
 Loot Share	Спільна здобич
+RNGesus Drop	РНГ-здобич
+Pity Counter	Шкала невдач

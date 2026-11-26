@@ -627,7 +627,7 @@ public final class Translator<S> {
                 int gs = s + m.start(i + 1), ge = s + m.end(i + 1);
                 String captured = m.group(i + 1);
                 List<Seg<S>> segs = null;
-                if (name.startsWith("item")) {
+                if (name.startsWith("item") || name.startsWith("known")) {
                     /* назва може починатися з маркера списку чи значка ("▶ ", "✦") — його лишаємо як є */
                     Matcher lead = BULLET.matcher(captured);
                     int skip = lead.lookingAt() ? lead.end() : 0;
@@ -646,6 +646,9 @@ public final class Translator<S> {
                     if (tr != null) {
                         segs = new ArrayList<>(Lines.slice(line, gs, gs + skip));
                         Lines.appendLegacy(segs, tr, Lines.styleAt(line, gs + skip), ops);
+                    } else if (name.startsWith("known")) {
+                        /* загальний шаблон ("{known} or higher!") лише для відомих назв, інакше вийде напівпереклад */
+                        continue patterns;
                     }
                 }
                 if (name.startsWith("stat")) {

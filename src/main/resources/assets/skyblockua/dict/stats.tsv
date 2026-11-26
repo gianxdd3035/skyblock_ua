@@ -17,26 +17,26 @@ Vitality	життєздатності
 Mending	зцілення
 Swing Range	дальності удару
 Mana Regen	відновлення мани
-Magic Find	магічної знахідки
+Magic Find	магічної удачі
 Pet Luck	везіння улюбленців
 Fear	страху
 Mining Speed	швидкості копання
-Mining Fortune	удачі копання
-Ore Fortune	удачі руди
-Block Fortune	удачі блоків
-Gemstone Fortune	удачі самоцвітів
+Mining Fortune	фортуни копання
+Ore Fortune	фортуни руди
+Block Fortune	фортуни блоків
+Gemstone Fortune	фортуни самоцвітів
 Pristine	бездоганності
 Breaking Power	сили руйнування
-Heat Resistance	стійкості до жару
-Cold Resistance	стійкості до холоду
-Pressure Resistance	стійкості до тиску
-Farming Fortune	удачі фермерства
+Heat Resistance	спротиву жару
+Cold Resistance	спротиву холоду
+Pressure Resistance	спротиву тиску
+Farming Fortune	фортуни фермерства
 Bonus Pest Chance	шансу шкідників
-Foraging Fortune	удачі лісорубства
-Fig Fortune	удачі інжиру
-Mangrove Fortune	удачі мангрового дерева
-Helix Fortune	удачі гелікса
-Hunting Fortune	удачі полювання
+Foraging Fortune	фортуни лісорубства
+Fig Fortune	фортуни інжиру
+Mangrove Fortune	фортуни мангрового дерева
+Helix Fortune	фортуни гелікса
+Hunting Fortune	фортуни полювання
 Sea Creature Chance	шансу морської істоти
 Fishing Speed	швидкості риболовлі
 Treasure Chance	шансу скарбу
@@ -57,7 +57,7 @@ Hunting Wisdom	мудрості полювання
 Social Wisdom	соціальної мудрості
 Charm Chance	шансу чарів
 Sweep	розмаху
-Overbloom	надцвітіння
+Overbloom	буйноцвіту
 Crop Growth	росту врожаю
 Mining Spread	поширення копання
 Gemstone Spread	поширення самоцвітів

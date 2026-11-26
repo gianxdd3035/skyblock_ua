@@ -20,7 +20,7 @@ Vitality	Життєздатність
 Mending	Зцілення
 Swing Range	Дальність удару
 Mana Regen	Відновлення мани
-Magic Find	Магічна знахідка
+Magic Find	Магічна удача
 Pet Luck	Везіння улюбленців
 Fear	Страх
 Hearts	Серця
@@ -32,35 +32,35 @@ Bonus HP	Бонус здоров'я
 
 # --- Збиральні стати ---
 Mining Speed	Швидкість копання
-Mining Fortune	Удача копання
-Ore Fortune	Удача руди
-Block Fortune	Удача блоків
-Gemstone Fortune	Удача самоцвітів
+Mining Fortune	Фортуна копання
+Ore Fortune	Фортуна руди
+Block Fortune	Фортуна блоків
+Gemstone Fortune	Фортуна самоцвітів
 Pristine	Бездоганність
 Breaking Power	Сила руйнування
-Heat Resistance	Стійкість до жару
-Cold Resistance	Стійкість до холоду
-Pressure Resistance	Стійкість до тиску
-Farming Fortune	Удача фермерства
+Heat Resistance	Спротив жару
+Cold Resistance	Спротив холоду
+Pressure Resistance	Спротив тиску
+Farming Fortune	Фортуна фермерства
 Bonus Pest Chance	Шанс шкідників
-Wheat Fortune	Удача пшениці
-Carrot Fortune	Удача моркви
-Potato Fortune	Удача картоплі
-Pumpkin Fortune	Удача гарбуза
-Melon Slice Fortune	Удача скибок кавуна
-Melon Fortune	Удача кавуна
-Cocoa Beans Fortune	Удача какао-бобів
-Sugar Cane Fortune	Удача цукрової тростини
-Cactus Fortune	Удача кактуса
-Mushroom Fortune	Удача грибів
-Nether Wart Fortune	Удача пекельного наросту
-Sunflower Fortune	Удача соняшника
-Moonflower Fortune	Удача місячної квітки
-Wild Rose Fortune	Удача дикої троянди
-Foraging Fortune	Удача лісорубства
-Fig Fortune	Удача інжиру
-Mangrove Fortune	Удача мангрового дерева
-Hunting Fortune	Удача полювання
+Wheat Fortune	Фортуна пшениці
+Carrot Fortune	Фортуна моркви
+Potato Fortune	Фортуна картоплі
+Pumpkin Fortune	Фортуна гарбуза
+Melon Slice Fortune	Фортуна скибок кавуна
+Melon Fortune	Фортуна кавуна
+Cocoa Beans Fortune	Фортуна какао-бобів
+Sugar Cane Fortune	Фортуна цукрової тростини
+Cactus Fortune	Фортуна кактуса
+Mushroom Fortune	Фортуна грибів
+Nether Wart Fortune	Фортуна пекельного наросту
+Sunflower Fortune	Фортуна соняшника
+Moonflower Fortune	Фортуна місячної квітки
+Wild Rose Fortune	Фортуна дикої троянди
+Foraging Fortune	Фортуна лісорубства
+Fig Fortune	Фортуна інжиру
+Mangrove Fortune	Фортуна мангрового дерева
+Hunting Fortune	Фортуна полювання
 Sea Creature Chance	Шанс морської істоти
 Fishing Speed	Швидкість риболовлі
 Treasure Chance	Шанс скарбу

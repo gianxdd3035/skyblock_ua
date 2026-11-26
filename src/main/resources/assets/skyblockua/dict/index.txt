@@ -33,3 +33,7 @@ perks.tsv
 names_played2.tsv
 lore_played5.tsv
 lore_played6.tsv
+lore_played7.tsv
+bosses.tsv
+lore_played8.tsv
+lore_played9.tsv

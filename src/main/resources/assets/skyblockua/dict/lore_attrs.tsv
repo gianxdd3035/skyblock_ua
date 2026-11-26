@@ -13,13 +13,13 @@ Construct mobs.	конструктів.
 Archery III ({0}:{1})	§bВлучність III §f({0}:{1})
 Critical III ({0}:{1})	§4Критичність III §f({0}:{1})
 Regeneration IV ({0}:{1})	§4Регенерація IV §f({0}:{1})
-Resistance IV ({0}:{1})	§aОпір IV §f({0}:{1})
+Resistance IV ({0}:{1})	§aСпротив IV §f({0}:{1})
 Speed IV ({0}:{1})	§9Швидкість IV §f({0}:{1})
 Strength IV ({0}:{1})	§4Сила IV §f({0}:{1})
 Wisp's Ice-Flavored Water I ({0}:{1})	§bКрижана вода Віспа I §f({0}:{1})
 Pets gain {0} more EXP from Combat.	Улюбленці отримують на {0} більше досвіду з бою.
 Garden Visitors arrive {0} faster.	§aВідвідувачі Саду §7приходять на §a{0} §7швидше.
-Your RNG Meter fills {0} faster.	§7Твій §dлічильник удачі §7заповнюється на §a{0} §7швидше.
+Your RNG Meter fills {0} faster.	§7Твій §dлічильник РНГ §7заповнюється на §a{0} §7швидше.
 Your Salts last {0} longer.	Твої солі діють на {0} довше.
 Atmospheric Filter by {0}.	§9атмосферного фільтра §7на §a{0}§7.
 Heals for {0} every second.	Лікує на {0} щосекунди.
@@ -31,7 +31,7 @@ Garden.	§aСаду§7.
 Greenhouse.	§2теплиці§7.
 Visitors.	§aвідвідувачів§7.
 Trees.	дерев.
-Slayer Quests.	§4квестів винищувача§7.
+Slayer Quests.	§4квестів вбивці§7.
 Special Zealots.	§dособливих фанатиків§7.
 Queen Ants.	§5мурашиних маток§7.
 Titanoboa.	§dТитанобоа§7.
@@ -43,7 +43,7 @@ Crit Damage.	§9шкоди криту§7.
 Defense.	§aзахисту§7.
 True Defense.	§fсправжнього захисту§7.
 Speed.	§fшвидкості§7.
-Fortune.	§6удачі§7.
+Fortune.	§6фортуни§7.
 Exp.	§aдосвіду§7.
 experience.	досвіду.
 active.	активний.

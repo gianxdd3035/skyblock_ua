@@ -8,7 +8,7 @@ import os, re, sys, glob
 root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 d = os.path.join(root, "src/main/resources/assets/skyblockua/dict")
 NUM = re.compile(r'(?<![A-Za-z0-9])[+-]?(?:\d{1,3}(?:,\d{3})+|\d+)(?:\.\d+)?(?:[kKmMbB](?![A-Za-z]))?%?')
-PH = re.compile(r'\{(\d+|item2?|any2?)\}')
+PH = re.compile(r'\{(\d+|item2?|any2?|stat2?|known2?)\}')
 problems = 0
 index = [l.strip() for l in open(os.path.join(d, "index.txt"), encoding="utf-8") if l.strip() and not l.startswith("#")]
 for f in sorted(glob.glob(os.path.join(d, "*"))):

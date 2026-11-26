@@ -18,9 +18,9 @@ damage capped at {0} of the	§7обмежена §c{0} §7від
 enemy's max Health. This weapon	§7макс. здоров'я ворога. Ця зброя
 cannot cause a fatal blow.	§7не може завдати смертельного удару.
 Can be thrown at Enemies to tag	§7Можна кинути у §cворогів§7, щоб позначити
-them. Grants {0} Magic Find when a	§7їх. Дає §b{0} Магічної знахідки§7, коли
+them. Grants {0} Magic Find when a	§7їх. Дає §b{0} Магічної удачі§7, коли
 tagged Enemy is killed.	§7позначеного §cворога §7вбито.
-When killing a Slayer Boss or Slayer Miniboss,	§7Убиваючи §cбоса Винищувача§7 або §cмінібоса Винищувача§7,
+When killing a Slayer Boss or Slayer Miniboss,	§7Убиваючи §cбоса Вбивці§7 або §cмінібоса Вбивці§7,
 have a {0} chance to cocoon them!	§7маєш §a{0}§7 шанс загорнути їх у кокон!
 Cocooned enemies will quickly hatch, and can be	§7Вороги в коконі швидко вилуплюються, і їх можна
 killed again.	§7вбити знову.
@@ -32,7 +32,7 @@ one in control here?	тут усе контролюєш ти?
 Provides immunity to Crimson Isle	§7Дає імунітет до §cлави
 Lava.	§cБагряного острова§7.
 Grants {0} Sea Creature Chance.	§7Дає §3{0} Шансу морської істоти§7.
-Grants {0} Magic Find on Lava Sea	§7Дає §b{0} Магічної знахідки §7на §cлавових
+Grants {0} Magic Find on Lava Sea	§7Дає §b{0} Магічної удачі §7на §cлавових
 Creatures.	§cморських істотах§7.
 Damage taken from Lava Sea	§7Шкода від §cлавових морських
 Creatures is reduced by {0} and	§cістот§7 зменшується на §a{0}§7, а
@@ -56,7 +56,7 @@ Reel in creatures caught by the	§7Підтягуй істот, спіймани
 Lasso each time their stamina	§7Ласо, щоразу як їхня §9витривалість
 depletes.	§7вичерпується.
  Critters lose stamina {0} faster.	§a Звірята §7втрачають витривалість на §2{0} §7швидше.
-Grants {0} Hunting Fortune on	§7Дає §d{0} Удачі полювання §7на
+Grants {0} Hunting Fortune on	§7Дає §d{0} Фортуни полювання §7на
 Forest Shards caught with this Lasso.	§2лісових осколках§7, спійманих цим Ласо.
 ❒ Part of a Toolkit!	§c❒ §7Частина набору інструментів!
 Gains {0} Sweep every {1} Logs	§7Дає §2{0} розмаху §7за кожні §a{1} колод

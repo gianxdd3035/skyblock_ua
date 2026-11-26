@@ -37,7 +37,7 @@ TYPES = {
     "TROPHY": ("ТРОФЕЙ", "m"),
     "SWORD": ("МЕЧ", "m"),
     "LONGSWORD": ("ДОВГИЙ МЕЧ", "m"),
-    "SLAYER SWORD": ("МЕЧ ВИНИЩУВАЧА", "m"),
+    "SLAYER SWORD": ("МЕЧ ВБИВЦІ", "m"),
     "BOW": ("ЛУК", "m"),
     "ARROW": ("СТРІЛА", "f"),
     "ARROW POISON": ("ОТРУТА ДЛЯ СТРІЛ", "f"),

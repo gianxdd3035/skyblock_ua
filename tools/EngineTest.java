@@ -209,6 +209,12 @@ public class EngineTest {
         cd2.load("labels_v.tsv", new StringReader("Strength\tСила\nCrit Damage\tШкода криту\n"));
         expect(ct2, "§5 §c\uE00D Strength §f849.48", Translator.Kind.LORE, "§5 §c\uE00D Сила §f849.48");
         expect(ct2, "§5 §9\uE007 Crit Damage §f614.59%", Translator.Kind.LORE, "§5 §9\uE007 Шкода криту §f614.59%");
+        cd2.load("bosses_t.tsv", new StringReader("Revenant Horror\tНевпокоєний жах\nThorn\tТорн\n"));
+        cd2.load("patterns_b.tsv", new StringReader("{known} or higher!\t{known} або вище!\n{known} Rewards:\t{known} — нагороди:\n{known} RNG Meter\tЛічильник РНГ: {known}\n"));
+        expect(ct2, "§aRevenant Horror III §7or higher!", Translator.Kind.LORE, "§aНевпокоєний жах III§7 або вище!");
+        check("{known} needs a known name", run(ct2, "§7Reach Combat Level 20 or higher!", Translator.Kind.LORE), null);
+        expect(ct2, "§7Thorn VI Rewards:", Translator.Kind.LORE, "§7Торн VI — нагороди:");
+        expect(ct2, "§8Revenant Horror RNG Meter", Translator.Kind.TITLE, "§8Лічильник РНГ: Невпокоєний жах");
         List<Seg<TStyle>> tag = ct2.translateTag(parse("§6Jacob"));
         check("nametag", tag == null ? null : Lines.legacy(tag, OPS), "§6Джейкоб");
         List<Seg<TStyle>> tag2 = ct2.translateTag(parse("§e§lCLICK"));

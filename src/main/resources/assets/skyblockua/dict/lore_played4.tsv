@@ -1,7 +1,7 @@
 # Четверта партія з гри (26.11.2026)
 Progress to Level {0}: {1}	Прогрес до рівня {0}: {1}
 Deal {0}➜{1} more damage to mobs.	Завдаєш на {0}➜{1} більше шкоди мобам.
-{0} Score: {1} Magic Find	§6{0} очок§8: §b{1} магічної знахідки
+{0} Score: {1} Magic Find	§6{0} очок§8: §b{1} магічної удачі
 Grants a {0} chance to find	Дає {0} шансу знайти
 Milestone.	врожаю.
 {0} Combat Experience	{0} досвіду бою
@@ -16,7 +16,7 @@ Milestone.	врожаю.
 {0} {1} {2} Gemstone Powder	{0} {1} {2} самоцвітного пороху
 {0} weapon damage for {1}s on use	{0} шкоди зброї на {1}с при використанні
 special Zealot by {0}.	особливого фанатика на {0}.
-Magic Find. (Max {0})	§bмагічної знахідки§7. §8(Макс. {0})
+Magic Find. (Max {0})	§bмагічної удачі§7. §8(Макс. {0})
 Take {0} less damage from	Отримуєш на {0} менше шкоди від
 Gain {0} damage for every	Отримуєш {0} шкоди за кожні
 Gain {0} damage for every million	Отримуєш {0} шкоди за кожен мільйон

@@ -21,8 +21,8 @@ SWORD	Меч
 DUNGEON SWORD	Меч підземель
 LONGSWORD	Довгий меч
 DUNGEON LONGSWORD	Довгий меч підземель
-SLAYER SWORD	Меч винищувача
-DUNGEON SLAYER SWORD	Меч винищувача підземель
+SLAYER SWORD	Меч вбивці
+DUNGEON SLAYER SWORD	Меч вбивці підземель
 BOW	Лук
 DUNGEON BOW	Лук підземель
 ARROW	Стріла
@@ -144,8 +144,8 @@ COMMON SWORD	ЗВИЧАЙНИЙ МЕЧ
 COMMON DUNGEON SWORD	ЗВИЧАЙНИЙ МЕЧ ПІДЗЕМЕЛЬ
 COMMON LONGSWORD	ЗВИЧАЙНИЙ ДОВГИЙ МЕЧ
 COMMON DUNGEON LONGSWORD	ЗВИЧАЙНИЙ ДОВГИЙ МЕЧ ПІДЗЕМЕЛЬ
-COMMON SLAYER SWORD	ЗВИЧАЙНИЙ МЕЧ ВИНИЩУВАЧА
-COMMON DUNGEON SLAYER SWORD	ЗВИЧАЙНИЙ МЕЧ ВИНИЩУВАЧА ПІДЗЕМЕЛЬ
+COMMON SLAYER SWORD	ЗВИЧАЙНИЙ МЕЧ ВБИВЦІ
+COMMON DUNGEON SLAYER SWORD	ЗВИЧАЙНИЙ МЕЧ ВБИВЦІ ПІДЗЕМЕЛЬ
 COMMON BOW	ЗВИЧАЙНИЙ ЛУК
 COMMON DUNGEON BOW	ЗВИЧАЙНИЙ ЛУК ПІДЗЕМЕЛЬ
 COMMON ARROW	ЗВИЧАЙНА СТРІЛА
@@ -267,8 +267,8 @@ UNCOMMON SWORD	НЕЗВИЧАЙНИЙ МЕЧ
 UNCOMMON DUNGEON SWORD	НЕЗВИЧАЙНИЙ МЕЧ ПІДЗЕМЕЛЬ
 UNCOMMON LONGSWORD	НЕЗВИЧАЙНИЙ ДОВГИЙ МЕЧ
 UNCOMMON DUNGEON LONGSWORD	НЕЗВИЧАЙНИЙ ДОВГИЙ МЕЧ ПІДЗЕМЕЛЬ
-UNCOMMON SLAYER SWORD	НЕЗВИЧАЙНИЙ МЕЧ ВИНИЩУВАЧА
-UNCOMMON DUNGEON SLAYER SWORD	НЕЗВИЧАЙНИЙ МЕЧ ВИНИЩУВАЧА ПІДЗЕМЕЛЬ
+UNCOMMON SLAYER SWORD	НЕЗВИЧАЙНИЙ МЕЧ ВБИВЦІ
+UNCOMMON DUNGEON SLAYER SWORD	НЕЗВИЧАЙНИЙ МЕЧ ВБИВЦІ ПІДЗЕМЕЛЬ
 UNCOMMON BOW	НЕЗВИЧАЙНИЙ ЛУК
 UNCOMMON DUNGEON BOW	НЕЗВИЧАЙНИЙ ЛУК ПІДЗЕМЕЛЬ
 UNCOMMON ARROW	НЕЗВИЧАЙНА СТРІЛА
@@ -390,8 +390,8 @@ RARE SWORD	РІДКІСНИЙ МЕЧ
 RARE DUNGEON SWORD	РІДКІСНИЙ МЕЧ ПІДЗЕМЕЛЬ
 RARE LONGSWORD	РІДКІСНИЙ ДОВГИЙ МЕЧ
 RARE DUNGEON LONGSWORD	РІДКІСНИЙ ДОВГИЙ МЕЧ ПІДЗЕМЕЛЬ
-RARE SLAYER SWORD	РІДКІСНИЙ МЕЧ ВИНИЩУВАЧА
-RARE DUNGEON SLAYER SWORD	РІДКІСНИЙ МЕЧ ВИНИЩУВАЧА ПІДЗЕМЕЛЬ
+RARE SLAYER SWORD	РІДКІСНИЙ МЕЧ ВБИВЦІ
+RARE DUNGEON SLAYER SWORD	РІДКІСНИЙ МЕЧ ВБИВЦІ ПІДЗЕМЕЛЬ
 RARE BOW	РІДКІСНИЙ ЛУК
 RARE DUNGEON BOW	РІДКІСНИЙ ЛУК ПІДЗЕМЕЛЬ
 RARE ARROW	РІДКІСНА СТРІЛА
@@ -513,8 +513,8 @@ EPIC SWORD	ЕПІЧНИЙ МЕЧ
 EPIC DUNGEON SWORD	ЕПІЧНИЙ МЕЧ ПІДЗЕМЕЛЬ
 EPIC LONGSWORD	ЕПІЧНИЙ ДОВГИЙ МЕЧ
 EPIC DUNGEON LONGSWORD	ЕПІЧНИЙ ДОВГИЙ МЕЧ ПІДЗЕМЕЛЬ
-EPIC SLAYER SWORD	ЕПІЧНИЙ МЕЧ ВИНИЩУВАЧА
-EPIC DUNGEON SLAYER SWORD	ЕПІЧНИЙ МЕЧ ВИНИЩУВАЧА ПІДЗЕМЕЛЬ
+EPIC SLAYER SWORD	ЕПІЧНИЙ МЕЧ ВБИВЦІ
+EPIC DUNGEON SLAYER SWORD	ЕПІЧНИЙ МЕЧ ВБИВЦІ ПІДЗЕМЕЛЬ
 EPIC BOW	ЕПІЧНИЙ ЛУК
 EPIC DUNGEON BOW	ЕПІЧНИЙ ЛУК ПІДЗЕМЕЛЬ
 EPIC ARROW	ЕПІЧНА СТРІЛА
@@ -636,8 +636,8 @@ LEGENDARY SWORD	ЛЕГЕНДАРНИЙ МЕЧ
 LEGENDARY DUNGEON SWORD	ЛЕГЕНДАРНИЙ МЕЧ ПІДЗЕМЕЛЬ
 LEGENDARY LONGSWORD	ЛЕГЕНДАРНИЙ ДОВГИЙ МЕЧ
 LEGENDARY DUNGEON LONGSWORD	ЛЕГЕНДАРНИЙ ДОВГИЙ МЕЧ ПІДЗЕМЕЛЬ
-LEGENDARY SLAYER SWORD	ЛЕГЕНДАРНИЙ МЕЧ ВИНИЩУВАЧА
-LEGENDARY DUNGEON SLAYER SWORD	ЛЕГЕНДАРНИЙ МЕЧ ВИНИЩУВАЧА ПІДЗЕМЕЛЬ
+LEGENDARY SLAYER SWORD	ЛЕГЕНДАРНИЙ МЕЧ ВБИВЦІ
+LEGENDARY DUNGEON SLAYER SWORD	ЛЕГЕНДАРНИЙ МЕЧ ВБИВЦІ ПІДЗЕМЕЛЬ
 LEGENDARY BOW	ЛЕГЕНДАРНИЙ ЛУК
 LEGENDARY DUNGEON BOW	ЛЕГЕНДАРНИЙ ЛУК ПІДЗЕМЕЛЬ
 LEGENDARY ARROW	ЛЕГЕНДАРНА СТРІЛА
@@ -759,8 +759,8 @@ MYTHIC SWORD	МІФІЧНИЙ МЕЧ
 MYTHIC DUNGEON SWORD	МІФІЧНИЙ МЕЧ ПІДЗЕМЕЛЬ
 MYTHIC LONGSWORD	МІФІЧНИЙ ДОВГИЙ МЕЧ
 MYTHIC DUNGEON LONGSWORD	МІФІЧНИЙ ДОВГИЙ МЕЧ ПІДЗЕМЕЛЬ
-MYTHIC SLAYER SWORD	МІФІЧНИЙ МЕЧ ВИНИЩУВАЧА
-MYTHIC DUNGEON SLAYER SWORD	МІФІЧНИЙ МЕЧ ВИНИЩУВАЧА ПІДЗЕМЕЛЬ
+MYTHIC SLAYER SWORD	МІФІЧНИЙ МЕЧ ВБИВЦІ
+MYTHIC DUNGEON SLAYER SWORD	МІФІЧНИЙ МЕЧ ВБИВЦІ ПІДЗЕМЕЛЬ
 MYTHIC BOW	МІФІЧНИЙ ЛУК
 MYTHIC DUNGEON BOW	МІФІЧНИЙ ЛУК ПІДЗЕМЕЛЬ
 MYTHIC ARROW	МІФІЧНА СТРІЛА
@@ -882,8 +882,8 @@ DIVINE SWORD	БОЖЕСТВЕННИЙ МЕЧ
 DIVINE DUNGEON SWORD	БОЖЕСТВЕННИЙ МЕЧ ПІДЗЕМЕЛЬ
 DIVINE LONGSWORD	БОЖЕСТВЕННИЙ ДОВГИЙ МЕЧ
 DIVINE DUNGEON LONGSWORD	БОЖЕСТВЕННИЙ ДОВГИЙ МЕЧ ПІДЗЕМЕЛЬ
-DIVINE SLAYER SWORD	БОЖЕСТВЕННИЙ МЕЧ ВИНИЩУВАЧА
-DIVINE DUNGEON SLAYER SWORD	БОЖЕСТВЕННИЙ МЕЧ ВИНИЩУВАЧА ПІДЗЕМЕЛЬ
+DIVINE SLAYER SWORD	БОЖЕСТВЕННИЙ МЕЧ ВБИВЦІ
+DIVINE DUNGEON SLAYER SWORD	БОЖЕСТВЕННИЙ МЕЧ ВБИВЦІ ПІДЗЕМЕЛЬ
 DIVINE BOW	БОЖЕСТВЕННИЙ ЛУК
 DIVINE DUNGEON BOW	БОЖЕСТВЕННИЙ ЛУК ПІДЗЕМЕЛЬ
 DIVINE ARROW	БОЖЕСТВЕННА СТРІЛА
@@ -1005,8 +1005,8 @@ SUPREME SWORD	ВЕРХОВНИЙ МЕЧ
 SUPREME DUNGEON SWORD	ВЕРХОВНИЙ МЕЧ ПІДЗЕМЕЛЬ
 SUPREME LONGSWORD	ВЕРХОВНИЙ ДОВГИЙ МЕЧ
 SUPREME DUNGEON LONGSWORD	ВЕРХОВНИЙ ДОВГИЙ МЕЧ ПІДЗЕМЕЛЬ
-SUPREME SLAYER SWORD	ВЕРХОВНИЙ МЕЧ ВИНИЩУВАЧА
-SUPREME DUNGEON SLAYER SWORD	ВЕРХОВНИЙ МЕЧ ВИНИЩУВАЧА ПІДЗЕМЕЛЬ
+SUPREME SLAYER SWORD	ВЕРХОВНИЙ МЕЧ ВБИВЦІ
+SUPREME DUNGEON SLAYER SWORD	ВЕРХОВНИЙ МЕЧ ВБИВЦІ ПІДЗЕМЕЛЬ
 SUPREME BOW	ВЕРХОВНИЙ ЛУК
 SUPREME DUNGEON BOW	ВЕРХОВНИЙ ЛУК ПІДЗЕМЕЛЬ
 SUPREME ARROW	ВЕРХОВНА СТРІЛА
@@ -1128,8 +1128,8 @@ SPECIAL SWORD	ОСОБЛИВИЙ МЕЧ
 SPECIAL DUNGEON SWORD	ОСОБЛИВИЙ МЕЧ ПІДЗЕМЕЛЬ
 SPECIAL LONGSWORD	ОСОБЛИВИЙ ДОВГИЙ МЕЧ
 SPECIAL DUNGEON LONGSWORD	ОСОБЛИВИЙ ДОВГИЙ МЕЧ ПІДЗЕМЕЛЬ
-SPECIAL SLAYER SWORD	ОСОБЛИВИЙ МЕЧ ВИНИЩУВАЧА
-SPECIAL DUNGEON SLAYER SWORD	ОСОБЛИВИЙ МЕЧ ВИНИЩУВАЧА ПІДЗЕМЕЛЬ
+SPECIAL SLAYER SWORD	ОСОБЛИВИЙ МЕЧ ВБИВЦІ
+SPECIAL DUNGEON SLAYER SWORD	ОСОБЛИВИЙ МЕЧ ВБИВЦІ ПІДЗЕМЕЛЬ
 SPECIAL BOW	ОСОБЛИВИЙ ЛУК
 SPECIAL DUNGEON BOW	ОСОБЛИВИЙ ЛУК ПІДЗЕМЕЛЬ
 SPECIAL ARROW	ОСОБЛИВА СТРІЛА
@@ -1251,8 +1251,8 @@ VERY SPECIAL SWORD	ДУЖЕ ОСОБЛИВИЙ МЕЧ
 VERY SPECIAL DUNGEON SWORD	ДУЖЕ ОСОБЛИВИЙ МЕЧ ПІДЗЕМЕЛЬ
 VERY SPECIAL LONGSWORD	ДУЖЕ ОСОБЛИВИЙ ДОВГИЙ МЕЧ
 VERY SPECIAL DUNGEON LONGSWORD	ДУЖЕ ОСОБЛИВИЙ ДОВГИЙ МЕЧ ПІДЗЕМЕЛЬ
-VERY SPECIAL SLAYER SWORD	ДУЖЕ ОСОБЛИВИЙ МЕЧ ВИНИЩУВАЧА
-VERY SPECIAL DUNGEON SLAYER SWORD	ДУЖЕ ОСОБЛИВИЙ МЕЧ ВИНИЩУВАЧА ПІДЗЕМЕЛЬ
+VERY SPECIAL SLAYER SWORD	ДУЖЕ ОСОБЛИВИЙ МЕЧ ВБИВЦІ
+VERY SPECIAL DUNGEON SLAYER SWORD	ДУЖЕ ОСОБЛИВИЙ МЕЧ ВБИВЦІ ПІДЗЕМЕЛЬ
 VERY SPECIAL BOW	ДУЖЕ ОСОБЛИВИЙ ЛУК
 VERY SPECIAL DUNGEON BOW	ДУЖЕ ОСОБЛИВИЙ ЛУК ПІДЗЕМЕЛЬ
 VERY SPECIAL ARROW	ДУЖЕ ОСОБЛИВА СТРІЛА
@@ -1374,8 +1374,8 @@ ULTIMATE SWORD	УЛЬТИМАТИВНИЙ МЕЧ
 ULTIMATE DUNGEON SWORD	УЛЬТИМАТИВНИЙ МЕЧ ПІДЗЕМЕЛЬ
 ULTIMATE LONGSWORD	УЛЬТИМАТИВНИЙ ДОВГИЙ МЕЧ
 ULTIMATE DUNGEON LONGSWORD	УЛЬТИМАТИВНИЙ ДОВГИЙ МЕЧ ПІДЗЕМЕЛЬ
-ULTIMATE SLAYER SWORD	УЛЬТИМАТИВНИЙ МЕЧ ВИНИЩУВАЧА
-ULTIMATE DUNGEON SLAYER SWORD	УЛЬТИМАТИВНИЙ МЕЧ ВИНИЩУВАЧА ПІДЗЕМЕЛЬ
+ULTIMATE SLAYER SWORD	УЛЬТИМАТИВНИЙ МЕЧ ВБИВЦІ
+ULTIMATE DUNGEON SLAYER SWORD	УЛЬТИМАТИВНИЙ МЕЧ ВБИВЦІ ПІДЗЕМЕЛЬ
 ULTIMATE BOW	УЛЬТИМАТИВНИЙ ЛУК
 ULTIMATE DUNGEON BOW	УЛЬТИМАТИВНИЙ ЛУК ПІДЗЕМЕЛЬ
 ULTIMATE ARROW	УЛЬТИМАТИВНА СТРІЛА
@@ -1497,8 +1497,8 @@ ADMIN SWORD	АДМІНСЬКИЙ МЕЧ
 ADMIN DUNGEON SWORD	АДМІНСЬКИЙ МЕЧ ПІДЗЕМЕЛЬ
 ADMIN LONGSWORD	АДМІНСЬКИЙ ДОВГИЙ МЕЧ
 ADMIN DUNGEON LONGSWORD	АДМІНСЬКИЙ ДОВГИЙ МЕЧ ПІДЗЕМЕЛЬ
-ADMIN SLAYER SWORD	АДМІНСЬКИЙ МЕЧ ВИНИЩУВАЧА
-ADMIN DUNGEON SLAYER SWORD	АДМІНСЬКИЙ МЕЧ ВИНИЩУВАЧА ПІДЗЕМЕЛЬ
+ADMIN SLAYER SWORD	АДМІНСЬКИЙ МЕЧ ВБИВЦІ
+ADMIN DUNGEON SLAYER SWORD	АДМІНСЬКИЙ МЕЧ ВБИВЦІ ПІДЗЕМЕЛЬ
 ADMIN BOW	АДМІНСЬКИЙ ЛУК
 ADMIN DUNGEON BOW	АДМІНСЬКИЙ ЛУК ПІДЗЕМЕЛЬ
 ADMIN ARROW	АДМІНСЬКА СТРІЛА

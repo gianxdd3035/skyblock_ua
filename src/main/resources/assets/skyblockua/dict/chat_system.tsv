@@ -8,7 +8,7 @@ UNCOMMON DROP!	НЕЗВИЧАЙНИЙ ДРОП!
 VERY RARE DROP!	ДУЖЕ РІДКІСНИЙ ДРОП!
 CRAZY RARE DROP!	НЕЙМОВІРНО РІДКІСНИЙ ДРОП!
 INSANE DROP!	БОЖЕВІЛЬНИЙ ДРОП!
-PRAY RNGESUS DROP!	МОЛИСЯ РНГЕСУСУ! ДРОП!
+PRAY RNGESUS DROP!	МОЛИСЯ РНГІСУСУ! РНГ-ЗДОБИЧ!
 RARE CROP!	РІДКІСНИЙ ВРОЖАЙ!
 FLOOR DROP!	ЗНАХІДКА НА ЗЕМЛІ!
 LOOT SHARE!	СПІЛЬНА ЗДОБИЧ!
@@ -32,9 +32,9 @@ BONUS GIFT	БОНУСНИЙ ДАРУНОК
 REWARDS	НАГОРОДИ
 BESTIARY	БЕСТІАРІЙ
 ATTRIBUTE LEVEL UP	РІВЕНЬ АТРИБУТА ПІДВИЩЕНО
-SLAYER QUEST STARTED!	ЗАВДАННЯ ВИНИЩУВАЧА РОЗПОЧАТО!
-SLAYER QUEST COMPLETE!	ЗАВДАННЯ ВИНИЩУВАЧА ВИКОНАНО!
-SLAYER QUEST FAILED!	ЗАВДАННЯ ВИНИЩУВАЧА ПРОВАЛЕНО!
+SLAYER QUEST STARTED!	КВЕСТ ВБИВЦІ РОЗПОЧАТО!
+SLAYER QUEST COMPLETE!	КВЕСТ ВБИВЦІ ВИКОНАНО!
+SLAYER QUEST FAILED!	КВЕСТ ВБИВЦІ ПРОВАЛЕНО!
 CHEST LOCKPICKED	СКРИНЮ ЗЛАМАНО
 LILY-SPLOSION!	ЛАТАТТЄВИБУХ!
 [WATCHDOG ANNOUNCEMENT]	[ОГОЛОШЕННЯ WATCHDOG]
@@ -86,7 +86,7 @@ You earned {0} GEXP + {1} Event EXP from playing SkyBlock!	Ти заробив {
 New day! Your Sky Mall buff changed!	Новий день! Твій бонус Sky Mall змінився!
 New day! Your Lottery buff changed!	Новий день! Твій бонус Лотереї змінився!
 You can disable this messaging by toggling Sky Mall in your /hotm!	Ці повідомлення можна вимкнути, перемкнувши Sky Mall у /hotm!
-RNG Meter - {0} Stored XP	Лічильник RNG — {0} накопиченого досвіду
+RNG Meter - {0} Stored XP	Лічильник РНГ — {0} накопиченого досвіду
 You equipped Loadout {0}!	Ти екіпірував набір {0}!
 You gained {0} Raffle Ticket!	Ти отримав {0} лотерейний квиток!
 You gained {0} Raffle Tickets!	Ти отримав {0} лотерейних квитків!
@@ -155,7 +155,7 @@ You found {0} Hunting Experience on the ground!	Ти знайшов на зем�
 {0} Chocolate	{0} шоколаду
 The Wiki Tiki is currently IMMUNE! Attack his Laser Totems!	Вікі Тікі зараз НЕВРАЗЛИВИЙ! Атакуй його лазерні тотеми!
 
-# --- Підземелля, винищувачі ---
+# --- Підземелля, вбивці (слеєри) ---
 This chest has already been looted.	Цю скриню вже пограбовано.
 You do not have the key for this door!	У тебе немає ключа від цих дверей!
 RIGHT CLICK on a WITHER door to open it. This key can only be used to open {0} door!	ПКМ по дверях ВІЗЕРА, щоб відчинити їх. Цим ключем можна відчинити лише {0} двері!

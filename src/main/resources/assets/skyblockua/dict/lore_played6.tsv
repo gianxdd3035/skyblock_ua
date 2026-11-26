@@ -51,8 +51,8 @@ between them with ease.	перемикайся між ними.
 Syphon Shards to unlock and level	Поглинай осколки, щоб відкривати й покращувати
 up your Attributes!	§7свої §aатрибути§7!
 Each Attribute grant its own unique	Кожен атрибут дає свою унікальну
-power, active at all times, no matter	§dсилу§7, що діє завжди, хоч би
-where you are.	де ти був.
+power, active at all times, no matter	§dсилу§7, що діє завжди, де б
+where you are.	ти не був.
 Attributes can reach up to level {0},	§aАтрибути §7досягають максимум §b{0}§7 рівня,
 with shard costs scaling based on	а вартість в осколках залежить від
 Left-Click to open!	ЛКМ, щоб відкрити!
@@ -139,8 +139,8 @@ in the Mines of Divan. The Metal	§7у §2Шахтах Дівана§7. Мета
 Detector beeps louder and faster	пищить гучніше й частіше,
 the closer you are to a buried	що ближче ти до закопаного
 Consecutive blocks broken grant	Блоки, зламані поспіль, дають
-Increases how quickly your tool	Збільшує, як швидко твій інструмент
-breaks blocks.	ламає блоки.
+Increases how quickly your tool	Пришвидшує ламання блоків
+breaks blocks.	твоїм інструментом.
 increases your chance for multiple	збільшує твій шанс на кілька
 drops.	предметів здобичі.
 Automatically smelts broken blocks	Автоматично переплавляє зламані блоки
@@ -156,5 +156,5 @@ multiply it by x{0}.	помнож на x{0}.
 Witch by {0}.	§5відьми§7 на §a{0}§7.
 Seal by {0}.	§9тюленя§7 на §a{0}§7.
 by {0} during the Year of the Seal.	на {0} протягом Року Тюленя.
-Helix Fortune: {0}	Удача гелікса: {0}
+Helix Fortune: {0}	Фортуна гелікса: {0}
 to {0} blocks away.	на відстань до {0} блоків.

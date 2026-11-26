@@ -1,19 +1,19 @@
 # Атрибути (осколки Галатеї), перки, руни, рослини, рівні й віхи (зі сканера меню, 26.11.2026)
-Airborne Resistance	Стійкість до літаючих
-Animal Resistance	Стійкість до тварин
-Aquatic Resistance	Стійкість до водних
-Arcane Resistance	Стійкість до чарівних
-Arthropod Resistance	Стійкість до членистоногих
-Blazing Resistance	Стійкість до палаючих
-Cold Resistance	Стійкість до холоду
-Ender Resistance	Стійкість до ендер-мобів
-Fire Resistance	Вогнестійкість
-Frozen Resistance	Стійкість до замерзлих
-Mythological Resistance	Стійкість до міфологічних
-Skeletal Resistance	Стійкість до скелетів
-Subterranean Resistance	Стійкість до підземних
-Undead Resistance	Стійкість до нежиті
-Woodland Resistance	Стійкість до лісових
+Airborne Resistance	Спротив літаючим
+Animal Resistance	Спротив тваринам
+Aquatic Resistance	Спротив водним
+Arcane Resistance	Спротив чарівним
+Arthropod Resistance	Спротив членистоногим
+Blazing Resistance	Спротив палаючим
+Cold Resistance	Спротив холоду
+Ender Resistance	Спротив ендер-мобам
+Fire Resistance	Спротив вогню
+Frozen Resistance	Спротив замерзлим
+Mythological Resistance	Спротив міфологічним
+Skeletal Resistance	Спротив скелетам
+Subterranean Resistance	Спротив підземним
+Undead Resistance	Спротив нежиті
+Woodland Resistance	Спротив лісовим
 Airborne Ruler	Володар літаючих
 Animal Ruler	Володар тварин
 Arcane Ruler	Володар чарівних
@@ -27,18 +27,18 @@ Magmatic Ruler	Володар магматичних
 Mythological Ruler	Володар міфологічних
 Skeletal Ruler	Володар скелетів
 Subterranean Ruler	Володар підземних
-Animal Fortune	Удача з тварин
-Blazing Fortune	Палаюча удача
-Chocolate Fortune	Шоколадна удача
-Construct Fortune	Удача з конструктів
-Critter Fortune	Удача зі звірят
-Cubic Fortune	Кубічна удача
-Fiesta Fortune	Удача фієсти
-Helix Fortune	Удача гелікса
-Mythological Fortune	Міфологічна удача
+Animal Fortune	Фортуна з тварин
+Blazing Fortune	Палаюча фортуна
+Chocolate Fortune	Шоколадна фортуна
+Construct Fortune	Фортуна з конструктів
+Critter Fortune	Фортуна зі звірят
+Cubic Fortune	Кубічна фортуна
+Fiesta Fortune	Фортуна фієсти
+Helix Fortune	Фортуна гелікса
+Mythological Fortune	Міфологічна фортуна
 Fortunate Farmer	Щасливий фермер
 Fortunate Miner	Щасливий шахтар
-Magic Find	Магічна знахідка
+Magic Find	Магічна удача
 Earth Elemental	Елементаль землі
 Fog Elemental	Елементаль туману
 Forest Elemental	Елементаль лісу
@@ -52,7 +52,7 @@ Echo of Atomized	Відлуння атомізації
 Echo of Echoes	Відлуння відлунь
 Echo of Elemental	Відлуння стихій
 Echo of Essence	Відлуння есенції
-Echo of Resistance	Відлуння стійкості
+Echo of Resistance	Відлуння спротиву
 Echo of Sharpening	Відлуння заточування
 Echo of Tracking	Відлуння вистежування
 Echo of Wisdom	Відлуння мудрості
@@ -83,7 +83,7 @@ Eelastic	Вугреластичність
 Star Bait	Зоряна наживка
 Lotus Trophy	Лотосовий трофей
 Trophy Hunter	Мисливець за трофеями
-Shellwise	Мушлемудрість
+Shellwise	Мудропанцир
 Visitor Cheese	Сир для відвідувачів
 Visitor Compost	Компост від відвідувачів
 Visitor Copper	Мідь від відвідувачів
@@ -93,7 +93,7 @@ Visitor Plant	Рослини від відвідувачів
 Visitor Speed	Швидкість відвідувачів
 Bartender Discount	Знижка бармена
 Builder Discount	Знижка будівельника
-Slayer Discount	Знижка винищувача
+Slayer Discount	Знижка вбивці
 Decent Karma	Пристойна карма
 Excellent Karma	Чудова карма
 Hunter's Karma	Карма мисливця
@@ -158,7 +158,7 @@ Special Upgrades	Особливі покращення
 Torrhus Beacon	Маяк Торрусу
 Torrhus Diver	Нирець Торрусу
 Torrhus Mastery	Майстерність Торрусу
-Tree Lurker	Деревний причаєнець
+Tree Lurker	Чугайстер
 Unity is Strength	Єдність — це сила
 Yog Membrane	Мембрана Йога
 Yummy	Смакота
@@ -182,7 +182,7 @@ Dungeoneer	Підземельник
 Eagle's Advantage	Перевага орла
 Excavator	Екскаватор
 Festive Altruist	Святковий альтруїст
-Floortunate	Поверхощасливець
+Floortunate	Поверх удачі
 Fresh Footprints	Свіжі сліди
 Gatherer	Збирач
 Goblin Killer	Вбивця гоблінів
@@ -196,13 +196,13 @@ Infection	Зараження
 Infiltration	Проникнення
 Jump Boost	Підсилення стрибка
 Kat's Favorite	Улюбленець Кет
-Lily Puncher	Лататтєбій
+Lily Puncher	Штовхач лілій
 Minion Lover	Любитель міньйонів
 Miracle Chance	Шанс дива
 Pack Spirit	Дух зграї
 Payback	Розплата
-People Pleaser	Догоджальник
-Pity	Жалість
+People Pleaser	Душа компанії
+Pity	Невдачомір
 Predator	Хижак
 Seer	Провидець
 Snow Union	Сніжна спілка
@@ -216,7 +216,7 @@ Treasury	Скарбниця
 Unique Bonus	Унікальний бонус
 Veteran	Ветеран
 Warrior	Воїн
-Why Not More	Чому б не більше
+Why Not More	Давай ще
 Wings of Destiny	Крила долі
 Elite	Еліта
 Burning	Горіння
@@ -226,7 +226,7 @@ Flare	Спалах
 Agility	Спритність
 Adrenaline	Адреналін
 Regeneration	Регенерація
-Resistance	Опір
+Resistance	Спротив
 Archery	Влучність
 Mana	Мана
 Vitality	Життєздатність
@@ -270,7 +270,7 @@ Hunting Level	Рівень полювання
 Bestiary Milestone	Віха бестіарію
 Helix Log	Колода гелікса
 Helix Personal Best	Особистий рекорд гелікса
-Slayer Progress	Прогрес винищувача
+Slayer Progress	Прогрес вбивці
 Miria's Milestone	Віха Мірії
 Miria's Power	Сила Мірії
 Ultimate DNA	Ультимативна ДНК

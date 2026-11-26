@@ -11,13 +11,13 @@ Luck of the Cave	Печерна удача
 Efficient Miner	Ефективний шахтар
 Quick Forge	Швидка кузня
 Precision Mining	Точне копання
-Mining Fortune	Удача копання
+Mining Fortune	Фортуна копання
 Titanium Insanium	Титанове шаленство
 Mining Speed	Швидкість копання
 Crystal Hollows Crystals	Кристали Кришталевих печер
 Reset Heart of the Mountain	Скинути Серце гори
 Speedy Mineman	Швидкий шахтар
-Powder Buff	Посилення пороху
+Powder Buff	Приріст пороху
 Fortunate Mineman	Щасливий гірник
 Blockhead	Блокоголовий
 Subterranean Fisher	Підземний рибалка
@@ -35,7 +35,7 @@ Crystalline	Кришталевість
 Gifts from the Departed	Дари від загиблих
 Mining Master	Майстер копання
 Dead Man's Chest	Скриня мерця
-Vanguard Seeker	Шукач авангарду
+Vanguard Seeker	Шукач авангардистів
 Metal Head	Залізна голова
 Rags to Riches	Із грязі в князі
 Eager Adventurer	Завзятий шукач пригод
@@ -47,7 +47,7 @@ Deep Waters	Глибокі води
 Tree Whisperer	Шептун дерев
 Center of the Forest	Центр лісу
 Lottery	Лотерея
-Foraging Madness	Лісорубне шаленство
+Foraging Madness	Лісорубна манія
 Iron Lungs	Залізні легені
 Gifts	Дари
 Daily Wishes	Щоденні бажання
@@ -56,7 +56,7 @@ Precision Cutting	Точна рубка
 Hunter's Luck	Удача мисливця
 Galatea's Might	Міць Галатеї
 Luck of the Forest	Удача лісу
-Foraging Fortune	Удача лісорубства
+Foraging Fortune	Фортуна лісорубства
 Collector	Колекціонер
 Sweep	Розмах
 Reset Heart of the Forest	Скинути Серце лісу
@@ -67,7 +67,7 @@ Starlyn Supreme	Верховенство Старлін
 Efficient Forager	Ефективний лісоруб
 Monster Hunter	Мисливець на монстрів
 Forest Speed	Лісова швидкість
-Essence Fortune	Удача есенції
+Essence Fortune	Фортуна есенції
 Two-for-one	Два за ціною одного
 Beekeeper	Пасічник
 Last Page	Остання сторінка
@@ -84,7 +84,7 @@ Pet visibility	Видимість улюбленців
 Exp Sharing	Розподіл досвіду
 Pet Slots	Слоти улюбленців
 Autopet	Автоулюбленець
-Pet Score Rewards	Нагороди за рахунок улюбленців
+Pet Score Rewards	Нагороди за бали улюбленців
 Supercraft	Суперкрафт
 Loadout {0}	Комплект {0}
 Slot {0}: Equipped	Слот {0}: екіпіровано
@@ -100,3 +100,19 @@ Free Trial	Безкоштовна спроба
 Give your time to The Hex!	Віддай свій час Гексу!
 Give your soul to The Hex!	Віддай свою душу Гексу!
 New Year Cake (Year {0})	Новорічний торт (рік {0})
+Re-Center	Відцентрувати
+Global Combat Wisdom Buff	Загальний бонус бойової мудрості
+Slayer Leaderboards	Таблиці лідерів вбивць
+Auto-Slayer	Автовбивця
+Not released yet!	Ще не вийшло!
+Slayer Bonus Rewards	Бонусні нагороди вбивці
+Ongoing Slayer Quest	Поточний квест вбивці
+Boss Leveling Rewards	Нагороди за рівні босів
+More to come!	Далі буде!
+Reset RNG Drop	Скинути здобич РНГ
+Search Bestiary	Пошук у бестіарії
+Toggle Families Completed Display	Показ завершених родин
+Icy Biome	Крижаний біом
+Cavern Biome	Печерний біом
+Forest Biome	Лісовий біом
+Haunted Biome	Примарний біом

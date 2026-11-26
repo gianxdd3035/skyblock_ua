@@ -49,7 +49,7 @@ Deaths	Смертей
 You earn	Ти заробляєш
 Or	Або
 Compacted Blocks	Спресовано блоків
-Slayer XP	Досвід винищувача
+Slayer XP	Досвід вбивці
 Families Completed	Завершено родин
 Families Found	Знайдено родин
 Total items	Усього предметів
@@ -57,17 +57,17 @@ Progress to Tier	Прогрес до ступеня
 Progress to Level	Прогрес до рівня
 Progress to Milestone	Прогрес до віхи
 Stack price	Ціна стака
-Overbloom	Надцвітіння
+Overbloom	Буйноцвіт
 Total Collection	Усього в колекції
 Total Collected	Усього зібрано
-Magic Resistance	Опір магії
+Magic Resistance	Спротив магії
 Per unit	За одиницю
 Demon's damage	Шкода демона
 Demon's health	Здоров'я демона
 Escrow	На утриманні
 Books obtained	Отримано книг
 Bonus drops	Бонусна здобич
-Total Fortune	Загальна удача
+Total Fortune	Загальна фортуна
 Highest buy price	Найвища ціна купівлі
 Lowest sell price	Найнижча ціна продажу
 Museum	Музей
@@ -82,7 +82,7 @@ Toggled	Перемкнено
 Examples	Приклади
 Apply Cost	Вартість застосування
 Current LVL	Поточний рівень
-Your Pet Score	Твій рахунок улюбленців
+Your Pet Score	Твої бали улюбленців
 Pet name tags	Таблички імен улюбленців
 Current speed	Поточна швидкість
 Ordering	Замовлення
@@ -92,20 +92,20 @@ Sold for	Продано за
 Fillet	Філе
 Attuned	Налаштовано
 Your channel	Твій канал
-Zombie Slayer	Винищувач зомбі
-Spider Slayer	Винищувач павуків
-Wolf Slayer	Винищувач вовків
-Enderman Slayer	Винищувач ендерменів
-Vampire Slayer	Винищувач вампірів
-Blaze Slayer	Винищувач іфритів
+Zombie Slayer	Вбивця зомбі
+Spider Slayer	Вбивця павуків
+Wolf Slayer	Вбивця вовків
+Enderman Slayer	Вбивця ендерменів
+Vampire Slayer	Вбивця вампірів
+Blaze Slayer	Вбивця іфритів
 Total buff	Загальний бонус
 Example monsters	Приклади монстрів
 Total Tiers Unlocked	Відкрито ступенів
 Mob Stats	Характеристики моба
 Reminders	Нагадування
 Rough	Необроблений
-Flawed	Дефектний
-Fine	Добрий
+Flawed	Тріснутий
+Fine	Хороший
 Flawless	Бездоганний
 Perfect	Ідеальний
 Selected Power	Вибрана сила
@@ -197,3 +197,4 @@ Your Bonus	Твій бонус
 Current Max Pets	Поточний максимум улюбленців
 Expertise Kills	Убивств для Експертності
 Total Value	Загальна вартість
+Pity Counter	Шкала невдач
