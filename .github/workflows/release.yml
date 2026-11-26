@@ -1,0 +1,43 @@
+# Збирає джарник на серверах GitHub і прикріплює його до релізу.
+# Запускається сам, коли пушиш тег v* (наприклад v0.5.0).
+# Для старих тегів: вкладка Actions -> Release -> Run workflow -> вписати тег.
+name: Release
+
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Тег, для якого зібрати джарник (наприклад v0.4.0)'
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.tag || github.ref }}
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '25'
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      - name: Build
+        run: |
+          chmod +x gradlew
+          ./gradlew build --no-daemon
+
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ inputs.tag || github.ref_name }}
+          name: SkyBlock UA ${{ inputs.tag || github.ref_name }}
+          files: build/libs/*.jar

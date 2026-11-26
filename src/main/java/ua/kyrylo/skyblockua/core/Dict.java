@@ -147,10 +147,6 @@ public final class Dict {
         return g == null ? 0 : g;
     }
 
-    public Map<String, String> entries(Section section) {
-        return exact.get(section);
-    }
-
     private List<Map.Entry<String, String>> sortedTokens;
 
     /*
@@ -193,10 +189,6 @@ public final class Dict {
 
     public int size(Section section) {
         return exact.get(section).size();
-    }
-
-    public int reforgeCount() {
-        return reforges.size();
     }
 
     public int invalidLines() {
