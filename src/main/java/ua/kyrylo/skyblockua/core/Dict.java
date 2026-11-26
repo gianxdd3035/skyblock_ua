@@ -75,7 +75,8 @@ public final class Dict {
         String l;
         while ((l = br.readLine()) != null) {
             if (!l.isEmpty() && l.charAt(0) == '﻿') l = l.substring(1);
-            if (l.isBlank() || l.startsWith("#")) continue;
+            /* коментар — "#" і пробіл (або порожній "#"); ключ може й сам починатися з "#": "#{0} out of {1} players" */
+            if (l.isBlank() || l.equals("#") || l.startsWith("# ")) continue;
             /* іконки Hypixel (символи приватної області Unicode) можна писати як \uE010 */
             if (l.indexOf("\\u") >= 0) l = unescape(l);
             String[] cols = l.split("\t", -1);

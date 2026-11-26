@@ -14,3 +14,25 @@ Gain {0}{stat}	Отримуєш {0}{stat}
 Increases {stat} by {0}.	Додає {0} до {stat}.
 Increases {stat} by {0} and	Додає {0} до {stat} і
 {0}{stat}.	{0}{stat}.
+Grants {0}{stat} against	Дає {0}{stat} проти
+Grants {0}{stat} on	Дає {0}{stat} на
+Grants {0}{stat} if	Дає {0}{stat}, якщо
+Grants {0}{stat} for each	Дає {0}{stat} за кожен
+Your Axe gains {0}{stat} on	Твоя сокира отримує {0}{stat} на
+gain {0}{stat}.	отримуєш {0}{stat}.
+Gain {0}{stat} and {1}{stat2}	Отримуєш {0}{stat} і {1}{stat2}
+Gain {0}{stat} towards	Отримуєш {0}{stat} до
+Grants {0}{stat} per {1}	Дає {0}{stat} за кожні {1}
+Grants {0}{stat} to	Дає {0}{stat} для
+gain {0}{stat} for {1} seconds	отримуєш {0}{stat} на {1} секунд
+dealing {0} your {stat}	завдаючи {0} твоєї {stat}
+and {0}{stat} per Crop	і {0}{stat} за кожну віху
+{0}{stat} per Crop Milestone.	{0}{stat} за кожну віху врожаю.
+Gain {0}{stat} when above	Отримуєш {0}{stat}, коли маєш понад
+from behind deal {0}{stat}.	зі спини завдають {0}{stat}.
+Gain {0}{stat} against Endermen for {1}s	Отримуєш {0}{stat} проти ендерменів на {1}с
+Gain {0}{stat} against	Отримуєш {0}{stat} проти
+Grants {0}{stat} while	Дає {0}{stat}, поки
+Grants {0}{stat}, which	Дає {0}{stat}, що
+{0}{stat}, which	{0}{stat}, що
+Grants {0}{stat} and {1}	Дає {0}{stat} і {1}

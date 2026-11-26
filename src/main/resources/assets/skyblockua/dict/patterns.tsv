@@ -98,3 +98,19 @@ You Supercrafted {item} x{0}!	Створено суперкрафтом: {item} 
 [Bazaar] Claimed {0}x {item} worth {1} coins bought for {2} each!	[Базар] Забрано {0}x {item} на суму {1} монет (по {2} за штуку)!
 [Bazaar] Cancelled! Refunded {0} coins from cancelling Buy Order!	[Базар] Скасовано! Повернуто {0} монет за скасоване замовлення!
 Tier {any} amount: {0}	Кількість ступеня {any}: {0}
+{0}x {item} for {1} coins	{0}x {item} за {1} монет
+Powder {any}/{any2} ({0})	Порох {any}/{any2} ({0})
+Whispers {any}/{any2} ({0})	Шепіт {any}/{any2} ({0})
+{any} ago Claimed Buy Offer of {0}x {item}	§8{any} тому §7забрано §6пропозицію купівлі §7{0}x {item}
+{item} Collection	Колекція: {item}
+Auctions: "{any}"	Аукціони: «{any}»
+■ {item} ({0})	■ {item} ({0})
+■ {item} ({0}/{1})	■ {item} ({0}/{1})
+{item} (Foraging)	{item} (лісорубство)
+{item} (Fishing)	{item} (риболовля)
+{item} (Combat)	{item} (бій)
+{item} (Farming)	{item} (фермерство)
+{item} (Mining)	{item} (копання)
+{item} (Hunting)	{item} (полювання)
+{item} Family	Родина: {item}
+{item} Recipe	Рецепт: {item}

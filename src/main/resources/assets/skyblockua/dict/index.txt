@@ -25,3 +25,11 @@ stats.tsv
 patterns_stats.tsv
 lore_played3.tsv
 names_played.tsv
+lore_attrs.tsv
+attributes.tsv
+lore_played4.tsv
+menus3.tsv
+perks.tsv
+names_played2.tsv
+lore_played5.tsv
+lore_played6.tsv

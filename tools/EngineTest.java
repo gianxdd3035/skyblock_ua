@@ -206,6 +206,9 @@ public class EngineTest {
         expect(ct2, "§7Grants §3+20\u262F Combat Wisdom§7.", Translator.Kind.LORE, "§7Дає §3+20\u262F бойової мудрості§7.");
         expect(ct2, "§7Increases §c\u2741 Strength §7by §a30§7.", Translator.Kind.LORE, "§7Додає §a30§7 до §c\u2741 сили§7.");
         check("unknown stat -> no pattern", run(ct2, "§7Grants §a+5 §fWeird Stat§7.", Translator.Kind.LORE), null);
+        cd2.load("labels_v.tsv", new StringReader("Strength\tСила\nCrit Damage\tШкода криту\n"));
+        expect(ct2, "§5 §c\uE00D Strength §f849.48", Translator.Kind.LORE, "§5 §c\uE00D Сила §f849.48");
+        expect(ct2, "§5 §9\uE007 Crit Damage §f614.59%", Translator.Kind.LORE, "§5 §9\uE007 Шкода криту §f614.59%");
         List<Seg<TStyle>> tag = ct2.translateTag(parse("§6Jacob"));
         check("nametag", tag == null ? null : Lines.legacy(tag, OPS), "§6Джейкоб");
         List<Seg<TStyle>> tag2 = ct2.translateTag(parse("§e§lCLICK"));

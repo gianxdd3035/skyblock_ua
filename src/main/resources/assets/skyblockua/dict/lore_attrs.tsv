@@ -1,0 +1,94 @@
+# Описи атрибутів (осколки Галатеї), зачарувань і ефектів зілля (26.11.2026)
+Animal mobs.	§aтварин§7.
+Arthropod mobs.	§4членистоногих§7.
+Ender mobs.	§5ендер-мобів§7.
+Infernal mobs.	§4пекельних мобів§7.
+Magmatic mobs.	§cмагматичних мобів§7.
+Mythological mobs.	§2міфологічних мобів§7.
+Skeletal mobs.	§fскелетів§7.
+Undead mobs.	§2нежиті§7.
+Critter mobs.	§aзвірят§7.
+Cubic mobs.	§aкубічних мобів§7.
+Construct mobs.	конструктів.
+Archery III ({0}:{1})	§bВлучність III §f({0}:{1})
+Critical III ({0}:{1})	§4Критичність III §f({0}:{1})
+Regeneration IV ({0}:{1})	§4Регенерація IV §f({0}:{1})
+Resistance IV ({0}:{1})	§aОпір IV §f({0}:{1})
+Speed IV ({0}:{1})	§9Швидкість IV §f({0}:{1})
+Strength IV ({0}:{1})	§4Сила IV §f({0}:{1})
+Wisp's Ice-Flavored Water I ({0}:{1})	§bКрижана вода Віспа I §f({0}:{1})
+Pets gain {0} more EXP from Combat.	Улюбленці отримують на {0} більше досвіду з бою.
+Garden Visitors arrive {0} faster.	§aВідвідувачі Саду §7приходять на §a{0} §7швидше.
+Your RNG Meter fills {0} faster.	§7Твій §dлічильник удачі §7заповнюється на §a{0} §7швидше.
+Your Salts last {0} longer.	Твої солі діють на {0} довше.
+Atmospheric Filter by {0}.	§9атмосферного фільтра §7на §a{0}§7.
+Heals for {0} every second.	Лікує на {0} щосекунди.
+Fishing Islands.	§bрибальських островах§7.
+Foraging Islands.	§2островах лісорубів§7.
+Mining Islands.	§6шахтарських островах§7.
+Critter Safari.	§2сафарі звірят§7.
+Garden.	§aСаду§7.
+Greenhouse.	§2теплиці§7.
+Visitors.	§aвідвідувачів§7.
+Trees.	дерев.
+Slayer Quests.	§4квестів винищувача§7.
+Special Zealots.	§dособливих фанатиків§7.
+Queen Ants.	§5мурашиних маток§7.
+Titanoboa.	§dТитанобоа§7.
+Burrows.	§eнір§7.
+Contests.	§dконкурсів§7.
+Ender Nodes.	§5ендер-вузлів§7.
+Forest Essence.	§2есенції лісу§7.
+Crit Damage.	§9шкоди криту§7.
+Defense.	§aзахисту§7.
+True Defense.	§fсправжнього захисту§7.
+Speed.	§fшвидкості§7.
+Fortune.	§6удачі§7.
+Exp.	§aдосвіду§7.
+experience.	досвіду.
+active.	активний.
+any bait.	будь-яку наживку.
+knockback.	відкидання.
+miss.	промах.
+mob.	моба.
+easier to find.	легше знайти.
+for that block.	для цього блока.
+from Fann.	у Фанна.
+craft higher tier pets.	створювати улюбленців вищого рівня.
+fire and lava.	§cвогню §7і §cлави§7.
+be GREAT.	§7стає §6§lЧУДОВИМ§7.
+be OUTSTANDING.	§7стає §d§lВИДАТНИМ§7.
+likely to be OUTSTANDING.	§7ймовірно стає §d§lВИДАТНИМ§7.
+Increases your chance of catching	Збільшує твій шанс спіймати
+Increases your chance of dropping	Збільшує твій шанс отримати
+Increases your chance of finding	Збільшує твій шанс знайти
+Increases the chance of catching	Збільшує шанс спіймати
+Increases the odds of finding	Збільшує шанси знайти
+Increase the odds of finding a	Збільшує шанси знайти
+Increases the effects of your	Посилює ефекти твого
+Increases the duration of fire	Збільшує тривалість вогню
+Increases the distance you can fall	Збільшує висоту, з якої можна падати
+Reduces the cooldown of your	Скорочує перезарядку твого
+Reduces the cost of items in the	Знижує ціну предметів у
+Receive {0} reduced damage from	Отримуєш на {0} менше шкоди від
+Junk catches are {0} more likely to	§2Мотлох §7трапляється на §a{0}§7 частіше і може
+Treasure catches are {0} more	§6Скарби §7трапляються на §a{0} §7частіше
+Fish Treasure Shards are {0}	Осколки рибних скарбів на {0}
+Gain {0} chance to find pets and	Отримуєш {0} шансу знайти улюбленців і
+Gain {0} more Copper from Garden	§7Отримуєш на §a{0}§7 більше §cміді §7із §aСаду
+Grants a {0} chance to double	Дає {0} шансу подвоїти
+Grants a {0} chance to drop	Дає {0} шансу отримати
+Grants a {0} chance to find an	Дає {0} шансу знайти
+Grants a {0} chance to get a	Дає {0} шансу отримати
+Grants a {0} chance to instantly	Дає {0} шансу миттєво
+Grants a {0} chance to obtain a	Дає {0} шансу отримати
+Grants a {0} chance to spawn an	Дає {0} шансу викликати
+Grants a {0} discount on starting	Дає знижку {0} на початок
+Grants {0} of absorption.	Дає {0} поглинання.
+Has a {0} chance not to consume	Має {0} шансу не витратити
+Mob attacks have a {0} chance to	Атаки мобів мають {0} шансу
+Mobs are {0} more likely to drop	З мобів на {0} частіше випадає
+When hit, your next hit deals {0}	Коли тебе вдарили, наступний твій удар завдає {0}
+When you haven't been damaged in	Коли тебе не били протягом
+Limit of {0} Score per run	Не більше {0} очок за забіг
+by {0}.	§7на §a{0}§7.

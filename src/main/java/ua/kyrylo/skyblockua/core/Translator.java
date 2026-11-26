@@ -57,6 +57,7 @@ public final class Translator<S> {
     private static final Pattern ABILITY_LABEL = Pattern.compile(".*(?:Ability|Bonus)$");
     private static final Pattern ABILITY_TAIL = Pattern.compile(
             "(?:\\s+(?:(?:SNEAK|SHIFT|DOUBLE|HOLD|ON)\\s+)*(?:(?:LEFT/RIGHT|RIGHT|LEFT|MIDDLE)\\s+)?(?:CLICK|TAP JUMP|DIG|SHOOT)(?:\\s+HOLD)?)?(?:\\s+\\(\\d+/\\d+\\))?[^\\p{L}\\p{N}!?'.)]*$");
+    private static final Pattern VALUE_LAST = Pattern.compile("^[^\\p{L}]*?([A-Za-z][A-Za-z ']*[A-Za-z]) [+-]?[\\d,.]+%?$");
     private static final Pattern ROMAN_LABEL = Pattern.compile(" [IVXLCDM]+$");
     private static final Pattern ENGLISH_WORD = Pattern.compile("(?<![A-Za-z])[A-Za-z]{3,}(?![A-Za-z])");
     private static final Pattern TRAILING_DECOR = Pattern.compile("[^\\p{L}\\p{N})\\]!?.'\"]+$");
@@ -897,6 +898,12 @@ public final class Translator<S> {
             String ua = d.get(Dict.Section.LABELS, m.group(1));
             if (ua == null) return null;
             return Lines.replaceRange(line, start + m.start(1), start + m.end(1), ua, ops);
+        }
+        /* Стат перед числом без двокрапки (таблиці статів у модах): "❁ Strength 849.48" */
+        m = VALUE_LAST.matcher(core);
+        if (m.matches()) {
+            String ua = d.get(Dict.Section.LABELS, m.group(1));
+            if (ua != null) return Lines.replaceRange(line, start + m.start(1), start + m.end(1), ua, ops);
         }
         /* Підпис окремим фрагментом (так його малюють інші моди, наприклад Iconographic): "Strength" */
         String ua = d.get(Dict.Section.LABELS, core);

@@ -23,7 +23,7 @@ for f in sorted(glob.glob(os.path.join(d, "*"))):
     for n, line in enumerate(open(f, encoding="utf-8"), 1):
         line = line.rstrip("\n")
         line = re.sub(r'\\u([0-9a-fA-F]{4})', lambda m: chr(int(m.group(1), 16)), line)
-        if not line or line.startswith("#"):
+        if not line or line == "#" or line.startswith("# "):
             continue
         if "\t" not in line:
             print(f"{name}:{n}: no TAB: {line!r}"); problems += 1; continue
