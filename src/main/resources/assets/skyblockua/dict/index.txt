@@ -43,3 +43,5 @@ lore_played11.tsv
 lore_played12.tsv
 lore_played13.tsv
 lore_played14.tsv
+names_mobs.tsv
+lore_mobs.tsv

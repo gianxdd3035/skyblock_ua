@@ -699,8 +699,46 @@ public final class Translator<S> {
         }
         String ua = translateNpcs ? d.get(Dict.Section.NPCS, core) : null;
         if (ua == null) ua = d.get(Dict.Section.LINES, core);
-        if (ua == null) return null;
-        return Lines.replaceRange(line, start, end, ua, ops);
+        if (ua != null) return Lines.replaceRange(line, start, end, ua, ops);
+        return translateNpcs ? mobTag(line, plain, start, end, d) : null;
+    }
+
+    private static final Pattern MOB_LEVEL = Pattern.compile("\\[Lv\\d+]");
+    private static final Pattern MOB_NAME = Pattern.compile("[A-Za-z][A-Za-z'\u2019\\-]*(?: [A-Za-z][A-Za-z'\u2019\\-]*)*");
+
+    /*
+     * Підпис моба: "[Lv235] Kuudra Berserker 1.2M/2M❤", "☠ Revenant Horror IV 900k❤".
+     * Перекладається лише ім'я (найдовша відома послідовність слів) і "Lv"; здоров'я, значки й кольори лишаються.
+     */
+    private List<Seg<S>> mobTag(List<Seg<S>> line, String plain, int start, int end, Dict d) {
+        String core = plain.substring(start, end);
+        Matcher lv = MOB_LEVEL.matcher(core);
+        boolean hasLevel = lv.find();
+        if (!hasLevel && core.indexOf('\u2764') < 0) return null;
+        Matcher run = MOB_NAME.matcher(core);
+        if (!run.find(hasLevel ? lv.end() : 0)) return null;
+        String[] words = run.group().split(" ");
+        for (int len = words.length; len >= 1; len--) {
+            for (int i = 0; i + len <= words.length; i++) {
+                String cand = String.join(" ", java.util.Arrays.copyOfRange(words, i, i + len));
+                String ua = d.get(Dict.Section.NAMES, cand);
+                /* боси вбивці й підземель лежать серед рядків: "Revenant Horror" */
+                if (ua == null && len >= 2) ua = d.get(Dict.Section.LINES, cand);
+                if (ua == null) continue;
+                int s = run.start();
+                for (int k = 0; k < i; k++) s += words[k].length() + 1;
+                int e = s + cand.length();
+                List<Seg<S>> r = Lines.replaceRange(line, start + s, start + e, ua, ops);
+                if (r == null) return null;
+                /* "Lv" стоїть перед ім'ям, тож його позиція після заміни не зсунулася */
+                if (hasLevel) {
+                    List<Seg<S>> r2 = Lines.replaceRange(r, start + lv.start() + 1, start + lv.start() + 3, "\u0420\u0456\u0432.", ops);
+                    if (r2 != null) r = r2;
+                }
+                return r;
+            }
+        }
+        return null;
     }
 
     private List<Seg<S>> breadcrumb(List<Seg<S>> line, int start, String core, Dict d) {

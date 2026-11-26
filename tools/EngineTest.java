@@ -225,6 +225,15 @@ public class EngineTest {
         List<Seg<TStyle>> tag2 = ct2.translateTag(parse("§e§lCLICK"));
         check("nametag click", tag2 == null ? null : Lines.legacy(tag2, OPS), "§e§lНАТИСНИ");
         check("mob tag untouched", ct2.translateTag(parse("§c[Lv10] Zombie §a100§f/§a100§c❤")) == null ? "null" : "changed", "null");
+        /* підписи мобів: ім'я з бестіарію, "Lv" -> "Рів.", здоров'я й кольори без змін */
+        cd2.load("names_mobs_t.tsv", new StringReader("Kuudra Berserker\tБерсерк Куудри\tm\nZombie\tЗомбі\tm\n"));
+        List<Seg<TStyle>> mob = ct2.translateTag(parse("§8[§7Lv235§8] §cKuudra Berserker §a1.2M§f/§a2M§c❤"));
+        check("mob tag", mob == null ? null : Lines.legacy(mob, OPS), "§8[§7Рів.235§8] §cБерсерк Куудри §a1.2M§f/§a2M§c❤");
+        List<Seg<TStyle>> mob2 = ct2.translateTag(parse("§c☠ §4Revenant Horror IV §e900k§c❤"));
+        check("boss tag", mob2 == null ? null : Lines.legacy(mob2, OPS), "§c☠ §4Невпокоєний жах IV §e900k§c❤");
+        List<Seg<TStyle>> mob3 = ct2.translateTag(parse("§8[§7Lv1§8] §cCorrupted Zombie §a50§c❤"));
+        check("mob tag partial", mob3 == null ? null : Lines.legacy(mob3, OPS), "§8[§7Рів.1§8] §cCorrupted Зомбі §a50§c❤");
+        check("plain hologram untouched", ct2.translateTag(parse("§aZombie")) == null ? "null" : "changed", "null");
         /* рід за першим словом */
         String[][] genders = {{"Зачарована книга", "f"}, {"Вугілля", "n"}, {"Насіння", "n"}, {"Кристали призмарину", "p"},
                 {"Шолом Вищого Дракона", "m"}, {"Риба-фугу", "f"}, {"Сіль", "f"}, {"Око Енду", "n"}, {"Стародавній меч", "m"}};

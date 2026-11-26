@@ -1,74 +1,15 @@
 # Чотирнадцята партія з гри (26.11.2026): описи мобів бестіарію, морські істоти, Куудра
-Ruler of Torrhus Canyon's ant	§7Володарка мурашиної колонії
-colony.	§7каньйону Торрус.
 {0} Queen Ant  Hunting Fortune	§5  §8+§a{0} §d фортуни полювання §7(мурашині матки)
-Though afraid of people, they get	§7Хоч і бояться людей, вони ладнають
-along with the other denizens of	§7з іншими мешканцями
-Torrhus.	§7Торруса.
 {0} Sepialot  Hunting Fortune	§5  §8+§a{0} §d фортуни полювання §7(сепіалоти)
 {0} Sepialot Hunting XP	§5  §8+§3{0} §7досвіду полювання (сепіалоти)
 {0} Lotum  Hunting Fortune	§5  §8+§a{0} §d фортуни полювання §7(лотуми)
 {0} Lotum Hunting XP	§5  §8+§3{0} §7досвіду полювання (лотуми)
-It weaves silk at impressive speeds	§7Він тче шовк із вражаючою швидкістю
-as it moves.	§7просто на ходу.
-They enter a motionless, drifting	§7Вони завмирають і дрейфують,
-state when they run out of stored	§7коли закінчується запасене
-sunlight.	§7сонячне світло.
-A distant relative of the Puck, it's	§7Далекий родич Пака — завжди
-always scheming.	§7щось замишляє.
-They lie dormant but aware, looking	§7Вони причаїлися, але пильнують,
-to spook fatigued explorers.	§7щоб налякати втомлених дослідників.
-Spooks at the slightest change in	§7Лякається найменшої зміни
-water pressure.	§7тиску води.
 found and killed in the Cavern Biome.	§7знайшов і вбив у §6печерному біомі§7.
 found and killed in the Forest Biome.	§7знайшов і вбив у §2лісовому біомі§7.
 found and killed in the Haunted Biome.	§7знайшов і вбив у §5примарному біомі§7.
 found and killed in the Icy Biome.	§7знайшов і вбив у §bкрижаному біомі§7.
-This witch is brewing up trouble.	§7Ця відьма варить неприємності.
-Some say he lost his mind long	§7Кажуть, він утратив розум задовго
-before he lost his head.	§7до того, як утратив голову.
-Possess the supernatural ability	§7Мають надприродну здатність
 to...possess...you.	§7...вселитися...в тебе.
-He's very scary.	§7Він дуже страшний.
-It's always a trick.	§7Це завжди капость.
-Who throws a pumpkin? Honestly!	§7Хто взагалі кидається гарбузами? Серйозно!
-Haunting SkyBlock islands	§7Переслідує острови SkyBlock
-everywhere.	§7повсюди.
-Angered by what he's found below.	§7Розлючений тим, що знайшов унизу.
-Likes to keep to themselves.	§7Тримаються осторонь.
-Creepy crawler.	§7Моторошний повзун.
-Trained in the dark art of wither	§7Навчений темного мистецтва візерної
-magic.	§7магії.
-Lurking in the shadows.	§7Ховається в тінях.
-A soul a day keeps the doctor away.	§7Душа на день — і лікар не потрібен.
-Hide and Seek Champion.	§7Чемпіон із хованок.
-Prefers to sleep in, grumpy if	§7Любить поспати довше, бурчить, якщо
-disturbed.	§7потурбувати.
-He loves gold.	§7Він обожнює золото.
-So lonely.	§7Такий самотній.
-Long lost to the depths of the	§7Давно загублений у глибинах
-Classic RPG trope, in block form.	§7Класичний RPG-штамп, але з блоків.
-Scared of its own shadow.	§7Боїться власної тіні.
-Gets scared of its own shadow.	§7Лякається власної тіні.
 Silent, but deadly.	§7Тихий, але смертоносний.
-Just more grunts in the platoon.	§7Просто ще кілька рядових у взводі.
-Despite the lack of organs, still	§7Попри відсутність органів, усе ж
-managed to be promoted.	§7примудрився отримати підвищення.
-Leader of the Catacombs' skeleton	§7Ватажок скелетної армії
-army.	§7Катакомб.
-Defenders of the Catacombs.	§7Захисники Катакомб.
-I am Skeletor.	§7Я — Скелетор.
-Said to have sniped adventurers	§7Кажуть, знімав шукачів пригод
-from floors away.	§7за кілька поверхів.
-Bouncy, yet dangerous.	§7Стрибучий, але небезпечний.
-Heftiest zombie.	§7Найздоровенніший зомбі.
-Hefty zombie.	§7Здоровенний зомбі.
-Stained Hardened Clay.	§7Фарбована обпалена глина.
-The Watcher's personal henchmen.	§7Особисті поплічники Спостерігача.
-Redundant name.	§7Тавтологічна назва.
-Never stopped anyone from entering	§7Ще нікого не зупинив на вході
-the factory, but is trying his best.	§7до фабрики, але дуже старається.
-A shell of their former self.	§7Лише тінь себе колишніх.
 you've killed while fishing in Lava.	§7яких ти вбив, рибалячи в §cлаві§7.
 you've killed while fishing during the	§7яких ти вбив, рибалячи під час
 Fishing Festival.	§bРибальського фестивалю§7.
@@ -76,82 +17,11 @@ View all of the Winter Sea Creatures	§7Переглянь усіх §fзимо�
 that you've killed while fishing.	§7яких ти вбив під час риболовлі.
 you've killed while fishing in the	§7яких ти вбив, рибалячи в
 Backwater Bayou.	§2Тихій затоці§7.
-What a curious little fellow.	§7Який допитливий малюк.
-Once a striving sailor, just like you.	§7Колись — завзятий моряк, як і ти.
-Tends to swim back and forth,	§7Плаває туди-сюди,
-unsure of which way to go.	§7не знаючи, куди йому треба.
-Though just a Prince, he thinks	§7Хоч він лише принц, а вважає
-himself King of the Lotus Atoll.	§7себе королем Атолу лотосів.
-Perpetual sunbather and all-round	§7Вічний любитель засмаги й загалом
-proprietor of good vibes.	§7власник гарного настрою.
-Lies dormant on the ocean floor of	§7Дрімає на дні океану
-Named by the first man to discover	§7Названий першою людиною, що відкрила
-the island, this species is endemic to	§7острів; цей вид — ендемік
-the Atoll.	§7Атолу.
-Has a slight spring in its step.	§7Ходить трохи пружинистою ходою.
-Shines brightly no matter the	§7Яскраво сяє за будь-якої
-weather.	§7погоди.
-An avid frog legs enjoyer.	§7Затятий поціновувач жаб'ячих лапок.
-Definitely not of this world. Maybe	§7Точно не з цього світу. Можливо,
-those holes in reality are worse	§7ці діри в реальності гірші,
-than we first thought.	§7ніж ми спершу думали.
-Trained by Lord Jawbus to serve	§7Навчений Лордом Джоубусом служити
-A blight upon the lands of SkyBlock.	§7Пошесть на землях SkyBlock.
-Contrary to popular belief, does not	§7Усупереч поширеній думці, не
-actually drop ships.	§7скидає кораблів.
-Has an explosive temper.	§7Має вибуховий характер.
-So hot, it has to be measured in	§7Такий гарячий, що його вимірюють
-Kelvin.	§7у кельвінах.
-A single look at Kuudra drove him	§7Один погляд на Куудру довів його
-into a frenzy.	§7до шаленства.
-Believes in the return of Kuudra.	§7Вірить у повернення Куудри.
-He is the one who knocks.	§7Це він стукає у двері.
-Stepping on them seems to cause no	§7Наступати на них, здається, зовсім
-harm!	§7не шкідливо!
-Hash-slinging.	§7Хеш-слінгер.
-Lacks the legs to actually wander	§7Не має ніг, щоб блукати,
-around, flies instead.	§7тож літає.
-Sentry down!	§7Вартовий упав!
 Loading rankings...	§7Завантаження рейтингу...
-Jerry?	§7Джеррі?
-Jerry?!	§7Джеррі?!
-Jerry!	§7Джеррі!
-A very angry fella.	§7Дуже сердитий тип.
-A construct truly connected to the	§7Конструкт, що по-справжньому пов'язаний
-The winged terror.	§7Крилатий жах.
-Rules with an iron fist and a fluffy	§7Править залізною рукою та пухнастою
-sheep.	§7вівцею.
-Boasts an insatiable hunger.	§7Хизується ненаситним голодом.
-The champion of King Minos.	§7Чемпіон царя Міноса.
-The hunter becomes the hunted.	§7Мисливець стає здобиччю.
 The ultimate guardian of Minos'	§7Найвищий охоронець бібліотеки
 Literature.	§7Міноса.
-Buys his axes in bulk.	§7Купує сокири гуртом.
-Not separated at birth.	§7Не розлучені при народженні.
-A Cquizical Qreature.	§7Цікавезна Ціпотвора.
-Just add water!	§7Просто додай води!
-Could never date a Pisces.	§7Ніколи не зустрічався б із Рибами.
-Kept in servitude for breaking	§7Тримають у неволі за те, що ламав
-blocks around the factory.	§7блоки довкола фабрики.
-Learned their sorcery from the	§7Навчилися чаклунства в
-most vicious of teachers.	§7найлютіших учителів.
-Leader of the Undead.	§7Ватажок нежиті.
-Knighted by Necron himself.	§7Посвячений у лицарі самим Некроном.
-Commander among commanders.	§7Командир серед командирів.
 Toggle chat reminders of when you	§7Вмикає нагадування в чаті, коли в тебе
 have a pending Bestiary Milestone to	§7є неотримана §3віха бестіарію§7, яку можна
 claim.	§7забрати.
 Centers the menu around your last	§7Центрує меню на твоїй останній
 available reward.	§7доступній нагороді.
-Social creatures - but only with	§7Соціальні створіння — але лише з
-Might just be even more timid than a	§7Можливо, навіть полохливіший за
-Shyworm, somehow...	§7сором'язливого черв'яка...
-Relies upon the wind to give it any	§7Покладається на вітер, щоб мати хоч
-semblance of direction.	§7якусь подобу напрямку.
-Blind as a...well, you get the point.	§7Сліпий як... ну, ти зрозумів.
-They gather troves of rare gems to	§7Вони збирають скарби з рідкісних самоцвітів,
-show off to their friends.	§7щоб хизуватися перед друзями.
-A Rockmite's mound is a result of its	§7Купа каменекліща — результат усієї
-life's work.	§7його праці.
-Back it into a corner at your own	§7Заганяй його в кут на власний
-peril.	§7ризик.
