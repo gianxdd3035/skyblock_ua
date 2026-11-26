@@ -57,6 +57,7 @@ public final class Translator<S> {
     private static final Pattern ABILITY_LABEL = Pattern.compile(".*(?:Ability|Bonus)$");
     private static final Pattern ABILITY_TAIL = Pattern.compile(
             "(?:\\s+(?:(?:SNEAK|SHIFT|DOUBLE|HOLD|ON)\\s+)*(?:(?:LEFT/RIGHT|RIGHT|LEFT|MIDDLE)\\s+)?(?:CLICK|TAP JUMP|DIG|SHOOT)(?:\\s+HOLD)?)?(?:\\s+\\(\\d+/\\d+\\))?[^\\p{L}\\p{N}!?'.)]*$");
+    private static final Pattern ROMAN_LABEL = Pattern.compile(" [IVXLCDM]+$");
     private static final Pattern ENGLISH_WORD = Pattern.compile("(?<![A-Za-z])[A-Za-z]{3,}(?![A-Za-z])");
     private static final Pattern TRAILING_DECOR = Pattern.compile("[^\\p{L}\\p{N})\\]!?.'\"]+$");
 
@@ -222,7 +223,7 @@ public final class Translator<S> {
             String v = isAllCaps(text) ? value.toUpperCase(Locale.ROOT) : value;
             Restyled<S> rs = restyle(line, s, e, text, v);
             if (rs != null) {
-                List<Seg<S>> r = Lines.replaceRange(line, s, e, rs.text, ops, rs.base);
+                List<Seg<S>> r = Lines.replaceRange(line, s, e, rs.text(), ops, rs.base(), rs.slots());
                 if (r != null) return r;
             }
         }
@@ -236,7 +237,7 @@ public final class Translator<S> {
         return Lines.replaceRange(line, s, e, filled, ops);
     }
 
-    private record Restyled<S>(String text, S base) {}
+    private record Restyled<S>(String text, S base, List<List<Seg<S>>> slots) {}
 
     private boolean uniformStyle(List<Seg<S>> line, int s, int e) {
         String first = null;
@@ -304,8 +305,11 @@ public final class Translator<S> {
         }
         String baseCodes = ops.legacy(base);
 
-        StringBuilder out = new StringBuilder(baseCodes);
+        /* текст без §-кодів (основний стиль іде від base) + слоти з оригінальними шматками */
+        StringBuilder out = new StringBuilder();
+        List<List<Seg<S>>> slots = new ArrayList<>();
         java.util.Map<Character, Integer> iconSeen = new java.util.HashMap<>();
+        String plainLine = Lines.plain(line);
         int i = 0;
         while (i < value.length()) {
             char c = value.charAt(i);
@@ -316,10 +320,8 @@ public final class Translator<S> {
                 int ns = nums.get(idx)[0], ne = nums.get(idx)[1];
                 int after = pm.end();
                 /* множник "2x" / "x2" фарбуємо разом із числом */
-                boolean xAfter = after < value.length() && value.charAt(after) == 'x'
-                        && ne < e && line != null && Lines.plain(line).charAt(ne) == 'x';
-                boolean xBefore = out.length() > 0 && out.charAt(out.length() - 1) == 'x'
-                        && ns > s && Lines.plain(line).charAt(ns - 1) == 'x';
+                boolean xAfter = after < value.length() && value.charAt(after) == 'x' && ne < e && plainLine.charAt(ne) == 'x';
+                boolean xBefore = out.length() > 0 && out.charAt(out.length() - 1) == 'x' && ns > s && plainLine.charAt(ns - 1) == 'x';
                 if (xBefore) {
                     out.setLength(out.length() - 1);
                     ns--;
@@ -328,7 +330,7 @@ public final class Translator<S> {
                     ne++;
                     after++;
                 }
-                out.append(Lines.legacySlice(line, ns, ne, ops)).append(baseCodes);
+                out.append(slot(slots, Lines.slice(line, ns, ne)));
                 i = after;
                 continue;
             }
@@ -361,7 +363,9 @@ public final class Translator<S> {
                             j++;
                         }
                         while (j > i + 1 && value.charAt(j - 1) == ' ') j--;
-                        out.append(codes).append(value, i, j).append(baseCodes);
+                        List<Seg<S>> run = new ArrayList<>();
+                        run.add(new Seg<>(value.substring(i, j), iconStyle));
+                        out.append(slot(slots, run));
                         i = j;
                         continue;
                     }
@@ -372,22 +376,26 @@ public final class Translator<S> {
                 while (j < value.length() && value.charAt(j) < 128 && Character.isLetter(value.charAt(j))) j++;
                 String word = value.substring(i, j);
                 Matcher wm = Pattern.compile("(?<![A-Za-z])" + Pattern.quote(word) + "(?![A-Za-z])").matcher(text);
-                if (word.length() >= 2 && wm.find()) {
-                    String codes = ops.legacy(Lines.styleAt(line, s + wm.start()));
-                    if (!codes.equals(baseCodes)) {
-                        out.append(codes).append(word).append(baseCodes);
-                        i = j;
-                        continue;
-                    }
+                if (word.length() >= 2 && wm.find()
+                        && !ops.legacy(Lines.styleAt(line, s + wm.start())).equals(baseCodes)) {
+                    out.append(slot(slots, Lines.slice(line, s + wm.start(), s + wm.end())));
+                } else {
+                    out.append(word);
                 }
-                out.append(word);
                 i = j;
                 continue;
             }
             out.append(c);
             i++;
         }
-        return new Restyled(out.toString(), base);
+        if (slots.size() > 32) return null;
+        return new Restyled(out.toString(), base, slots);
+    }
+
+    /* Додати слот і повернути його позначку для тексту перекладу */
+    private static <T> char slot(List<List<Seg<T>>> slots, List<Seg<T>> segs) {
+        slots.add(segs);
+        return (char) (Lines.SLOT0 + slots.size() - 1);
     }
 
     private static int nthIndex(String text, char c, int n) {
@@ -606,17 +614,18 @@ public final class Translator<S> {
      * перед нею вставляються §-коди її стилю, після — коди основного тексту.
      */
     private List<Seg<S>> patternLookup(List<Seg<S>> line, int s, int e, String text, Kind kind, Dict d) {
+        patterns:
         for (PatternEntry p : d.patterns()) {
             Matcher m = p.regex.matcher(text);
             if (!m.matches()) continue;
             S base = literalStyle(line, s, m, p.groups.size());
-            String baseCodes = ops.legacy(base);
             String value = p.value;
+            List<List<Seg<S>>> slots = new ArrayList<>();
             for (int i = 0; i < p.groups.size(); i++) {
                 String name = p.groups.get(i);
                 int gs = s + m.start(i + 1), ge = s + m.end(i + 1);
                 String captured = m.group(i + 1);
-                String styled = null;
+                List<Seg<S>> segs = null;
                 if (name.startsWith("item")) {
                     /* назва може починатися з маркера списку чи значка ("▶ ", "✦") — його лишаємо як є */
                     Matcher lead = BULLET.matcher(captured);
@@ -634,15 +643,24 @@ public final class Translator<S> {
                         }
                     }
                     if (tr != null) {
-                        styled = Lines.legacySlice(line, gs, gs + skip, ops)
-                                + ops.legacy(Lines.styleAt(line, gs + skip)) + tr + baseCodes;
+                        segs = new ArrayList<>(Lines.slice(line, gs, gs + skip));
+                        Lines.appendLegacy(segs, tr, Lines.styleAt(line, gs + skip), ops);
                     }
                 }
-                /* числа, {any} і невідомі назви — без змін, разом з усіма їхніми кольорами */
-                if (styled == null) styled = Lines.legacySlice(line, gs, ge, ops) + baseCodes;
-                value = value.replace("{" + name + "}", styled);
+                if (name.startsWith("stat")) {
+                    /* "\u2741 Strength" -> значок лишається, назва — у родовому відмінку ("сили") */
+                    int skip = 0;
+                    while (skip < captured.length() && !Character.isLetter(captured.charAt(skip))) skip++;
+                    String stat = d.get(Dict.Section.STATS, captured.substring(skip).strip());
+                    if (stat == null) continue patterns;
+                    segs = new ArrayList<>(Lines.slice(line, gs, gs + skip));
+                    segs.add(new Seg<>(stat, Lines.styleAt(line, Math.min(gs + skip, ge - 1))));
+                }
+                /* числа, {any} і невідомі назви — без змін, разом з усіма їхніми стилями */
+                if (segs == null) segs = Lines.slice(line, gs, ge);
+                value = value.replace("{" + name + "}", String.valueOf(slot(slots, segs)));
             }
-            List<Seg<S>> r = Lines.replaceRange(line, s, e, baseCodes + value, ops, base);
+            List<Seg<S>> r = Lines.replaceRange(line, s, e, value, ops, base, slots);
             if (r != null) return r;
         }
         return null;
@@ -842,6 +860,16 @@ public final class Translator<S> {
         if (m.find()) {
             String label = m.group(1);
             String ua = d.get(Dict.Section.LABELS, label.strip());
+            if (ua == null) {
+                /* підпис із римським рівнем: "Progress to Tier XV", "Compact VII", "Expertise IX" */
+                Matcher rw = ROMAN_LABEL.matcher(label);
+                if (rw.find() && rw.start() > 0) {
+                    String head = label.substring(0, rw.start());
+                    String t = d.get(Dict.Section.LABELS, head);
+                    if (t == null) t = d.get(Dict.Section.LINES, head);
+                    if (t != null) ua = t + label.substring(rw.start());
+                }
+            }
             if (ua == null) return null;
             List<Seg<S>> base = line;
             /* Назва здібності чи бонусу після підпису: шукаємо її без кнопки миші в кінці */

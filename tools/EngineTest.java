@@ -191,6 +191,21 @@ public class EngineTest {
                 "§e[NPC] §bАдміністраторка сафарі§f: Ласкаво просимо на сафарі звірят!");
         expect(ct2, "§e[NPC] Jacob§f: Something new", Translator.Kind.CHAT, "§e[NPC] Джейкоб§f: Something new");
         expect(ct2, "§9Jacob", Translator.Kind.NAME, "§9Джейкоб");
+        /* стиль, якого не передати §-кодами (шрифт іншого мода, як у Feesh), має лишитися на захопленому імені */
+        cd2.load("patterns_f.tsv", new StringReader("A {any} has spawned!\tЗ'явилася істота: {any}!\n"));
+        List<Seg<TStyle>> feesh = new ArrayList<>();
+        feesh.add(new Seg<>("A ", new TStyle('b', "", "")));
+        feesh.add(new Seg<>("Hfffce4agg", new TStyle('z', "", "")));
+        feesh.add(new Seg<>(" has spawned!", new TStyle('b', "", "")));
+        List<Seg<TStyle>> feeshOut = ct2.translate(feesh, Translator.Kind.CHAT);
+        boolean kept = feeshOut != null && feeshOut.stream().anyMatch(sg -> sg.text().equals("Hfffce4agg") && sg.style().color() == 'z');
+        check("foreign style kept in {any}", kept ? "kept" : String.valueOf(feeshOut), "kept");
+        cd2.load("stats_t.tsv", new StringReader("Strength\tсили\nCombat Wisdom\tбойової мудрості\n"));
+        cd2.load("patterns_s.tsv", new StringReader("Grants {0}{stat}.\tДає {0}{stat}.\nIncreases {stat} by {0}.\tДодає {0} до {stat}.\n"));
+        expect(ct2, "§7Grants §c+50 \uE00D Strength§7.", Translator.Kind.LORE, "§7Дає §c+50 \uE00D сили§7.");
+        expect(ct2, "§7Grants §3+20\u262F Combat Wisdom§7.", Translator.Kind.LORE, "§7Дає §3+20\u262F бойової мудрості§7.");
+        expect(ct2, "§7Increases §c\u2741 Strength §7by §a30§7.", Translator.Kind.LORE, "§7Додає §a30§7 до §c\u2741 сили§7.");
+        check("unknown stat -> no pattern", run(ct2, "§7Grants §a+5 §fWeird Stat§7.", Translator.Kind.LORE), null);
         List<Seg<TStyle>> tag = ct2.translateTag(parse("§6Jacob"));
         check("nametag", tag == null ? null : Lines.legacy(tag, OPS), "§6Джейкоб");
         List<Seg<TStyle>> tag2 = ct2.translateTag(parse("§e§lCLICK"));

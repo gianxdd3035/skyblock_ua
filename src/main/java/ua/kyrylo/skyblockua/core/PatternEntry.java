@@ -9,11 +9,12 @@ import java.util.regex.Pattern;
  * Шаблон із підстановками, наприклад:
  *   "You dropped {0}x {item}!"  ->  "Тобі випало {0}x {item}!"
  * Ключ перетворюється на регулярний вираз: літери й символи — як є, пробіли — "один або більше пробілів",
- * {0}...{9} — число, {item}/{item2} і {any}/{any2} — будь-який текст.
+ * {0}...{9} — число, {item}/{item2} і {any}/{any2} — будь-який текст,
+ * {stat}/{stat2} — назва стату (зі значком), перекладається в родовому відмінку з stats*.tsv.
  */
 public final class PatternEntry {
 
-    private static final Pattern PLACEHOLDER = Pattern.compile("\\{(\\d|item2?|any2?)}");
+    private static final Pattern PLACEHOLDER = Pattern.compile("\\{(\\d|item2?|any2?|stat2?)}");
     private static final String NUMBER = "([+-]?(?:\\d{1,3}(?:,\\d{3})+|\\d+)(?:\\.\\d+)?(?:[kKmMbB])?%?)";
 
     public final Pattern regex;

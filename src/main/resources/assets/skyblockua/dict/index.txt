@@ -1,5 +1,6 @@
 # Список вбудованих словників (завантажуються по черзі)
 labels.tsv
+labels_menus.tsv
 tokens.tsv
 reforges.tsv
 rarity.tsv
@@ -20,3 +21,7 @@ lore_played2.tsv
 abilities.tsv
 menus2.tsv
 npcs.tsv
+stats.tsv
+patterns_stats.tsv
+lore_played3.tsv
+names_played.tsv

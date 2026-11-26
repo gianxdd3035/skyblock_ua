@@ -31,7 +31,7 @@ import java.util.Map;
  */
 public final class Dict {
 
-    public enum Section { LINES, NAMES, LABELS, TOKENS, ARMOR_SETS, NPCS }
+    public enum Section { LINES, NAMES, LABELS, TOKENS, ARMOR_SETS, NPCS, STATS }
 
     /* Частина броні: український іменник і його рід. */
     public record Piece(String english, String ukrainian, char gender) {
@@ -60,6 +60,7 @@ public final class Dict {
         if (f.startsWith("tokens")) return Section.TOKENS;
         if (f.startsWith("armor_sets")) return Section.ARMOR_SETS;
         if (f.startsWith("npcs")) return Section.NPCS;
+        if (f.startsWith("stats")) return Section.STATS;
         return Section.LINES;
     }
 

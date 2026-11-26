@@ -1,0 +1,16 @@
+# Типові рядки бонусів зі статом. {stat} перекладається з stats.tsv у родовому відмінку;
+# якщо стату там немає, шаблон не спрацьовує (щоб не було напівперекладених рядків).
+Grants {0}{stat}.	Дає {0}{stat}.
+Grants {0}{stat}	Дає {0}{stat}
+Grants {0}{stat} and	Дає {0}{stat} і
+Grants {0}{stat} and {1}{stat2}.	Дає {0}{stat} і {1}{stat2}.
+Grants {0}{stat} while on	Дає {0}{stat}, коли ти на
+Grants {0}{stat} while in	Дає {0}{stat}, коли ти в
+Grants {0}{stat} per	Дає {0}{stat} за кожен
+Grants {0}{stat} during the day.	Дає {0}{stat} вдень.
+Grants {0}{stat} during the night.	Дає {0}{stat} вночі.
+Gain {0}{stat}.	Отримуєш {0}{stat}.
+Gain {0}{stat}	Отримуєш {0}{stat}
+Increases {stat} by {0}.	Додає {0} до {stat}.
+Increases {stat} by {0} and	Додає {0} до {stat} і
+{0}{stat}.	{0}{stat}.

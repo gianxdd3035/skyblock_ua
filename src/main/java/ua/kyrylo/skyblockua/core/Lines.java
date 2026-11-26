@@ -24,11 +24,31 @@ public final class Lines {
      * тому рушій завжди працює вже з "чистими" шматками без символу §.
      */
     public static <S> void appendLegacy(List<Seg<S>> out, String text, S style, StyleOps<S> ops) {
+        appendLegacy(out, text, style, ops, null);
+    }
+
+    /*
+     * Позначка слоту в тексті перекладу: символ SLOT0 + i замінюється шматками slots[i] без змін
+     * (число з оригіналу, ім'я гравця, назва з особливим шрифтом). Так зберігаються стилі,
+     * яких не передати §-кодами: RGB-кольори, шрифти інших модів. Це "не-символи" Юнікоду,
+     * у справжньому тексті вони не трапляються.
+     */
+    public static final char SLOT0 = '\uFDD0';
+
+    public static <S> void appendLegacy(List<Seg<S>> out, String text, S style, StyleOps<S> ops, List<List<Seg<S>>> slots) {
         if (text.isEmpty()) return;
         S current = style;
         StringBuilder buf = new StringBuilder();
         for (int i = 0; i < text.length(); i++) {
             char c = text.charAt(i);
+            if (slots != null && c >= SLOT0 && c < SLOT0 + slots.size()) {
+                if (buf.length() > 0) {
+                    out.add(new Seg<>(buf.toString(), current));
+                    buf.setLength(0);
+                }
+                out.addAll(slots.get(c - SLOT0));
+                continue;
+            }
             if (c == '§' && i + 1 < text.length()) {
                 if (buf.length() > 0) {
                     out.add(new Seg<>(buf.toString(), current));
@@ -69,6 +89,11 @@ public final class Lines {
      * а не першого символу).
      */
     public static <S> List<Seg<S>> replaceRange(List<Seg<S>> line, int start, int end, String value, StyleOps<S> ops, S base) {
+        return replaceRange(line, start, end, value, ops, base, null);
+    }
+
+    public static <S> List<Seg<S>> replaceRange(List<Seg<S>> line, int start, int end, String value, StyleOps<S> ops, S base,
+                                                List<List<Seg<S>>> slots) {
         List<Seg<S>> out = new ArrayList<>(line.size() + 2);
         int pos = 0;
         boolean inserted = false;
@@ -89,7 +114,7 @@ public final class Lines {
             }
             /* сам діапазон: вставляємо переклад один раз, щойно дійшли до позиції start */
             if (!inserted && segEnd > start) {
-                appendLegacy(out, value, base, ops);
+                appendLegacy(out, value, base, ops, slots);
                 inserted = true;
             }
             /* частина шматка після діапазону */
@@ -98,7 +123,7 @@ public final class Lines {
                 out.add(new Seg<>(t.substring(from - segStart), seg.style()));
             }
         }
-        if (!inserted) appendLegacy(out, value, base, ops);
+        if (!inserted) appendLegacy(out, value, base, ops, slots);
         return out;
     }
 
@@ -140,6 +165,18 @@ public final class Lines {
             sb.append(seg.text());
         }
         return sb.toString();
+    }
+
+    /* Шматки рядка в межах [from, to) зі своїми стилями */
+    public static <S> List<Seg<S>> slice(List<Seg<S>> line, int from, int to) {
+        List<Seg<S>> part = new ArrayList<>();
+        int pos = 0;
+        for (Seg<S> seg : line) {
+            int a = Math.max(from, pos), b = Math.min(to, pos + seg.text().length());
+            if (a < b) part.add(new Seg<>(seg.text().substring(a - pos, b - pos), seg.style()));
+            pos += seg.text().length();
+        }
+        return part;
     }
 
     /* Частина рядка [from, to) у вигляді тексту з §-кодами (кожен шматок зі своїм стилем). */

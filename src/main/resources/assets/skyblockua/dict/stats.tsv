@@ -1,0 +1,68 @@
+# Назви статів у родовому відмінку для шаблонів з {stat}: "Grants +5 ❁ Strength." -> "Дає +5 ❁ сили."
+Damage	шкоди
+Strength	сили
+Crit Chance	шансу криту
+Crit Damage	шкоди криту
+Attack Speed	швидкості атаки
+Bonus Attack Speed	бонусної швидкості атаки
+Ability Damage	шкоди здібностей
+Ferocity	лютості
+Health	здоров'я
+Defense	захисту
+True Defense	справжнього захисту
+Speed	швидкості
+Intelligence	інтелекту
+Health Regen	відновлення здоров'я
+Vitality	життєздатності
+Mending	зцілення
+Swing Range	дальності удару
+Mana Regen	відновлення мани
+Magic Find	магічної знахідки
+Pet Luck	везіння улюбленців
+Fear	страху
+Mining Speed	швидкості копання
+Mining Fortune	удачі копання
+Ore Fortune	удачі руди
+Block Fortune	удачі блоків
+Gemstone Fortune	удачі самоцвітів
+Pristine	бездоганності
+Breaking Power	сили руйнування
+Heat Resistance	стійкості до жару
+Cold Resistance	стійкості до холоду
+Pressure Resistance	стійкості до тиску
+Farming Fortune	удачі фермерства
+Bonus Pest Chance	шансу шкідників
+Foraging Fortune	удачі лісорубства
+Fig Fortune	удачі інжиру
+Mangrove Fortune	удачі мангрового дерева
+Helix Fortune	удачі гелікса
+Hunting Fortune	удачі полювання
+Sea Creature Chance	шансу морської істоти
+Fishing Speed	швидкості риболовлі
+Treasure Chance	шансу скарбу
+Trophy Chance	шансу трофею
+Trophy Fish Chance	шансу трофейної риби
+Double Hook Chance	шансу подвійного улову
+Respiration	дихання
+Combat Wisdom	бойової мудрості
+Mining Wisdom	мудрості копання
+Farming Wisdom	мудрості фермерства
+Foraging Wisdom	мудрості лісорубства
+Fishing Wisdom	мудрості риболовлі
+Enchanting Wisdom	мудрості зачарування
+Alchemy Wisdom	мудрості алхімії
+Carpentry Wisdom	мудрості теслярства
+Taming Wisdom	мудрості приручення
+Hunting Wisdom	мудрості полювання
+Social Wisdom	соціальної мудрості
+Charm Chance	шансу чарів
+Sweep	розмаху
+Overbloom	надцвітіння
+Crop Growth	росту врожаю
+Mining Spread	поширення копання
+Gemstone Spread	поширення самоцвітів
+Timber	лісоповалу
+Tracking	вистежування
+Rift Time	часу в Ріфті
+Rift Damage	шкоди в Ріфті
+Hearts	сердець

@@ -90,3 +90,11 @@ Enchanted Book ({item})	Зачарована книга ({item})
 {any} RNG Meter	Лічильник удачі: {any}
 {any} Drops	Здобич: {any}
 {any} Recipes	Рецепти: {any}
+[Sacks] {0} items. (Last {1}s.)	[Мішки] {0} предметів. (За {1} с)
+[Sacks] {0} items, {1} items. (Last {2}s.)	[Мішки] {0} предметів, {1} предметів. (За {2} с)
+You Supercrafted {item} x{0}!	Створено суперкрафтом: {item} x{0}!
+[Bazaar] Buy Order Setup! {0}x {item} for {1} coins.	[Базар] Замовлення на купівлю створено! {0}x {item} за {1} монет.
+[Bazaar] Sell Offer Setup! {0}x {item} for {1} coins.	[Базар] Пропозицію продажу створено! {0}x {item} за {1} монет.
+[Bazaar] Claimed {0}x {item} worth {1} coins bought for {2} each!	[Базар] Забрано {0}x {item} на суму {1} монет (по {2} за штуку)!
+[Bazaar] Cancelled! Refunded {0} coins from cancelling Buy Order!	[Базар] Скасовано! Повернуто {0} монет за скасоване замовлення!
+Tier {any} amount: {0}	Кількість ступеня {any}: {0}
