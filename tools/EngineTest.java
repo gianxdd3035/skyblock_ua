@@ -68,7 +68,8 @@ public class EngineTest {
             System.out.println("dictionary entries: " + dict.size() + " (lines " + dict.size(Dict.Section.LINES)
                     + ", names " + dict.size(Dict.Section.NAMES) + ", labels " + dict.size(Dict.Section.LABELS)
                     + ", tokens " + dict.size(Dict.Section.TOKENS) + "), invalid lines: " + dict.invalidLines());
-            if (args.length >= 2) corpus(dict, Paths.get(args[1]));
+            if (args.length >= 2 && args[1].endsWith(".tsv")) played(dict, Paths.get(args[1]));
+            else if (args.length >= 2) corpus(dict, Paths.get(args[1]));
         }
         System.out.println(failures == 0 ? "ALL MECHANICS TESTS PASSED" : failures + " FAILURES");
         if (failures > 0) System.exit(1);
@@ -133,6 +134,23 @@ public class EngineTest {
         expect(t, "§6Wise Necron's Helmet", Translator.Kind.ANY, "§6Мудрий шолом Некрона");
         /* окремий фрагмент-підпис (так стати малює Iconographic) */
         expect(t, "§cStrength", Translator.Kind.ANY, "§cСила");
+        /* подвійний префікс, рамка тегу, список зачарувань, Skyblocker */
+        Dict ed = new Dict();
+        ed.load("reforges.tsv", new StringReader("Shiny\tБлискотливий\tБлискотлива\tБлискотливе\tБлискотливі\nHeroic\tГероїчний\tГероїчна\tГероїчне\tГероїчні\n"));
+        ed.load("names_t.tsv", new StringReader("Hyperion\tГіперіон\n"));
+        ed.load("lines_t.tsv", new StringReader("MYTHIC\tМІФІЧНИЙ\nSharpness\tГострота\nCritical\tКритичний удар\nBane of Arthropods\tЗагибель членистоногих\nDUNGEON SWORD\tМеч підземель\nLegion\tЛегіон\n"));
+        ed.load("patterns_t.tsv", new StringReader("{item} {0} | {1}\t{item} {0} | {1}\n"));
+        ed.load("names_m.tsv", new StringReader("Enchanted Sponge\tЗачарована губка\n"));
+        Translator<TStyle> et = new Translator<>(OPS);
+        et.setDict(ed);
+        expect(et, "§dShiny Heroic Hyperion", Translator.Kind.NAME, "§dБлискотливий героїчний Гіперіон");
+        expect(et, "§d> Mythic <", Translator.Kind.ANY, "§d> МІФІЧНИЙ <");
+        expect(et, "§7dungeon sword", Translator.Kind.ANY, "§7Меч підземель");
+        expect(et, "§7DUNGEON SWORD", Translator.Kind.ANY, "§7МЕЧ ПІДЗЕМЕЛЬ");
+        expect(et, "§dLEGION", Translator.Kind.ANY, "§dЛЕГІОН");
+        expect(et, "§9Sharpness VI, §9Critical VI", Translator.Kind.LORE, "§9Гострота VI, Критичний удар VI");
+        expect(et, "§e› Bane Of Arthropods VI→VII, Sharpness VI→VII", Translator.Kind.ANY, "§e› Загибель членистоногих VI→VII, Гострота VI→VII");
+        expect(et, "§9▶ §7Enchanted Sponge §c7.2k§8 | §a10.3k", Translator.Kind.ANY, "§9▶ §7Зачарована губка§8 §c7.2k§8 | §a10.3k");
         /* рід за першим словом */
         String[][] genders = {{"Зачарована книга", "f"}, {"Вугілля", "n"}, {"Насіння", "n"}, {"Кристали призмарину", "p"},
                 {"Шолом Вищого Дракона", "m"}, {"Риба-фугу", "f"}, {"Сіль", "f"}, {"Око Енду", "n"}, {"Стародавній меч", "m"}};
@@ -214,6 +232,26 @@ public class EngineTest {
             }
         }
         return d;
+    }
+
+    /* Перевірити файл missing.tsv з гри: скільки рядків тепер перекладається; решта -> build/played_left.tsv */
+    static void played(Dict dict, Path file) throws Exception {
+        Translator<TStyle> t = new Translator<>(OPS);
+        t.setDict(dict);
+        int total = 0, done = 0;
+        List<String> left = new ArrayList<>();
+        for (String row : Files.readAllLines(file, StandardCharsets.UTF_8)) {
+            String[] c = row.split("\t", -1);
+            if (c.length < 4 || c[0].startsWith("#") || c[0].equals("kind")) continue;
+            Translator.Kind kind = Translator.Kind.valueOf(c[0]);
+            String example = c[3].isEmpty() ? c[2] : c[3];
+            total++;
+            String r = run(t, example, kind);
+            if (r != null) done++;
+            else left.add(row);
+        }
+        System.out.printf("played lines: %d/%d translated%n", done, total);
+        Files.write(Paths.get("build/played_left.tsv"), left, StandardCharsets.UTF_8);
     }
 
     /* Прогнати весь корпус NEU і порахувати, яка частка рядків перекладається. */

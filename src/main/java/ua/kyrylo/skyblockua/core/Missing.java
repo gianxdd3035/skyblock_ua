@@ -44,6 +44,8 @@ public final class Missing {
     public synchronized void record(Translator.Kind kind, String key, String example) {
         if (key.length() < 2 || key.length() > 400) return;
         if (!hasLetters(key)) return;
+        /* уже українське (наприклад, повторно прочитаний перекладений рядок) — не збираємо */
+        if (key.chars().anyMatch(ch -> Character.UnicodeBlock.of(ch) == Character.UnicodeBlock.CYRILLIC)) return;
         if (kind == Translator.Kind.CHAT && !key.startsWith("[NPC]") && PLAYER_CHAT.matcher(key).matches()) return;
         Map<String, Entry> map = data.get(kind);
         Entry e = map.get(key);

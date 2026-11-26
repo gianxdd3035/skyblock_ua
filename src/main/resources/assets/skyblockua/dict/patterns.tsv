@@ -52,3 +52,37 @@ Enderman Slayer LVL {0} - Next LVL in {1} XP!	Винищувач ендерме�
 Vampire Slayer LVL {0} - Next LVL in {1} XP!	Винищувач вампірів РІВ. {0} — наступний рівень через {1} досвіду!
 Thanks for the {any}, {any2}!	Дякую за {any}, {any2}!
 What's up, {any}?	Як справи, {any}?
+
+# --- Історія Базару ---
+{any} ago Claimed Sell Offer of {0}x {item}	§8{any} тому §7забрано §6пропозицію продажу §7{0}x {item}
+{any} ago Created Sell Offer for {0}x {item}	§8{any} тому §7створено §6пропозицію продажу §7{0}x {item}
+{any} ago Cancelled Sell Offer of {0}x {item}	§8{any} тому §7скасовано §cпропозицію продажу §7{0}x {item}
+{any} ago Claimed Buy Order of {0}x {item}	§8{any} тому §7забрано §aзамовлення на купівлю §7{0}x {item}
+{any} ago Created Buy Order for {0}x {item}	§8{any} тому §7створено §aзамовлення на купівлю §7{0}x {item}
+{any} ago Cancelled Buy Order of {0}x {item}	§8{any} тому §7скасовано §cзамовлення на купівлю §7{0}x {item}
+{any} ago Instant Sell of {0}x {item}	§8{any} тому §6миттєвий продаж §7{0}x {item}
+{any} ago Instant Buy of {0}x {item}	§8{any} тому §aмиттєва купівля §7{0}x {item}
+
+# --- Базар і аукціон: рядки з цінами ---
+{item} {0} | {1}	{item} {0} | {1}
+worth {0} coins by {any}	§7на суму §6{0} монет§7 від {any}
+at {0} coins each (total {1}) by {any}	§7по §6{0} монет§7 за штуку §8(разом {1})§7 від {any}
+for {0} coins by {any}	§7за §6{0} монет§7 від {any}
+by [{any}	§7від [{any}
+Bazaar ➜ {item}	Базар ➜ {item}
+SELL {item}	ПРОДАТИ {item}
+BUY {item}	КУПИТИ {item}
+
+# --- Меню ---
+Also accessible via {any}.	Також доступно через {any}.
+Also accessible via {any}	Також доступно через {any}
+Level {any} Rewards:	Нагороди рівня {any}:
+Absorb {any}: {0}/{1} logs	Поглинання {any}: {0}/{1} колод
+- {0}x {any} {1}h ago	- {0}x {any} {1} год тому
+- {0}x {any} {1}m ago	- {0}x {any} {1} хв тому
+- {0}x {any} {1}d ago	- {0}x {any} {1} дн. тому
+- {0}x {any} {1}s ago	- {0}x {any} {1} с тому
+Friend > {any} left.	Друг > {any} виходить.
+Friend > {any} joined.	Друг > {any} заходить.
+☠ {any} fell into the void.	☠ {any} падає в порожнечу.
+☠ You fell into the void.	☠ Ти падаєш у порожнечу.

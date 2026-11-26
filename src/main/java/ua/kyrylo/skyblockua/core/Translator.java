@@ -30,7 +30,7 @@ public final class Translator<S> {
     public enum Kind { NAME, LORE, CHAT, TITLE, ANY }
 
     private static final Pattern NPC_PREFIX = Pattern.compile("^\\[NPC] [^:]{1,40}: ");
-    private static final Pattern LABEL = Pattern.compile("^([A-Za-z][A-Za-z0-9 '\\-]{0,40}?):(?= |$)");
+    private static final Pattern LABEL = Pattern.compile("^([A-Za-z0-9][A-Za-z0-9 '\\-.()&/]{0,40}?):(?= |$)");
     private static final Pattern VALUE_FIRST = Pattern.compile("^[+-]?\\d[\\d,.]*[%x]?[^A-Za-z]{0,3}?\\s*([A-Za-z][A-Za-z ']*[A-Za-z])$");
     private static final Pattern PET_LEVEL = Pattern.compile("^\\[Lvl \\d+] ");
     private static final Pattern RECOMB = Pattern.compile("^a (.+) a$");
@@ -40,6 +40,12 @@ public final class Translator<S> {
     private static final Pattern CHAT_COUNTER = Pattern.compile(" \\((?:\u00D7|x)?\\d+\\)$");
     /* Капсовий префікс повідомлення: "RARE DROP! ...", "TROPHY FROG! ...", "SLAYER QUEST STARTED!" */
     private static final Pattern CAPS_PREFIX = Pattern.compile("^([A-Z0-9][A-Z0-9'\u2019\\- ]{1,30}[!:]) (.+)$");
+    /* "Прикраси" на початку, без пробілу після них: "✦MYTHIC✦" */
+    private static final Pattern LEADING_DECOR = Pattern.compile("^[^\\p{L}\\p{N}\\[(\\s\"'\\-]+\\s*(?=\\p{L})");
+    /* Рядок зачарувань: "Sharpness VI, Critical VI, Cubism V" (як у Iconographic) */
+    private static final Pattern ENCHANT_LIST = Pattern.compile("^(?:[A-Z][A-Za-z'\\-]*(?: [A-Za-z'\\-]+)* [IVXLCDM]+(?:\u2192[IVXLCDM]+)?(?: [\\d.,]+)?(?:, |$))+$");
+    private static final Pattern ENCHANT_ITEM = Pattern.compile("(?<=^|, )([A-Z][A-Za-z'\\-]*(?: [A-Za-z'\\-]+)*) ([IVXLCDM]+(?:\u2192[IVXLCDM]+)?)(?: [\\d.,]+)?(?=,|$)");
+    private static final Pattern ROMAN_TAIL = Pattern.compile(" [IVXLCDM]+(?:\u2192[IVXLCDM]+)?$");
     private static final Pattern ROMAN_WORD = Pattern.compile(" (?:Mk\\. )?[IVXL]+$");
     /* "Прикраси" в кінці: зірки ✪, ➊–➎ та інші символи, що не є літерами, цифрами чи дужками. */
     private static final Pattern TRAILING_DECOR = Pattern.compile("[^\\p{L}\\p{N})\\]!?.'\"]+$");
@@ -125,6 +131,12 @@ public final class Translator<S> {
             }
         }
 
+        /* 3б. Рядок зачарувань: перекладаємо кожну назву окремо, рівні й кольори лишаються */
+        if (kind == Kind.LORE || kind == Kind.ANY) {
+            r = enchantList(line, start, core, d);
+            if (r != null) return r;
+        }
+
         /* 4. Підпис перед двокрапкою + токени (у чаті токени не застосовуємо: вийшли б напівперекладені фрази) */
         if (kind == Kind.CHAT) {
             List<Seg<S>> labelled = labelRule(line, start, end, core, d);
@@ -177,6 +189,8 @@ public final class Translator<S> {
         if (value == null) return null;
         String filled = t.fill(value);
         if (filled == null) return null;
+        /* Оригінал великими літерами ("LEGION", "DUNGEON SWORD") — переклад теж великими */
+        if (isAllCaps(text)) filled = filled.toUpperCase(Locale.ROOT);
         if (kind == Kind.CHAT && filled.indexOf('\u00A7') < 0) {
             return Lines.replaceRange(line, s, e, filled, ops, Lines.dominantStyle(line, s, e));
         }
@@ -266,6 +280,12 @@ public final class Translator<S> {
             mid = mid.substring(m.end());
             changed = true;
         }
+        m = LEADING_DECOR.matcher(mid);
+        if (m.find() && m.end() < mid.length()) {
+            s += m.end();
+            mid = mid.substring(m.end());
+            changed = true;
+        }
         m = TRAILING_DECOR.matcher(mid);
         if (m.find() && m.start() > 0) {
             int cut = m.start();
@@ -294,6 +314,10 @@ public final class Translator<S> {
         if (changed && mid.length() >= 2) {
             List<Seg<S>> r = wholeLookup(line, s, e, mid, kind, d);
             if (r != null) return r;
+            if (kind != Kind.NAME) {
+                r = patternLookup(line, s, e, mid, kind, d);
+                if (r != null) return r;
+            }
         }
 
         /*
@@ -307,11 +331,24 @@ public final class Translator<S> {
                 if (!d.isReforge(reforge)) continue;
                 String rest = mid.substring(reforge.length() + 1);
                 NameHit hit = resolveName(rest, d);
+                /* другий префікс: "Shiny Heroic Hyperion" -> "Shiny" + "Heroic" + "Hyperion" */
+                String second = null;
+                if (hit == null) {
+                    int sp = rest.indexOf(' ');
+                    if (sp > 0 && d.isReforge(rest.substring(0, sp))) {
+                        second = rest.substring(0, sp);
+                        hit = resolveName(rest.substring(sp + 1), d);
+                    }
+                }
                 if (hit == null) return null;
                 String form = d.reforgeForm(reforge, hit.gender());
-                String restText = hit.fromArmor() ? decapitalize(hit.text()) : hit.text();
-                String value = (form == null || form.isEmpty() ? reforge : form) + " " + restText;
-                return Lines.replaceRange(line, s, e, value, ops);
+                StringBuilder value = new StringBuilder(form == null || form.isEmpty() ? reforge : form);
+                if (second != null) {
+                    String form2 = d.reforgeForm(second, hit.gender());
+                    value.append(' ').append(form2 == null || form2.isEmpty() ? second : decapitalize(form2));
+                }
+                value.append(' ').append(hit.fromArmor() ? decapitalize(hit.text()) : hit.text());
+                return Lines.replaceRange(line, s, e, value.toString(), ops);
             }
         }
         return null;
@@ -366,18 +403,27 @@ public final class Translator<S> {
             String value = p.value;
             for (int i = 0; i < p.groups.size(); i++) {
                 String name = p.groups.get(i);
+                int gs = s + m.start(i + 1), ge = s + m.end(i + 1);
                 String captured = m.group(i + 1);
-                String replacement = captured;
+                String styled = null;
                 if (name.startsWith("item")) {
-                    NameHit hit = resolveName(captured.strip(), d);
-                    if (hit != null) replacement = hit.text();
-                    else {
-                        String v = d.get(Dict.Section.LINES, captured.strip());
-                        if (v != null) replacement = v;
+                    /* назва може починатися з маркера списку чи значка ("▶ ", "✦") — його лишаємо як є */
+                    Matcher lead = BULLET.matcher(captured);
+                    int skip = lead.lookingAt() ? lead.end() : 0;
+                    Matcher decor = LEADING_DECOR.matcher(captured.substring(skip));
+                    if (decor.lookingAt()) skip += decor.end();
+                    String core = captured.substring(skip).strip();
+                    String tr = null;
+                    NameHit hit = resolveName(core, d);
+                    if (hit != null) tr = hit.text();
+                    else tr = d.get(Dict.Section.LINES, core);
+                    if (tr != null) {
+                        styled = Lines.legacySlice(line, gs, gs + skip, ops)
+                                + ops.legacy(Lines.styleAt(line, gs + skip)) + tr + baseCodes;
                     }
                 }
-                S own = Lines.styleAt(line, s + m.start(i + 1));
-                String styled = ops.legacy(own) + replacement + baseCodes;
+                /* числа, {any} і невідомі назви — без змін, разом з усіма їхніми кольорами */
+                if (styled == null) styled = Lines.legacySlice(line, gs, ge, ops) + baseCodes;
                 value = value.replace("{" + name + "}", styled);
             }
             List<Seg<S>> r = Lines.replaceRange(line, s, e, baseCodes + value, ops, base);
@@ -398,7 +444,8 @@ public final class Translator<S> {
             for (int i = 0; i < t.length(); i++) {
                 int abs = pos + i;
                 int rel = abs - s;
-                if (rel < 0 || rel >= m.end() || !Character.isLetter(t.charAt(i))) continue;
+                char ch = t.charAt(i);
+                if (rel < 0 || rel >= m.end() || Character.isWhitespace(ch)) continue;
                 boolean inGroup = false;
                 for (int g = 1; g <= groupCount; g++) {
                     if (rel >= m.start(g) && rel < m.end(g)) {
@@ -406,7 +453,8 @@ public final class Translator<S> {
                         break;
                     }
                 }
-                if (!inGroup) letters.merge(seg.style(), 1, Integer::sum);
+                /* літера важить більше за розділовий знак: "|" враховується, лише коли літер нема */
+                if (!inGroup) letters.merge(seg.style(), Character.isLetter(ch) ? 1000 : 1, Integer::sum);
             }
             pos += t.length();
         }
@@ -447,6 +495,51 @@ public final class Translator<S> {
                 tail.add(new Seg<>(t.substring(at - segStart), seg.style()));
             }
         }
+    }
+
+    private List<Seg<S>> enchantList(List<Seg<S>> line, int start, String core, Dict d) {
+        List<int[]> ranges = new ArrayList<>();
+        List<String> values = new ArrayList<>();
+        if (core.startsWith("\u203A ")) {
+            /* список від Skyblocker: "› Divine Gift, Knockback" або "› Cleave V→VI, Critical VI→VII" */
+            int pos = start + 2;
+            for (String item : core.substring(2).split(", ", -1)) {
+                String name = ROMAN_TAIL.matcher(item).replaceFirst("");
+                String ua = d.get(Dict.Section.LINES, name);
+                if (ua != null) {
+                    ranges.add(new int[]{pos, pos + name.length()});
+                    values.add(ua);
+                }
+                pos += item.length() + 2;
+            }
+        } else {
+            if (!ENCHANT_LIST.matcher(core).matches()) return null;
+            Matcher m = ENCHANT_ITEM.matcher(core);
+            while (m.find()) {
+                String ua = d.get(Dict.Section.LINES, m.group(1));
+                if (ua == null) continue;
+                if (isAllCaps(m.group(1))) ua = ua.toUpperCase(Locale.ROOT);
+                ranges.add(new int[]{start + m.start(1), start + m.end(1)});
+                values.add(ua);
+            }
+        }
+        if (ranges.isEmpty()) return null;
+        List<Seg<S>> current = line;
+        for (int i = ranges.size() - 1; i >= 0; i--) {
+            List<Seg<S>> next = Lines.replaceRange(current, ranges.get(i)[0], ranges.get(i)[1], values.get(i), ops);
+            if (next != null) current = next;
+        }
+        return current == line ? null : current;
+    }
+
+    private static boolean isAllCaps(String s) {
+        boolean letters = false;
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            if (Character.isLowerCase(c)) return false;
+            if (Character.isUpperCase(c)) letters = true;
+        }
+        return letters;
     }
 
     private List<Seg<S>> labelRule(List<Seg<S>> line, int start, int end, String core, Dict d) {

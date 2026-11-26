@@ -14,3 +14,6 @@ armor_pieces.tsv
 armor_sets.tsv
 names_gear.tsv
 patterns.tsv
+enchants.tsv
+lore_played1.tsv
+lore_played2.tsv

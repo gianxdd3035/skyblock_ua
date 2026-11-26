@@ -99,6 +99,11 @@ def main():
     root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     out = os.path.join(root, "src/main/resources/assets/skyblockua/dict/rarity.tsv")
     rows = []
+    # Тип окремо (так його показують мітки Iconographic: "dungeon sword", "chestplate").
+    # Переклад зі звичайним регістром; якщо оригінал великими літерами, мод сам зробить великі.
+    for t_en, (t_ua, g) in TYPES.items():
+        rows.append((t_en, t_ua.capitalize()))
+        rows.append((f"DUNGEON {t_en}", f"{t_ua.capitalize()} {DUNGEON.lower()}"))
     for r_en, forms in RARITIES.items():
         rows.append((r_en, forms[0]))
         for t_en, (t_ua, g) in TYPES.items():

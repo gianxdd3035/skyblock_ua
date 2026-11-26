@@ -1,4 +1,126 @@
 # ЗГЕНЕРОВАНО tools/gen_rarity.py — не редагуй вручну, змінюй скрипт.
+ITEM	Предмет
+DUNGEON ITEM	Предмет підземель
+COSMETIC	Косметика
+DUNGEON COSMETIC	Косметика підземель
+ACCESSORY	Аксесуар
+DUNGEON ACCESSORY	Аксесуар підземель
+PET	Улюбленець
+DUNGEON PET	Улюбленець підземель
+HELMET	Шолом
+DUNGEON HELMET	Шолом підземель
+CHESTPLATE	Нагрудник
+DUNGEON CHESTPLATE	Нагрудник підземель
+LEGGINGS	Поножі
+DUNGEON LEGGINGS	Поножі підземель
+BOOTS	Чоботи
+DUNGEON BOOTS	Чоботи підземель
+TROPHY	Трофей
+DUNGEON TROPHY	Трофей підземель
+SWORD	Меч
+DUNGEON SWORD	Меч підземель
+LONGSWORD	Довгий меч
+DUNGEON LONGSWORD	Довгий меч підземель
+SLAYER SWORD	Меч винищувача
+DUNGEON SLAYER SWORD	Меч винищувача підземель
+BOW	Лук
+DUNGEON BOW	Лук підземель
+ARROW	Стріла
+DUNGEON ARROW	Стріла підземель
+ARROW POISON	Отрута для стріл
+DUNGEON ARROW POISON	Отрута для стріл підземель
+WAND	Жезл
+DUNGEON WAND	Жезл підземель
+GAUNTLET	Латна рукавиця
+DUNGEON GAUNTLET	Латна рукавиця підземель
+PET ITEM	Предмет улюбленця
+DUNGEON PET ITEM	Предмет улюбленця підземель
+REFORGE STONE	Камінь перекування
+DUNGEON REFORGE STONE	Камінь перекування підземель
+POWER STONE	Камінь сили
+DUNGEON POWER STONE	Камінь сили підземель
+SEA CREATURE	Морська істота
+DUNGEON SEA CREATURE	Морська істота підземель
+DYE	Барвник
+DUNGEON DYE	Барвник підземель
+SACK	Мішок
+DUNGEON SACK	Мішок підземель
+GEMSTONE	Самоцвіт
+DUNGEON GEMSTONE	Самоцвіт підземель
+RABBIT	Кролик
+DUNGEON RABBIT	Кролик підземель
+FARMING TOOL	Фермерський інструмент
+DUNGEON FARMING TOOL	Фермерський інструмент підземель
+BELT	Пояс
+DUNGEON BELT	Пояс підземель
+NECKLACE	Намисто
+DUNGEON NECKLACE	Намисто підземель
+CLOAK	Плащ
+DUNGEON CLOAK	Плащ підземель
+GLOVES	Рукавички
+DUNGEON GLOVES	Рукавички підземель
+BRACELET	Браслет
+DUNGEON BRACELET	Браслет підземель
+MUTATION	Мутація
+DUNGEON MUTATION	Мутація підземель
+PORTAL	Портал
+DUNGEON PORTAL	Портал підземель
+ORE	Руда
+DUNGEON ORE	Руда підземель
+BLOCK	Блок
+DUNGEON BLOCK	Блок підземель
+TRAVEL SCROLL	Сувій подорожі
+DUNGEON TRAVEL SCROLL	Сувій подорожі підземель
+ABILITY SCROLL	Сувій здібності
+DUNGEON ABILITY SCROLL	Сувій здібності підземель
+FISHING ROD	Вудка
+DUNGEON FISHING ROD	Вудка підземель
+ROD PART	Деталь вудки
+DUNGEON ROD PART	Деталь вудки підземель
+BAIT	Наживка
+DUNGEON BAIT	Наживка підземель
+FISHING NET	Рибальська сітка
+DUNGEON FISHING NET	Рибальська сітка підземель
+AXE	Сокира
+DUNGEON AXE	Сокира підземель
+PICKAXE	Кирка
+DUNGEON PICKAXE	Кирка підземель
+DRILL	Бур
+DUNGEON DRILL	Бур підземель
+SHOVEL	Лопата
+DUNGEON SHOVEL	Лопата підземель
+HOE	Мотика
+DUNGEON HOE	Мотика підземель
+SHEARS	Ножиці
+DUNGEON SHEARS	Ножиці підземель
+CHISEL	Зубило
+DUNGEON CHISEL	Зубило підземель
+MEMENTO	Пам'ятка
+DUNGEON MEMENTO	Пам'ятка підземель
+DEPLOYABLE	Розгортаний предмет
+DUNGEON DEPLOYABLE	Розгортаний предмет підземель
+DWARVEN METAL	Гномський метал
+DUNGEON DWARVEN METAL	Гномський метал підземель
+GARDEN CHIP	Чіп саду
+DUNGEON GARDEN CHIP	Чіп саду підземель
+BOOSTER	Підсилювач
+DUNGEON BOOSTER	Підсилювач підземель
+RIFT TIMECHARM	Часовий оберіг рифту
+DUNGEON RIFT TIMECHARM	Часовий оберіг рифту підземель
+SALT	Сіль
+DUNGEON SALT	Сіль підземель
+CARNIVAL MASK	Карнавальна маска
+DUNGEON CARNIVAL MASK	Карнавальна маска підземель
+VACUUM	Пилосос
+DUNGEON VACUUM	Пилосос підземель
+WATERING CAN	Лійка
+DUNGEON WATERING CAN	Лійка підземель
+TRAP	Пастка
+DUNGEON TRAP	Пастка підземель
+LASSO	Ласо
+DUNGEON LASSO	Ласо підземель
+CAPSULE	Капсула
+DUNGEON CAPSULE	Капсула підземель
 COMMON	ЗВИЧАЙНИЙ
 COMMON ITEM	ЗВИЧАЙНИЙ ПРЕДМЕТ
 COMMON DUNGEON ITEM	ЗВИЧАЙНИЙ ПРЕДМЕТ ПІДЗЕМЕЛЬ

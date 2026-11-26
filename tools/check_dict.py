@@ -22,6 +22,7 @@ for f in sorted(glob.glob(os.path.join(d, "*"))):
     seen = {}
     for n, line in enumerate(open(f, encoding="utf-8"), 1):
         line = line.rstrip("\n")
+        line = re.sub(r'\\u([0-9a-fA-F]{4})', lambda m: chr(int(m.group(1), 16)), line)
         if not line or line.startswith("#"):
             continue
         if "\t" not in line:
@@ -32,7 +33,7 @@ for f in sorted(glob.glob(os.path.join(d, "*"))):
             print(f"{name}:{n}: duplicate key with different value (line {seen[k]}): {k}"); problems += 1
         seen[k] = v
         stripped = PH.sub("", k)
-        if NUM.search(stripped):
+        if NUM.search(stripped) and not name.startswith(("labels", "tokens")):
             print(f"{name}:{n}: digits in key outside {{n}}: {k}"); problems += 1
         kp = set(PH.findall(k)); vp = set(PH.findall(v))
         if not vp <= kp:

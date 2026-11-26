@@ -1,0 +1,203 @@
+# Рядки, зібрані в грі (/ukr dump, перша партія). Іконки Hypixel записано як \uXXXX.
+
+# --- Hyperion і зброя підземель ---
+Deals {0} damage to  Wither mobs.	§7Завдає на §c{0} §7більше шкоди мобам типу §8 Візер§7.
+Grants {0}  Damage and {1} 	§7Дає §c{0}  Шкоди §7і §a{1} §b
+Intelligence per Catacombs level.	§bІнтелекту §7за кожен рівень §cКатакомб§7.
+Teleport {0} blocks ahead of you	§7Телепортує на §a{0} блоків§7 вперед,
+dealing {0} damage to nearby	§7завдаючи §c{0} §7шкоди ворогам
+enemies. Also reduces your damage	§7поблизу. Також зменшує отримувану
+taken and grants an absorption	§7шкоду й дає щит поглинання
+shield for {0} seconds.	§7на §e{0} секунд§7.
+Right-click to use your class ability!	ПКМ, щоб використати здібність класу!
+This weapon lets you absorb {0} of	§7Ця зброя дозволяє поглинути §c{0} §7від
+the basic combat stats of any	§7базових бойових статів будь-якої
+weapon.	§7зброї.
+Each strike of this weapon has its	§7Шкода від кожного удару цієї зброї
+damage capped at {0} of the	§7обмежена §c{0} §7від
+enemy's max Health. This weapon	§7макс. здоров'я ворога. Ця зброя
+cannot cause a fatal blow.	§7не може завдати смертельного удару.
+Can be thrown at Enemies to tag	§7Можна кинути у §cворогів§7, щоб позначити
+them. Grants {0} Magic Find when a	§7їх. Дає §b{0} Магічної знахідки§7, коли
+tagged Enemy is killed.	§7позначеного §cворога §7вбито.
+When killing a Slayer Boss or Slayer Miniboss,	§7Убиваючи §cбоса Винищувача§7 або §cмінібоса Винищувача§7,
+have a {0} chance to cocoon them!	§7маєш §a{0}§7 шанс загорнути їх у кокон!
+Cocooned enemies will quickly hatch, and can be	§7Вороги в коконі швидко вилуплюються, і їх можна
+killed again.	§7вбити знову.
+An eye torn from the Primordial Brood sits dead	Око, вирване з Первісного Виводку, сидить у самому
+center, patiently observing. Are you truly the	центрі й терпляче спостерігає. Чи справді
+one in control here?	тут усе контролюєш ти?
+
+# --- Риболовля: Magma Lord, Flay, радар ---
+Provides immunity to Crimson Isle	§7Дає імунітет до §cлави
+Lava.	§cБагряного острова§7.
+Grants {0} Sea Creature Chance.	§7Дає §3{0} Шансу морської істоти§7.
+Grants {0} Magic Find on Lava Sea	§7Дає §b{0} Магічної знахідки §7на §cлавових
+Creatures.	§cморських істотах§7.
+Damage taken from Lava Sea	§7Шкода від §cлавових морських
+Creatures is reduced by {0} and	§cістот§7 зменшується на §a{0}§7, а
+damage dealt is increased by {0}x.	§7завдана їм шкода збільшується в §c{0}x§7.
+Deals {0}x damage to Sea Creatures.	§7Завдає §a{0}x §7шкоди §3морським істотам§7.
+Flay your whip in an arc, dealing your melee	§7Розмахни батогом по дузі, завдаючи шкоди
+damage to all enemies in its path. Heal {0} 	§7ближнього бою всім ворогам на шляху. Відновлює §c{0} 
+for each Sea Creature hit, up to {0} .	§7за кожну влучену §3морську істоту§7, до §c{0} §7.
+A radar that can be used to detect	§7Радар, яким можна виявляти
+active Fishing Hotspots. Some Sea	§7активні §dрибні місця§7. Деякі §3морські
+Creatures are exclusive to Hotspots.	§3істоти §7трапляються лише в §dрибних місцях§7.
+Points towards the nearest Fishing Hotspot.	§7Вказує на найближче §dрибне місце§7.
+Atmospheric Filter Buff	Бонус атмосферного фільтра
+Grants {0}☯ Farming Wisdom.	§7Дає §3{0}☯ Мудрості фермерства§7.
+
+# --- Лісорубство й полювання ---
+Throw the Lasso at Forest	§7Кидай Ласо в §2лісових
+creatures and hold them still until	§7істот і тримай їх, доки вони
+they lose all their stamina.	§7не втратять усю §9витривалість§7.
+Reel in creatures caught by the	§7Підтягуй істот, спійманих
+Lasso each time their stamina	§7Ласо, щоразу як їхня §9витривалість
+depletes.	§7вичерпується.
+ Critters lose stamina {0} faster.	§a Звірята §7втрачають витривалість на §2{0} §7швидше.
+Grants {0} Hunting Fortune on	§7Дає §d{0} Удачі полювання §7на
+Forest Shards caught with this Lasso.	§2лісових осколках§7, спійманих цим Ласо.
+❒ Part of a Toolkit!	§c❒ §7Частина набору інструментів!
+Gains {0} Sweep every {1} Logs	§7Дає §2{0} розмаху §7за кожні §a{1} колод
+cut on Galatea. (max {0})	§7зрубаних на §2Галатеї§7. §8(макс. {0})
+Boosters	Підсилювачі
+lasso	ласо
+Dungeonized	Для підземель
+
+# --- Підказки кліків від Iconographic (^ — іконка ЛКМ, > — ПКМ) ---
+^ to open!	^§e щоб відкрити!
+^ to view!	^§e щоб переглянути!
+^ to browse!	^§e щоб переглянути!
+^ to claim!	^§e щоб забрати!
+^ to manage!	^§e щоб керувати!
+^ to search!	^§e щоб шукати!
+^ to view products!	^§e щоб переглянути товари!
+^ to select!	^§e щоб вибрати!
+^ to buy!	^§e щоб купити!
+^ to sell!	^§e щоб продати!
+^ to equip!	^§e щоб екіпірувати!
+> to equip!	>§e щоб екіпірувати!
+> to view recipes!	>§e щоб переглянути рецепти!
+ > to switch tools!	 >§8 щоб змінити інструмент!
+
+# --- Меню SkyBlock ---
+Skills	Навички
+You can have multiple SkyBlock	У тебе може бути кілька профілів
+profiles at the same time.	SkyBlock одночасно.
+Each profile has its own island,	Кожен профіль має свій острів,
+inventory, quest log...	інвентар, журнал завдань...
+Play with friends using /coopadd <name>!	Грай із друзями через /coopadd <нік>!
+Different bags allow you to store	Різні сумки дозволяють зберігати
+many different items inside!	всередині багато різних предметів!
+View all of the items available in	Переглядай усі предмети, доступні в
+SkyBlock. Collect more of an item to	SkyBlock. Збирай більше предмета, щоб
+unlock rewards on your way to	відкривати нагороди на шляху до
+becoming a master of SkyBlock!	звання майстра SkyBlock!
+View your Skill progression and	Переглядай свій прогрес навичок і
+rewards.	нагороди.
+{0} Skill Avg. (non-cosmetic)	§6{0} — середня навичка §8(без косметичних)
+Your Heart of the Forest contains	§7Твоє §aСерце Лісу §7містить
+your progression for the Foraging	§7твій прогрес на §9Лісових
+Islands.	§9островах§7.
+Unlock Tiers by participating in	§7Відкривай рівні, беручи участь у
+Starlyn Contests and upgrade perks	§5конкурсах Старлін§7 і покращуй бонуси
+using Whispers.	§7за допомогою §3Шепотів§7.
+View and manage all of your Pets.	Переглядай і керуй усіма своїми улюбленцями.
+Level up your pets faster by gaining	Прокачуй улюбленців швидше, заробляючи
+XP in their favorite skill!	досвід у їхній улюбленій навичці!
+MAX LEVEL	МАКС. РІВЕНЬ
+▸ {0} XP	▸ {0} досвіду
+Unlock Island Ranks	§fВідкриває §dранги острова
+
+# --- Опис навичок ---
+Visit your local pond to fish and	Рибаль у найближчому ставку й
+earn Fishing EXP!	заробляй досвід Риболовлі!
+Level up pets to earn Taming EXP!	Прокачуй улюбленців, щоб заробляти досвід Приборкання!
+Slay bosses and runic mobs, and	Убивай босів і рунічних мобів та
+fuse runes to earn Runecrafting EXP!	сплавляй руни, щоб заробляти досвід Рунотворення!
+Level up Runecrafting to activate	Прокачуй Рунотворення, щоб активувати
+the effects of rune-bearing items!	ефекти предметів із рунами!
+Harvest crops and shear sheep to	Збирай урожай і стрижи овець, щоб
+earn Farming EXP!	заробляти досвід Фермерства!
+Fight mobs and special bosses to	Бийся з мобами й особливими босами, щоб
+earn Combat EXP!	заробляти Бойовий досвід!
+Dive into deep caves and find rare	Спускайся в глибокі печери, шукай рідкісні
+ores and valuable materials to earn	руди й цінні матеріали та заробляй
+Mining EXP!	досвід Копання!
+Cut trees and forage for other	Рубай дерева й збирай інші
+plants to earn Foraging EXP!	рослини, щоб заробляти досвід Лісорубства!
+Enchant items to earn Enchanting EXP!	Зачаровуй предмети, щоб заробляти досвід Зачарування!
+Brew potions to earn Alchemy EXP!	Вари зілля, щоб заробляти досвід Алхімії!
+Complete Dungeons to level up your	Проходь Підземелля, щоб прокачувати
+classes! Unlock new gear and class	класи! Відкривай нове спорядження й
+upgrades by completing higher tier	покращення класів, проходячи складніші
+dungeons!	підземелля!
+Requires Combat Level {0} to enter a	§7Потрібен §bБойовий рівень {0}§7, щоб увійти
+Dungeon.	§7в Підземелля.
+Hunt various monsters to earn	Полюй на різних чудовиськ, щоб
+Hunting EXP!	заробляти досвід Полювання!
+Gain Social EXP for every new unique	Отримуй Соціальний досвід за кожного нового
+guest, hosting guests, and visiting	гостя, прийом гостей і відвідування
+islands!	островів!
+Craft items to earn Carpentry EXP!	Крафти предмети, щоб заробляти досвід Теслярства!
+
+# --- Аукціон і Базар ---
+Find items for sale by players	§7Знаходь предмети, які продають гравці,
+across Hypixel SkyBlock!	§7по всьому Hypixel SkyBlock!
+Items offered here are for auction,	§7Предмети тут виставлені на §6аукціон§7,
+meaning you have to place the top	§7тож щоб отримати їх, треба зробити
+bid to acquire them!	§7найвищу ставку!
+View and manage your bids.	Переглядай свої ставки й керуй ними.
+You own {0} auction in progress or	§7У тебе §e{0} аукціон§7, що триває або
+which recently ended.	§7нещодавно завершився.
+With {0} auction from co-op!	§bРазом із §3{0} §bаукціоном від коопу!
+Your auction has {0} bid totaling	§7На твоєму аукціоні §a{0} ставка §7на суму
+{0} coins.	§6{0} монет§7.
+You have {0} coins to claim!	§eУ тебе §6{0} монет §eдо отримання!
+Worth {0} coins	§8Вартість: {0} монет
+{0} products	{0} товарів
+You don't have any ongoing orders.	У тебе немає активних замовлень.
+Currently viewing!	Переглядаєш зараз!
+Find products by name!	Шукай товари за назвою!
+Click!	Натисни!
+◆ Missing enchantments: {0} (hold Shift)	◆ Відсутні зачарування: {0} (затисни Shift)
+◆ Not maxed: {0} (hold Shift)	◆ Не на максимумі: {0} (затисни Shift)
+◆ Missing enchantments:	◆ Відсутні зачарування:
+◆ Not maxed enchantments:	◆ Зачарування не на максимумі:
+
+# --- Категорії Базару й інше з меню ---
+Mob Drops	Здобич мобів
+Prismarine	Призмарин
+Baits	Наживки
+Flowers	Квіти
+Fish	Риба
+Wood	Деревина
+Clay	Глина
+Woods & Fishes	Деревина й риба
+Oddities	Дивовижі
+Manage Bids	Мої ставки
+Bazaar History	Історія Базару
+Heart of the Forest	Серце Лісу
+Co-op Bazaar Orders	Кооп-замовлення Базару
+Co-op Auction House	Кооп-аукціон
+Oak	Дуб
+Spruce	Ялина
+Birch	Береза
+Dark Oak	Темний дуб
+Acacia	Акація
+Jungle	Тропічне дерево
+Fig	Інжир
+Mangrove	Мангр
+Helix	Спіраль
+Salmon	Лосось
+Cod	Тріска
+Music Rune	Руна музики
+
+# --- Чат ---
+Latest update: SkyBlock v0.{0} CLICK	§eОстаннє оновлення: §bSkyBlock v0.{0} §e§lНАТИСНИ
+HOLIDAYS!	СВЯТА!
+Temporarily earn {0} more skill AND dungeon experience!	§bТимчасово отримуй на §a{0} §bбільше досвіду навичок І підземель!
+Event rewards are deleted after {0} SkyBlock years!	§cНагороди подій видаляються через {0} років SkyBlock!
+>>> CLICK HERE to claim! <<<	§6§l>>> НАТИСНИ ТУТ§e, щоб забрати! §6§l<<<
+You have {0} unclaimed event rewards!	§7У тебе §a{0} §7незабраних нагород подій!

@@ -142,6 +142,18 @@ public final class Lines {
         return sb.toString();
     }
 
+    /* Частина рядка [from, to) у вигляді тексту з §-кодами (кожен шматок зі своїм стилем). */
+    public static <S> String legacySlice(List<Seg<S>> line, int from, int to, StyleOps<S> ops) {
+        List<Seg<S>> part = new ArrayList<>();
+        int pos = 0;
+        for (Seg<S> seg : line) {
+            int a = Math.max(from, pos), b = Math.min(to, pos + seg.text().length());
+            if (a < b) part.add(new Seg<>(seg.text().substring(a - pos, b - pos), seg.style()));
+            pos += seg.text().length();
+        }
+        return legacy(part, ops);
+    }
+
     /* Чи всі шматки рядка мають однакові клік/ховер-події. */
     public static <S> boolean uniformExtras(List<Seg<S>> line, StyleOps<S> ops) {
         S first = null;

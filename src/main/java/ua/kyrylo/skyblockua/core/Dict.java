@@ -74,6 +74,8 @@ public final class Dict {
         while ((l = br.readLine()) != null) {
             if (!l.isEmpty() && l.charAt(0) == '﻿') l = l.substring(1);
             if (l.isBlank() || l.startsWith("#")) continue;
+            /* іконки Hypixel (символи приватної області Unicode) можна писати як \uE010 */
+            if (l.indexOf("\\u") >= 0) l = unescape(l);
             String[] cols = l.split("\t", -1);
             if (cols.length < 2) {
                 invalid++;
@@ -112,6 +114,16 @@ public final class Dict {
                 }
             }
         }
+    }
+
+    private static final java.util.regex.Pattern ESCAPE = java.util.regex.Pattern.compile("\\\\u([0-9a-fA-F]{4})");
+
+    static String unescape(String s) {
+        java.util.regex.Matcher m = ESCAPE.matcher(s);
+        StringBuilder sb = new StringBuilder();
+        while (m.find()) m.appendReplacement(sb, java.util.regex.Matcher.quoteReplacement(String.valueOf((char) Integer.parseInt(m.group(1), 16))));
+        m.appendTail(sb);
+        return sb.toString();
     }
 
     public void put(Section section, String key, String value) {

@@ -5,7 +5,9 @@ import com.mojang.brigadier.context.CommandContext;
 import net.fabricmc.fabric.api.client.command.v2.ClientCommands;
 import net.fabricmc.fabric.api.client.command.v2.FabricClientCommandSource;
 import net.minecraft.client.Minecraft;
+import net.minecraft.network.chat.ClickEvent;
 import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.Style;
 
 import java.nio.file.Path;
 import java.util.function.Consumer;
@@ -43,8 +45,12 @@ public final class UaCommands {
                 }))
                 .then(ClientCommands.literal("dump").executes(ctx -> {
                     Path f = SkyblockUa.saveMissing();
-                    say(ctx, "§aЗбережено " + Bridge.TRANSLATOR.missing().size() + " неперекладених рядків у:");
-                    say(ctx, "§7" + f.toAbsolutePath());
+                    say(ctx, "§aЗбережено " + Bridge.TRANSLATOR.missing().size() + " неперекладених рядків.");
+                    /* клікабельні посилання: відкрити файл або папку з ним */
+                    ctx.getSource().sendFeedback(Component.empty()
+                            .append(link("[Відкрити файл]", f))
+                            .append(Component.literal("  "))
+                            .append(link("[Відкрити папку]", f.getParent())));
                     return 1;
                 }))
                 .then(ClientCommands.literal("clear").executes(ctx -> {
@@ -80,6 +86,13 @@ public final class UaCommands {
                 + "§7, неперекладених зібрано: §f" + Bridge.TRANSLATOR.missing().size());
         line.accept("§8/ukr toggle | names | lore | chat | titles | hypixel | collect | reload | dump | clear");
         return 1;
+    }
+
+    private static Component link(String text, Path target) {
+        return Component.literal(text).setStyle(Style.EMPTY
+                .withColor(net.minecraft.ChatFormatting.AQUA)
+                .withUnderlined(true)
+                .withClickEvent(new ClickEvent.OpenFile(target.toAbsolutePath())));
     }
 
     private static String onOff(boolean v) {

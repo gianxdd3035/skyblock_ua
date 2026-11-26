@@ -219,3 +219,39 @@ Completed	Виконано
 You are playing on profile	Ти граєш у профілі
 Profile ID	ID профілю
 Sweep Details	Деталі розмаху
+
+# --- Рядки від модів (Skyblocker, SkyHanni, Feesh тощо) ---
+NPC Sell Price	Ціна продажу NPC
+Lowest BIN Price	Найнижча ціна BIN
+3 Day Avg. Price	Середня ціна за 3 дні
+1 Day Avg. Price	Середня ціна за день
+Crafting Price	Ціна крафту
+Est. Item Value	Орієнт. вартість
+Bazaar Buy Price	Ціна купівлі на Базарі
+Bazaar Sell Price	Ціна продажу на Базарі
+Museum (Fishing)	Музей (риболовля)
+Museum (Dungeons)	Музей (підземелля)
+Museum (Combat)	Музей (бій)
+Museum (Mining)	Музей (копання)
+Museum (Farming)	Музей (фермерство)
+Museum (Foraging)	Музей (лісорубство)
+Museum (Weapons)	Музей (зброя)
+Museum (Armor)	Музей (броня)
+Museum (Rarities)	Музей (рідкості)
+Champion Combat XP	Бойовий досвід Чемпіона
+
+# --- Меню (зібрано в грі) ---
+Scroll Abilities	Здібності сувоїв
+Stored Weapon	Збережена зброя
+Orders	Замовлення
+Offer amount	Обсяг пропозиції
+Filled	Виконано
+Single customer	Один покупець
+By	Від
+Logs Cut	Зрубано колод
+Profiles	Профілі
+Playing on	Профіль
+Collections Maxed Out	Колекцій на максимумі
+Forest Whispers	Лісові шепоти
+Desert Whispers	Пустельні шепоти
+Selected pet	Вибраний улюбленець

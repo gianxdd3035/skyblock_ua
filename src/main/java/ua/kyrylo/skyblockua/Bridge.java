@@ -152,12 +152,38 @@ public final class Bridge {
     }
 
     /*
+     * Лише записати неперекладені рядки тултіпа (для сканування меню).
+     * Результати кешуються, тож повторне сканування того самого меню майже нічого не коштує.
+     */
+    /*
+     * Поки сканер меню читає тултіпи, ItemStackMixin не перекладає їх:
+     * сканеру потрібні оригінальні англійські рядки.
+     */
+    private static boolean rawTooltips;
+
+    public static List<Component> rawTooltip(java.util.function.Supplier<List<Component>> reader) {
+        rawTooltips = true;
+        try {
+            return reader.get();
+        } finally {
+            rawTooltips = false;
+        }
+    }
+
+    public static void recordTooltip(List<Component> lines) {
+        if (lines == null) return;
+        for (int i = 0; i < lines.size(); i++) {
+            translate(lines.get(i), i == 0 ? Translator.Kind.NAME : Translator.Kind.LORE);
+        }
+    }
+
+    /*
      * Перекласти тултіп предмета: перший рядок — назва, решта — опис.
      * Повертає новий список або той самий, якщо нічого не змінилося.
      */
     public static List<Component> translateTooltip(List<Component> lines) {
         Config c = Config.get();
-        if (lines == null || lines.isEmpty() || !active()) return lines;
+        if (lines == null || lines.isEmpty() || rawTooltips || !active()) return lines;
         /* З Iconographic рядки лишаються англійськими до малювання (див. IconographicCompat) */
         if (IconographicCompat.PRESENT) return lines;
         List<Component> out = null;

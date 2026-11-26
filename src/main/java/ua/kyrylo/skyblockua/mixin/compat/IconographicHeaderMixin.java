@@ -10,7 +10,8 @@ import ua.kyrylo.skyblockua.core.Translator;
 
 /*
  * Назва предмета в шапці тултіпа Iconographic.
- * Перекладаємо текст, який передається на малювання (ширину шапки Iconographic не рахує за назвою).
+ * Перекладаємо назву, яка передається на малювання, і ту саму назву, коли шапка рахує свою ширину
+ * (через TextProperties.getWidth зі skyblock-api) — інакше довга українська назва вилазить за рамку.
  * Розбір англійського тексту самим Iconographic уже відбувся раніше, тож йому це не заважає.
  */
 @Pseudo
@@ -24,6 +25,16 @@ public class IconographicHeaderMixin {
             require = 0
     )
     private Component skyblockua$translateDrawn(Component original) {
+        return Bridge.translateOrSame(original, Translator.Kind.NAME);
+    }
+
+    @ModifyArg(
+            method = {"getWidth"},
+            at = @At(value = "INVOKE", target = "Ltech/thatgravyboat/skyblockapi/utils/text/TextProperties;getWidth(Lnet/minecraft/network/chat/Component;)I"),
+            index = 0,
+            require = 0
+    )
+    private Component skyblockua$translateMeasured(Component original) {
         return Bridge.translateOrSame(original, Translator.Kind.NAME);
     }
 }

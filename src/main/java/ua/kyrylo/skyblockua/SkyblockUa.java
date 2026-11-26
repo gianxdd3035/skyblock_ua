@@ -6,12 +6,18 @@ import net.fabricmc.fabric.api.client.command.v2.ClientCommandRegistrationCallba
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientLifecycleEvents;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.fabricmc.fabric.api.client.keymapping.v1.KeyMappingHelper;
+import net.fabricmc.fabric.api.client.screen.v1.ScreenEvents;
 import net.minecraft.client.KeyMapping;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.components.ChatComponent;
+import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.multiplayer.chat.GuiMessage;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.Identifier;
+import net.minecraft.world.inventory.Slot;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.TooltipFlag;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import ua.kyrylo.skyblockua.core.Translator;
@@ -55,6 +61,17 @@ public final class SkyblockUa implements ClientModInitializer {
         ClientTickEvents.END_CLIENT_TICK.register(SkyblockUa::onTick);
         ClientCommandRegistrationCallback.EVENT.register((dispatcher, registryAccess) -> UaCommands.register(dispatcher));
         ClientLifecycleEvents.CLIENT_STOPPING.register(client -> saveMissing());
+
+        /*
+         * Сканування меню: поки відкрите будь-яке меню з предметами, раз на секунду
+         * проганяємо через перекладач тултіпи ВСІХ предметів у ньому. Так неперекладені рядки
+         * записуються, навіть якщо не наводити на кожен предмет.
+         */
+        ScreenEvents.AFTER_INIT.register((client, screen, width, height) -> {
+            if (screen instanceof AbstractContainerScreen<?> container) {
+                ScreenEvents.afterTick(screen).register(s -> scanMenu(client, container));
+            }
+        });
     }
 
     /* Перечитати словники й застосувати налаштування. */
@@ -80,6 +97,38 @@ public final class SkyblockUa implements ClientModInitializer {
                     c.enabled ? "§aSkyBlock UA: переклад увімкнено" : "§cSkyBlock UA: переклад вимкнено"), false);
         }
         if (Config.get().translateChat && Bridge.active()) translateRecentChat(client);
+        autoSaveMissing();
+    }
+
+    private static int scanCooldown;
+
+    private static void scanMenu(Minecraft client, AbstractContainerScreen<?> screen) {
+        if (!Config.get().collectMissing || !Bridge.active() || client.player == null) return;
+        if (scanCooldown-- > 0) return;
+        scanCooldown = 20;
+        Item.TooltipContext context = Item.TooltipContext.of(client.level);
+        for (Slot slot : screen.getMenu().slots) {
+            ItemStack stack = slot.getItem();
+            if (stack.isEmpty()) continue;
+            Bridge.recordTooltip(Bridge.rawTooltip(() -> stack.getTooltipLines(context, client.player, TooltipFlag.NORMAL)));
+        }
+    }
+
+    /*
+     * Файл неперекладених рядків сам зберігається кожні 2 хвилини, якщо з'явилося щось нове,
+     * тож /ukr dump потрібен лише щоб отримати посилання на файл.
+     */
+    private static int autoSaveTicks;
+    private static int lastSavedSize = -1;
+
+    private static void autoSaveMissing() {
+        if (++autoSaveTicks < 20 * 120) return;
+        autoSaveTicks = 0;
+        int size = Bridge.TRANSLATOR.missing().size();
+        if (size != lastSavedSize) {
+            lastSavedSize = size;
+            saveMissing();
+        }
     }
 
     /*
