@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "ua.kyrylo.skyblockua.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"ChatComponentAccessor",
+		"ClientTextTooltipMixin",
+		"ContainerScreenMixin",
+		"ItemStackMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

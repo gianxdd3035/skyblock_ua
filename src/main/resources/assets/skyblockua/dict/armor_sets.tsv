@@ -1,0 +1,163 @@
+# Сети броні. Два варіанти запису:
+#   Сет<TAB>родовий відмінок       -> "Шолом Вищого Дракона"
+#   Сет<TAB>adj:прикметник (ч. р.)  -> "Алмазний шолом", "Алмазні чоботи" (рід узгоджується автоматично)
+# Власні імена (дракони, боси) — з великої літери, загальні слова — з малої.
+
+# --- Ванільні матеріали ---
+Leather	adj:Шкіряний
+Chainmail	adj:Кольчужний
+Iron	adj:Залізний
+Golden	adj:Золотий
+Diamond	adj:Алмазний
+Hardened Diamond	adj:Загартований алмазний
+Emerald Armor	смарагдової броні
+Lapis Armor	лазуритової броні
+Golem Armor	броні голема
+Armor of Magma	броні Магми
+
+# --- Дракони ---
+Young Dragon	Молодого Дракона
+Old Dragon	Старого Дракона
+Wise Dragon	Мудрого Дракона
+Strong Dragon	Сильного Дракона
+Unstable Dragon	Нестабільного Дракона
+Protector Dragon	Дракона-Захисника
+Superior Dragon	Вищого Дракона
+Holy Dragon	Святого Дракона
+
+# --- Підземелля ---
+Necron's	Некрона
+Storm's	Шторма
+Maxor's	Максора
+Goldor's	Голдора
+Shadow Assassin	Тіньового Вбивці
+Adaptive	adj:Адаптивний
+Berserker	берсерка
+Rotten	adj:Гнилий
+Zombie Soldier	зомбі-солдата
+Zombie Knight	зомбі-лицаря
+Zombie Commander	зомбі-командира
+Zombie Lord	Володаря Зомбі
+Skeleton Grunt	скелета-рядового
+Skeleton Soldier	скелета-солдата
+Skeleton Master	скелета-майстра
+Skeleton Lord	Володаря Скелетів
+Skeletor	Скелетора
+Crypt Witherlord	Візерлорда склепу
+Heavy	adj:Важкий
+Super Heavy	adj:Надважкий
+Sponge	adj:Губчастий
+Rampart	бастіону
+Mercenary	найманця
+Necromancer Lord	Володаря Некромантів
+Wither	Візера
+Final Destination	Кінцевого Пункту
+Sorrow	Скорботи
+Reaper	Жнеця
+Rosetta's	Розетти
+Squire	зброєносця
+Celeste	Целести
+Starlight	Зоряного Світла
+
+# --- Багряний острів і Kuudra ---
+Aurora	Аврори
+Crimson	Багрянця
+Fervor	Запалу
+Hollow	Порожнечі
+Terror	Жаху
+Hot Aurora	Гарячої Аврори
+Hot Crimson	Гарячого Багрянця
+Hot Fervor	Гарячого Запалу
+Hot Hollow	Гарячої Порожнечі
+Hot Terror	Гарячого Жаху
+Burning Aurora	Палаючої Аврори
+Burning Crimson	Палаючого Багрянця
+Burning Fervor	Палаючого Запалу
+Burning Hollow	Палаючої Порожнечі
+Burning Terror	Палаючого Жаху
+Fiery Aurora	Вогняної Аврори
+Fiery Crimson	Вогняного Багрянця
+Fiery Fervor	Вогняного Запалу
+Fiery Hollow	Вогняної Порожнечі
+Fiery Terror	Вогняного Жаху
+Infernal Aurora	Пекельної Аврори
+Infernal Crimson	Пекельного Багрянця
+Infernal Fervor	Пекельного Запалу
+Infernal Hollow	Пекельної Порожнечі
+Infernal Terror	Пекельного Жаху
+Kuudra Follower	послідовника Kuudra
+Magma Lord	Володаря Магми
+Blaze	іфрита
+Frozen Blaze	Замерзлого Іфрита
+Ember	жарини
+Ember Ash	попелу жарини
+Rekindled Ember	знову розпаленої жарини
+Flamebreaker	Вогнелама
+Thunder	Грому
+Mastiff	мастифа
+
+# --- Винищувачі ---
+Revenant	ревенанта
+Tarantula	тарантула
+Arachne's	Арахни
+Werewolf	перевертня
+Yog	Йога
+
+# --- Копання ---
+Miner	шахтаря
+Glacite	adj:Гляцитовий
+Mineral	мінералу
+Glossy Mineral	глянцевого мінералу
+Goblin	гобліна
+Prospecting	старателя
+Crystal	adj:Кришталевий
+Heat	жару
+Thermodynamic	adj:Термодинамічний
+Bronze Hunter	бронзового мисливця
+Silver Hunter	срібного мисливця
+Gold Hunter	золотого мисливця
+Diamond Hunter	алмазного мисливця
+
+# --- Фермерство ---
+Farmhand	наймита
+Fermento	Ферменто
+Cropie	Кропі
+Squash	кабачка
+Rabbit	кролика
+Mushroom	adj:Грибний
+Cactus	кактуса
+Haymaker	косаря
+Helianthus	Геліантуса
+Sprout	паростка
+Tater	картоплини
+
+# --- Риболовля ---
+Angler	рибалки
+Salmon	лосося
+Shark Scale	акулячої луски
+Abyssal	безодні
+Backwater	заводі
+
+# --- Лісорубство й інше ---
+Helix	Спіралі
+Wyld	Дикості
+Ender	Енду
+Speedster	гонщика
+Bouncy	adj:Пружний
+Biohazard	біологічної небезпеки
+Bat Person	Людини-кажана
+Spooky	adj:Моторошний
+Great Spook	Великого Страховиська
+Snow Suit	снігового костюма
+Nutcracker	Лускунчика
+Mythos	Міфу
+Primordial	adj:Первісний
+Challenger's	претендента
+Zombie	зомбі
+
+# --- Спорядження (намиста, плащі, пояси, браслети) ---
+Molten	adj:Розплавлений
+Mithril	adj:Мітриловий
+Blossom	цвіту
+Peony	півонії
+Pesthunter's	мисливця на шкідників

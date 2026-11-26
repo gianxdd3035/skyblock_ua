@@ -1,0 +1,171 @@
+# Повідомлення сервера в чаті (взято з реальних логів гри, від найчастіших).
+# Капсові префікси ("RARE DROP!") перекладаються окремо й зберігають свій колір,
+# решта повідомлення — окремим записом. Лічильник "(2)"/"(×2)" від модів на стискання чату мод відкидає сам.
+
+# --- Капсові префікси ---
+RARE DROP!	РІДКІСНИЙ ДРОП!
+UNCOMMON DROP!	НЕЗВИЧАЙНИЙ ДРОП!
+VERY RARE DROP!	ДУЖЕ РІДКІСНИЙ ДРОП!
+CRAZY RARE DROP!	НЕЙМОВІРНО РІДКІСНИЙ ДРОП!
+INSANE DROP!	БОЖЕВІЛЬНИЙ ДРОП!
+PRAY RNGESUS DROP!	МОЛИСЯ РНГЕСУСУ! ДРОП!
+RARE CROP!	РІДКІСНИЙ ВРОЖАЙ!
+FLOOR DROP!	ЗНАХІДКА НА ЗЕМЛІ!
+LOOT SHARE!	ДІЛЕЖ ЗДОБИЧІ!
+BLESSED!	БЛАГОСЛОВЕННЯ!
+PRISTINE!	БЕЗДОГАННО!
+TROPHY FROG!	ТРОФЕЙНА ЖАБА!
+TROPHY FISH!	ТРОФЕЙНА РИБА!
+DUPLICATE RABBIT!	ДУБЛІКАТ КРОЛИКА!
+NEW RABBIT!	НОВИЙ КРОЛИК!
+CAKE SLICE!	ШМАТОК ТОРТА!
+PLAYTIME!	ЧАС ГРИ!
+OVERFLOW!	ПЕРЕПОВНЕННЯ!
+YUCK!	ФУ!
+WOAH!	ОГО!
+GONE!	МИНУЛО!
+BEEHEEMOTH!	БДЖОЛОГЕМОТ!
+SOUL!	ДУША!
+ENCHANTED BOOK!	ЗАЧАРОВАНА КНИГА!
+TREE GIFT	ДАРУНОК ДЕРЕВА
+BONUS GIFT	БОНУСНИЙ ДАРУНОК
+REWARDS	НАГОРОДИ
+BESTIARY	БЕСТІАРІЙ
+ATTRIBUTE LEVEL UP	РІВЕНЬ АТРИБУТА ПІДВИЩЕНО
+SLAYER QUEST STARTED!	ЗАВДАННЯ ВИНИЩУВАЧА РОЗПОЧАТО!
+SLAYER QUEST COMPLETE!	ЗАВДАННЯ ВИНИЩУВАЧА ВИКОНАНО!
+SLAYER QUEST FAILED!	ЗАВДАННЯ ВИНИЩУВАЧА ПРОВАЛЕНО!
+CHEST LOCKPICKED	СКРИНЮ ЗЛАМАНО
+LILY-SPLOSION!	ЛАТАТТЄВИБУХ!
+[WATCHDOG ANNOUNCEMENT]	[ОГОЛОШЕННЯ WATCHDOG]
+
+# --- Мішки, схованка, інвентар ---
+[Sacks] {0} items. (Last {1}s.)	[Мішки] {0} предм. (за останні {1} с)
+[Sacks] {0} item. (Last {1}s.)	[Мішки] {0} предм. (за останні {1} с)
+[Sacks] {0} items, {1} items. (Last {2}s.)	[Мішки] {0} предм., {1} предм. (за останні {2} с)
+You have {0} materials stashed away!	У тебе {0} матеріалів у схованці!
+You have {0} items stashed away!	У тебе {0} предметів у схованці!
+(This totals {0} type of material stashed!)	(Разом {0} вид матеріалів у схованці!)
+(This totals {0} types of materials stashed!)	(Разом {0} видів матеріалів у схованці!)
+(This totals {0} type of item stashed!)	(Разом {0} вид предметів у схованці!)
+(This totals {0} types of items stashed!)	(Разом {0} видів предметів у схованці!)
+>>> CLICK HERE to pick them up! <<<	>>> НАТИСНИ ТУТ, щоб забрати їх! <<<
+>>> CLICK HERE to pick it up! <<<	>>> НАТИСНИ ТУТ, щоб забрати! <<<
+One or more items didn't fit in your inventory and were added to your material stash! Click here to pick them up!	Деякі предмети не влізли в інвентар і потрапили до схованки матеріалів! Натисни тут, щоб забрати їх!
+Your inventory is full!	Твій інвентар заповнено!
+Inventory full? Don't forget to check out your Storage inside the SkyBlock Menu!	Інвентар заповнено? Не забудь про Сховище в Меню SkyBlock!
+You don't have enough of the required item!	У тебе недостатньо потрібного предмета!
+You must double tap the drop button to drop this item!	Щоб викинути цей предмет, натисни кнопку викидання двічі!
+You can disable this in the Settings in your SkyBlock Menu!	Це можна вимкнути в Налаштуваннях у Меню SkyBlock!
+Click here to view them!	Натисни тут, щоб переглянути їх!
+This menu has been throttled! Please slow down...	Меню тимчасово обмежено! Будь ласка, повільніше...
+
+# --- Загальне ---
+Welcome to Hypixel SkyBlock!	Ласкаво просимо до Hypixel SkyBlock!
+Warping...	Переміщення...
+Your spawn location has been set!	Твою точку появи встановлено!
+There are blocks in the way!	На шляху є блоки!
+Follow the arrows!	Іди за стрілками!
+Teleported you to The Barn!	Телепортовано в Комору!
+Teleported you to Plot - {0}!	Телепортовано на ділянку {0}!
+CLICK HERE to teleport to the plot!	НАТИСНИ ТУТ, щоб телепортуватися на ділянку!
+You have {0} unclaimed leveling rewards!	У тебе {0} незабраних нагород за рівні!
+You have {0} unclaimed achievement rewards!	У тебе {0} незабраних нагород за досягнення!
+You earned {0} GEXP from playing SkyBlock!	Ти заробив {0} GEXP, граючи в SkyBlock!
+You earned {0} GEXP + {1} Event EXP from playing SkyBlock!	Ти заробив {0} GEXP + {1} досвіду події, граючи в SkyBlock!
+{0} rewards gained! (hover)	Отримано нагород: {0}! (наведи)
+{0} SkyBlock XP	{0} досвіду SkyBlock
+{0} Garden Experience	{0} досвіду Саду
+{0} Farming XP	{0} досвіду фермерства
+{0} Foraging Experience	{0} досвіду лісорубства
+{0} Fishing Experience	{0} досвіду риболовлі
+{0} Copper	{0} міді
+{0} Bits	{0} бітів
+{0}x Forest Essence	{0}x есенції лісу
+{0} chance for extra XP orbs	{0} шансу на додаткові сфери досвіду
+New day! Your Sky Mall buff changed!	Новий день! Твій бонус Sky Mall змінився!
+New day! Your Lottery buff changed!	Новий день! Твій бонус Лотереї змінився!
+You can disable this messaging by toggling Sky Mall in your /hotm!	Ці повідомлення можна вимкнути, перемкнувши Sky Mall у /hotm!
+RNG Meter - {0} Stored XP	Лічильник RNG — {0} накопиченого досвіду
+You equipped Loadout {0}!	Ти екіпірував набір {0}!
+You gained {0} Raffle Ticket!	Ти отримав {0} лотерейний квиток!
+You gained {0} Raffle Tickets!	Ти отримав {0} лотерейних квитків!
+Your radio is weak. Find another enjoyer to boost it.	Твоє радіо слабке. Знайди ще одного поціновувача, щоб його підсилити.
+Watchdog has banned {0} players in the last {1} days.	За останні {1} днів Watchdog забанив {0} гравців.
+Staff have banned an additional {0} in the last {1} days.	Персонал забанив ще {0} за останні {1} днів.
+Blacklisted modifications are a bannable offense!	За заборонені модифікації дають бан!
+You haven't claimed your Summer Rewards yet!	Ти ще не забрав свої Літні нагороди!
+Talk to the Summer Sloth in the Hub!	Поговори з Літнім Лінивцем у Хабі!
+
+# --- Здібності ---
+This ability is on cooldown for {0}s.	Ця здібність перезаряджається ще {0} с.
+Your Pickaxe ability is on cooldown for {0}s.	Здібність твоєї кирки перезаряджається ще {0} с.
+You used your Pickobulus Pickaxe Ability!	Ти використав здібність кирки «Пікобулус»!
+Pickobulus is now available!	Пікобулус знову доступний!
+Your Pickobulus destroyed {0} blocks!	Твій Пікобулус зруйнував {0} блоків!
+Your Implosion hit {0} enemies for {1} damage.	Твоя Імплозія влучила в {0} ворогів і завдала {1} шкоди.
+Your Implosion hit {0} enemy for {1} damage.	Твоя Імплозія влучила в {0} ворога й завдала {1} шкоди.
+Your hit was reduced by Hellion Shield!	Твій удар послабив Щит Геліона!
+Your bone plating reduced the damage you took by {0}!	Твоя кістяна обшивка зменшила отриману шкоду на {0}!
+Your Kill Combo has expired! You reached a {0} Kill Combo!	Твоє комбо вбивств закінчилося! Ти досяг комбо {0}!
+Rapid Fire is ready to use! Press DROP to activate it!	Швидкий вогонь готовий! Натисни «Викинути», щоб активувати!
+Thunderstorm is ready to use! Press DROP to activate it!	Гроза готова! Натисни «Викинути», щоб активувати!
+Guided Sheep is now available!	Керована вівця знову доступна!
+You used Syphon on {0} Shards!	Ти використав Викачування на {0} осколках!
+Maxed the Supercraft to {0}x crafts!	Суперкрафт збільшено до {0}x!
+Your previous Umberella was removed!	Твою попередню Умберелу прибрано!
+Your Wormhole closed up...	Твоя кротова нора закрилася...
+
+# --- Лісорубство (Galatea) ---
+Sweep Details: {0} Sweep	Деталі розмаху: {0} розмаху
+Helix Tree Toughness: {0} {1} Logs	Міцність Спірального дерева: {0} {1} колод
+Mangrove Tree Toughness: {0} {1} Logs	Міцність Мангрового дерева: {0} {1} колод
+Fig Tree Toughness: {0} {1} Logs	Міцність Інжирового дерева: {0} {1} колод
+You helped cut {0} of the Helix Tree.	Ти допоміг зрубати {0} Спірального дерева.
+You helped cut {0} of the Mangrove Tree.	Ти допоміг зрубати {0} Мангрового дерева.
+You helped cut {0} of the Fig Tree.	Ти допоміг зрубати {0} Інжирового дерева.
+Helix Tree Gift. You helped cut {0} and gained {1} rewards!	Дарунок Спірального дерева. Ти допоміг зрубати {0} і отримав нагород: {1}!
+Mangrove Tree Gift. You helped cut {0} and gained {1} rewards!	Дарунок Мангрового дерева. Ти допоміг зрубати {0} і отримав нагород: {1}!
+Fig Tree Gift. You helped cut {0} and gained {1} rewards!	Дарунок Інжирового дерева. Ти допоміг зрубати {0} і отримав нагород: {1}!
+Wrong Style: {0} Sweep {1} Logs Cut the beige logs first!!	Неправильний стиль: {0} розмаху, {1} колод. Спершу рубай бежеві колоди!!
+Wrong Style: {0} Sweep {1} Logs Cut the branches first!!	Неправильний стиль: {0} розмаху, {1} колод. Спершу рубай гілки!!
+Wrong Style: {0} Sweep {1} Logs Cut branches and trunk first!!	Неправильний стиль: {0} розмаху, {1} колод. Спершу рубай гілки й стовбур!!
+You cannot damage a tree while it is regenerating!	Не можна пошкодити дерево, поки воно відновлюється!
+The Tewtil seems unbothered by you. Perhaps you can befriend it somehow?	Тьютілу, здається, байдуже до тебе. Може, з ним якось можна потоваришувати?
+Flipfloppers can only be hunted with a Fishing Net! Talk to David Hunterborough in the Moonglade Marsh to get one!	На фліпфлоперів можна полювати лише з рибальською сіткою! Поговори з David Hunterborough на Moonglade Marsh, щоб отримати її!
+Seashines can only be hunted with a Fishing Net! Talk to David Hunterborough in the Moonglade Marsh to get one!	На морських сяйвиків можна полювати лише з рибальською сіткою! Поговори з David Hunterborough на Moonglade Marsh, щоб отримати її!
+
+# --- Риболовля, Сад, події ---
+It's a Double Hook!	Подвійний улов!
+It's a Double Hook! Woot woot!	Подвійний улов! Ура-ура!
+The Fishing Hotspot faded away...	Рибне місце зникло...
+There are not any Pests on your Garden right now! Keep farming!	Зараз у твоєму Саду немає шкідників! Фермеруй далі!
+You released all Pests from Trap #{0}!	Ти випустив усіх шкідників із пастки №{0}!
+You caught a case of the CROP FEVER for {0} seconds!	Тебе охопила ВРОЖАЙНА ЛИХОМАНКА на {0} с!
+Your CROP FEVER has been cured!	Твою ВРОЖАЙНУ ЛИХОМАНКУ вилікувано!
+You stick your hand into the honeyhive and feel around...	Ти засовуєш руку у вулик і намацуєш...
+The Beeheemoth is starting to slow down!	Бджологемот починає сповільнюватися!
+The Beeheemoth is getting more fatigued!	Бджологемот дедалі більше втомлюється!
+The Beeheemoth is exhausted - not long now!	Бджологемот виснажений — залишилося недовго!
+You destroyed an anthill, angering the ants inside!	Ти зруйнував мурашник і розлютив мурах усередині!
+You dug out a Griffin Burrow! ({0}/{1})	Ти розкопав нору грифона! ({0}/{1})
+You finished the Griffin burrow chain! ({0}/{1})	Ти завершив ланцюжок нір грифона! ({0}/{1})
+You uncovered a treasure chest!	Ти відкопав скриню зі скарбом!
+You found {0} Hunting Experience on the ground!	Ти знайшов на землі {0} досвіду полювання!
+{0} Chocolate	{0} шоколаду
+The Wiki Tiki is currently IMMUNE! Attack his Laser Totems!	Вікі Тікі зараз НЕВРАЗЛИВИЙ! Атакуй його лазерні тотеми!
+
+# --- Підземелля, винищувачі ---
+This chest has already been looted.	Цю скриню вже пограбовано.
+You do not have the key for this door!	У тебе немає ключа від цих дверей!
+RIGHT CLICK on a WITHER door to open it. This key can only be used to open {0} door!	ПКМ по дверях ВІЗЕРА, щоб відчинити їх. Цим ключем можна відчинити лише {0} двері!
+Your Damage: {0} (Position #{1})	Твоя шкода: {0} (місце №{1})
+
+# --- Телефон (Абіфон) ---
+✆ RING...	✆ ДЗЕЛЕНЬ...
+✆ RING... RING...	✆ ДЗЕЛЕНЬ... ДЗЕЛЕНЬ...
+✆ RING... RING... RING...	✆ ДЗЕЛЕНЬ... ДЗЕЛЕНЬ... ДЗЕЛЕНЬ...
+✆ RING... [PICK UP]	✆ ДЗЕЛЕНЬ... [ВЗЯТИ СЛУХАВКУ]
+✆ RING... RING... [PICK UP]	✆ ДЗЕЛЕНЬ... ДЗЕЛЕНЬ... [ВЗЯТИ СЛУХАВКУ]
+✆ RING... RING... RING... [PICK UP]	✆ ДЗЕЛЕНЬ... ДЗЕЛЕНЬ... ДЗЕЛЕНЬ... [ВЗЯТИ СЛУХАВКУ]
+[PICK UP]	[ВЗЯТИ СЛУХАВКУ]

@@ -1,0 +1,242 @@
+# Репліки NPC (з реальних логів гри). Ключ — лише текст репліки, без "[NPC] Ім'я: ":
+# мод сам відрізає префікс і залишає ім'я NPC англійською.
+
+# --- Джейкоб і фермерські конкурси ---
+My contest has started!	Мій конкурс розпочався!
+The Farming Contest is over!	Фермерський конкурс завершено!
+Let me count the final results eh?	Дай-но я підрахую підсумки, га?
+You collected {0} items!	Ти зібрав {0} предметів!
+You collected {0} items! PERSONAL BEST!	Ти зібрав {0} предметів! ОСОБИСТИЙ РЕКОРД!
+Your previous Personal Best was {0}.	Твій попередній особистий рекорд — {0}.
+Keep it up!	Так тримати!
+Finnegan is forcing me to be more lenient with rankings...	Фіннеган змушує мене м'якше ставитися до рейтингів...
+Howdy! Fine barn ye got there eh? Good lad, you think ye could get me some wheat, eh?	Здоровенькі були! Гарна в тебе комора, га? Молодця, може, принесеш мені трохи пшениці, га?
+Gosh darn it matey, can't believe ya do me like that, eh?	Та бодай тобі, друзяко, не віриться, що ти так зі мною, га?
+You placed in the DIAMOND bracket in the Cactus Contest!	Ти потрапив в АЛМАЗНУ лігу в Кактусовому конкурсі!
+Your Anita's Artifact is giving you {0} Wheat Fortune during the contest!	Твій Артефакт Аніти дає тобі {0} Удачі пшениці під час конкурсу!
+Your Anita's Artifact is giving you {0} Carrot Fortune during the contest!	Твій Артефакт Аніти дає тобі {0} Удачі моркви під час конкурсу!
+Your Anita's Artifact is giving you {0} Potato Fortune during the contest!	Твій Артефакт Аніти дає тобі {0} Удачі картоплі під час конкурсу!
+Your Anita's Artifact is giving you {0} Pumpkin Fortune during the contest!	Твій Артефакт Аніти дає тобі {0} Удачі гарбуза під час конкурсу!
+Your Anita's Artifact is giving you {0} Melon Slice Fortune during the contest!	Твій Артефакт Аніти дає тобі {0} Удачі скибок кавуна під час конкурсу!
+Your Anita's Artifact is giving you {0} Cactus Fortune during the contest!	Твій Артефакт Аніти дає тобі {0} Удачі кактуса під час конкурсу!
+Your Anita's Artifact is giving you {0} Sugar Cane Fortune during the contest!	Твій Артефакт Аніти дає тобі {0} Удачі цукрової тростини під час конкурсу!
+Your Anita's Artifact is giving you {0} Cocoa Beans Fortune during the contest!	Твій Артефакт Аніти дає тобі {0} Удачі какао-бобів під час конкурсу!
+Your Anita's Artifact is giving you {0} Mushroom Fortune during the contest!	Твій Артефакт Аніти дає тобі {0} Удачі грибів під час конкурсу!
+Your Anita's Artifact is giving you {0} Nether Wart Fortune during the contest!	Твій Артефакт Аніти дає тобі {0} Удачі пекельного наросту під час конкурсу!
+Your Anita's Artifact is giving you {0} Sunflower Fortune during the contest!	Твій Артефакт Аніти дає тобі {0} Удачі соняшника під час конкурсу!
+Your Anita's Artifact is giving you {0} Moonflower Fortune during the contest!	Твій Артефакт Аніти дає тобі {0} Удачі місячної квітки під час конкурсу!
+Your Anita's Artifact is giving you {0} Wild Rose Fortune during the contest!	Твій Артефакт Аніти дає тобі {0} Удачі дикої троянди під час конкурсу!
+
+# --- Агата, Мірія та інші конкурси ---
+You earned a total of {0} points!	Ти заробив загалом {0} очок!
+You earned a total of {0} points! That's a new PERSONAL BEST!	Ти заробив загалом {0} очок! Це новий ОСОБИСТИЙ РЕКОРД!
+You reached the COMMON Bracket in my contest!	Ти досяг ЗВИЧАЙНОЇ ліги в моєму конкурсі!
+You reached the UNCOMMON Bracket in my contest!	Ти досяг НЕЗВИЧАЙНОЇ ліги в моєму конкурсі!
+You reached the RARE Bracket in my contest!	Ти досяг РІДКІСНОЇ ліги в моєму конкурсі!
+You reached the EPIC Bracket in my contest!	Ти досяг ЕПІЧНОЇ ліги в моєму конкурсі!
+You reached the LEGENDARY Bracket in my contest!	Ти досяг ЛЕГЕНДАРНОЇ ліги в моєму конкурсі!
+You reached the MYTHIC Bracket in my contest!	Ти досяг МІФІЧНОЇ ліги в моєму конкурсі!
+You reached the DIVINE Bracket in my contest!	Ти досяг БОЖЕСТВЕННОЇ ліги в моєму конкурсі!
+You reached the SPECIAL Bracket in my contest!	Ти досяг ОСОБЛИВОЇ ліги в моєму конкурсі!
+Come see me at Moonglade Marsh or CLICK HERE to claim your rewards!	Приходь до мене на Moonglade Marsh або НАТИСНИ ТУТ, щоб забрати нагороди!
+Come see me at Moonglade Marsh or Click Here to claim your rewards!	Приходь до мене на Moonglade Marsh або натисни тут, щоб забрати нагороди!
+Come see me at Murkwater Loch or Click Here to claim your rewards!	Приходь до мене на Murkwater Loch або натисни тут, щоб забрати нагороди!
+Come see me at Torrhus Canyon or Click Here to claim your rewards!	Приходь до мене в Torrhus Canyon або натисни тут, щоб забрати нагороди!
+Come see me at Torrhus Canyon or CLICK HERE to claim your rewards!	Приходь до мене в Torrhus Canyon або НАТИСНИ ТУТ, щоб забрати нагороди!
+PERSONAL BEST! You've surpassed your previous record of {0} Helix logs collected in my Contest!	ОСОБИСТИЙ РЕКОРД! Ти перевершив свій попередній результат — {0} спіральних колод у моєму конкурсі!
+
+# --- Сіріус і Темний аукціон ---
+✆ Hello. This is an automated message being sent to all of my closest contacts.	✆ Вітаю. Це автоматичне повідомлення для всіх моїх найближчих контактів.
+✆ The next Dark Auction will be taking place very soon. Same time, same place as usual.	✆ Наступний Темний аукціон відбудеться зовсім скоро. Той самий час, те саме місце, що й завжди.
+✆ If you are interested in making a purchase, please begin to make your way over.	✆ Якщо бажаєте щось придбати, рушайте в дорогу.
+The bidding will start in {0}...	Торги почнуться за {0}...
+You can place your bids now!	Тепер можна робити ставки!
+I've always wanted to start a farm but instead I got sucked into this life of crim...I mean business!	Я завжди хотів завести ферму, а натомість мене засмоктало в цей світ злочин... тобто бізнесу!
+This smell... it reminds me of my childhood when I used to pick flowers in the garden. Keep this between you and me, understand?	Цей запах... нагадує мені дитинство, коли я збирав квіти в саду. Хай це залишиться між нами, зрозуміло?
+
+# --- Гоппіті ---
+✆ I just got a new Chocolate Rabbit and was wondering if you wanted to buy it.	✆ У мене щойно з'явився новий Шоколадний кролик, може, хочеш його купити?
+✆ See you around!	✆ Бувай!
+✆ Alright, maybe next time.	✆ Гаразд, може, наступного разу.
+
+# --- Сад: шкідники, фестиваль ---
+You've exchanged enough Pests with me recently. You still have {0} Pests in your Vacuum Bag!	Ти вже досить шкідників мені віддав останнім часом. У твоєму мішку пилососа ще {0} шкідників!
+Come back soon when I can handle more!	Повертайся згодом, коли я зможу прийняти ще!
+In exchange for {0} Pests, I've given you {1} Farming Fortune for {2}!	В обмін на {0} шкідників я дав тобі {1} Удачі фермерства на {2}!
+Thanks for the donation! I've added a Kernel to your purse.	Дякую за пожертву! Я додав Зернятко до твого гаманця.
+You've hit a new Feast Donation Tier!	Ти досяг нового рівня пожертв на Бенкет!
+Talk to me to claim your Donation Tier rewards!	Поговори зі мною, щоб забрати нагороди за рівень пожертв!
+You have unclaimed Donation Tier rewards!	У тебе є незабрані нагороди за рівень пожертв!
+Talk to me to claim them!	Поговори зі мною, щоб їх забрати!
+
+# --- Відвідувачі Саду ---
+Maybe next time.	Може, наступного разу.
+Smart choice.	Розумний вибір.
+I'll come by later.	Я зайду пізніше.
+That's alright.	Нічого страшного.
+No worries.	Не переймайся.
+Hmm, too bad.	Хм, шкода.
+I guess I'll have to turn up empty-handed.	Що ж, доведеться прийти з порожніми руками.
+I guess I'll come back in a bit.	Гаразд, повернуся трохи згодом.
+Don't worry, I'll come back later.	Не хвилюйся, я повернуся пізніше.
+I'm hungry...whatcha got?	Я голодний... що там у тебе є?
+Back to standing still for hours on end!	Знову годинами стояти на місці!
+I took a break from work for too long! Now I need your help to meet my quota!	Я надто довго відпочивав від роботи! Тепер мені потрібна твоя допомога, щоб виконати норму!
+You condemn me to doing my own work? How can you do this to me!	Ти прирікаєш мене робити свою роботу самому? Як ти можеш так зі мною!
+My assistant is feeling off, and I think we could do with a hearty meal. Do you think you can help us out?	Мій помічник нездужає, і, гадаю, нам не завадить ситна їжа. Можеш нам допомогти?
+I thought you'd be more thankful for the Promising Axe I gave you.	Я думав, ти будеш вдячніший за Обнадійливу сокиру, яку я тобі дав.
+My old buddy was a Wart Dealer...I miss him, and his Wart.	Мій старий друзяка торгував наростом... Сумую за ним і за його наростом.
+His memory will soon be lost, like tears in rain.	Пам'ять про нього скоро зникне, як сльози під дощем.
+I'm supposed to collect some food for the village, the Kalhuiki people have been through a tough time recently.	Мені треба зібрати їжі для села, народ Калхуікі нещодавно пережив важкі часи.
+I have an offer for you that you can't refuse.	У мене для тебе пропозиція, від якої неможливо відмовитися.
+Oh well that's awkward.	Ну, це незручно вийшло.
+Hello gardener, I've been looking for some sugar to grow my new crop. Wanna try it?	Привіт, садівнику! Шукаю трохи цукру, щоб виростити нову культуру. Хочеш спробувати?
+Standing in that bank all day. Just me and the dwarves. But they are either all business, or drunk. Or both! I need better company!	Цілий день стою в тому банку. Тільки я та гноми. А вони або по вуха в справах, або п'яні. Або все разом! Мені потрібна краща компанія!
+Well, maybe I will be able to understand the burping dwarves if I try hard enough.	Що ж, може, я зрозумію гномів, що відригують, якщо дуже постараюся.
+My disappointment is immeasurable. What a waste of my valuable time.	Моє розчарування неосяжне. Яка марна трата мого дорогоцінного часу.
+I don't really converse with your kind, but today I'll make an exception.	Я не розмовляю з такими, як ти, але сьогодні зроблю виняток.
+Heard you may got some mushrooms...I've been looking for some...	Чув, у тебе можуть бути гриби... Я якраз шукаю...
+Oh man gee, that's awful man, call me when you got 'em alright?	Ох, ну це жах, чуваче, подзвони, як будуть, добре?
+My wheat minion has been slacking recently, I am thinking about giving it an upgrade. He hasn't produced any wheat in years! Every time I check on him, he's empty.	Мій пшеничний міньйон останнім часом ледарює, думаю його покращити. Він уже роками не дає пшениці! Щоразу, як перевіряю, — порожньо.
+I guess I'll have to keep going like this.	Що ж, доведеться й далі так жити.
+The King's least favorite vegetable is carrot, so he sent me, his favorite emissary, to make it better!	Найменш улюблений овоч Короля — морква, тож він послав мене, свого улюбленого посланця, щоб це виправити!
+I'm not sure if the carrots would have worked anyways...	Не певен, що морква взагалі допомогла б...
+The King's favorite emissary is here to request potatoes for the King's great feast!	Улюблена посланниця Короля прибула просити картоплю для великого королівського бенкету!
+I will inform the King about this disgrace!	Я доповім Королю про цю ганьбу!
+The King has sent me to go shopping for I am his favorite emissary!	Король послав мене за покупками, адже я його улюблений посланець!
+How dare you reject me, the King's favorite emissary?!	Як ти смієш відмовляти мені, улюбленому посланцю Короля?!
+I know what all the others say, but I am the King's true favorite emissary.	Знаю, що кажуть інші, але справжній улюблений посланець Короля — це я.
+The King will surely punish you for this disrespect!	Король неодмінно покарає тебе за таку неповагу!
+Been running low on my brewing supplies, Nether Warts are quite hard to come by these days.	У мене закінчуються запаси для зілля, пекельний нарост нині важко дістати.
+Unfortunate, I'll see if I can find some Nether Warts from someone else.	Шкода, пошукаю пекельний нарост деінде.
+I have a big issue to get rid of.	У мене є велика проблема, якої треба позбутися.
+I suppose that was expected. Not many people have enough potatoes to power a magical portal.	Цього варто було чекати. Мало в кого вистачить картоплі, щоб живити магічний портал.
+Where am I? Oh, it's you gianxdd.	Де я? О, це ти, gianxdd.
+Hey kid, I haven't seen you in a while. Arachne's powers are growing day by day. Soon she'll take over the Spider's Den.	Гей, малий, давно тебе не бачив. Сили Арахни ростуть з кожним днем. Скоро вона захопить Павуче лігво.
+I wish peace upon you.	Бажаю тобі миру.
+Hey, you got some wheat for my pets by any chance? Gotta keep those little monsters fed, haha!	Гей, у тебе випадково не знайдеться пшениці для моїх улюбленців? Треба ж годувати цих маленьких монстрів, ха-ха!
+Oh, you're out of wheat? Alright, I'll come back later then.	О, пшениця закінчилася? Гаразд, тоді зайду пізніше.
+Did you know that there is a Garden Level? Increase it by hitting milestones or selling to customers like me!	А ти знав, що в Саду є рівень? Підвищуй його, досягаючи віх або продаючи клієнтам на кшталт мене!
+Hey! I am looking to make some Hot Potato Books to enhance some of my weapons, do you have any potatoes to spare?	Гей! Хочу зробити кілька Книг гарячої картоплі, щоб покращити свою зброю. Не знайдеться зайвої картоплі?
+Too bad, I guess I'll have to look for actual metal next time...	Шкода, мабуть, наступного разу шукатиму справжній метал...
+Greetings! I've been running low on paper recently for my Enchanted Books, could you bring me some Sugar Cane?	Вітаю! Останнім часом мені бракує паперу для Зачарованих книг. Принесеш трохи цукрової тростини?
+Very unfortunate, I really needed that paper...	Дуже прикро, мені справді був потрібен той папір...
+Did you know that SkyBlock has been running for {0} in-game months already? Time flies.	А ти знав, що SkyBlock працює вже {0} ігрових місяців? Час летить.
+Operating that lift all day takes a lot outta ya, you know?	Цілий день керувати тим ліфтом — виснажує, знаєш?
+Back to the mines I go...	Повертаюся в шахти...
+Dusk needs some watermelon to quench his thirst. Dusk would appreciate it.	Даску потрібен кавун, щоб угамувати спрагу. Даск буде вдячний.
+Dusk is disappointed. Dusk goes away now.	Даск розчарований. Даск іде геть.
+Sadly you can't gather logs in the The Garden, however there are plenty of crops here!	На жаль, у Саду не можна рубати колоди, зате тут повно культур!
+If you ever get lost, you should check on the Desk on what to do next.	Якщо колись заблукаєш, зазирни до Столу — там написано, що робити далі.
+Did you know that you gain additional  Farming Fortune while on the The Garden? You can check it in your SkyBlock Profile!	А ти знав, що в Саду отримуєш додаткову Удачу фермерства? Перевір у своєму профілі SkyBlock!
+Exploring the whole wide world makes me hungry, I could take some fresh potatoes.	Від мандрів цілим світом я зголоднів, не відмовився б від свіжої картоплі.
+Darn it, I'll have to find another farmer then.	Дідько, доведеться шукати іншого фермера.
+I don't have a recipe for you, however I'd happily take some crops.	Рецепта для тебе в мене немає, але я охоче візьму трохи врожаю.
+No problem, see ya next time!	Без проблем, до наступного разу!
+Hey hey hey again! I'll trade you some copper for some carrots!	Знову привіт-привіт! Обміняю тобі трохи міді на моркву!
+Oh, darn it :(	Ох, дідько :(
+I paid for one of Treasure Hunter's tips today and again, it only led me to a dirty shoelace. His tips are just not worth it...	Сьогодні я знову заплатив Шукачеві скарбів за підказку, і вона знову привела мене лише до брудного шнурка. Його підказки того не варті...
+You're no better than the Treasure Hunter...	Ти нічим не кращий за Шукача скарбів...
+The amount of plots you can unlock here is perfect for a Co-op. So much space!	Кількість ділянок, які тут можна відкрити, ідеальна для коопу. Стільки місця!
+A recipe has no soul. It is up to the cook to bring that ingredient to the table.	Рецепт не має душі. Вкласти цей інгредієнт — справа кухаря.
+One cannot sleep well, love well, think well, if one has not dined well.	Не можна добре спати, добре любити й добре думати, якщо не пообідав як слід.
+Last night I had another horrible nightmare. I'm afraid to fall asleep again.	Минулої ночі мені знову наснився жахливий сон. Боюся засинати.
+Tough love, but maybe you're right. They're only nightmares, right? Not real. Heh.	Сувора любов, але, може, ти маєш рацію. Це ж лише жахіття, так? Не насправді. Хе.
+I'll keep crunching on those ice cubes, maybe I am missing something.	Гризтиму й далі ці кубики льоду, може, я чогось не розумію.
+Mortal, the time of reckoning is near. The Past will light the future.	Смертний, час розплати близько. Минуле освітить майбутнє.
+Soon.	Скоро.
+Do you have any pumpkins I can wear as a mask while down in the Glacite Tunnels?	Є в тебе гарбузи, які можна вдягнути як маску в Гляцитових тунелях?
+You want me to go back down there with nothing to hide behind? Bro...	Хочеш, щоб я спустився туди, не маючи, за чим сховатися? Брате...
+Where I live, vegetables aren't really an option. No sunlight, you see. Could you get me some?	Там, де я живу, з овочами сутужно. Сонця немає, розумієш. Дістанеш мені трохи?
+Welp. Meat is good too, I suppose.	Ну що ж. М'ясо теж непогано, мабуть.
+I'm planning to head back into the gorge to fetch my hiker friend, but I'll need some meat to cook before I head in there.	Збираюся повернутися в ущелину по свого друга-мандрівника, але перед тим треба приготувати трохи м'яса.
+That's alright. I can always head into the Oasis to hunt down some sheep.	Нічого. Завжди можу сходити в Оазис і вполювати кількох овець.
+Hey there! I'm looking for a new type of flower to plant in my Garden.	Привіт! Шукаю новий вид квітів для свого Саду.
+If you ever change your mind, you know where to find me!	Якщо передумаєш — знаєш, де мене знайти!
+I once dumped a magical water bucket into the toilet. It won't stop overflowing. Anyway, you got something for me?	Якось я вилив магічне відро води в унітаз. Тепер він безупинно переповнюється. Утім, у тебе є щось для мене?
+I guess I'll just try to fix it myself.	Мабуть, спробую полагодити сам.
+You might have noticed that you can purchase additional plots within your Desk in the Barn!	Ти, мабуть, помітив, що додаткові ділянки можна купити за Столом у Коморі!
+I heard you have a composter in your barn, it happens to run on the same fuel drills run on! Could I check it out?	Чув, у тебе в коморі є компостер, і він працює на тому ж паливі, що й бури! Можна глянути?
+I've competed in numerous sugar cane contests, but I've never actually tried farming other crops.	Я брав участь у купі конкурсів із цукрової тростини, але інших культур ніколи не вирощував.
+Cultivating sugar cane gets boring eventually.	Вирощувати цукрову тростину рано чи пізно набридає.
+Hello there, I seem to be stuck here with no good food to eat, could you bring me some square orange fruits?	Привіт, здається, я застряг тут без нормальної їжі. Принесеш мені квадратних помаранчевих плодів?
+I guess I'll just go hungry then...	Що ж, тоді залишуся голодним...
+I found an unexplored cave while mining for titanium. But it's too dark to see in there, even for me! Can you spare any glowing pumpkins?	Видобуваючи титан, я знайшов недосліджену печеру. Але там надто темно навіть для мене! Не знайдеться кількох світних гарбузів?
+Well then, I will even mine in total darkness if I must!	Що ж, якщо доведеться, копатиму й у цілковитій темряві!
+I want to make some new brews, do you think you can give me some ingredients to work with?	Хочу зварити щось нове. Даси мені кілька інгредієнтів?
+Hard times we are in. Take care!	Важкі нині часи. Бережи себе!
+A Carrot King has been scaring off all the good fish, I need to deal with it before I lose more fish.	Морквяний король розполохав усю добру рибу, треба з ним розібратися, поки я не втратив ще більше.
+S'alright, we are all busy some days.	Та нічого, у всіх бувають зайняті дні.
+One day you'll be able to buy the sun, trust me on that mate.	Колись ти зможеш купити й сонце, повір мені, друже.
+A tribute is needed.	Потрібна данина.
+This simply won't do.	Так не годиться.
+That's alright! I'll just save up {0} years to be able to afford one myself.	Нічого страшного! Просто збиратиму {0} років, щоб купити собі такий самому.
+I usually only work with Oil Barrels, but I'd like to try making some Biofuel from compost.	Зазвичай я працюю лише з бочками нафти, але хочу спробувати зробити біопаливо з компосту.
+I saw some weird guy in a mask go into a tiny hole inside the Dwarven Mines, maybe he's part of the Cult of the Fallen Star?	Я бачив дивного типа в масці, що заліз у крихітну нору в Гномських шахтах. Може, він із Культу Впалої Зорі?
+These guys... are scaring me. I'm not quite sure what they are planning in there, but I'd also rather not want to know.	Ці типи... лякають мене. Не знаю, що вони там замишляють, і, чесно кажучи, знати не хочу.
+Fancy seeing you here, friend! Today is a special day for me, as I am seeing Juliette! Think you can help me get her some flowers?	Оце так зустріч, друже! Сьогодні для мене особливий день — я бачуся з Джульєттою! Допоможеш дістати для неї квітів?
+Just because I see Juliette every day doesn't mean it's not a reason to celebrate.	Те, що я бачу Джульєтту щодня, ще не означає, що це не привід святкувати.
+Someone just bought up my entire stock of Nether Wart! Could you help me replenish my supply?	Хтось щойно скупив увесь мій запас пекельного наросту! Допоможеш поповнити?
+Looks like I'll have to find something else to sell.	Схоже, доведеться знайти щось інше на продаж.
+I have a big problem. I lost my sense of taste, now I can't tell the difference between a melon and a cactus...	У мене велика біда. Я втратив смак і тепер не відрізняю кавун від кактуса...
+Wanting to buy something from me? I got some pretty fancy tuxedos for sale, for a price of a small fortune.	Хочеш щось у мене купити? Маю на продаж дуже вишукані смокінги — за ціну невеликого статку.
+In order to better understand the cold, sometimes you have to get warm.	Щоб краще зрозуміти холод, іноді треба зігрітися.
+I ordered a snack down to my room in the Catacombs. Took them years to find me, and even then they forgot the toppings!	Я замовив перекус у свою кімнату в Катакомбах. Шукали мене роками, а коли знайшли — забули начинку!
+I'm looking to try out a new bait for fishing in the Jerry Pond, can you help me out?	Хочу випробувати нову наживку для риболовлі в Ставку Джеррі. Допоможеш?
+Oh, hello there! You must be the adventurer who helped me find all those relics.	О, привіт! Ти, мабуть, той шукач пригод, що допоміг мені знайти всі ті реліквії.
+I need one more ingredient to make The Cake for the next person I can get to listen to me.	Мені бракує ще одного інгредієнта, щоб спекти Той Самий Торт для наступного, хто погодиться мене вислухати.
+Man, coming back here after being in space for so long feels really good. Something I have been craving for a while is Enchanted Cactus, they unfortunately do not grow in space.	Ох, як же добре повернутися сюди після стількох часу в космосі. Давно мрію про Зачарований кактус — у космосі він, на жаль, не росте.
+Do Golden Carrots taste different than normal ones? I've actually never tried one before so I am pretty curious how they taste.	Чи відрізняється на смак золота морква від звичайної? Я її ніколи не куштував, тож дуже цікаво.
+They would've probably tasted bad anyways...	Мабуть, вона все одно була б несмачна...
+I'm looking to make some Jack o' Lanterns to help light up the Crystal Hollows - maybe you can help me out?	Хочу зробити кілька ліхтарів-гарбузів, щоб освітити Кришталеві печери. Допоможеш?
+So, so, sooooo cold.	Як же ж холоднооо.
+Hey, how are you doing with the Greenhouse? That blueprint was complex.	Гей, як там справи з Теплицею? Креслення було складне.
+My helmet is constantly breaking. Could you provide me with some Pumpkins to help with maintenance?	Мій шолом постійно ламається. Даси трохи гарбузів на ремонт?
+I'm all out of Melons down in the Catacombs, you got any?	У мене в Катакомбах закінчилися кавуни, маєш?
+This pet I'm looking after is super hungry! You got anything?	Улюбленець, за яким я наглядаю, страшенно голодний! Маєш щось?
+Oh my feathers, these little ones are not going to be happy!	Ой, пір'ячко моє, малеча буде не в захваті!
+I've been planning to build a trap for unaware animals so I can hunt them more efficiently. I really need some cactus, preferably the ones with the biggest spikes!	Я задумав збудувати пастку для необачних тварин, щоб полювати ефективніше. Дуже потрібні кактуси, бажано з найбільшими колючками!
+I like to press a flower for each place the Carnival stops at. Do you have any?	Я засушую по квітці з кожного місця, де зупиняється Карнавал. Маєш якусь?
+Hey you! Can you bring me the hardest block you can mine?	Гей, ти! Принесеш мені найтвердіший блок, який зможеш добути?
+While I love the cold, I can no longer feel my fingers.	Хоч я й люблю холод, пальців уже не відчуваю.
+Sometimes, after a long day of fighting incomprehensible horrors in the Crimson Isle, you just want to kick back.	Іноді після довгого дня боротьби з незбагненними жахами Багряного острова просто хочеться розслабитися.
+Hi! I'm looking for a very specific crop.	Привіт! Я шукаю дуже конкретну культуру.
+I'm here to put a value on your farm. Bring me your fanciest crop.	Я тут, щоб оцінити твою ферму. Принеси мені свій найвишуканіший урожай.
+Truly Magnificent! I value your farm at a minimum of {0} coins!	Воістину чудово! Оцінюю твою ферму щонайменше в {0} монет!
+I've recently got into cooking, yesterday I made pasta carbonara, today I'm planning on baking a carrot cake.	Нещодавно захопився кулінарією: учора зробив пасту карбонара, сьогодні планую спекти морквяний торт.
+Restocking, restocking!	Поповнюю запаси, поповнюю!
+I see. Hopefully next time I see you, you won't be needing anything that requires anything from me...	Ясно. Сподіваюся, наступного разу тобі не знадобиться нічого, що потребує чогось від мене...
+
+# --- Підземелля, Сафарі, Карнавал, мисливці ---
+Here, I found this map when I first entered the dungeon.	Ось, я знайшов цю мапу, коли вперше зайшов у підземелля.
+You should find it useful if you get lost.	Вона тобі знадобиться, якщо заблукаєш.
+Good luck.	Щасти.
+Good luck, friend!	Щасти, друже!
+I already saw your ticket, so you're free to go.	Я вже бачив твій квиток, тож можеш іти.
+Looks like you used up your last Critter Capsule!	Схоже, ти використав свою останню Капсулу для звірят!
+Would you like to leave the Critter Safari?	Бажаєш покинути Сафарі звірят?
+Looks good to me. Have fun out there!	Мені все підходить. Розважайся там!
+Your friends will need to show me their tickets, though.	Щоправда, твоїм друзям доведеться показати мені свої квитки.
+Welcome to Catch a Fish, friend!	Ласкаво просимо до «Злови рибку», друже!
+Are you here to play?	Прийшов пограти?
+Well, here goes...	Ну, поїхали...
+Phew!	Фух!
+Glad to find someone else out here - this place is scary!	Як добре, що тут є ще хтось — це місце лякає!
+Sweet, 'ppreciate it!	Клас, дякую!
+Brr!	Бррр!
+It's f-f-f-freezing out here - d-d-don't sit around for t-t-too long!	Т-т-тут м-м-морозяно — н-н-не сиди тут з-з-занадто довго!
+Hey there!	Привіт!
+Do you want it?	Хочеш?
+Heyyy!	Приві-і-іт!
+Could you bring me an animal? You can find them all over the island!	Принесеш мені тварину? Їх повно по всьому острову!
+I've been tracking an animal for the past few days. Got anything I could use as bait?	Я кілька днів вистежую одну тварину. Маєш щось, що згодиться як принада?
+Looks like I'll have to catch it the old fashioned way.	Схоже, доведеться ловити по-старому.
+You will have {0} minutes to find the mob from when you accept the task.	У тебе буде {0} хвилин, щоб знайти моба, з моменту, як візьмеш завдання.
+Any longer than that and the animal will run away!	Довше — і тварина втече!
+I still need to think, but I'll probably want to talk again later. Come back tomorrow.	Мені ще треба подумати, але, мабуть, я захочу поговорити пізніше. Приходь завтра.
+Before diving down again, ensure you have enough  Pressure Resistance and  Respiration.	Перед тим як знову пірнати, переконайся, що маєш достатньо Стійкості до тиску й Дихання.
+Phew, you were almost a goner there. Good thing I'm a lifeguard, huh?	Фух, ти мало не загинув. Добре, що я рятувальник, га?
+Phew, you were almost a goner there. Good thing I’m a lifeguard, huh?	Фух, ти мало не загинув. Добре, що я рятувальник, га?
+My buddy Nemo over in Murkwater Loch sells some supplies, if you need them.	Мій друзяка Немо на Murkwater Loch продає припаси, якщо треба.
+My neighbor told me to get off his property, but he doesn't even own this place!	Сусід сказав мені забиратися з його ділянки, але ж це місце навіть не його!
+You won't be able to store any items in the Garden, you should keep them on your Private Island!	У Саду не вийде зберігати предмети, тримай їх на своєму особистому острові!

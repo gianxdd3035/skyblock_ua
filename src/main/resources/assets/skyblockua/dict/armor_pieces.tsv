@@ -1,0 +1,25 @@
+# Частини броні й спорядження: англійською, українською (з малої літери), рід (m/f/n/p).
+# Назва предмета складається як "<частина> <сет у родовому відмінку>" або "<прикметник сету> <частина>".
+Helmet	шолом	m
+Chestplate	нагрудник	m
+Leggings	поножі	p
+Boots	чоботи	p
+Hat	капелюх	m
+Cap	кепка	f
+Hood	каптур	m
+Mask	маска	f
+Tunic	туніка	f
+Pants	штани	p
+Trousers	штани	p
+Shoes	черевики	p
+Slippers	капці	p
+Sandals	сандалі	p
+Galoshes	калоші	p
+Crown	корона	f
+Goggles	окуляри	p
+Necklace	намисто	n
+Cloak	плащ	m
+Belt	пояс	m
+Gloves	рукавички	p
+Gauntlet	латна рукавиця	f
+Bracelet	браслет	m

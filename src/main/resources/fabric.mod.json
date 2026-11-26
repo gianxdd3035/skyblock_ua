@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "skyblockua",
+	"version": "${version}",
+	"name": "SkyBlock UA",
+	"description": "Український переклад Hypixel SkyBlock: назви й описи предметів, меню, діалоги NPC і повідомлення сервера. Працює лише на клієнті.",
+	"authors": [
+		"Kyrylo"
+	],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"ua.kyrylo.skyblockua.SkyblockUa"
+		]
+	},
+	"mixins": [
+		"skyblockua.mixins.json",
+		"skyblockua.compat.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"iconographic": "*"
+	}
+}

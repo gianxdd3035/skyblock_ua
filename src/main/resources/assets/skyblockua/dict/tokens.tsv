@@ -1,0 +1,8 @@
+# Слова й фрази, що замінюються будь-де в рядку (лише цілими словами, з урахуванням регістру).
+# Довші фрази замінюються раніше за коротші.
+SNEAK RIGHT CLICK	SHIFT + ПКМ
+SNEAK LEFT CLICK	SHIFT + ЛКМ
+RIGHT CLICK	ПКМ
+LEFT CLICK	ЛКМ
+MIDDLE CLICK	СКМ
+Lvl	Рів.

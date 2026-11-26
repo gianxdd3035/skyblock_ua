@@ -1,0 +1,283 @@
+# Найчастіші рядки описів предметів (за базою NEU).
+# Якщо в перекладі немає §-кодів, рядок отримує колір оригіналу.
+# Довгі речення в Hypixel розбиті на кілька рядків — переклад розбитий на стільки ж рядків.
+
+# --- Загальні позначки ---
+This item can be reforged!	Цей предмет можна перекувати!
+Combinable in Anvil	Можна поєднати в ковадлі
+Consumed on use	Витрачається під час використання
+Works while in Accessory Bag!	Діє, коли лежить у Сумці аксесуарів!
+* Soulbound *	§8§l* §8Прив'язаний до душі §8§l*
+* Co-op Soulbound *	§8§l* §8Прив'язаний до душі (кооп) §8§l*
+X Rift-Transferable X	§5§kX§5 Можна перенести в Рифт §5§kX
+Collection Item	Предмет колекції
+Furniture	Меблі
+Reforge Stone	Камінь перекування
+Brewing Ingredient	Інгредієнт для зілля
+Consumable	Витратний предмет
+Quest Item	Квестовий предмет
+Decoration Item	Декоративний предмет
+Minion Skin	Скін міньйона
+Minion Fuel	Паливо для міньйона
+Minion Upgrade	Покращення міньйона
+Fishing Bait	Наживка
+Consumes on Catch	Витрачається під час улову
+Hunting Tool	Мисливський інструмент
+Drill Part	Деталь бура
+Storage	Сховище
+Basic Brew	Базове зілля
+Can be applied once.	Можна застосувати один раз.
+Only one deployable buff applies.	Діє лише один розгортаний бонус.
+Multiple sacks sum their capacity!	Місткість кількох мішків додається!
+Used for NEU NPC-Shops	Використовується для магазинів NPC у NEU
+(Requires active Booster Cookie)	(Потрібне активне Печиво-підсилювач)
+Features!	Особливості!
+
+# --- Категорії в нижній частині опису ---
+Combat Pet	Бойовий улюбленець
+Fishing Pet	Улюбленець риболовлі
+Farming Pet	Фермерський улюбленець
+Mining Pet	Улюбленець копання
+Foraging Pet	Улюбленець лісорубства
+Alchemy Pet	Улюбленець алхімії
+Enchanting Pet	Улюбленець зачарування
+Holiday Cosmetic	Святкова косметика
+Halloween Cosmetic	Косметика Гелловіну
+Summer Cosmetic	Літня косметика
+Easter Cosmetic	Великодня косметика
+Bows	Луки
+Boots	Чоботи
+Farming Tool	Фермерський інструмент
+Weapons	Зброя
+Chestplates	Нагрудники
+Helmets	Шоломи
+Leggings	Поножі
+
+# --- Типи предметів (у списках "Застосовується до:") ---
+Sword	Меч
+Longsword	Довгий меч
+Gauntlet	Латна рукавиця
+Bow	Лук
+Armor	Броня
+Helmet	Шолом
+Chestplate	Нагрудник
+Necklace	Намисто
+Cloak	Плащ
+Belt	Пояс
+Gloves	Рукавички
+Bracelet	Браслет
+Fishing Rod	Вудка
+Fishing Weapon	Риболовна зброя
+Axe	Сокира
+Pickaxe	Кирка
+Drill	Бур
+Shovel	Лопата
+Hoe	Мотика
+Shears	Ножиці
+Wand	Жезл
+Equipment	Спорядження
+
+# --- Звідки береться (списки "Джерела:") ---
+Bazaar	Базар
+Enchantment Table	Стіл зачарувань
+Experiments	Експерименти
+Dark Auction	Темний аукціон
+Catacombs	Катакомби
+Jacob's Farming Contest	Фермерський конкурс Джейкоба
+Fishing	Риболовля
+Tree Gifts	Дари дерев
+Pearl Dealer	Торговець перлами
+
+# --- Кліки ---
+Right-click to view recipes!	ПКМ, щоб переглянути рецепти!
+Right-click to equip!	ПКМ, щоб екіпірувати!
+Right-click to consume!	ПКМ, щоб спожити!
+Click to consume!	Натисни, щоб спожити!
+Right-click to open!	ПКМ, щоб відкрити!
+Right Click to open!	ПКМ, щоб відкрити!
+Right-click to send to Hunting Box!	ПКМ, щоб надіслати до Мисливської скрині!
+Shift Right-click to move all!	Shift + ПКМ, щоб перемістити все!
+Right-click to add this pet to your pet menu!	ПКМ, щоб додати улюбленця до меню улюбленців!
+Right-click to view rarity scaling!	ПКМ, щоб переглянути залежність від рідкості!
+Right click to add to your Factory!	ПКМ, щоб додати до своєї Фабрики!
+Right-click on your summoned pet to	ПКМ по викликаному улюбленцю, щоб
+Right-click your summoned pet to	ПКМ по викликаному улюбленцю, щоб
+give it this item!	дати йому цей предмет!
+apply this skin!	застосувати цей скін!
+Analyze this crop!	§eПроаналізуй§7 цю культуру!
+
+# --- Вимоги ---
+Requires level {0}	Потрібен рівень {0}
+❣ Requires Combat Skill {0}.	§4❣ §cПотрібна навичка §aБій {0}§c.
+❣ Requires Farming Skill {0}.	§4❣ §cПотрібна навичка §aФермерство {0}§c.
+❣ Requires Fishing Skill {0}.	§4❣ §cПотрібна навичка §aРиболовля {0}§c.
+❣ Requires Mining Skill {0}.	§4❣ §cПотрібна навичка §aКопання {0}§c.
+❣ Requires Foraging Skill {0}.	§4❣ §cПотрібна навичка §aЛісорубство {0}§c.
+❣ Requires Hunting Skill {0}.	§4❣ §cПотрібна навичка §aПолювання {0}§c.
+❣ Requires Enchanting Skill {0}.	§4❣ §cПотрібна навичка §aЗачарування {0}§c.
+❣ Requires Alchemy Skill {0}.	§4❣ §cПотрібна навичка §aАлхімія {0}§c.
+❣ Requires Taming Skill {0}.	§4❣ §cПотрібна навичка §aПриборкання {0}§c.
+❣ Requires Carpentry Skill {0}.	§4❣ §cПотрібна навичка §aТеслярство {0}§c.
+❣ Requires Catacombs Skill {0}.	§4❣ §cПотрібна навичка Катакомби {0}.
+❣ Requires Heart of the Mountain Tier {0}.	§4❣ §cПотрібне §5Серце Гори, рівень {0}§c.
+❣ Requires Heart of the Forest Tier {0}.	§4❣ §cПотрібне §2Серце Лісу, рівень {0}§c.
+❣ Requires Garden Level {0}.	§4❣ §cПотрібен §aРівень Саду {0}§c.
+❣ Requires The Catacombs Floor I Completion.	§4❣ §cПотрібно пройти Катакомби, поверх I.
+❣ Requires The Catacombs Floor II Completion.	§4❣ §cПотрібно пройти Катакомби, поверх II.
+❣ Requires The Catacombs Floor III Completion.	§4❣ §cПотрібно пройти Катакомби, поверх III.
+❣ Requires The Catacombs Floor IV Completion.	§4❣ §cПотрібно пройти Катакомби, поверх IV.
+❣ Requires The Catacombs Floor V Completion.	§4❣ §cПотрібно пройти Катакомби, поверх V.
+❣ Requires The Catacombs Floor VI Completion.	§4❣ §cПотрібно пройти Катакомби, поверх VI.
+❣ Requires The Catacombs Floor VII Completion.	§4❣ §cПотрібно пройти Катакомби, поверх VII.
+❣ Requires Kuudra Basic Tier Completion.	§4❣ §cПотрібно пройти Kuudra (рівень Basic).
+❣ Requires Kuudra Hot Tier Completion.	§4❣ §cПотрібно пройти Kuudra (рівень Hot).
+❣ Requires Kuudra Burning Tier Completion.	§4❣ §cПотрібно пройти Kuudra (рівень Burning).
+❣ Requires Kuudra Fiery Tier Completion.	§4❣ §cПотрібно пройти Kuudra (рівень Fiery).
+❣ Requires Kuudra Infernal Tier Completion.	§4❣ §cПотрібно пройти Kuudra (рівень Infernal).
+☠ Requires Zombie Slayer {0}.	§4☠ §cПотрібен §5Винищувач зомбі {0}§c.
+☠ Requires Spider Slayer {0}.	§4☠ §cПотрібен §5Винищувач павуків {0}§c.
+☠ Requires Wolf Slayer {0}.	§4☠ §cПотрібен §5Винищувач вовків {0}§c.
+☠ Requires Enderman Slayer {0}.	§4☠ §cПотрібен §5Винищувач ендерменів {0}§c.
+☠ Requires Blaze Slayer {0}.	§4☠ §cПотрібен §5Винищувач іфритів {0}§c.
+☠ Requires Vampire Slayer {0}.	§4☠ §cПотрібен §5Винищувач вампірів {0}§c.
+Enchanting Level {0}	Рівень зачарування {0}
+Breaking Power {0}	Сила руйнування {0}
+
+# --- Улюбленці ---
+Pet skins change the look and	Скіни улюбленців змінюють вигляд і
+particle trail of your pet but only	слід із частинок улюбленця, але
+one skin can be active at a time!	одночасно може діяти лише один скін!
+This skin can only be applied to	Цей скін можна застосувати лише до
+This skin is animated!	Цей скін анімований!
+Pet Items can boost pets in many	§aПредмети улюбленців §7можуть по-різному
+powerful ways! A pet can only hold	§7посилювати улюбленців! Улюбленець може мати
+one Pet Item, but you can swap it at	§7лише один §aпредмет§7, але його можна §eзамінити
+any time!	§7будь-коли!
+The pet must be visible to apply the item!	Улюбленець має бути видимим, щоб застосувати предмет!
+This pet's perks are active even	Бонуси цього улюбленця діють навіть тоді,
+when the pet is not summoned!	коли улюбленця не викликано!
+pets.	улюбленців.
+
+# --- Скіни ---
+Item skins give your gear a fresh	Скіни предметів надають спорядженню
+new look! Apply them just like an	свіжого вигляду! Застосовуються так само, як
+enchant book using the anvil.	книга зачарувань, через ковадло.
+This skin can be applied to Backpacks.	§7Цей скін можна застосувати до §aРюкзаків§7.
+This skin will allow you to swap	Цей скін дозволяє перемикати
+This skin is swappable between {0}	§7Цей скін можна перемикати між §a{0}
+▶ This skin is swappable between {0}	§8▶ §7Цей скін можна перемикати між {0}
+whenever you want!	коли завгодно!
+This skin adapts to the day-night	Цей скін змінюється разом із циклом
+cycle!	дня й ночі!
+Changes the color of an armor piece	Змінює колір частини броні
+Animates the color of an armor piece	Анімує колір частини броні
+
+# --- Осколки (Hunting) ---
+You can Syphon this shard from	Цей осколок можна викачати з
+your Hunting Box.	§7твоєї §aМисливської скрині§7.
+
+# --- Зачарування ---
+You can only have {0} Ultimate	Можна мати лише {0} ультимативне
+Enchantment on an item!	зачарування на предметі!
+
+# --- Космічні/святкові предмети ---
+This exclusive Holiday cosmetic can	§7Цю ексклюзивну §cсвяткову §7косметику можна
+This exclusive Halloween cosmetic	§7Цю ексклюзивну §6гелловінську §7косметику
+This exclusive Summer cosmetic can	§7Цю ексклюзивну §aлітню §7косметику можна
+This exclusive Easter cosmetic can	§7Цю ексклюзивну §dвеликодню §7косметику можна
+can be placed on your island or	можна поставити на своєму острові або
+be placed on your island or traded.	поставити на своєму острові або обміняти.
+traded.	обміняти.
+Furniture can be placed on your	Меблі можна ставити на своєму
+world. Some furniture is interactable	світі. З деякими меблями можна взаємодіяти,
+while some are purely cosmetic.	а деякі суто декоративні.
+Decorate your island with this	Прикрась свій острів цією
+eco-friendly lamp!	екологічною лампою!
+
+# --- Руни ---
+Apply this rune to bows or fuse two	Застосуй цю руну до луків або сплав дві
+Apply this rune to boots or fuse two	Застосуй цю руну до чобіт або сплав дві
+Apply this rune to weapons or fuse	Застосуй цю руну до зброї або сплав
+two together at the Runic Pedestal!	дві разом на Рунічному постаменті!
+together at the Runic Pedestal!	разом на Рунічному постаменті!
+Apply this rune to boots at the Runic	Застосуй цю руну до чобіт на Рунічному
+Apply this rune to chestplates at the	Застосуй цю руну до нагрудників на
+Apply this rune to weapons at the	Застосуй цю руну до зброї на
+Apply this rune to bows at the Runic	Застосуй цю руну до луків на Рунічному
+Runic Pedestal!	Рунічному постаменті!
+Pedestal!	постаменті!
+
+# --- Різне, що часто трапляється ---
+Grants the following stats that scale	Дає такі стати, що залежать
+with the item's rarity:	від рідкості предмета:
+Consume this item to unlock the	Спожий цей предмет, щоб відкрити
+Consume this item to add its	Спожий цей предмет, щоб додати його
+destination to your Fast Travel	пункт призначення до Швидкого переміщення
+options.	варіантів.
+Placing this item on your private	Якщо поставити цей предмет на своєму
+island will create a portal to the	острові, з'явиться портал до
+The portal will spawn facing you on	Портал з'явиться обличчям до тебе на
+the block you click on.	блоці, по якому ти натиснеш.
+Holds various items obtained from	Вміщує різні предмети, отримані з
+into your sacks.	у твої мішки.
+directly into your sacks.	одразу у твої мішки.
+Obtained very rarely from slaying	Дуже рідко випадає з
+mobs.	мобів.
+blocks.	блоків.
+seconds.	секунд.
+stronger.	сильнішим.
+against them.	проти них.
+spells.	заклинання.
+installed.	встановлено.
+experiments!	експериментів!
+joined.	приєднався.
+This item is Undead !	Цей предмет — Нежить !
+This item will vanish from your	Цей предмет зникне з твого
+Can be applied once.	Можна застосувати один раз.
+Increase the damage you deal with	Збільшує шкоду, яку ти завдаєш
+Reduces the damage you take from	Зменшує шкоду, яку ти отримуєш від
+Increases melee damage dealt by	Збільшує шкоду ближнього бою на
+Increases damage dealt by {0}	§7Збільшує завдану шкоду на §a{0}
+Increases bow damage by {0}.	§7Збільшує шкоду з лука на §a{0}§7.
+Obtained in Year {0}.	§7Отримано в §fРоці {0}§7.
+Edition #{0}	Видання №{0}
+Level {0} -> {1} ({2}/{3})	§7Рівень §a{0} §8-> §6{1}   §8({2}/{3})
+{0} hours!	{0} год!
+Invite your friends to share a slice	Запроси друзів розділити шматочок
+
+# --- Шоколадна фабрика ---
+Grants {0} Chocolate and {1}x	§7Дає §6{0} шоколаду §7і §6{1}x
+Chocolate per second to your	§6шоколаду §7за секунду для твоєї
+Chocolate Factory.	§6Шоколадної фабрики§7.
+This is a Mountain Faction Rabbit!	Це кролик фракції Гір!
+This is a Country Faction Rabbit!	Це кролик фракції Села!
+This is a City Faction Rabbit!	Це кролик фракції Міста!
+This is a Beach Faction Rabbit!	Це кролик фракції Пляжу!
+
+# --- Мікстури ---
+Mixins provide a buff that can be	§7Мікстури дають бонус, який можна
+added to God Potions in a brewing	§7додати до §cБожественного зілля §7у варильній
+stand and lasts for the full duration.	§7стійці; він діє весь час.
+The duration of Mixins can be stacked!	Тривалість мікстур підсумовується!
+Use this item in place of an	Використовуй цей предмет замість
+Awkward Potion for certain	Незграбного зілля для деяких
+potions.	зіль.
+
+# --- Контакти (Абіфон) ---
+A device that can be used to contact	Пристрій, яким можна зв'язуватися
+people! Click NPCs to add them to	з людьми! Натискай на NPC, щоб додати їх
+your contacts!	до контактів!
+Maximum Contacts: {0}	§7Макс. контактів: §b{0}
+Contacts Directory	Довідник контактів
+Do Not Disturb Mode	Режим «Не турбувати»
+Maximum Discs: {0}	§7Макс. дисків: §b{0}
+
+# --- Вудки (Backwater Bayou) ---
+ථ Hook NONE	§9ථ Гачок §8§lНЕМАЄ
+ꨃ Line NONE	§9ꨃ Волосінь §8§lНЕМАЄ
+࿉ Sinker NONE	§9࿉ Грузило §8§lНЕМАЄ
+Bayou to apply parts to this rod.	§2Bayou§7, щоб встановити деталі на цю вудку.
+Talk to Roddy in the Backwater	§7Поговори з §2Roddy §7у §2Backwater
+Gain immunity to Sea Creatures but	§7Отримуєш імунітет до §3морських істот§7, але
+they are immune to you and you can	§7і вони не вразливі до тебе, і ти
+no longer catch them.	§7більше не можеш їх ловити.

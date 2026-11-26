@@ -1,0 +1,150 @@
+# Описи міньйонів. Рядки в Hypixel спільні для різних міньйонів, тому кожен рядок
+# перекладено так, щоб він читався разом із будь-яким сусіднім.
+
+Place this minion and it will start	Постав цього міньйона, і він почне
+Minions also work when you are	Міньйони працюють, навіть коли ти
+offline!	не в мережі!
+are offline!	не в мережі!
+you are offline!	ти не в мережі!
+when you are offline!	коли ти не в мережі!
+also work when you are offline!	працюють, навіть коли ти не в мережі!
+work when you are offline!	працюють, навіть коли ти не в мережі!
+Requires an open area to place	Потрібен відкритий простір для
+logs! Requires an open area to place	колоди! Потрібен відкритий простір для
+trees. Minions also work when you	дерев. Міньйони працюють, навіть коли ти
+ore. Minions also work when you are	руди. Міньйони працюють, навіть коли ти
+snow. Minions also work when you are	снігу. Міньйони працюють, навіть коли ти
+sand. Minions also work when you are	піску. Міньйони працюють, навіть коли ти
+placed. Minions also work when you	розміщувати. Міньйони працюють, навіть коли ти
+be planted. Minions also work when	садити кактуси. Міньйони працюють, навіть коли
+can be planted. Minions also work	можна було садити. Міньйони працюють,
+BEWARE OF EXPLOSIONS! Minions also	§cОБЕРЕЖНО, ВИБУХИ!§7 Міньйони також
+
+# --- Копання ---
+generating and mining Cobblestone!	видобувати кругляк!
+Cobblestone. Minions also work when	кругляку. Міньйони працюють, навіть коли
+generating and mining coal ore!	видобувати вугільну руду!
+Requires an open area to place coal	Потрібен відкритий простір для вугільної
+generating and mining iron ore!	видобувати залізну руду!
+Requires an open area to place iron	Потрібен відкритий простір для залізної
+generating and mining gold ore!	видобувати золоту руду!
+Requires an open area to place gold	Потрібен відкритий простір для золотої
+generating and mining lapis ore!	видобувати лазуритову руду!
+Requires an open area to place lapis	Потрібен відкритий простір для лазуритової
+generating and mining diamond ore!	видобувати алмазну руду!
+diamond ore. Minions also work when	алмазної руди. Міньйони працюють, навіть коли
+generating and mining emerald ore!	видобувати смарагдову руду!
+emerald ore. Minions also work when	смарагдової руди. Міньйони працюють, навіть коли
+generating and mining redstone ore!	видобувати редстоунову руду!
+redstone ore. Minions also work when	редстоунової руди. Міньйони працюють, навіть коли
+generating and mining quartz ore!	видобувати кварцову руду!
+quartz ore. Minions also work when	кварцової руди. Міньйони працюють, навіть коли
+generating and mining mithril ore!	видобувати мітрилову руду!
+mithril ore. Minions also work when	мітрилової руди. Міньйони працюють, навіть коли
+generating and mining obsidian!	видобувати обсидіан!
+obsidian. Minions also work when you	обсидіану. Міньйони працюють, навіть коли ти
+generating and mining glowstone!	видобувати світлокамінь!
+glowstone. Minions also work when	світлокаменю. Міньйони працюють, навіть коли
+generating and mining gravel!	видобувати гравій!
+gravel. Minions also work when you	гравію. Міньйони працюють, навіть коли ти
+generating and mining mycelium!	видобувати міцелій!
+mycelium. Minions also work when you	міцелію. Міньйони працюють, навіть коли ти
+generating and mining Hard Stone!	видобувати твердий камінь!
+Hard Stone. Minions also work when	твердого каменю. Міньйони працюють, навіть коли
+generating and mining end stone!	видобувати камінь Енду!
+Requires an open area to place end	Потрібен відкритий простір для каменю
+stone. Minions also work when you	Енду. Міньйони працюють, навіть коли ти
+generating and mining red sand!	видобувати червоний пісок!
+Requires an open area to place red	Потрібен відкритий простір для червоного
+generating and mining clay! Requires	видобувати глину! Потрібен
+an open area to place clay. Minions	відкритий простір для глини. Міньйони
+generating and mining ice! Requires	видобувати лід! Потрібен
+an open area to place ice. Minions	відкритий простір для льоду. Міньйони
+generating and mining sand! Requires	видобувати пісок! Потрібен
+an open area to place sand. Minions	відкритий простір для піску. Міньйони
+generating and shovelling snow!	згрібати сніг!
+
+# --- Лісорубство ---
+generating and chopping oak logs!	вирощувати й рубати дубові колоди!
+generating and chopping birch logs!	вирощувати й рубати березові колоди!
+generating and chopping spruce	вирощувати й рубати ялинові
+generating and chopping jungle logs!	вирощувати й рубати тропічні колоди!
+generating and chopping acacia logs!	вирощувати й рубати акацієві колоди!
+generating and chopping dark oak	вирощувати й рубати темнодубові
+
+# --- Фермерство ---
+generating and harvesting wheat.	вирощувати й збирати пшеницю.
+generating and harvesting carrots.	вирощувати й збирати моркву.
+generating and harvesting potatoes.	вирощувати й збирати картоплю.
+Requires dirt or soil nearby so	Потрібна земля або ґрунт поруч, щоб
+wheat can be planted. Minions also	можна було садити пшеницю. Міньйони
+carrots can be planted. Minions also	можна було садити моркву. Міньйони
+potatoes can be planted. Minions also	можна було садити картоплю. Міньйони
+generating and harvesting pumpkins!	вирощувати й збирати гарбузи!
+pumpkins. Minions also work when you	гарбузів. Міньйони працюють, навіть коли ти
+generating and harvesting melons!	вирощувати й збирати кавуни!
+melons. Minions also work when you	кавунів. Міньйони працюють, навіть коли ти
+generating and harvesting cactus.	вирощувати й збирати кактуси.
+Requires sand nearby so cacti can	Потрібен пісок поруч, щоб можна було
+generating and harvesting flowers.	вирощувати й збирати квіти.
+Requires grass nearby so flowers	Потрібна трава поруч, щоб квіти
+generating and harvesting lily pads.	вирощувати й збирати латаття.
+Requires water nearby. Minions also	Потрібна вода поруч. Міньйони
+generating and harvesting red and	вирощувати й збирати червоні та
+brown mushrooms! Requires an area	коричневі гриби! Потрібне місце,
+that is suitable for mushrooms to be	у якому гриби можна
+generating and harvesting sugar	вирощувати й збирати цукрову
+canes! Requires an area that is	тростину! Потрібне місце,
+suitable for sugar cane to be	у якому тростину можна
+generating and harvesting cocoa	вирощувати й збирати какао-
+beans. Requires jungle logs nearby	боби. Потрібні тропічні колоди поруч,
+so cocoa can be placed, or air	щоб розмістити какао, або повітря
+nearby so jungle logs can be	поруч, щоб тропічні колоди можна було
+generating and harvesting nether	вирощувати й збирати пекельний
+warts. Requires soul sand nearby so	нарост. Потрібен пісок душ поруч, щоб
+nether warts can be planted. Minions	можна було садити пекельний нарост. Міньйони
+generating sunflowers during the	вирощувати соняшники вдень,
+day, and moonflowers at night.	а місячні квітки вночі.
+
+# --- Бій ---
+generating and slaying Zombies!	розводити й убивати зомбі!
+generating and slaying Skeletons!	розводити й убивати скелетів!
+generating and slaying Spiders!	розводити й убивати павуків!
+generating and slaying Cave Spiders!	розводити й убивати печерних павуків!
+generating and slaying Creepers!	розводити й убивати кріперів!
+generating and slaying Endermen!	розводити й убивати ендерменів!
+generating and slaying Blazes!	розводити й убивати іфритів!
+generating and slaying Ghasts!	розводити й убивати ґастів!
+generating and slaying Magma Cubes!	розводити й убивати магмові куби!
+generating and slaying Chickens!	розводити й убивати курей!
+generating and slaying Sheep!	розводити й убивати овець!
+generating and slaying Rabbits!	розводити й убивати кроликів!
+generating and slaying Voidlings!	розводити й убивати войдлінгів!
+generating and slaying Infernals!	розводити й убивати пекельних істот!
+generating and slaying Cows! Minions	розводити й убивати корів! Міньйони
+generating and slaying Pigs! Minions	розводити й убивати свиней! Міньйони
+generating and slaying Slimes! Minions	розводити й убивати слизнів! Міньйони
+generating and struggling with	розводити ревенантів і боротися
+Revenants! Minions also work when	з ними! Міньйони працюють, навіть коли
+generating and squashing	розводити й чавити
+Tarantulas! Minions also work when	тарантулів! Міньйони працюють, навіть коли
+generating and slaying Vampire	розводити й убивати вампірських
+Scions! Minions also work when you	нащадків! Міньйони працюють, навіть коли ти
+
+# --- Риболовля ---
+fishing. Requires water nearby.	рибалити. Потрібна вода поруч.
+
+# --- Інше про міньйонів ---
+Can be upgraded at Kat in The Hub!	Можна покращити в Кет у Хабі!
+You can place this item in any minion	Цей предмет можна покласти в будь-якого міньйона
+of your choice!	на твій вибір!
+This item can be used as a minion	Цей предмет можна використати як
+Can be used as minion fuel	Можна використати як паливо для міньйона
+Replaces {0}/{1} of the regular minion	§7Замінює §c{0}/{1} §7звичайної продукції
+production with a specialty item.	§7міньйона §bспеціальним §7предметом.
+This Minion skin changes your	Цей скін міньйона змінює вигляд твого
+Increases the speed of your minion	Збільшує швидкість твого міньйона
+exclusively in the Inferno minion for	лише в Пекельному міньйоні на
+Each Inferno minion increases the	Кожен Пекельний міньйон збільшує
+speed of ALL Inferno minions by {0},	§7швидкість УСІХ Пекельних міньйонів на §a{0}§7,
+up to {0}.	§7до §a{0}§7.

@@ -1,0 +1,54 @@
+# Шаблони з підстановками.
+#   {0}...{9}     — число
+#   {item}        — назва предмета: перекладається словником назв (якщо там є) і зберігає свій колір
+#   {any}, {any2} — будь-який текст (ім'я гравця, моба, NPC), лишається як є
+# Перекладай так, щоб речення читалося незалежно від роду підставленого слова.
+
+# --- Дроп ---
+You dropped {0}x {item}!	Тобі випало {0}x {item}!
+You dropped {item}!	Тобі випало: {item}!
+You found an {item}!	Ти знайшов: {item}!
+You found a {item}!	Ти знайшов: {item}!
+You found {item} x{0}!	Ти знайшов: {item} x{0}!
+You received {0}x {item} for killing a {any}!	Ти отримав {0}x {item} за вбивство: {any}!
+You received {0}x {item} for killing an {any}!	Ти отримав {0}x {item} за вбивство: {any}!
+{item} ({0} Magic Find)	{item} ({0} Магічної знахідки)
+You dug out a {item}!	Ти відкопав: {item}!
+You received {0} {item} for assisting {any}!	Ти отримав {0} {item} за допомогу гравцю {any}!
+You received loot for assisting {any}!	Ти отримав здобич за допомогу гравцю {any}!
+
+# --- Риболовля й полювання ---
+You caught a {any}!	Ти зловив: {any}!
+You caught an {any}!	Ти зловив: {any}!
+You caught x{0} {any} Shards!	Ти зловив x{0} осколків: {any}!
+A {any} has spawned!	З'явилася істота: {any}!
+An {any} has spawned!	З'явилася істота: {any}!
+A {any} fell from the Tree!	З дерева впала істота: {any}!
+An {any} fell from the Tree!	З дерева впала істота: {any}!
+- A wild {any} appeared!	- З'явилася дика істота: {any}!
+- A wild {any} appeared! ({0})	- З'явилася дика істота: {any}! ({0})
+
+# --- Улюбленці ---
+Autopet equipped your [Lvl {0}] {any}! VIEW RULE	Автопет екіпірував твого улюбленця [Рів. {0}] {any}! ПЕРЕГЛЯНУТИ ПРАВИЛО
+You summoned your {any}!	Ти викликав улюбленця: {any}!
+You despawned your {any}!	Ти прибрав улюбленця: {any}!
+Your {any} leveled up to level {0}!	Твій улюбленець {any} досяг рівня {0}!
+
+# --- Аукціони, базар ---
+{any} placed a bid of {0} Coins!	{any} робить ставку: {0} монет!
+{any} collected an auction for {0} coins!	{any} отримує {0} монет з аукціону!
+[Bazaar] Claimed {0} coins from selling {1}x {item} at {2} each!	[Базар] Отримано {0} монет за продаж {1}x {item} по {2} за штуку!
+[Bazaar] Your Sell Offer for {0}x {item} was filled!	[Базар] Твою пропозицію продажу {0}x {item} виконано!
+[Bazaar] Your Buy Order for {0}x {item} was filled!	[Базар] Твоє замовлення на купівлю {0}x {item} виконано!
+
+# --- Інше ---
+{any} joined the lobby!	{any} заходить у лобі!
+{any} fainted from pressure.	{any} знепритомнює від тиску.
+Blaze Slayer LVL {0} - Next LVL in {1} XP!	Винищувач іфритів РІВ. {0} — наступний рівень через {1} досвіду!
+Zombie Slayer LVL {0} - Next LVL in {1} XP!	Винищувач зомбі РІВ. {0} — наступний рівень через {1} досвіду!
+Spider Slayer LVL {0} - Next LVL in {1} XP!	Винищувач павуків РІВ. {0} — наступний рівень через {1} досвіду!
+Wolf Slayer LVL {0} - Next LVL in {1} XP!	Винищувач вовків РІВ. {0} — наступний рівень через {1} досвіду!
+Enderman Slayer LVL {0} - Next LVL in {1} XP!	Винищувач ендерменів РІВ. {0} — наступний рівень через {1} досвіду!
+Vampire Slayer LVL {0} - Next LVL in {1} XP!	Винищувач вампірів РІВ. {0} — наступний рівень через {1} досвіду!
+Thanks for the {any}, {any2}!	Дякую за {any}, {any2}!
+What's up, {any}?	Як справи, {any}?

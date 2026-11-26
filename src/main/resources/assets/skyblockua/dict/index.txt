@@ -1,0 +1,16 @@
+# Список вбудованих словників (завантажуються по черзі)
+labels.tsv
+tokens.tsv
+reforges.tsv
+rarity.tsv
+lore_common.tsv
+menus.tsv
+names_materials.tsv
+names_minions.tsv
+lore_minions.tsv
+chat_system.tsv
+chat_npc.tsv
+armor_pieces.tsv
+armor_sets.tsv
+names_gear.tsv
+patterns.tsv

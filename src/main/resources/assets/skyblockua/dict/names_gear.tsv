@@ -1,0 +1,113 @@
+# Популярна зброя й інструменти. Третій стовпець (рід m/f/n/p) — лише там, де його
+# не можна вгадати за першим словом. Власні імена передано транслітерацією.
+
+# --- Ванільна зброя й інструменти ---
+Wooden Sword	Дерев'яний меч
+Stone Sword	Кам'яний меч
+Iron Sword	Залізний меч
+Golden Sword	Золотий меч
+Diamond Sword	Алмазний меч
+Bow	Лук
+Wooden Pickaxe	Дерев'яна кирка
+Stone Pickaxe	Кам'яна кирка
+Iron Pickaxe	Залізна кирка
+Golden Pickaxe	Золота кирка
+Diamond Pickaxe	Алмазна кирка
+Wooden Axe	Дерев'яна сокира
+Stone Axe	Кам'яна сокира
+Iron Axe	Залізна сокира
+Golden Axe	Золота сокира
+Diamond Axe	Алмазна сокира
+Wooden Shovel	Дерев'яна лопата
+Stone Shovel	Кам'яна лопата
+Iron Shovel	Залізна лопата
+Golden Shovel	Золота лопата
+Diamond Shovel	Алмазна лопата
+Wooden Hoe	Дерев'яна мотика
+Stone Hoe	Кам'яна мотика
+Iron Hoe	Залізна мотика
+Golden Hoe	Золота мотика
+Diamond Hoe	Алмазна мотика
+Fishing Rod	Вудка
+
+# --- Мечі ---
+Hyperion	Гіперіон
+Valkyrie	Валькірія
+Scylla	Сцилла
+Astraea	Астрея
+Aspect of the End	Аспект Енду
+Aspect of the Void	Аспект Порожнечі
+Aspect of the Dragons	Аспект Драконів
+Aspect of the Jerry	Аспект Джеррі
+Midas' Sword	Меч Мідаса
+Giant's Sword	Меч Велетня
+Livid Dagger	Кинджал Лівіда
+Shadow Fury	Тіньова Лють
+Flower of Truth	Квітка Правди
+Wither Cloak Sword	Меч Плаща Візера
+Dark Claymore	Темний клеймор
+Emerald Blade	Смарагдовий клинок
+Prismarine Blade	Призмариновий клинок
+Reaper Falchion	Фальшіон Жнеця
+Revenant Falchion	Фальшіон Ревенанта
+Pooch Sword	Меч Песика
+Shaman Sword	Меч Шамана
+Atomsplit Katana	Катана Атомного Розщеплення
+Vorpal Katana	Ворпальна катана
+Voidedge Katana	Катана Краю Порожнечі
+Rogue Sword	Меч Шахрая
+Leaping Sword	Меч Стрибка
+Silk-Edge Sword	Шовкосічний меч
+Zombie Sword	Меч зомбі
+Ornate Zombie Sword	Оздоблений меч зомбі
+Florid Zombie Sword	Квітчастий меч зомбі
+Undead Sword	Меч Нежиті
+Tactician's Sword	Меч Тактика
+Golem Sword	Меч Голема
+End Sword	Меч Енду
+Cleaver	Тесак
+Hunter Knife	Мисливський ніж
+Spider Sword	Павучий меч
+Aspect of the Leech	Аспект П'явки
+
+# --- Інша зброя ---
+Raider Sword	Меч рейдера
+Halberd of the Shredded	Алебарда Подрібненого
+Ragnarock	Рагнарок
+Daedalus Blade	Клинок Дедала
+
+# --- Луки ---
+Terminator	Термінатор
+Juju Shortbow	Короткий лук Джуджу
+Hurricane Bow	Ураганний лук
+Runaan's Bow	Лук Рунаана
+Mosquito Shortbow	Комариний короткий лук
+Magma Bow	Магмовий лук
+Spider Queen's Stinger	Жало Павучої Королеви
+
+# --- Посохи й жезли ---
+Bonzo's Staff	Посох Бонзо
+Spirit Sceptre	Скіпетр Духу
+Aurora Staff	Посох Аврори
+Fire Veil Wand	Жезл Вогняної Завіси
+Hollow Wand	Жезл Порожнечі
+Gyrokinetic Wand	Гірокінетичний жезл
+Ice Spray Wand	Жезл Крижаного Бризу
+
+# --- Риболовля ---
+Rod of the Sea	Вудка Моря
+Rod of Legends	Вудка Легенд
+Rod of Champions	Вудка Чемпіонів
+Challenging Rod	Вудка Випробувань
+Giant Fishing Rod	Велетенська вудка
+Hellfire Rod	Вудка Пекельного Вогню
+Shredder	Подрібнювач
+
+# --- Фермерство ---
+Melon Dicer	Нарізач кавунів
+Pumpkin Dicer	Нарізач гарбузів
+Cactus Knife	Кактусовий ніж
+Fungi Cutter	Різак грибів
+
+# --- Копання ---
+Divan's Drill	Бур Дівана

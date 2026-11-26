@@ -1,0 +1,15 @@
+{
+	"required": false,
+	"package": "ua.kyrylo.skyblockua.mixin.compat",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"IconographicAbilityMixin",
+		"IconographicComponentLikeMixin",
+		"IconographicHeaderMixin",
+		"IconographicStatLineMixin",
+		"IconographicTextTagMixin"
+	],
+	"injectors": {
+		"defaultRequire": 0
+	}
+}

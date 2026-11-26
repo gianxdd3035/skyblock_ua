@@ -1,0 +1,289 @@
+# Назви матеріалів: звичайні (за офіційною українською локалізацією Minecraft, де вона є)
+# і зачаровані. Вмикаються/вимикаються командою /ukr names.
+
+# --- Деревина ---
+Oak Log	Дубова колода
+Birch Log	Березова колода
+Spruce Log	Ялинова колода
+Jungle Log	Тропічна колода
+Acacia Log	Акацієва колода
+Dark Oak Log	Колода темного дуба
+Mangrove Log	Мангрова колода
+Fig Log	Інжирова колода
+Enchanted Oak Log	Зачарована дубова колода
+Enchanted Birch Log	Зачарована березова колода
+Enchanted Spruce Log	Зачарована ялинова колода
+Enchanted Jungle Log	Зачарована тропічна колода
+Enchanted Acacia Log	Зачарована акацієва колода
+Enchanted Dark Oak Log	Зачарована колода темного дуба
+Enchanted Mangrove Log	Зачарована мангрова колода
+Enchanted Fig Log	Зачарована інжирова колода
+Tender Wood	Ніжна деревина
+Enchanted Tender Wood	Зачарована ніжна деревина
+
+# --- Копання ---
+Cobblestone	Кругляк
+Stone	Камінь
+Coal	Вугілля
+Block of Coal	Блок вугілля
+Iron Ingot	Залізний злиток
+Gold Ingot	Золотий злиток
+Diamond	Алмаз
+Emerald	Смарагд
+Lapis Lazuli	Лазурит
+Redstone	Редстоун
+Redstone Dust	Редстоуновий пил
+Nether Quartz	Пекельний кварц
+Obsidian	Обсидіан
+Glowstone Dust	Світлокаменевий пил
+Glowstone	Світлокамінь
+Flint	Кремінь
+Gravel	Гравій
+Sand	Пісок
+Red Sand	Червоний пісок
+End Stone	Камінь Енду
+Netherrack	Пекельний камінь
+Ice	Лід
+Packed Ice	Щільний лід
+Snow Block	Сніговий блок
+Snowball	Сніжка
+Clay Ball	Грудка глини
+Mithril	Мітрил
+Titanium	Титан
+Hard Stone	Твердий камінь
+Glacite	Гляцит
+Umber	Умбра
+Tungsten	Вольфрам
+Sulphur	Сірка
+Enchanted Cobblestone	Зачарований кругляк
+Enchanted Coal	Зачароване вугілля
+Enchanted Coal Block	Зачарований блок вугілля
+Enchanted Charcoal	Зачароване деревне вугілля
+Enchanted Iron Ingot	Зачарований залізний злиток
+Enchanted Iron Block	Зачарований залізний блок
+Enchanted Gold Ingot	Зачарований золотий злиток
+Enchanted Gold Block	Зачарований золотий блок
+Enchanted Diamond	Зачарований алмаз
+Enchanted Diamond Block	Зачарований алмазний блок
+Enchanted Emerald	Зачарований смарагд
+Enchanted Emerald Block	Зачарований смарагдовий блок
+Enchanted Lapis Lazuli	Зачарований лазурит
+Enchanted Lapis Lazuli Block	Зачарований блок лазуриту
+Enchanted Redstone Dust	Зачарований редстоуновий пил
+Enchanted Redstone Block	Зачарований блок редстоуну
+Enchanted Redstone Lamp	Зачарована редстоунова лампа
+Enchanted Nether Quartz	Зачарований пекельний кварц
+Enchanted Quartz Block	Зачарований кварцовий блок
+Enchanted Obsidian	Зачарований обсидіан
+Enchanted Glowstone Dust	Зачарований світлокаменевий пил
+Enchanted Glowstone	Зачарований світлокамінь
+Enchanted Flint	Зачарований кремінь
+Enchanted Sand	Зачарований пісок
+Enchanted Red Sand	Зачарований червоний пісок
+Enchanted Red Sand Cube	Зачарований куб червоного піску
+Enchanted End Stone	Зачарований камінь Енду
+Enchanted Netherrack	Зачарований пекельний камінь
+Enchanted Ice	Зачарований лід
+Enchanted Packed Ice	Зачарований щільний лід
+Enchanted Snow Block	Зачарований сніговий блок
+Enchanted Clay Ball	Зачарована грудка глини
+Enchanted Clay Block	Зачарований блок глини
+Enchanted Mithril	Зачарований мітрил
+Enchanted Titanium	Зачарований титан
+Enchanted Hard Stone	Зачарований твердий камінь
+Enchanted Glacite	Зачарований гляцит
+Enchanted Umber	Зачарована умбра
+Enchanted Tungsten	Зачарований вольфрам
+Enchanted Sulphur	Зачарована сірка
+Enchanted Sulphur Cube	Зачарований сірчаний куб
+Enchanted Mycelium	Зачарований міцелій
+Enchanted Mycelium Cube	Зачарований куб міцелію
+
+# --- Фермерство ---
+Wheat	Пшениця
+Seeds	Насіння
+Carrot	Морква
+Potato	Картопля
+Baked Potato	Печена картопля
+Poisonous Potato	Отруйна картопля
+Pumpkin	Гарбуз
+Melon Slice	Скибка кавуна
+Melon	Кавун
+Sugar Cane	Цукрова тростина
+Cactus	Кактус
+Cocoa Beans	Какао-боби
+Nether Wart	Пекельний нарост
+Red Mushroom	Червоний гриб
+Brown Mushroom	Коричневий гриб
+Mycelium	Міцелій
+Hay Bale	Тюк сіна
+Bread	Хліб
+Sugar	Цукор
+Cookie	Печиво
+Cake	Торт
+Golden Carrot	Золота морква
+Golden Apple	Золоте яблуко
+Glistering Melon Slice	Блискуча скибка кавуна
+Sunflower	Соняшник
+Moonflower	Місячна квітка
+Wild Rose	Дика троянда
+Poppy	Мак
+Dandelion	Кульбаба
+Lily Pad	Латаття
+Enchanted Wheat	Зачарована пшениця
+Enchanted Hay Bale	Зачарований тюк сіна
+Enchanted Bread	Зачарований хліб
+Enchanted Seeds	Зачароване насіння
+Enchanted Carrot	Зачарована морква
+Enchanted Golden Carrot	Зачарована золота морква
+Enchanted Carrot on a Stick	Зачарована вудка з морквою
+Enchanted Potato	Зачарована картопля
+Enchanted Baked Potato	Зачарована печена картопля
+Enchanted Poisonous Potato	Зачарована отруйна картопля
+Enchanted Pumpkin	Зачарований гарбуз
+Enchanted Melon Slice	Зачарована скибка кавуна
+Enchanted Melon	Зачарований кавун
+Enchanted Glistering Melon Slice	Зачарована блискуча скибка кавуна
+Enchanted Sugar Cane	Зачарована цукрова тростина
+Enchanted Sugar	Зачарований цукор
+Enchanted Paper	Зачарований папір
+Enchanted Cactus Green	Зачарований зелений барвник
+Enchanted Cactus	Зачарований кактус
+Enchanted Cocoa Beans	Зачаровані какао-боби
+Enchanted Cookie	Зачароване печиво
+Enchanted Cake	Зачарований торт
+Enchanted Nether Wart	Зачарований пекельний нарост
+Enchanted Red Mushroom	Зачарований червоний гриб
+Enchanted Red Mushroom Block	Зачарований блок червоного гриба
+Enchanted Brown Mushroom	Зачарований коричневий гриб
+Enchanted Brown Mushroom Block	Зачарований блок коричневого гриба
+Enchanted Sunflower	Зачарований соняшник
+Enchanted Moonflower	Зачарована місячна квітка
+Enchanted Wild Rose	Зачарована дика троянда
+Enchanted Poppy	Зачарований мак
+Enchanted Dandelion	Зачарована кульбаба
+Enchanted Lily Pad	Зачароване латаття
+Enchanted Golden Apple	Зачароване золоте яблуко
+Enchanted Vampiric Melon	Зачарований вампірський кавун
+
+# --- Бій і тварини ---
+Raw Beef	Сира яловичина
+Raw Chicken	Сира курятина
+Raw Porkchop	Сира свинина
+Cooked Porkchop	Смажена свинина
+Raw Mutton	Сира баранина
+Cooked Mutton	Смажена баранина
+Raw Rabbit	Сира крольчатина
+Cooked Rabbit	Смажена крольчатина
+Leather	Шкіра
+Feather	Перо
+Egg	Яйце
+Rabbit Foot	Кроляча лапка
+Rabbit Hide	Кроляча шкурка
+Wool	Вовна
+String	Нитка
+Spider Eye	Павуче око
+Fermented Spider Eye	Ферментоване павуче око
+Bone	Кістка
+Bone Meal	Кісткове борошно
+Rotten Flesh	Гниле м'ясо
+Gunpowder	Порох
+Slimeball	Слизова кулька
+Ender Pearl	Перлина Енду
+Eye of Ender	Око Енду
+Blaze Rod	Стрижень іфрита
+Blaze Powder	Порошок іфрита
+Magma Cream	Магмовий крем
+Ghast Tear	Сльоза ґаста
+Enchanted Raw Beef	Зачарована сира яловичина
+Enchanted Raw Chicken	Зачарована сира курятина
+Enchanted Egg	Зачароване яйце
+Enchanted Cake	Зачарований торт
+Enchanted Raw Porkchop	Зачарована сира свинина
+Enchanted Cooked Porkchop	Зачарована смажена свинина
+Enchanted Raw Mutton	Зачарована сира баранина
+Enchanted Cooked Mutton	Зачарована смажена баранина
+Enchanted Raw Rabbit	Зачарована сира крольчатина
+Enchanted Cooked Rabbit	Зачарована смажена крольчатина
+Enchanted Leather	Зачарована шкіра
+Enchanted Feather	Зачароване перо
+Enchanted Rabbit Foot	Зачарована кроляча лапка
+Enchanted Rabbit Hide	Зачарована кроляча шкурка
+Enchanted Wool	Зачарована вовна
+Enchanted String	Зачарована нитка
+Enchanted Spider Eye	Зачароване павуче око
+Enchanted Fermented Spider Eye	Зачароване ферментоване павуче око
+Enchanted Bone	Зачарована кістка
+Enchanted Bone Block	Зачарований кістяний блок
+Enchanted Bone Meal	Зачароване кісткове борошно
+Enchanted Rotten Flesh	Зачароване гниле м'ясо
+Enchanted Gunpowder	Зачарований порох
+Enchanted Firework Rocket	Зачарований феєрверк
+Enchanted Slimeball	Зачарована слизова кулька
+Enchanted Slime Block	Зачарований блок слизу
+Enchanted Ender Pearl	Зачарована перлина Енду
+Enchanted Eye of Ender	Зачароване око Енду
+Enchanted Blaze Rod	Зачарований стрижень іфрита
+Enchanted Blaze Powder	Зачарований порошок іфрита
+Enchanted Magma Cream	Зачарований магмовий крем
+Enchanted Ghast Tear	Зачарована сльоза ґаста
+Enchanted Ancient Claw	Зачарований стародавній кіготь
+
+# --- Риболовля ---
+Raw Cod	Сира тріска
+Cooked Cod	Смажена тріска
+Raw Salmon	Сирий лосось
+Cooked Salmon	Смажений лосось
+Pufferfish	Риба-фугу
+Tropical Fish	Тропічна риба
+Ink Sac	Чорнильний мішечок
+Prismarine Shard	Уламок призмарину
+Prismarine Crystals	Кристали призмарину
+Sponge	Губка
+Wet Sponge	Мокра губка
+Clownfish	Риба-клоун
+Shark Fin	Акулячий плавець
+Enchanted Raw Cod	Зачарована сира тріска
+Enchanted Cooked Cod	Зачарована смажена тріска
+Enchanted Raw Salmon	Зачарований сирий лосось
+Enchanted Cooked Salmon	Зачарований смажений лосось
+Enchanted Pufferfish	Зачарована риба-фугу
+Enchanted Tropical Fish	Зачарована тропічна риба
+Enchanted Ink Sac	Зачарований чорнильний мішечок
+Enchanted Prismarine Shard	Зачарований уламок призмарину
+Enchanted Prismarine Crystals	Зачаровані кристали призмарину
+Enchanted Sponge	Зачарована губка
+Enchanted Wet Sponge	Зачарована мокра губка
+Enchanted Shark Fin	Зачарований акулячий плавець
+
+# --- Інше ---
+Book	Книга
+Enchanted Book	Зачарована книга
+Enchanted Book Bundle	Набір зачарованих книг
+Enchanted Bookshelf	Зачарована книжкова полиця
+Enchanted Clock	Зачарований годинник
+Enchanted Hopper	Зачарована воронка
+Enchanted Lava Bucket	Зачароване відро лави
+Enchanted Shears	Зачаровані ножиці
+Enchanted Honeycomb	Зачарований стільник
+Enchanted Honeycomb Block	Зачарований блок стільників
+Paper	Папір
+Charcoal	Деревне вугілля
+Lava Bucket	Відро лави
+Water Bucket	Відро води
+Bucket	Відро
+Hopper	Воронка
+Firework Rocket	Феєрверк
+Clock	Годинник
+Compass	Компас
+Bookshelf	Книжкова полиця
+Honeycomb	Стільник
+Arrow	Стріла
+Stick	Палиця
+Shears	Ножиці
+Bowl	Миска
+Torch	Смолоскип
+Chest	Скриня
+Crafting Table	Верстак
+Furnace	Піч
+Anvil	Ковадло

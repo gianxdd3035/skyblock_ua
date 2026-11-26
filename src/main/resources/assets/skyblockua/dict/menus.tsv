@@ -1,0 +1,161 @@
+# Заголовки меню, назви кнопок і загальні підписи в меню.
+# Ці рядки завжди перекладаються (навіть коли переклад назв предметів вимкнено).
+
+# --- Навігація ---
+Close	Закрити
+Go Back	Назад
+Next Page	Наступна сторінка
+Previous Page	Попередня сторінка
+Search	Пошук
+Sort	Сортування
+Refresh	Оновити
+Confirm	Підтвердити
+Cancel	Скасувати
+Back	Назад
+Inventory	Інвентар
+To SkyBlock Menu	До меню SkyBlock
+Click to view!	Натисни, щоб переглянути!
+Click to open!	Натисни, щоб відкрити!
+Click to browse!	Натисни, щоб переглянути!
+Click to manage!	Натисни, щоб керувати!
+Click to claim!	Натисни, щоб забрати!
+Click to purchase!	Натисни, щоб купити!
+Click to buy!	Натисни, щоб купити!
+Click to sell!	Натисни, щоб продати!
+Click to select!	Натисни, щоб вибрати!
+Click to toggle!	Натисни, щоб перемкнути!
+Click to warp!	Натисни, щоб переміститися!
+Click to trade!	Натисни, щоб обміняти!
+Click to craft!	Натисни, щоб скрафтити!
+Click to pick up!	Натисни, щоб забрати!
+Click to equip!	Натисни, щоб екіпірувати!
+Click to unequip!	Натисни, щоб зняти!
+Click to summon!	Натисни, щоб викликати!
+Click to despawn!	Натисни, щоб прибрати!
+Click to start!	Натисни, щоб почати!
+Click to upgrade!	Натисни, щоб покращити!
+Right-click to view!	ПКМ, щоб переглянути!
+Left-click to view!	ЛКМ, щоб переглянути!
+Coming soon!	Скоро!
+Locked	Заблоковано
+Unlocked	Відкрито
+Maxed out!	Максимум!
+Requirements not met!	Вимоги не виконано!
+
+# --- Меню SkyBlock ---
+SkyBlock Menu	Меню SkyBlock
+Your SkyBlock Profile	Твій профіль SkyBlock
+Your Skills	Твої навички
+Collections	Колекції
+Collection	Колекція
+Recipe Book	Книга рецептів
+Trades	Обміни
+Quest Log	Журнал завдань
+Calendar and Events	Календар і події
+Storage	Сховище
+Your Bags	Твої сумки
+Pets	Улюбленці
+Crafting Table	Верстак
+Craft Item	Скрафтити предмет
+Wardrobe	Гардероб
+Personal Bank	Особистий банк
+Fast Travel	Швидке переміщення
+Profile Management	Керування профілями
+Settings	Налаштування
+SkyBlock Leveling	Рівні SkyBlock
+SkyBlock Level	Рівень SkyBlock
+Booster Cookie	Печиво-підсилювач
+Museum	Музей
+Bestiary	Бестіарій
+Slayer	Винищувач
+Accessory Bag	Сумка аксесуарів
+Sack of Sacks	Мішок мішків
+Ender Chest	Скриня Енду
+Potion Bag	Сумка для зілля
+Quiver	Сагайдак
+Fishing Bag	Рибальська сумка
+Equipment	Спорядження
+Hotbar	Панель швидкого доступу
+
+# --- Навички ---
+Farming	Фермерство
+Mining	Копання
+Combat	Бій
+Foraging	Лісорубство
+Fishing	Риболовля
+Enchanting	Зачарування
+Alchemy	Алхімія
+Carpentry	Теслярство
+Runecrafting	Рунотворення
+Social	Соціальність
+Taming	Приборкання
+Hunting	Полювання
+Dungeoneering	Підземелля
+Farming Skill	Навичка фермерства
+Mining Skill	Навичка копання
+Combat Skill	Бойова навичка
+Foraging Skill	Навичка лісорубства
+Fishing Skill	Навичка риболовлі
+Enchanting Skill	Навичка зачарування
+Alchemy Skill	Навичка алхімії
+Carpentry Skill	Навичка теслярства
+Taming Skill	Навичка приборкання
+Hunting Skill	Навичка полювання
+
+# --- Торгівля ---
+Bazaar	Базар
+Auction House	Аукціон
+Auctions Browser	Перегляд аукціонів
+Manage Auctions	Мої аукціони
+Create Auction	Створити аукціон
+Create BIN Auction	Створити аукціон «Купити зараз»
+View Bids	Мої ставки
+Your Bids	Твої ставки
+Bank	Банк
+Bank Deposit	Внесок у банк
+Bank Withdrawal	Зняття з банку
+Deposit Coins	Внести монети
+Withdraw Coins	Зняти монети
+Sell Item	Продати предмет
+Buy Item	Купити предмет
+Buy Instantly	Купити миттєво
+Sell Instantly	Продати миттєво
+Create Buy Order	Створити замовлення на купівлю
+Create Sell Offer	Створити пропозицію продажу
+Manage Orders	Мої замовлення
+Sell Inventory Now	Продати інвентар зараз
+Sell Sacks Now	Продати вміст мішків зараз
+Buyback	Викуп
+
+# --- Коваль, зачарування ---
+Reforge Item	Перекувати предмет
+Reforge Anvil	Ковадло перекування
+Enchant Item	Зачарувати предмет
+Enchantment Table	Стіл зачарувань
+Anvil	Ковадло
+Combine Items	Поєднати предмети
+Salvage Items	Розібрати предмети
+Upgrade Item	Покращити предмет
+
+# --- Острови (швидке переміщення) ---
+Private Island	Особистий острів
+Hub	Хаб
+The Hub	Хаб
+Village	Село
+The Barn	Комора
+Mushroom Desert	Грибна пустеля
+The Park	Парк
+Gold Mine	Золота шахта
+Deep Caverns	Глибокі печери
+Dwarven Mines	Гномські шахти
+Crystal Hollows	Кришталеві печери
+Spider's Den	Павуче лігво
+The End	Енд
+Crimson Isle	Багряний острів
+The Garden	Сад
+Garden	Сад
+Dungeon Hub	Хаб підземель
+Jerry's Workshop	Майстерня Джеррі
+The Rift	Рифт
+Glacite Tunnels	Гляцитові тунелі
+Galatea	Галатея

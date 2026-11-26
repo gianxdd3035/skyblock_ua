@@ -1,0 +1,1477 @@
+# ЗГЕНЕРОВАНО tools/gen_rarity.py — не редагуй вручну, змінюй скрипт.
+COMMON	ЗВИЧАЙНИЙ
+COMMON ITEM	ЗВИЧАЙНИЙ ПРЕДМЕТ
+COMMON DUNGEON ITEM	ЗВИЧАЙНИЙ ПРЕДМЕТ ПІДЗЕМЕЛЬ
+COMMON COSMETIC	ЗВИЧАЙНА КОСМЕТИКА
+COMMON DUNGEON COSMETIC	ЗВИЧАЙНА КОСМЕТИКА ПІДЗЕМЕЛЬ
+COMMON ACCESSORY	ЗВИЧАЙНИЙ АКСЕСУАР
+COMMON DUNGEON ACCESSORY	ЗВИЧАЙНИЙ АКСЕСУАР ПІДЗЕМЕЛЬ
+COMMON PET	ЗВИЧАЙНИЙ УЛЮБЛЕНЕЦЬ
+COMMON DUNGEON PET	ЗВИЧАЙНИЙ УЛЮБЛЕНЕЦЬ ПІДЗЕМЕЛЬ
+COMMON HELMET	ЗВИЧАЙНИЙ ШОЛОМ
+COMMON DUNGEON HELMET	ЗВИЧАЙНИЙ ШОЛОМ ПІДЗЕМЕЛЬ
+COMMON CHESTPLATE	ЗВИЧАЙНИЙ НАГРУДНИК
+COMMON DUNGEON CHESTPLATE	ЗВИЧАЙНИЙ НАГРУДНИК ПІДЗЕМЕЛЬ
+COMMON LEGGINGS	ЗВИЧАЙНІ ПОНОЖІ
+COMMON DUNGEON LEGGINGS	ЗВИЧАЙНІ ПОНОЖІ ПІДЗЕМЕЛЬ
+COMMON BOOTS	ЗВИЧАЙНІ ЧОБОТИ
+COMMON DUNGEON BOOTS	ЗВИЧАЙНІ ЧОБОТИ ПІДЗЕМЕЛЬ
+COMMON TROPHY	ЗВИЧАЙНИЙ ТРОФЕЙ
+COMMON DUNGEON TROPHY	ЗВИЧАЙНИЙ ТРОФЕЙ ПІДЗЕМЕЛЬ
+COMMON SWORD	ЗВИЧАЙНИЙ МЕЧ
+COMMON DUNGEON SWORD	ЗВИЧАЙНИЙ МЕЧ ПІДЗЕМЕЛЬ
+COMMON LONGSWORD	ЗВИЧАЙНИЙ ДОВГИЙ МЕЧ
+COMMON DUNGEON LONGSWORD	ЗВИЧАЙНИЙ ДОВГИЙ МЕЧ ПІДЗЕМЕЛЬ
+COMMON SLAYER SWORD	ЗВИЧАЙНИЙ МЕЧ ВИНИЩУВАЧА
+COMMON DUNGEON SLAYER SWORD	ЗВИЧАЙНИЙ МЕЧ ВИНИЩУВАЧА ПІДЗЕМЕЛЬ
+COMMON BOW	ЗВИЧАЙНИЙ ЛУК
+COMMON DUNGEON BOW	ЗВИЧАЙНИЙ ЛУК ПІДЗЕМЕЛЬ
+COMMON ARROW	ЗВИЧАЙНА СТРІЛА
+COMMON DUNGEON ARROW	ЗВИЧАЙНА СТРІЛА ПІДЗЕМЕЛЬ
+COMMON ARROW POISON	ЗВИЧАЙНА ОТРУТА ДЛЯ СТРІЛ
+COMMON DUNGEON ARROW POISON	ЗВИЧАЙНА ОТРУТА ДЛЯ СТРІЛ ПІДЗЕМЕЛЬ
+COMMON WAND	ЗВИЧАЙНИЙ ЖЕЗЛ
+COMMON DUNGEON WAND	ЗВИЧАЙНИЙ ЖЕЗЛ ПІДЗЕМЕЛЬ
+COMMON GAUNTLET	ЗВИЧАЙНА ЛАТНА РУКАВИЦЯ
+COMMON DUNGEON GAUNTLET	ЗВИЧАЙНА ЛАТНА РУКАВИЦЯ ПІДЗЕМЕЛЬ
+COMMON PET ITEM	ЗВИЧАЙНИЙ ПРЕДМЕТ УЛЮБЛЕНЦЯ
+COMMON DUNGEON PET ITEM	ЗВИЧАЙНИЙ ПРЕДМЕТ УЛЮБЛЕНЦЯ ПІДЗЕМЕЛЬ
+COMMON REFORGE STONE	ЗВИЧАЙНИЙ КАМІНЬ ПЕРЕКУВАННЯ
+COMMON DUNGEON REFORGE STONE	ЗВИЧАЙНИЙ КАМІНЬ ПЕРЕКУВАННЯ ПІДЗЕМЕЛЬ
+COMMON POWER STONE	ЗВИЧАЙНИЙ КАМІНЬ СИЛИ
+COMMON DUNGEON POWER STONE	ЗВИЧАЙНИЙ КАМІНЬ СИЛИ ПІДЗЕМЕЛЬ
+COMMON SEA CREATURE	ЗВИЧАЙНА МОРСЬКА ІСТОТА
+COMMON DUNGEON SEA CREATURE	ЗВИЧАЙНА МОРСЬКА ІСТОТА ПІДЗЕМЕЛЬ
+COMMON DYE	ЗВИЧАЙНИЙ БАРВНИК
+COMMON DUNGEON DYE	ЗВИЧАЙНИЙ БАРВНИК ПІДЗЕМЕЛЬ
+COMMON SACK	ЗВИЧАЙНИЙ МІШОК
+COMMON DUNGEON SACK	ЗВИЧАЙНИЙ МІШОК ПІДЗЕМЕЛЬ
+COMMON GEMSTONE	ЗВИЧАЙНИЙ САМОЦВІТ
+COMMON DUNGEON GEMSTONE	ЗВИЧАЙНИЙ САМОЦВІТ ПІДЗЕМЕЛЬ
+COMMON RABBIT	ЗВИЧАЙНИЙ КРОЛИК
+COMMON DUNGEON RABBIT	ЗВИЧАЙНИЙ КРОЛИК ПІДЗЕМЕЛЬ
+COMMON FARMING TOOL	ЗВИЧАЙНИЙ ФЕРМЕРСЬКИЙ ІНСТРУМЕНТ
+COMMON DUNGEON FARMING TOOL	ЗВИЧАЙНИЙ ФЕРМЕРСЬКИЙ ІНСТРУМЕНТ ПІДЗЕМЕЛЬ
+COMMON BELT	ЗВИЧАЙНИЙ ПОЯС
+COMMON DUNGEON BELT	ЗВИЧАЙНИЙ ПОЯС ПІДЗЕМЕЛЬ
+COMMON NECKLACE	ЗВИЧАЙНЕ НАМИСТО
+COMMON DUNGEON NECKLACE	ЗВИЧАЙНЕ НАМИСТО ПІДЗЕМЕЛЬ
+COMMON CLOAK	ЗВИЧАЙНИЙ ПЛАЩ
+COMMON DUNGEON CLOAK	ЗВИЧАЙНИЙ ПЛАЩ ПІДЗЕМЕЛЬ
+COMMON GLOVES	ЗВИЧАЙНІ РУКАВИЧКИ
+COMMON DUNGEON GLOVES	ЗВИЧАЙНІ РУКАВИЧКИ ПІДЗЕМЕЛЬ
+COMMON BRACELET	ЗВИЧАЙНИЙ БРАСЛЕТ
+COMMON DUNGEON BRACELET	ЗВИЧАЙНИЙ БРАСЛЕТ ПІДЗЕМЕЛЬ
+COMMON MUTATION	ЗВИЧАЙНА МУТАЦІЯ
+COMMON DUNGEON MUTATION	ЗВИЧАЙНА МУТАЦІЯ ПІДЗЕМЕЛЬ
+COMMON PORTAL	ЗВИЧАЙНИЙ ПОРТАЛ
+COMMON DUNGEON PORTAL	ЗВИЧАЙНИЙ ПОРТАЛ ПІДЗЕМЕЛЬ
+COMMON ORE	ЗВИЧАЙНА РУДА
+COMMON DUNGEON ORE	ЗВИЧАЙНА РУДА ПІДЗЕМЕЛЬ
+COMMON BLOCK	ЗВИЧАЙНИЙ БЛОК
+COMMON DUNGEON BLOCK	ЗВИЧАЙНИЙ БЛОК ПІДЗЕМЕЛЬ
+COMMON TRAVEL SCROLL	ЗВИЧАЙНИЙ СУВІЙ ПОДОРОЖІ
+COMMON DUNGEON TRAVEL SCROLL	ЗВИЧАЙНИЙ СУВІЙ ПОДОРОЖІ ПІДЗЕМЕЛЬ
+COMMON ABILITY SCROLL	ЗВИЧАЙНИЙ СУВІЙ ЗДІБНОСТІ
+COMMON DUNGEON ABILITY SCROLL	ЗВИЧАЙНИЙ СУВІЙ ЗДІБНОСТІ ПІДЗЕМЕЛЬ
+COMMON FISHING ROD	ЗВИЧАЙНА ВУДКА
+COMMON DUNGEON FISHING ROD	ЗВИЧАЙНА ВУДКА ПІДЗЕМЕЛЬ
+COMMON ROD PART	ЗВИЧАЙНА ДЕТАЛЬ ВУДКИ
+COMMON DUNGEON ROD PART	ЗВИЧАЙНА ДЕТАЛЬ ВУДКИ ПІДЗЕМЕЛЬ
+COMMON BAIT	ЗВИЧАЙНА НАЖИВКА
+COMMON DUNGEON BAIT	ЗВИЧАЙНА НАЖИВКА ПІДЗЕМЕЛЬ
+COMMON FISHING NET	ЗВИЧАЙНА РИБАЛЬСЬКА СІТКА
+COMMON DUNGEON FISHING NET	ЗВИЧАЙНА РИБАЛЬСЬКА СІТКА ПІДЗЕМЕЛЬ
+COMMON AXE	ЗВИЧАЙНА СОКИРА
+COMMON DUNGEON AXE	ЗВИЧАЙНА СОКИРА ПІДЗЕМЕЛЬ
+COMMON PICKAXE	ЗВИЧАЙНА КИРКА
+COMMON DUNGEON PICKAXE	ЗВИЧАЙНА КИРКА ПІДЗЕМЕЛЬ
+COMMON DRILL	ЗВИЧАЙНИЙ БУР
+COMMON DUNGEON DRILL	ЗВИЧАЙНИЙ БУР ПІДЗЕМЕЛЬ
+COMMON SHOVEL	ЗВИЧАЙНА ЛОПАТА
+COMMON DUNGEON SHOVEL	ЗВИЧАЙНА ЛОПАТА ПІДЗЕМЕЛЬ
+COMMON HOE	ЗВИЧАЙНА МОТИКА
+COMMON DUNGEON HOE	ЗВИЧАЙНА МОТИКА ПІДЗЕМЕЛЬ
+COMMON SHEARS	ЗВИЧАЙНІ НОЖИЦІ
+COMMON DUNGEON SHEARS	ЗВИЧАЙНІ НОЖИЦІ ПІДЗЕМЕЛЬ
+COMMON CHISEL	ЗВИЧАЙНЕ ЗУБИЛО
+COMMON DUNGEON CHISEL	ЗВИЧАЙНЕ ЗУБИЛО ПІДЗЕМЕЛЬ
+COMMON MEMENTO	ЗВИЧАЙНА ПАМ'ЯТКА
+COMMON DUNGEON MEMENTO	ЗВИЧАЙНА ПАМ'ЯТКА ПІДЗЕМЕЛЬ
+COMMON DEPLOYABLE	ЗВИЧАЙНИЙ РОЗГОРТАНИЙ ПРЕДМЕТ
+COMMON DUNGEON DEPLOYABLE	ЗВИЧАЙНИЙ РОЗГОРТАНИЙ ПРЕДМЕТ ПІДЗЕМЕЛЬ
+COMMON DWARVEN METAL	ЗВИЧАЙНИЙ ГНОМСЬКИЙ МЕТАЛ
+COMMON DUNGEON DWARVEN METAL	ЗВИЧАЙНИЙ ГНОМСЬКИЙ МЕТАЛ ПІДЗЕМЕЛЬ
+COMMON GARDEN CHIP	ЗВИЧАЙНИЙ ЧІП САДУ
+COMMON DUNGEON GARDEN CHIP	ЗВИЧАЙНИЙ ЧІП САДУ ПІДЗЕМЕЛЬ
+COMMON BOOSTER	ЗВИЧАЙНИЙ ПІДСИЛЮВАЧ
+COMMON DUNGEON BOOSTER	ЗВИЧАЙНИЙ ПІДСИЛЮВАЧ ПІДЗЕМЕЛЬ
+COMMON RIFT TIMECHARM	ЗВИЧАЙНИЙ ЧАСОВИЙ ОБЕРІГ РИФТУ
+COMMON DUNGEON RIFT TIMECHARM	ЗВИЧАЙНИЙ ЧАСОВИЙ ОБЕРІГ РИФТУ ПІДЗЕМЕЛЬ
+COMMON SALT	ЗВИЧАЙНА СІЛЬ
+COMMON DUNGEON SALT	ЗВИЧАЙНА СІЛЬ ПІДЗЕМЕЛЬ
+COMMON CARNIVAL MASK	ЗВИЧАЙНА КАРНАВАЛЬНА МАСКА
+COMMON DUNGEON CARNIVAL MASK	ЗВИЧАЙНА КАРНАВАЛЬНА МАСКА ПІДЗЕМЕЛЬ
+COMMON VACUUM	ЗВИЧАЙНИЙ ПИЛОСОС
+COMMON DUNGEON VACUUM	ЗВИЧАЙНИЙ ПИЛОСОС ПІДЗЕМЕЛЬ
+COMMON WATERING CAN	ЗВИЧАЙНА ЛІЙКА
+COMMON DUNGEON WATERING CAN	ЗВИЧАЙНА ЛІЙКА ПІДЗЕМЕЛЬ
+COMMON TRAP	ЗВИЧАЙНА ПАСТКА
+COMMON DUNGEON TRAP	ЗВИЧАЙНА ПАСТКА ПІДЗЕМЕЛЬ
+COMMON LASSO	ЗВИЧАЙНЕ ЛАСО
+COMMON DUNGEON LASSO	ЗВИЧАЙНЕ ЛАСО ПІДЗЕМЕЛЬ
+COMMON CAPSULE	ЗВИЧАЙНА КАПСУЛА
+COMMON DUNGEON CAPSULE	ЗВИЧАЙНА КАПСУЛА ПІДЗЕМЕЛЬ
+UNCOMMON	НЕЗВИЧАЙНИЙ
+UNCOMMON ITEM	НЕЗВИЧАЙНИЙ ПРЕДМЕТ
+UNCOMMON DUNGEON ITEM	НЕЗВИЧАЙНИЙ ПРЕДМЕТ ПІДЗЕМЕЛЬ
+UNCOMMON COSMETIC	НЕЗВИЧАЙНА КОСМЕТИКА
+UNCOMMON DUNGEON COSMETIC	НЕЗВИЧАЙНА КОСМЕТИКА ПІДЗЕМЕЛЬ
+UNCOMMON ACCESSORY	НЕЗВИЧАЙНИЙ АКСЕСУАР
+UNCOMMON DUNGEON ACCESSORY	НЕЗВИЧАЙНИЙ АКСЕСУАР ПІДЗЕМЕЛЬ
+UNCOMMON PET	НЕЗВИЧАЙНИЙ УЛЮБЛЕНЕЦЬ
+UNCOMMON DUNGEON PET	НЕЗВИЧАЙНИЙ УЛЮБЛЕНЕЦЬ ПІДЗЕМЕЛЬ
+UNCOMMON HELMET	НЕЗВИЧАЙНИЙ ШОЛОМ
+UNCOMMON DUNGEON HELMET	НЕЗВИЧАЙНИЙ ШОЛОМ ПІДЗЕМЕЛЬ
+UNCOMMON CHESTPLATE	НЕЗВИЧАЙНИЙ НАГРУДНИК
+UNCOMMON DUNGEON CHESTPLATE	НЕЗВИЧАЙНИЙ НАГРУДНИК ПІДЗЕМЕЛЬ
+UNCOMMON LEGGINGS	НЕЗВИЧАЙНІ ПОНОЖІ
+UNCOMMON DUNGEON LEGGINGS	НЕЗВИЧАЙНІ ПОНОЖІ ПІДЗЕМЕЛЬ
+UNCOMMON BOOTS	НЕЗВИЧАЙНІ ЧОБОТИ
+UNCOMMON DUNGEON BOOTS	НЕЗВИЧАЙНІ ЧОБОТИ ПІДЗЕМЕЛЬ
+UNCOMMON TROPHY	НЕЗВИЧАЙНИЙ ТРОФЕЙ
+UNCOMMON DUNGEON TROPHY	НЕЗВИЧАЙНИЙ ТРОФЕЙ ПІДЗЕМЕЛЬ
+UNCOMMON SWORD	НЕЗВИЧАЙНИЙ МЕЧ
+UNCOMMON DUNGEON SWORD	НЕЗВИЧАЙНИЙ МЕЧ ПІДЗЕМЕЛЬ
+UNCOMMON LONGSWORD	НЕЗВИЧАЙНИЙ ДОВГИЙ МЕЧ
+UNCOMMON DUNGEON LONGSWORD	НЕЗВИЧАЙНИЙ ДОВГИЙ МЕЧ ПІДЗЕМЕЛЬ
+UNCOMMON SLAYER SWORD	НЕЗВИЧАЙНИЙ МЕЧ ВИНИЩУВАЧА
+UNCOMMON DUNGEON SLAYER SWORD	НЕЗВИЧАЙНИЙ МЕЧ ВИНИЩУВАЧА ПІДЗЕМЕЛЬ
+UNCOMMON BOW	НЕЗВИЧАЙНИЙ ЛУК
+UNCOMMON DUNGEON BOW	НЕЗВИЧАЙНИЙ ЛУК ПІДЗЕМЕЛЬ
+UNCOMMON ARROW	НЕЗВИЧАЙНА СТРІЛА
+UNCOMMON DUNGEON ARROW	НЕЗВИЧАЙНА СТРІЛА ПІДЗЕМЕЛЬ
+UNCOMMON ARROW POISON	НЕЗВИЧАЙНА ОТРУТА ДЛЯ СТРІЛ
+UNCOMMON DUNGEON ARROW POISON	НЕЗВИЧАЙНА ОТРУТА ДЛЯ СТРІЛ ПІДЗЕМЕЛЬ
+UNCOMMON WAND	НЕЗВИЧАЙНИЙ ЖЕЗЛ
+UNCOMMON DUNGEON WAND	НЕЗВИЧАЙНИЙ ЖЕЗЛ ПІДЗЕМЕЛЬ
+UNCOMMON GAUNTLET	НЕЗВИЧАЙНА ЛАТНА РУКАВИЦЯ
+UNCOMMON DUNGEON GAUNTLET	НЕЗВИЧАЙНА ЛАТНА РУКАВИЦЯ ПІДЗЕМЕЛЬ
+UNCOMMON PET ITEM	НЕЗВИЧАЙНИЙ ПРЕДМЕТ УЛЮБЛЕНЦЯ
+UNCOMMON DUNGEON PET ITEM	НЕЗВИЧАЙНИЙ ПРЕДМЕТ УЛЮБЛЕНЦЯ ПІДЗЕМЕЛЬ
+UNCOMMON REFORGE STONE	НЕЗВИЧАЙНИЙ КАМІНЬ ПЕРЕКУВАННЯ
+UNCOMMON DUNGEON REFORGE STONE	НЕЗВИЧАЙНИЙ КАМІНЬ ПЕРЕКУВАННЯ ПІДЗЕМЕЛЬ
+UNCOMMON POWER STONE	НЕЗВИЧАЙНИЙ КАМІНЬ СИЛИ
+UNCOMMON DUNGEON POWER STONE	НЕЗВИЧАЙНИЙ КАМІНЬ СИЛИ ПІДЗЕМЕЛЬ
+UNCOMMON SEA CREATURE	НЕЗВИЧАЙНА МОРСЬКА ІСТОТА
+UNCOMMON DUNGEON SEA CREATURE	НЕЗВИЧАЙНА МОРСЬКА ІСТОТА ПІДЗЕМЕЛЬ
+UNCOMMON DYE	НЕЗВИЧАЙНИЙ БАРВНИК
+UNCOMMON DUNGEON DYE	НЕЗВИЧАЙНИЙ БАРВНИК ПІДЗЕМЕЛЬ
+UNCOMMON SACK	НЕЗВИЧАЙНИЙ МІШОК
+UNCOMMON DUNGEON SACK	НЕЗВИЧАЙНИЙ МІШОК ПІДЗЕМЕЛЬ
+UNCOMMON GEMSTONE	НЕЗВИЧАЙНИЙ САМОЦВІТ
+UNCOMMON DUNGEON GEMSTONE	НЕЗВИЧАЙНИЙ САМОЦВІТ ПІДЗЕМЕЛЬ
+UNCOMMON RABBIT	НЕЗВИЧАЙНИЙ КРОЛИК
+UNCOMMON DUNGEON RABBIT	НЕЗВИЧАЙНИЙ КРОЛИК ПІДЗЕМЕЛЬ
+UNCOMMON FARMING TOOL	НЕЗВИЧАЙНИЙ ФЕРМЕРСЬКИЙ ІНСТРУМЕНТ
+UNCOMMON DUNGEON FARMING TOOL	НЕЗВИЧАЙНИЙ ФЕРМЕРСЬКИЙ ІНСТРУМЕНТ ПІДЗЕМЕЛЬ
+UNCOMMON BELT	НЕЗВИЧАЙНИЙ ПОЯС
+UNCOMMON DUNGEON BELT	НЕЗВИЧАЙНИЙ ПОЯС ПІДЗЕМЕЛЬ
+UNCOMMON NECKLACE	НЕЗВИЧАЙНЕ НАМИСТО
+UNCOMMON DUNGEON NECKLACE	НЕЗВИЧАЙНЕ НАМИСТО ПІДЗЕМЕЛЬ
+UNCOMMON CLOAK	НЕЗВИЧАЙНИЙ ПЛАЩ
+UNCOMMON DUNGEON CLOAK	НЕЗВИЧАЙНИЙ ПЛАЩ ПІДЗЕМЕЛЬ
+UNCOMMON GLOVES	НЕЗВИЧАЙНІ РУКАВИЧКИ
+UNCOMMON DUNGEON GLOVES	НЕЗВИЧАЙНІ РУКАВИЧКИ ПІДЗЕМЕЛЬ
+UNCOMMON BRACELET	НЕЗВИЧАЙНИЙ БРАСЛЕТ
+UNCOMMON DUNGEON BRACELET	НЕЗВИЧАЙНИЙ БРАСЛЕТ ПІДЗЕМЕЛЬ
+UNCOMMON MUTATION	НЕЗВИЧАЙНА МУТАЦІЯ
+UNCOMMON DUNGEON MUTATION	НЕЗВИЧАЙНА МУТАЦІЯ ПІДЗЕМЕЛЬ
+UNCOMMON PORTAL	НЕЗВИЧАЙНИЙ ПОРТАЛ
+UNCOMMON DUNGEON PORTAL	НЕЗВИЧАЙНИЙ ПОРТАЛ ПІДЗЕМЕЛЬ
+UNCOMMON ORE	НЕЗВИЧАЙНА РУДА
+UNCOMMON DUNGEON ORE	НЕЗВИЧАЙНА РУДА ПІДЗЕМЕЛЬ
+UNCOMMON BLOCK	НЕЗВИЧАЙНИЙ БЛОК
+UNCOMMON DUNGEON BLOCK	НЕЗВИЧАЙНИЙ БЛОК ПІДЗЕМЕЛЬ
+UNCOMMON TRAVEL SCROLL	НЕЗВИЧАЙНИЙ СУВІЙ ПОДОРОЖІ
+UNCOMMON DUNGEON TRAVEL SCROLL	НЕЗВИЧАЙНИЙ СУВІЙ ПОДОРОЖІ ПІДЗЕМЕЛЬ
+UNCOMMON ABILITY SCROLL	НЕЗВИЧАЙНИЙ СУВІЙ ЗДІБНОСТІ
+UNCOMMON DUNGEON ABILITY SCROLL	НЕЗВИЧАЙНИЙ СУВІЙ ЗДІБНОСТІ ПІДЗЕМЕЛЬ
+UNCOMMON FISHING ROD	НЕЗВИЧАЙНА ВУДКА
+UNCOMMON DUNGEON FISHING ROD	НЕЗВИЧАЙНА ВУДКА ПІДЗЕМЕЛЬ
+UNCOMMON ROD PART	НЕЗВИЧАЙНА ДЕТАЛЬ ВУДКИ
+UNCOMMON DUNGEON ROD PART	НЕЗВИЧАЙНА ДЕТАЛЬ ВУДКИ ПІДЗЕМЕЛЬ
+UNCOMMON BAIT	НЕЗВИЧАЙНА НАЖИВКА
+UNCOMMON DUNGEON BAIT	НЕЗВИЧАЙНА НАЖИВКА ПІДЗЕМЕЛЬ
+UNCOMMON FISHING NET	НЕЗВИЧАЙНА РИБАЛЬСЬКА СІТКА
+UNCOMMON DUNGEON FISHING NET	НЕЗВИЧАЙНА РИБАЛЬСЬКА СІТКА ПІДЗЕМЕЛЬ
+UNCOMMON AXE	НЕЗВИЧАЙНА СОКИРА
+UNCOMMON DUNGEON AXE	НЕЗВИЧАЙНА СОКИРА ПІДЗЕМЕЛЬ
+UNCOMMON PICKAXE	НЕЗВИЧАЙНА КИРКА
+UNCOMMON DUNGEON PICKAXE	НЕЗВИЧАЙНА КИРКА ПІДЗЕМЕЛЬ
+UNCOMMON DRILL	НЕЗВИЧАЙНИЙ БУР
+UNCOMMON DUNGEON DRILL	НЕЗВИЧАЙНИЙ БУР ПІДЗЕМЕЛЬ
+UNCOMMON SHOVEL	НЕЗВИЧАЙНА ЛОПАТА
+UNCOMMON DUNGEON SHOVEL	НЕЗВИЧАЙНА ЛОПАТА ПІДЗЕМЕЛЬ
+UNCOMMON HOE	НЕЗВИЧАЙНА МОТИКА
+UNCOMMON DUNGEON HOE	НЕЗВИЧАЙНА МОТИКА ПІДЗЕМЕЛЬ
+UNCOMMON SHEARS	НЕЗВИЧАЙНІ НОЖИЦІ
+UNCOMMON DUNGEON SHEARS	НЕЗВИЧАЙНІ НОЖИЦІ ПІДЗЕМЕЛЬ
+UNCOMMON CHISEL	НЕЗВИЧАЙНЕ ЗУБИЛО
+UNCOMMON DUNGEON CHISEL	НЕЗВИЧАЙНЕ ЗУБИЛО ПІДЗЕМЕЛЬ
+UNCOMMON MEMENTO	НЕЗВИЧАЙНА ПАМ'ЯТКА
+UNCOMMON DUNGEON MEMENTO	НЕЗВИЧАЙНА ПАМ'ЯТКА ПІДЗЕМЕЛЬ
+UNCOMMON DEPLOYABLE	НЕЗВИЧАЙНИЙ РОЗГОРТАНИЙ ПРЕДМЕТ
+UNCOMMON DUNGEON DEPLOYABLE	НЕЗВИЧАЙНИЙ РОЗГОРТАНИЙ ПРЕДМЕТ ПІДЗЕМЕЛЬ
+UNCOMMON DWARVEN METAL	НЕЗВИЧАЙНИЙ ГНОМСЬКИЙ МЕТАЛ
+UNCOMMON DUNGEON DWARVEN METAL	НЕЗВИЧАЙНИЙ ГНОМСЬКИЙ МЕТАЛ ПІДЗЕМЕЛЬ
+UNCOMMON GARDEN CHIP	НЕЗВИЧАЙНИЙ ЧІП САДУ
+UNCOMMON DUNGEON GARDEN CHIP	НЕЗВИЧАЙНИЙ ЧІП САДУ ПІДЗЕМЕЛЬ
+UNCOMMON BOOSTER	НЕЗВИЧАЙНИЙ ПІДСИЛЮВАЧ
+UNCOMMON DUNGEON BOOSTER	НЕЗВИЧАЙНИЙ ПІДСИЛЮВАЧ ПІДЗЕМЕЛЬ
+UNCOMMON RIFT TIMECHARM	НЕЗВИЧАЙНИЙ ЧАСОВИЙ ОБЕРІГ РИФТУ
+UNCOMMON DUNGEON RIFT TIMECHARM	НЕЗВИЧАЙНИЙ ЧАСОВИЙ ОБЕРІГ РИФТУ ПІДЗЕМЕЛЬ
+UNCOMMON SALT	НЕЗВИЧАЙНА СІЛЬ
+UNCOMMON DUNGEON SALT	НЕЗВИЧАЙНА СІЛЬ ПІДЗЕМЕЛЬ
+UNCOMMON CARNIVAL MASK	НЕЗВИЧАЙНА КАРНАВАЛЬНА МАСКА
+UNCOMMON DUNGEON CARNIVAL MASK	НЕЗВИЧАЙНА КАРНАВАЛЬНА МАСКА ПІДЗЕМЕЛЬ
+UNCOMMON VACUUM	НЕЗВИЧАЙНИЙ ПИЛОСОС
+UNCOMMON DUNGEON VACUUM	НЕЗВИЧАЙНИЙ ПИЛОСОС ПІДЗЕМЕЛЬ
+UNCOMMON WATERING CAN	НЕЗВИЧАЙНА ЛІЙКА
+UNCOMMON DUNGEON WATERING CAN	НЕЗВИЧАЙНА ЛІЙКА ПІДЗЕМЕЛЬ
+UNCOMMON TRAP	НЕЗВИЧАЙНА ПАСТКА
+UNCOMMON DUNGEON TRAP	НЕЗВИЧАЙНА ПАСТКА ПІДЗЕМЕЛЬ
+UNCOMMON LASSO	НЕЗВИЧАЙНЕ ЛАСО
+UNCOMMON DUNGEON LASSO	НЕЗВИЧАЙНЕ ЛАСО ПІДЗЕМЕЛЬ
+UNCOMMON CAPSULE	НЕЗВИЧАЙНА КАПСУЛА
+UNCOMMON DUNGEON CAPSULE	НЕЗВИЧАЙНА КАПСУЛА ПІДЗЕМЕЛЬ
+RARE	РІДКІСНИЙ
+RARE ITEM	РІДКІСНИЙ ПРЕДМЕТ
+RARE DUNGEON ITEM	РІДКІСНИЙ ПРЕДМЕТ ПІДЗЕМЕЛЬ
+RARE COSMETIC	РІДКІСНА КОСМЕТИКА
+RARE DUNGEON COSMETIC	РІДКІСНА КОСМЕТИКА ПІДЗЕМЕЛЬ
+RARE ACCESSORY	РІДКІСНИЙ АКСЕСУАР
+RARE DUNGEON ACCESSORY	РІДКІСНИЙ АКСЕСУАР ПІДЗЕМЕЛЬ
+RARE PET	РІДКІСНИЙ УЛЮБЛЕНЕЦЬ
+RARE DUNGEON PET	РІДКІСНИЙ УЛЮБЛЕНЕЦЬ ПІДЗЕМЕЛЬ
+RARE HELMET	РІДКІСНИЙ ШОЛОМ
+RARE DUNGEON HELMET	РІДКІСНИЙ ШОЛОМ ПІДЗЕМЕЛЬ
+RARE CHESTPLATE	РІДКІСНИЙ НАГРУДНИК
+RARE DUNGEON CHESTPLATE	РІДКІСНИЙ НАГРУДНИК ПІДЗЕМЕЛЬ
+RARE LEGGINGS	РІДКІСНІ ПОНОЖІ
+RARE DUNGEON LEGGINGS	РІДКІСНІ ПОНОЖІ ПІДЗЕМЕЛЬ
+RARE BOOTS	РІДКІСНІ ЧОБОТИ
+RARE DUNGEON BOOTS	РІДКІСНІ ЧОБОТИ ПІДЗЕМЕЛЬ
+RARE TROPHY	РІДКІСНИЙ ТРОФЕЙ
+RARE DUNGEON TROPHY	РІДКІСНИЙ ТРОФЕЙ ПІДЗЕМЕЛЬ
+RARE SWORD	РІДКІСНИЙ МЕЧ
+RARE DUNGEON SWORD	РІДКІСНИЙ МЕЧ ПІДЗЕМЕЛЬ
+RARE LONGSWORD	РІДКІСНИЙ ДОВГИЙ МЕЧ
+RARE DUNGEON LONGSWORD	РІДКІСНИЙ ДОВГИЙ МЕЧ ПІДЗЕМЕЛЬ
+RARE SLAYER SWORD	РІДКІСНИЙ МЕЧ ВИНИЩУВАЧА
+RARE DUNGEON SLAYER SWORD	РІДКІСНИЙ МЕЧ ВИНИЩУВАЧА ПІДЗЕМЕЛЬ
+RARE BOW	РІДКІСНИЙ ЛУК
+RARE DUNGEON BOW	РІДКІСНИЙ ЛУК ПІДЗЕМЕЛЬ
+RARE ARROW	РІДКІСНА СТРІЛА
+RARE DUNGEON ARROW	РІДКІСНА СТРІЛА ПІДЗЕМЕЛЬ
+RARE ARROW POISON	РІДКІСНА ОТРУТА ДЛЯ СТРІЛ
+RARE DUNGEON ARROW POISON	РІДКІСНА ОТРУТА ДЛЯ СТРІЛ ПІДЗЕМЕЛЬ
+RARE WAND	РІДКІСНИЙ ЖЕЗЛ
+RARE DUNGEON WAND	РІДКІСНИЙ ЖЕЗЛ ПІДЗЕМЕЛЬ
+RARE GAUNTLET	РІДКІСНА ЛАТНА РУКАВИЦЯ
+RARE DUNGEON GAUNTLET	РІДКІСНА ЛАТНА РУКАВИЦЯ ПІДЗЕМЕЛЬ
+RARE PET ITEM	РІДКІСНИЙ ПРЕДМЕТ УЛЮБЛЕНЦЯ
+RARE DUNGEON PET ITEM	РІДКІСНИЙ ПРЕДМЕТ УЛЮБЛЕНЦЯ ПІДЗЕМЕЛЬ
+RARE REFORGE STONE	РІДКІСНИЙ КАМІНЬ ПЕРЕКУВАННЯ
+RARE DUNGEON REFORGE STONE	РІДКІСНИЙ КАМІНЬ ПЕРЕКУВАННЯ ПІДЗЕМЕЛЬ
+RARE POWER STONE	РІДКІСНИЙ КАМІНЬ СИЛИ
+RARE DUNGEON POWER STONE	РІДКІСНИЙ КАМІНЬ СИЛИ ПІДЗЕМЕЛЬ
+RARE SEA CREATURE	РІДКІСНА МОРСЬКА ІСТОТА
+RARE DUNGEON SEA CREATURE	РІДКІСНА МОРСЬКА ІСТОТА ПІДЗЕМЕЛЬ
+RARE DYE	РІДКІСНИЙ БАРВНИК
+RARE DUNGEON DYE	РІДКІСНИЙ БАРВНИК ПІДЗЕМЕЛЬ
+RARE SACK	РІДКІСНИЙ МІШОК
+RARE DUNGEON SACK	РІДКІСНИЙ МІШОК ПІДЗЕМЕЛЬ
+RARE GEMSTONE	РІДКІСНИЙ САМОЦВІТ
+RARE DUNGEON GEMSTONE	РІДКІСНИЙ САМОЦВІТ ПІДЗЕМЕЛЬ
+RARE RABBIT	РІДКІСНИЙ КРОЛИК
+RARE DUNGEON RABBIT	РІДКІСНИЙ КРОЛИК ПІДЗЕМЕЛЬ
+RARE FARMING TOOL	РІДКІСНИЙ ФЕРМЕРСЬКИЙ ІНСТРУМЕНТ
+RARE DUNGEON FARMING TOOL	РІДКІСНИЙ ФЕРМЕРСЬКИЙ ІНСТРУМЕНТ ПІДЗЕМЕЛЬ
+RARE BELT	РІДКІСНИЙ ПОЯС
+RARE DUNGEON BELT	РІДКІСНИЙ ПОЯС ПІДЗЕМЕЛЬ
+RARE NECKLACE	РІДКІСНЕ НАМИСТО
+RARE DUNGEON NECKLACE	РІДКІСНЕ НАМИСТО ПІДЗЕМЕЛЬ
+RARE CLOAK	РІДКІСНИЙ ПЛАЩ
+RARE DUNGEON CLOAK	РІДКІСНИЙ ПЛАЩ ПІДЗЕМЕЛЬ
+RARE GLOVES	РІДКІСНІ РУКАВИЧКИ
+RARE DUNGEON GLOVES	РІДКІСНІ РУКАВИЧКИ ПІДЗЕМЕЛЬ
+RARE BRACELET	РІДКІСНИЙ БРАСЛЕТ
+RARE DUNGEON BRACELET	РІДКІСНИЙ БРАСЛЕТ ПІДЗЕМЕЛЬ
+RARE MUTATION	РІДКІСНА МУТАЦІЯ
+RARE DUNGEON MUTATION	РІДКІСНА МУТАЦІЯ ПІДЗЕМЕЛЬ
+RARE PORTAL	РІДКІСНИЙ ПОРТАЛ
+RARE DUNGEON PORTAL	РІДКІСНИЙ ПОРТАЛ ПІДЗЕМЕЛЬ
+RARE ORE	РІДКІСНА РУДА
+RARE DUNGEON ORE	РІДКІСНА РУДА ПІДЗЕМЕЛЬ
+RARE BLOCK	РІДКІСНИЙ БЛОК
+RARE DUNGEON BLOCK	РІДКІСНИЙ БЛОК ПІДЗЕМЕЛЬ
+RARE TRAVEL SCROLL	РІДКІСНИЙ СУВІЙ ПОДОРОЖІ
+RARE DUNGEON TRAVEL SCROLL	РІДКІСНИЙ СУВІЙ ПОДОРОЖІ ПІДЗЕМЕЛЬ
+RARE ABILITY SCROLL	РІДКІСНИЙ СУВІЙ ЗДІБНОСТІ
+RARE DUNGEON ABILITY SCROLL	РІДКІСНИЙ СУВІЙ ЗДІБНОСТІ ПІДЗЕМЕЛЬ
+RARE FISHING ROD	РІДКІСНА ВУДКА
+RARE DUNGEON FISHING ROD	РІДКІСНА ВУДКА ПІДЗЕМЕЛЬ
+RARE ROD PART	РІДКІСНА ДЕТАЛЬ ВУДКИ
+RARE DUNGEON ROD PART	РІДКІСНА ДЕТАЛЬ ВУДКИ ПІДЗЕМЕЛЬ
+RARE BAIT	РІДКІСНА НАЖИВКА
+RARE DUNGEON BAIT	РІДКІСНА НАЖИВКА ПІДЗЕМЕЛЬ
+RARE FISHING NET	РІДКІСНА РИБАЛЬСЬКА СІТКА
+RARE DUNGEON FISHING NET	РІДКІСНА РИБАЛЬСЬКА СІТКА ПІДЗЕМЕЛЬ
+RARE AXE	РІДКІСНА СОКИРА
+RARE DUNGEON AXE	РІДКІСНА СОКИРА ПІДЗЕМЕЛЬ
+RARE PICKAXE	РІДКІСНА КИРКА
+RARE DUNGEON PICKAXE	РІДКІСНА КИРКА ПІДЗЕМЕЛЬ
+RARE DRILL	РІДКІСНИЙ БУР
+RARE DUNGEON DRILL	РІДКІСНИЙ БУР ПІДЗЕМЕЛЬ
+RARE SHOVEL	РІДКІСНА ЛОПАТА
+RARE DUNGEON SHOVEL	РІДКІСНА ЛОПАТА ПІДЗЕМЕЛЬ
+RARE HOE	РІДКІСНА МОТИКА
+RARE DUNGEON HOE	РІДКІСНА МОТИКА ПІДЗЕМЕЛЬ
+RARE SHEARS	РІДКІСНІ НОЖИЦІ
+RARE DUNGEON SHEARS	РІДКІСНІ НОЖИЦІ ПІДЗЕМЕЛЬ
+RARE CHISEL	РІДКІСНЕ ЗУБИЛО
+RARE DUNGEON CHISEL	РІДКІСНЕ ЗУБИЛО ПІДЗЕМЕЛЬ
+RARE MEMENTO	РІДКІСНА ПАМ'ЯТКА
+RARE DUNGEON MEMENTO	РІДКІСНА ПАМ'ЯТКА ПІДЗЕМЕЛЬ
+RARE DEPLOYABLE	РІДКІСНИЙ РОЗГОРТАНИЙ ПРЕДМЕТ
+RARE DUNGEON DEPLOYABLE	РІДКІСНИЙ РОЗГОРТАНИЙ ПРЕДМЕТ ПІДЗЕМЕЛЬ
+RARE DWARVEN METAL	РІДКІСНИЙ ГНОМСЬКИЙ МЕТАЛ
+RARE DUNGEON DWARVEN METAL	РІДКІСНИЙ ГНОМСЬКИЙ МЕТАЛ ПІДЗЕМЕЛЬ
+RARE GARDEN CHIP	РІДКІСНИЙ ЧІП САДУ
+RARE DUNGEON GARDEN CHIP	РІДКІСНИЙ ЧІП САДУ ПІДЗЕМЕЛЬ
+RARE BOOSTER	РІДКІСНИЙ ПІДСИЛЮВАЧ
+RARE DUNGEON BOOSTER	РІДКІСНИЙ ПІДСИЛЮВАЧ ПІДЗЕМЕЛЬ
+RARE RIFT TIMECHARM	РІДКІСНИЙ ЧАСОВИЙ ОБЕРІГ РИФТУ
+RARE DUNGEON RIFT TIMECHARM	РІДКІСНИЙ ЧАСОВИЙ ОБЕРІГ РИФТУ ПІДЗЕМЕЛЬ
+RARE SALT	РІДКІСНА СІЛЬ
+RARE DUNGEON SALT	РІДКІСНА СІЛЬ ПІДЗЕМЕЛЬ
+RARE CARNIVAL MASK	РІДКІСНА КАРНАВАЛЬНА МАСКА
+RARE DUNGEON CARNIVAL MASK	РІДКІСНА КАРНАВАЛЬНА МАСКА ПІДЗЕМЕЛЬ
+RARE VACUUM	РІДКІСНИЙ ПИЛОСОС
+RARE DUNGEON VACUUM	РІДКІСНИЙ ПИЛОСОС ПІДЗЕМЕЛЬ
+RARE WATERING CAN	РІДКІСНА ЛІЙКА
+RARE DUNGEON WATERING CAN	РІДКІСНА ЛІЙКА ПІДЗЕМЕЛЬ
+RARE TRAP	РІДКІСНА ПАСТКА
+RARE DUNGEON TRAP	РІДКІСНА ПАСТКА ПІДЗЕМЕЛЬ
+RARE LASSO	РІДКІСНЕ ЛАСО
+RARE DUNGEON LASSO	РІДКІСНЕ ЛАСО ПІДЗЕМЕЛЬ
+RARE CAPSULE	РІДКІСНА КАПСУЛА
+RARE DUNGEON CAPSULE	РІДКІСНА КАПСУЛА ПІДЗЕМЕЛЬ
+EPIC	ЕПІЧНИЙ
+EPIC ITEM	ЕПІЧНИЙ ПРЕДМЕТ
+EPIC DUNGEON ITEM	ЕПІЧНИЙ ПРЕДМЕТ ПІДЗЕМЕЛЬ
+EPIC COSMETIC	ЕПІЧНА КОСМЕТИКА
+EPIC DUNGEON COSMETIC	ЕПІЧНА КОСМЕТИКА ПІДЗЕМЕЛЬ
+EPIC ACCESSORY	ЕПІЧНИЙ АКСЕСУАР
+EPIC DUNGEON ACCESSORY	ЕПІЧНИЙ АКСЕСУАР ПІДЗЕМЕЛЬ
+EPIC PET	ЕПІЧНИЙ УЛЮБЛЕНЕЦЬ
+EPIC DUNGEON PET	ЕПІЧНИЙ УЛЮБЛЕНЕЦЬ ПІДЗЕМЕЛЬ
+EPIC HELMET	ЕПІЧНИЙ ШОЛОМ
+EPIC DUNGEON HELMET	ЕПІЧНИЙ ШОЛОМ ПІДЗЕМЕЛЬ
+EPIC CHESTPLATE	ЕПІЧНИЙ НАГРУДНИК
+EPIC DUNGEON CHESTPLATE	ЕПІЧНИЙ НАГРУДНИК ПІДЗЕМЕЛЬ
+EPIC LEGGINGS	ЕПІЧНІ ПОНОЖІ
+EPIC DUNGEON LEGGINGS	ЕПІЧНІ ПОНОЖІ ПІДЗЕМЕЛЬ
+EPIC BOOTS	ЕПІЧНІ ЧОБОТИ
+EPIC DUNGEON BOOTS	ЕПІЧНІ ЧОБОТИ ПІДЗЕМЕЛЬ
+EPIC TROPHY	ЕПІЧНИЙ ТРОФЕЙ
+EPIC DUNGEON TROPHY	ЕПІЧНИЙ ТРОФЕЙ ПІДЗЕМЕЛЬ
+EPIC SWORD	ЕПІЧНИЙ МЕЧ
+EPIC DUNGEON SWORD	ЕПІЧНИЙ МЕЧ ПІДЗЕМЕЛЬ
+EPIC LONGSWORD	ЕПІЧНИЙ ДОВГИЙ МЕЧ
+EPIC DUNGEON LONGSWORD	ЕПІЧНИЙ ДОВГИЙ МЕЧ ПІДЗЕМЕЛЬ
+EPIC SLAYER SWORD	ЕПІЧНИЙ МЕЧ ВИНИЩУВАЧА
+EPIC DUNGEON SLAYER SWORD	ЕПІЧНИЙ МЕЧ ВИНИЩУВАЧА ПІДЗЕМЕЛЬ
+EPIC BOW	ЕПІЧНИЙ ЛУК
+EPIC DUNGEON BOW	ЕПІЧНИЙ ЛУК ПІДЗЕМЕЛЬ
+EPIC ARROW	ЕПІЧНА СТРІЛА
+EPIC DUNGEON ARROW	ЕПІЧНА СТРІЛА ПІДЗЕМЕЛЬ
+EPIC ARROW POISON	ЕПІЧНА ОТРУТА ДЛЯ СТРІЛ
+EPIC DUNGEON ARROW POISON	ЕПІЧНА ОТРУТА ДЛЯ СТРІЛ ПІДЗЕМЕЛЬ
+EPIC WAND	ЕПІЧНИЙ ЖЕЗЛ
+EPIC DUNGEON WAND	ЕПІЧНИЙ ЖЕЗЛ ПІДЗЕМЕЛЬ
+EPIC GAUNTLET	ЕПІЧНА ЛАТНА РУКАВИЦЯ
+EPIC DUNGEON GAUNTLET	ЕПІЧНА ЛАТНА РУКАВИЦЯ ПІДЗЕМЕЛЬ
+EPIC PET ITEM	ЕПІЧНИЙ ПРЕДМЕТ УЛЮБЛЕНЦЯ
+EPIC DUNGEON PET ITEM	ЕПІЧНИЙ ПРЕДМЕТ УЛЮБЛЕНЦЯ ПІДЗЕМЕЛЬ
+EPIC REFORGE STONE	ЕПІЧНИЙ КАМІНЬ ПЕРЕКУВАННЯ
+EPIC DUNGEON REFORGE STONE	ЕПІЧНИЙ КАМІНЬ ПЕРЕКУВАННЯ ПІДЗЕМЕЛЬ
+EPIC POWER STONE	ЕПІЧНИЙ КАМІНЬ СИЛИ
+EPIC DUNGEON POWER STONE	ЕПІЧНИЙ КАМІНЬ СИЛИ ПІДЗЕМЕЛЬ
+EPIC SEA CREATURE	ЕПІЧНА МОРСЬКА ІСТОТА
+EPIC DUNGEON SEA CREATURE	ЕПІЧНА МОРСЬКА ІСТОТА ПІДЗЕМЕЛЬ
+EPIC DYE	ЕПІЧНИЙ БАРВНИК
+EPIC DUNGEON DYE	ЕПІЧНИЙ БАРВНИК ПІДЗЕМЕЛЬ
+EPIC SACK	ЕПІЧНИЙ МІШОК
+EPIC DUNGEON SACK	ЕПІЧНИЙ МІШОК ПІДЗЕМЕЛЬ
+EPIC GEMSTONE	ЕПІЧНИЙ САМОЦВІТ
+EPIC DUNGEON GEMSTONE	ЕПІЧНИЙ САМОЦВІТ ПІДЗЕМЕЛЬ
+EPIC RABBIT	ЕПІЧНИЙ КРОЛИК
+EPIC DUNGEON RABBIT	ЕПІЧНИЙ КРОЛИК ПІДЗЕМЕЛЬ
+EPIC FARMING TOOL	ЕПІЧНИЙ ФЕРМЕРСЬКИЙ ІНСТРУМЕНТ
+EPIC DUNGEON FARMING TOOL	ЕПІЧНИЙ ФЕРМЕРСЬКИЙ ІНСТРУМЕНТ ПІДЗЕМЕЛЬ
+EPIC BELT	ЕПІЧНИЙ ПОЯС
+EPIC DUNGEON BELT	ЕПІЧНИЙ ПОЯС ПІДЗЕМЕЛЬ
+EPIC NECKLACE	ЕПІЧНЕ НАМИСТО
+EPIC DUNGEON NECKLACE	ЕПІЧНЕ НАМИСТО ПІДЗЕМЕЛЬ
+EPIC CLOAK	ЕПІЧНИЙ ПЛАЩ
+EPIC DUNGEON CLOAK	ЕПІЧНИЙ ПЛАЩ ПІДЗЕМЕЛЬ
+EPIC GLOVES	ЕПІЧНІ РУКАВИЧКИ
+EPIC DUNGEON GLOVES	ЕПІЧНІ РУКАВИЧКИ ПІДЗЕМЕЛЬ
+EPIC BRACELET	ЕПІЧНИЙ БРАСЛЕТ
+EPIC DUNGEON BRACELET	ЕПІЧНИЙ БРАСЛЕТ ПІДЗЕМЕЛЬ
+EPIC MUTATION	ЕПІЧНА МУТАЦІЯ
+EPIC DUNGEON MUTATION	ЕПІЧНА МУТАЦІЯ ПІДЗЕМЕЛЬ
+EPIC PORTAL	ЕПІЧНИЙ ПОРТАЛ
+EPIC DUNGEON PORTAL	ЕПІЧНИЙ ПОРТАЛ ПІДЗЕМЕЛЬ
+EPIC ORE	ЕПІЧНА РУДА
+EPIC DUNGEON ORE	ЕПІЧНА РУДА ПІДЗЕМЕЛЬ
+EPIC BLOCK	ЕПІЧНИЙ БЛОК
+EPIC DUNGEON BLOCK	ЕПІЧНИЙ БЛОК ПІДЗЕМЕЛЬ
+EPIC TRAVEL SCROLL	ЕПІЧНИЙ СУВІЙ ПОДОРОЖІ
+EPIC DUNGEON TRAVEL SCROLL	ЕПІЧНИЙ СУВІЙ ПОДОРОЖІ ПІДЗЕМЕЛЬ
+EPIC ABILITY SCROLL	ЕПІЧНИЙ СУВІЙ ЗДІБНОСТІ
+EPIC DUNGEON ABILITY SCROLL	ЕПІЧНИЙ СУВІЙ ЗДІБНОСТІ ПІДЗЕМЕЛЬ
+EPIC FISHING ROD	ЕПІЧНА ВУДКА
+EPIC DUNGEON FISHING ROD	ЕПІЧНА ВУДКА ПІДЗЕМЕЛЬ
+EPIC ROD PART	ЕПІЧНА ДЕТАЛЬ ВУДКИ
+EPIC DUNGEON ROD PART	ЕПІЧНА ДЕТАЛЬ ВУДКИ ПІДЗЕМЕЛЬ
+EPIC BAIT	ЕПІЧНА НАЖИВКА
+EPIC DUNGEON BAIT	ЕПІЧНА НАЖИВКА ПІДЗЕМЕЛЬ
+EPIC FISHING NET	ЕПІЧНА РИБАЛЬСЬКА СІТКА
+EPIC DUNGEON FISHING NET	ЕПІЧНА РИБАЛЬСЬКА СІТКА ПІДЗЕМЕЛЬ
+EPIC AXE	ЕПІЧНА СОКИРА
+EPIC DUNGEON AXE	ЕПІЧНА СОКИРА ПІДЗЕМЕЛЬ
+EPIC PICKAXE	ЕПІЧНА КИРКА
+EPIC DUNGEON PICKAXE	ЕПІЧНА КИРКА ПІДЗЕМЕЛЬ
+EPIC DRILL	ЕПІЧНИЙ БУР
+EPIC DUNGEON DRILL	ЕПІЧНИЙ БУР ПІДЗЕМЕЛЬ
+EPIC SHOVEL	ЕПІЧНА ЛОПАТА
+EPIC DUNGEON SHOVEL	ЕПІЧНА ЛОПАТА ПІДЗЕМЕЛЬ
+EPIC HOE	ЕПІЧНА МОТИКА
+EPIC DUNGEON HOE	ЕПІЧНА МОТИКА ПІДЗЕМЕЛЬ
+EPIC SHEARS	ЕПІЧНІ НОЖИЦІ
+EPIC DUNGEON SHEARS	ЕПІЧНІ НОЖИЦІ ПІДЗЕМЕЛЬ
+EPIC CHISEL	ЕПІЧНЕ ЗУБИЛО
+EPIC DUNGEON CHISEL	ЕПІЧНЕ ЗУБИЛО ПІДЗЕМЕЛЬ
+EPIC MEMENTO	ЕПІЧНА ПАМ'ЯТКА
+EPIC DUNGEON MEMENTO	ЕПІЧНА ПАМ'ЯТКА ПІДЗЕМЕЛЬ
+EPIC DEPLOYABLE	ЕПІЧНИЙ РОЗГОРТАНИЙ ПРЕДМЕТ
+EPIC DUNGEON DEPLOYABLE	ЕПІЧНИЙ РОЗГОРТАНИЙ ПРЕДМЕТ ПІДЗЕМЕЛЬ
+EPIC DWARVEN METAL	ЕПІЧНИЙ ГНОМСЬКИЙ МЕТАЛ
+EPIC DUNGEON DWARVEN METAL	ЕПІЧНИЙ ГНОМСЬКИЙ МЕТАЛ ПІДЗЕМЕЛЬ
+EPIC GARDEN CHIP	ЕПІЧНИЙ ЧІП САДУ
+EPIC DUNGEON GARDEN CHIP	ЕПІЧНИЙ ЧІП САДУ ПІДЗЕМЕЛЬ
+EPIC BOOSTER	ЕПІЧНИЙ ПІДСИЛЮВАЧ
+EPIC DUNGEON BOOSTER	ЕПІЧНИЙ ПІДСИЛЮВАЧ ПІДЗЕМЕЛЬ
+EPIC RIFT TIMECHARM	ЕПІЧНИЙ ЧАСОВИЙ ОБЕРІГ РИФТУ
+EPIC DUNGEON RIFT TIMECHARM	ЕПІЧНИЙ ЧАСОВИЙ ОБЕРІГ РИФТУ ПІДЗЕМЕЛЬ
+EPIC SALT	ЕПІЧНА СІЛЬ
+EPIC DUNGEON SALT	ЕПІЧНА СІЛЬ ПІДЗЕМЕЛЬ
+EPIC CARNIVAL MASK	ЕПІЧНА КАРНАВАЛЬНА МАСКА
+EPIC DUNGEON CARNIVAL MASK	ЕПІЧНА КАРНАВАЛЬНА МАСКА ПІДЗЕМЕЛЬ
+EPIC VACUUM	ЕПІЧНИЙ ПИЛОСОС
+EPIC DUNGEON VACUUM	ЕПІЧНИЙ ПИЛОСОС ПІДЗЕМЕЛЬ
+EPIC WATERING CAN	ЕПІЧНА ЛІЙКА
+EPIC DUNGEON WATERING CAN	ЕПІЧНА ЛІЙКА ПІДЗЕМЕЛЬ
+EPIC TRAP	ЕПІЧНА ПАСТКА
+EPIC DUNGEON TRAP	ЕПІЧНА ПАСТКА ПІДЗЕМЕЛЬ
+EPIC LASSO	ЕПІЧНЕ ЛАСО
+EPIC DUNGEON LASSO	ЕПІЧНЕ ЛАСО ПІДЗЕМЕЛЬ
+EPIC CAPSULE	ЕПІЧНА КАПСУЛА
+EPIC DUNGEON CAPSULE	ЕПІЧНА КАПСУЛА ПІДЗЕМЕЛЬ
+LEGENDARY	ЛЕГЕНДАРНИЙ
+LEGENDARY ITEM	ЛЕГЕНДАРНИЙ ПРЕДМЕТ
+LEGENDARY DUNGEON ITEM	ЛЕГЕНДАРНИЙ ПРЕДМЕТ ПІДЗЕМЕЛЬ
+LEGENDARY COSMETIC	ЛЕГЕНДАРНА КОСМЕТИКА
+LEGENDARY DUNGEON COSMETIC	ЛЕГЕНДАРНА КОСМЕТИКА ПІДЗЕМЕЛЬ
+LEGENDARY ACCESSORY	ЛЕГЕНДАРНИЙ АКСЕСУАР
+LEGENDARY DUNGEON ACCESSORY	ЛЕГЕНДАРНИЙ АКСЕСУАР ПІДЗЕМЕЛЬ
+LEGENDARY PET	ЛЕГЕНДАРНИЙ УЛЮБЛЕНЕЦЬ
+LEGENDARY DUNGEON PET	ЛЕГЕНДАРНИЙ УЛЮБЛЕНЕЦЬ ПІДЗЕМЕЛЬ
+LEGENDARY HELMET	ЛЕГЕНДАРНИЙ ШОЛОМ
+LEGENDARY DUNGEON HELMET	ЛЕГЕНДАРНИЙ ШОЛОМ ПІДЗЕМЕЛЬ
+LEGENDARY CHESTPLATE	ЛЕГЕНДАРНИЙ НАГРУДНИК
+LEGENDARY DUNGEON CHESTPLATE	ЛЕГЕНДАРНИЙ НАГРУДНИК ПІДЗЕМЕЛЬ
+LEGENDARY LEGGINGS	ЛЕГЕНДАРНІ ПОНОЖІ
+LEGENDARY DUNGEON LEGGINGS	ЛЕГЕНДАРНІ ПОНОЖІ ПІДЗЕМЕЛЬ
+LEGENDARY BOOTS	ЛЕГЕНДАРНІ ЧОБОТИ
+LEGENDARY DUNGEON BOOTS	ЛЕГЕНДАРНІ ЧОБОТИ ПІДЗЕМЕЛЬ
+LEGENDARY TROPHY	ЛЕГЕНДАРНИЙ ТРОФЕЙ
+LEGENDARY DUNGEON TROPHY	ЛЕГЕНДАРНИЙ ТРОФЕЙ ПІДЗЕМЕЛЬ
+LEGENDARY SWORD	ЛЕГЕНДАРНИЙ МЕЧ
+LEGENDARY DUNGEON SWORD	ЛЕГЕНДАРНИЙ МЕЧ ПІДЗЕМЕЛЬ
+LEGENDARY LONGSWORD	ЛЕГЕНДАРНИЙ ДОВГИЙ МЕЧ
+LEGENDARY DUNGEON LONGSWORD	ЛЕГЕНДАРНИЙ ДОВГИЙ МЕЧ ПІДЗЕМЕЛЬ
+LEGENDARY SLAYER SWORD	ЛЕГЕНДАРНИЙ МЕЧ ВИНИЩУВАЧА
+LEGENDARY DUNGEON SLAYER SWORD	ЛЕГЕНДАРНИЙ МЕЧ ВИНИЩУВАЧА ПІДЗЕМЕЛЬ
+LEGENDARY BOW	ЛЕГЕНДАРНИЙ ЛУК
+LEGENDARY DUNGEON BOW	ЛЕГЕНДАРНИЙ ЛУК ПІДЗЕМЕЛЬ
+LEGENDARY ARROW	ЛЕГЕНДАРНА СТРІЛА
+LEGENDARY DUNGEON ARROW	ЛЕГЕНДАРНА СТРІЛА ПІДЗЕМЕЛЬ
+LEGENDARY ARROW POISON	ЛЕГЕНДАРНА ОТРУТА ДЛЯ СТРІЛ
+LEGENDARY DUNGEON ARROW POISON	ЛЕГЕНДАРНА ОТРУТА ДЛЯ СТРІЛ ПІДЗЕМЕЛЬ
+LEGENDARY WAND	ЛЕГЕНДАРНИЙ ЖЕЗЛ
+LEGENDARY DUNGEON WAND	ЛЕГЕНДАРНИЙ ЖЕЗЛ ПІДЗЕМЕЛЬ
+LEGENDARY GAUNTLET	ЛЕГЕНДАРНА ЛАТНА РУКАВИЦЯ
+LEGENDARY DUNGEON GAUNTLET	ЛЕГЕНДАРНА ЛАТНА РУКАВИЦЯ ПІДЗЕМЕЛЬ
+LEGENDARY PET ITEM	ЛЕГЕНДАРНИЙ ПРЕДМЕТ УЛЮБЛЕНЦЯ
+LEGENDARY DUNGEON PET ITEM	ЛЕГЕНДАРНИЙ ПРЕДМЕТ УЛЮБЛЕНЦЯ ПІДЗЕМЕЛЬ
+LEGENDARY REFORGE STONE	ЛЕГЕНДАРНИЙ КАМІНЬ ПЕРЕКУВАННЯ
+LEGENDARY DUNGEON REFORGE STONE	ЛЕГЕНДАРНИЙ КАМІНЬ ПЕРЕКУВАННЯ ПІДЗЕМЕЛЬ
+LEGENDARY POWER STONE	ЛЕГЕНДАРНИЙ КАМІНЬ СИЛИ
+LEGENDARY DUNGEON POWER STONE	ЛЕГЕНДАРНИЙ КАМІНЬ СИЛИ ПІДЗЕМЕЛЬ
+LEGENDARY SEA CREATURE	ЛЕГЕНДАРНА МОРСЬКА ІСТОТА
+LEGENDARY DUNGEON SEA CREATURE	ЛЕГЕНДАРНА МОРСЬКА ІСТОТА ПІДЗЕМЕЛЬ
+LEGENDARY DYE	ЛЕГЕНДАРНИЙ БАРВНИК
+LEGENDARY DUNGEON DYE	ЛЕГЕНДАРНИЙ БАРВНИК ПІДЗЕМЕЛЬ
+LEGENDARY SACK	ЛЕГЕНДАРНИЙ МІШОК
+LEGENDARY DUNGEON SACK	ЛЕГЕНДАРНИЙ МІШОК ПІДЗЕМЕЛЬ
+LEGENDARY GEMSTONE	ЛЕГЕНДАРНИЙ САМОЦВІТ
+LEGENDARY DUNGEON GEMSTONE	ЛЕГЕНДАРНИЙ САМОЦВІТ ПІДЗЕМЕЛЬ
+LEGENDARY RABBIT	ЛЕГЕНДАРНИЙ КРОЛИК
+LEGENDARY DUNGEON RABBIT	ЛЕГЕНДАРНИЙ КРОЛИК ПІДЗЕМЕЛЬ
+LEGENDARY FARMING TOOL	ЛЕГЕНДАРНИЙ ФЕРМЕРСЬКИЙ ІНСТРУМЕНТ
+LEGENDARY DUNGEON FARMING TOOL	ЛЕГЕНДАРНИЙ ФЕРМЕРСЬКИЙ ІНСТРУМЕНТ ПІДЗЕМЕЛЬ
+LEGENDARY BELT	ЛЕГЕНДАРНИЙ ПОЯС
+LEGENDARY DUNGEON BELT	ЛЕГЕНДАРНИЙ ПОЯС ПІДЗЕМЕЛЬ
+LEGENDARY NECKLACE	ЛЕГЕНДАРНЕ НАМИСТО
+LEGENDARY DUNGEON NECKLACE	ЛЕГЕНДАРНЕ НАМИСТО ПІДЗЕМЕЛЬ
+LEGENDARY CLOAK	ЛЕГЕНДАРНИЙ ПЛАЩ
+LEGENDARY DUNGEON CLOAK	ЛЕГЕНДАРНИЙ ПЛАЩ ПІДЗЕМЕЛЬ
+LEGENDARY GLOVES	ЛЕГЕНДАРНІ РУКАВИЧКИ
+LEGENDARY DUNGEON GLOVES	ЛЕГЕНДАРНІ РУКАВИЧКИ ПІДЗЕМЕЛЬ
+LEGENDARY BRACELET	ЛЕГЕНДАРНИЙ БРАСЛЕТ
+LEGENDARY DUNGEON BRACELET	ЛЕГЕНДАРНИЙ БРАСЛЕТ ПІДЗЕМЕЛЬ
+LEGENDARY MUTATION	ЛЕГЕНДАРНА МУТАЦІЯ
+LEGENDARY DUNGEON MUTATION	ЛЕГЕНДАРНА МУТАЦІЯ ПІДЗЕМЕЛЬ
+LEGENDARY PORTAL	ЛЕГЕНДАРНИЙ ПОРТАЛ
+LEGENDARY DUNGEON PORTAL	ЛЕГЕНДАРНИЙ ПОРТАЛ ПІДЗЕМЕЛЬ
+LEGENDARY ORE	ЛЕГЕНДАРНА РУДА
+LEGENDARY DUNGEON ORE	ЛЕГЕНДАРНА РУДА ПІДЗЕМЕЛЬ
+LEGENDARY BLOCK	ЛЕГЕНДАРНИЙ БЛОК
+LEGENDARY DUNGEON BLOCK	ЛЕГЕНДАРНИЙ БЛОК ПІДЗЕМЕЛЬ
+LEGENDARY TRAVEL SCROLL	ЛЕГЕНДАРНИЙ СУВІЙ ПОДОРОЖІ
+LEGENDARY DUNGEON TRAVEL SCROLL	ЛЕГЕНДАРНИЙ СУВІЙ ПОДОРОЖІ ПІДЗЕМЕЛЬ
+LEGENDARY ABILITY SCROLL	ЛЕГЕНДАРНИЙ СУВІЙ ЗДІБНОСТІ
+LEGENDARY DUNGEON ABILITY SCROLL	ЛЕГЕНДАРНИЙ СУВІЙ ЗДІБНОСТІ ПІДЗЕМЕЛЬ
+LEGENDARY FISHING ROD	ЛЕГЕНДАРНА ВУДКА
+LEGENDARY DUNGEON FISHING ROD	ЛЕГЕНДАРНА ВУДКА ПІДЗЕМЕЛЬ
+LEGENDARY ROD PART	ЛЕГЕНДАРНА ДЕТАЛЬ ВУДКИ
+LEGENDARY DUNGEON ROD PART	ЛЕГЕНДАРНА ДЕТАЛЬ ВУДКИ ПІДЗЕМЕЛЬ
+LEGENDARY BAIT	ЛЕГЕНДАРНА НАЖИВКА
+LEGENDARY DUNGEON BAIT	ЛЕГЕНДАРНА НАЖИВКА ПІДЗЕМЕЛЬ
+LEGENDARY FISHING NET	ЛЕГЕНДАРНА РИБАЛЬСЬКА СІТКА
+LEGENDARY DUNGEON FISHING NET	ЛЕГЕНДАРНА РИБАЛЬСЬКА СІТКА ПІДЗЕМЕЛЬ
+LEGENDARY AXE	ЛЕГЕНДАРНА СОКИРА
+LEGENDARY DUNGEON AXE	ЛЕГЕНДАРНА СОКИРА ПІДЗЕМЕЛЬ
+LEGENDARY PICKAXE	ЛЕГЕНДАРНА КИРКА
+LEGENDARY DUNGEON PICKAXE	ЛЕГЕНДАРНА КИРКА ПІДЗЕМЕЛЬ
+LEGENDARY DRILL	ЛЕГЕНДАРНИЙ БУР
+LEGENDARY DUNGEON DRILL	ЛЕГЕНДАРНИЙ БУР ПІДЗЕМЕЛЬ
+LEGENDARY SHOVEL	ЛЕГЕНДАРНА ЛОПАТА
+LEGENDARY DUNGEON SHOVEL	ЛЕГЕНДАРНА ЛОПАТА ПІДЗЕМЕЛЬ
+LEGENDARY HOE	ЛЕГЕНДАРНА МОТИКА
+LEGENDARY DUNGEON HOE	ЛЕГЕНДАРНА МОТИКА ПІДЗЕМЕЛЬ
+LEGENDARY SHEARS	ЛЕГЕНДАРНІ НОЖИЦІ
+LEGENDARY DUNGEON SHEARS	ЛЕГЕНДАРНІ НОЖИЦІ ПІДЗЕМЕЛЬ
+LEGENDARY CHISEL	ЛЕГЕНДАРНЕ ЗУБИЛО
+LEGENDARY DUNGEON CHISEL	ЛЕГЕНДАРНЕ ЗУБИЛО ПІДЗЕМЕЛЬ
+LEGENDARY MEMENTO	ЛЕГЕНДАРНА ПАМ'ЯТКА
+LEGENDARY DUNGEON MEMENTO	ЛЕГЕНДАРНА ПАМ'ЯТКА ПІДЗЕМЕЛЬ
+LEGENDARY DEPLOYABLE	ЛЕГЕНДАРНИЙ РОЗГОРТАНИЙ ПРЕДМЕТ
+LEGENDARY DUNGEON DEPLOYABLE	ЛЕГЕНДАРНИЙ РОЗГОРТАНИЙ ПРЕДМЕТ ПІДЗЕМЕЛЬ
+LEGENDARY DWARVEN METAL	ЛЕГЕНДАРНИЙ ГНОМСЬКИЙ МЕТАЛ
+LEGENDARY DUNGEON DWARVEN METAL	ЛЕГЕНДАРНИЙ ГНОМСЬКИЙ МЕТАЛ ПІДЗЕМЕЛЬ
+LEGENDARY GARDEN CHIP	ЛЕГЕНДАРНИЙ ЧІП САДУ
+LEGENDARY DUNGEON GARDEN CHIP	ЛЕГЕНДАРНИЙ ЧІП САДУ ПІДЗЕМЕЛЬ
+LEGENDARY BOOSTER	ЛЕГЕНДАРНИЙ ПІДСИЛЮВАЧ
+LEGENDARY DUNGEON BOOSTER	ЛЕГЕНДАРНИЙ ПІДСИЛЮВАЧ ПІДЗЕМЕЛЬ
+LEGENDARY RIFT TIMECHARM	ЛЕГЕНДАРНИЙ ЧАСОВИЙ ОБЕРІГ РИФТУ
+LEGENDARY DUNGEON RIFT TIMECHARM	ЛЕГЕНДАРНИЙ ЧАСОВИЙ ОБЕРІГ РИФТУ ПІДЗЕМЕЛЬ
+LEGENDARY SALT	ЛЕГЕНДАРНА СІЛЬ
+LEGENDARY DUNGEON SALT	ЛЕГЕНДАРНА СІЛЬ ПІДЗЕМЕЛЬ
+LEGENDARY CARNIVAL MASK	ЛЕГЕНДАРНА КАРНАВАЛЬНА МАСКА
+LEGENDARY DUNGEON CARNIVAL MASK	ЛЕГЕНДАРНА КАРНАВАЛЬНА МАСКА ПІДЗЕМЕЛЬ
+LEGENDARY VACUUM	ЛЕГЕНДАРНИЙ ПИЛОСОС
+LEGENDARY DUNGEON VACUUM	ЛЕГЕНДАРНИЙ ПИЛОСОС ПІДЗЕМЕЛЬ
+LEGENDARY WATERING CAN	ЛЕГЕНДАРНА ЛІЙКА
+LEGENDARY DUNGEON WATERING CAN	ЛЕГЕНДАРНА ЛІЙКА ПІДЗЕМЕЛЬ
+LEGENDARY TRAP	ЛЕГЕНДАРНА ПАСТКА
+LEGENDARY DUNGEON TRAP	ЛЕГЕНДАРНА ПАСТКА ПІДЗЕМЕЛЬ
+LEGENDARY LASSO	ЛЕГЕНДАРНЕ ЛАСО
+LEGENDARY DUNGEON LASSO	ЛЕГЕНДАРНЕ ЛАСО ПІДЗЕМЕЛЬ
+LEGENDARY CAPSULE	ЛЕГЕНДАРНА КАПСУЛА
+LEGENDARY DUNGEON CAPSULE	ЛЕГЕНДАРНА КАПСУЛА ПІДЗЕМЕЛЬ
+MYTHIC	МІФІЧНИЙ
+MYTHIC ITEM	МІФІЧНИЙ ПРЕДМЕТ
+MYTHIC DUNGEON ITEM	МІФІЧНИЙ ПРЕДМЕТ ПІДЗЕМЕЛЬ
+MYTHIC COSMETIC	МІФІЧНА КОСМЕТИКА
+MYTHIC DUNGEON COSMETIC	МІФІЧНА КОСМЕТИКА ПІДЗЕМЕЛЬ
+MYTHIC ACCESSORY	МІФІЧНИЙ АКСЕСУАР
+MYTHIC DUNGEON ACCESSORY	МІФІЧНИЙ АКСЕСУАР ПІДЗЕМЕЛЬ
+MYTHIC PET	МІФІЧНИЙ УЛЮБЛЕНЕЦЬ
+MYTHIC DUNGEON PET	МІФІЧНИЙ УЛЮБЛЕНЕЦЬ ПІДЗЕМЕЛЬ
+MYTHIC HELMET	МІФІЧНИЙ ШОЛОМ
+MYTHIC DUNGEON HELMET	МІФІЧНИЙ ШОЛОМ ПІДЗЕМЕЛЬ
+MYTHIC CHESTPLATE	МІФІЧНИЙ НАГРУДНИК
+MYTHIC DUNGEON CHESTPLATE	МІФІЧНИЙ НАГРУДНИК ПІДЗЕМЕЛЬ
+MYTHIC LEGGINGS	МІФІЧНІ ПОНОЖІ
+MYTHIC DUNGEON LEGGINGS	МІФІЧНІ ПОНОЖІ ПІДЗЕМЕЛЬ
+MYTHIC BOOTS	МІФІЧНІ ЧОБОТИ
+MYTHIC DUNGEON BOOTS	МІФІЧНІ ЧОБОТИ ПІДЗЕМЕЛЬ
+MYTHIC TROPHY	МІФІЧНИЙ ТРОФЕЙ
+MYTHIC DUNGEON TROPHY	МІФІЧНИЙ ТРОФЕЙ ПІДЗЕМЕЛЬ
+MYTHIC SWORD	МІФІЧНИЙ МЕЧ
+MYTHIC DUNGEON SWORD	МІФІЧНИЙ МЕЧ ПІДЗЕМЕЛЬ
+MYTHIC LONGSWORD	МІФІЧНИЙ ДОВГИЙ МЕЧ
+MYTHIC DUNGEON LONGSWORD	МІФІЧНИЙ ДОВГИЙ МЕЧ ПІДЗЕМЕЛЬ
+MYTHIC SLAYER SWORD	МІФІЧНИЙ МЕЧ ВИНИЩУВАЧА
+MYTHIC DUNGEON SLAYER SWORD	МІФІЧНИЙ МЕЧ ВИНИЩУВАЧА ПІДЗЕМЕЛЬ
+MYTHIC BOW	МІФІЧНИЙ ЛУК
+MYTHIC DUNGEON BOW	МІФІЧНИЙ ЛУК ПІДЗЕМЕЛЬ
+MYTHIC ARROW	МІФІЧНА СТРІЛА
+MYTHIC DUNGEON ARROW	МІФІЧНА СТРІЛА ПІДЗЕМЕЛЬ
+MYTHIC ARROW POISON	МІФІЧНА ОТРУТА ДЛЯ СТРІЛ
+MYTHIC DUNGEON ARROW POISON	МІФІЧНА ОТРУТА ДЛЯ СТРІЛ ПІДЗЕМЕЛЬ
+MYTHIC WAND	МІФІЧНИЙ ЖЕЗЛ
+MYTHIC DUNGEON WAND	МІФІЧНИЙ ЖЕЗЛ ПІДЗЕМЕЛЬ
+MYTHIC GAUNTLET	МІФІЧНА ЛАТНА РУКАВИЦЯ
+MYTHIC DUNGEON GAUNTLET	МІФІЧНА ЛАТНА РУКАВИЦЯ ПІДЗЕМЕЛЬ
+MYTHIC PET ITEM	МІФІЧНИЙ ПРЕДМЕТ УЛЮБЛЕНЦЯ
+MYTHIC DUNGEON PET ITEM	МІФІЧНИЙ ПРЕДМЕТ УЛЮБЛЕНЦЯ ПІДЗЕМЕЛЬ
+MYTHIC REFORGE STONE	МІФІЧНИЙ КАМІНЬ ПЕРЕКУВАННЯ
+MYTHIC DUNGEON REFORGE STONE	МІФІЧНИЙ КАМІНЬ ПЕРЕКУВАННЯ ПІДЗЕМЕЛЬ
+MYTHIC POWER STONE	МІФІЧНИЙ КАМІНЬ СИЛИ
+MYTHIC DUNGEON POWER STONE	МІФІЧНИЙ КАМІНЬ СИЛИ ПІДЗЕМЕЛЬ
+MYTHIC SEA CREATURE	МІФІЧНА МОРСЬКА ІСТОТА
+MYTHIC DUNGEON SEA CREATURE	МІФІЧНА МОРСЬКА ІСТОТА ПІДЗЕМЕЛЬ
+MYTHIC DYE	МІФІЧНИЙ БАРВНИК
+MYTHIC DUNGEON DYE	МІФІЧНИЙ БАРВНИК ПІДЗЕМЕЛЬ
+MYTHIC SACK	МІФІЧНИЙ МІШОК
+MYTHIC DUNGEON SACK	МІФІЧНИЙ МІШОК ПІДЗЕМЕЛЬ
+MYTHIC GEMSTONE	МІФІЧНИЙ САМОЦВІТ
+MYTHIC DUNGEON GEMSTONE	МІФІЧНИЙ САМОЦВІТ ПІДЗЕМЕЛЬ
+MYTHIC RABBIT	МІФІЧНИЙ КРОЛИК
+MYTHIC DUNGEON RABBIT	МІФІЧНИЙ КРОЛИК ПІДЗЕМЕЛЬ
+MYTHIC FARMING TOOL	МІФІЧНИЙ ФЕРМЕРСЬКИЙ ІНСТРУМЕНТ
+MYTHIC DUNGEON FARMING TOOL	МІФІЧНИЙ ФЕРМЕРСЬКИЙ ІНСТРУМЕНТ ПІДЗЕМЕЛЬ
+MYTHIC BELT	МІФІЧНИЙ ПОЯС
+MYTHIC DUNGEON BELT	МІФІЧНИЙ ПОЯС ПІДЗЕМЕЛЬ
+MYTHIC NECKLACE	МІФІЧНЕ НАМИСТО
+MYTHIC DUNGEON NECKLACE	МІФІЧНЕ НАМИСТО ПІДЗЕМЕЛЬ
+MYTHIC CLOAK	МІФІЧНИЙ ПЛАЩ
+MYTHIC DUNGEON CLOAK	МІФІЧНИЙ ПЛАЩ ПІДЗЕМЕЛЬ
+MYTHIC GLOVES	МІФІЧНІ РУКАВИЧКИ
+MYTHIC DUNGEON GLOVES	МІФІЧНІ РУКАВИЧКИ ПІДЗЕМЕЛЬ
+MYTHIC BRACELET	МІФІЧНИЙ БРАСЛЕТ
+MYTHIC DUNGEON BRACELET	МІФІЧНИЙ БРАСЛЕТ ПІДЗЕМЕЛЬ
+MYTHIC MUTATION	МІФІЧНА МУТАЦІЯ
+MYTHIC DUNGEON MUTATION	МІФІЧНА МУТАЦІЯ ПІДЗЕМЕЛЬ
+MYTHIC PORTAL	МІФІЧНИЙ ПОРТАЛ
+MYTHIC DUNGEON PORTAL	МІФІЧНИЙ ПОРТАЛ ПІДЗЕМЕЛЬ
+MYTHIC ORE	МІФІЧНА РУДА
+MYTHIC DUNGEON ORE	МІФІЧНА РУДА ПІДЗЕМЕЛЬ
+MYTHIC BLOCK	МІФІЧНИЙ БЛОК
+MYTHIC DUNGEON BLOCK	МІФІЧНИЙ БЛОК ПІДЗЕМЕЛЬ
+MYTHIC TRAVEL SCROLL	МІФІЧНИЙ СУВІЙ ПОДОРОЖІ
+MYTHIC DUNGEON TRAVEL SCROLL	МІФІЧНИЙ СУВІЙ ПОДОРОЖІ ПІДЗЕМЕЛЬ
+MYTHIC ABILITY SCROLL	МІФІЧНИЙ СУВІЙ ЗДІБНОСТІ
+MYTHIC DUNGEON ABILITY SCROLL	МІФІЧНИЙ СУВІЙ ЗДІБНОСТІ ПІДЗЕМЕЛЬ
+MYTHIC FISHING ROD	МІФІЧНА ВУДКА
+MYTHIC DUNGEON FISHING ROD	МІФІЧНА ВУДКА ПІДЗЕМЕЛЬ
+MYTHIC ROD PART	МІФІЧНА ДЕТАЛЬ ВУДКИ
+MYTHIC DUNGEON ROD PART	МІФІЧНА ДЕТАЛЬ ВУДКИ ПІДЗЕМЕЛЬ
+MYTHIC BAIT	МІФІЧНА НАЖИВКА
+MYTHIC DUNGEON BAIT	МІФІЧНА НАЖИВКА ПІДЗЕМЕЛЬ
+MYTHIC FISHING NET	МІФІЧНА РИБАЛЬСЬКА СІТКА
+MYTHIC DUNGEON FISHING NET	МІФІЧНА РИБАЛЬСЬКА СІТКА ПІДЗЕМЕЛЬ
+MYTHIC AXE	МІФІЧНА СОКИРА
+MYTHIC DUNGEON AXE	МІФІЧНА СОКИРА ПІДЗЕМЕЛЬ
+MYTHIC PICKAXE	МІФІЧНА КИРКА
+MYTHIC DUNGEON PICKAXE	МІФІЧНА КИРКА ПІДЗЕМЕЛЬ
+MYTHIC DRILL	МІФІЧНИЙ БУР
+MYTHIC DUNGEON DRILL	МІФІЧНИЙ БУР ПІДЗЕМЕЛЬ
+MYTHIC SHOVEL	МІФІЧНА ЛОПАТА
+MYTHIC DUNGEON SHOVEL	МІФІЧНА ЛОПАТА ПІДЗЕМЕЛЬ
+MYTHIC HOE	МІФІЧНА МОТИКА
+MYTHIC DUNGEON HOE	МІФІЧНА МОТИКА ПІДЗЕМЕЛЬ
+MYTHIC SHEARS	МІФІЧНІ НОЖИЦІ
+MYTHIC DUNGEON SHEARS	МІФІЧНІ НОЖИЦІ ПІДЗЕМЕЛЬ
+MYTHIC CHISEL	МІФІЧНЕ ЗУБИЛО
+MYTHIC DUNGEON CHISEL	МІФІЧНЕ ЗУБИЛО ПІДЗЕМЕЛЬ
+MYTHIC MEMENTO	МІФІЧНА ПАМ'ЯТКА
+MYTHIC DUNGEON MEMENTO	МІФІЧНА ПАМ'ЯТКА ПІДЗЕМЕЛЬ
+MYTHIC DEPLOYABLE	МІФІЧНИЙ РОЗГОРТАНИЙ ПРЕДМЕТ
+MYTHIC DUNGEON DEPLOYABLE	МІФІЧНИЙ РОЗГОРТАНИЙ ПРЕДМЕТ ПІДЗЕМЕЛЬ
+MYTHIC DWARVEN METAL	МІФІЧНИЙ ГНОМСЬКИЙ МЕТАЛ
+MYTHIC DUNGEON DWARVEN METAL	МІФІЧНИЙ ГНОМСЬКИЙ МЕТАЛ ПІДЗЕМЕЛЬ
+MYTHIC GARDEN CHIP	МІФІЧНИЙ ЧІП САДУ
+MYTHIC DUNGEON GARDEN CHIP	МІФІЧНИЙ ЧІП САДУ ПІДЗЕМЕЛЬ
+MYTHIC BOOSTER	МІФІЧНИЙ ПІДСИЛЮВАЧ
+MYTHIC DUNGEON BOOSTER	МІФІЧНИЙ ПІДСИЛЮВАЧ ПІДЗЕМЕЛЬ
+MYTHIC RIFT TIMECHARM	МІФІЧНИЙ ЧАСОВИЙ ОБЕРІГ РИФТУ
+MYTHIC DUNGEON RIFT TIMECHARM	МІФІЧНИЙ ЧАСОВИЙ ОБЕРІГ РИФТУ ПІДЗЕМЕЛЬ
+MYTHIC SALT	МІФІЧНА СІЛЬ
+MYTHIC DUNGEON SALT	МІФІЧНА СІЛЬ ПІДЗЕМЕЛЬ
+MYTHIC CARNIVAL MASK	МІФІЧНА КАРНАВАЛЬНА МАСКА
+MYTHIC DUNGEON CARNIVAL MASK	МІФІЧНА КАРНАВАЛЬНА МАСКА ПІДЗЕМЕЛЬ
+MYTHIC VACUUM	МІФІЧНИЙ ПИЛОСОС
+MYTHIC DUNGEON VACUUM	МІФІЧНИЙ ПИЛОСОС ПІДЗЕМЕЛЬ
+MYTHIC WATERING CAN	МІФІЧНА ЛІЙКА
+MYTHIC DUNGEON WATERING CAN	МІФІЧНА ЛІЙКА ПІДЗЕМЕЛЬ
+MYTHIC TRAP	МІФІЧНА ПАСТКА
+MYTHIC DUNGEON TRAP	МІФІЧНА ПАСТКА ПІДЗЕМЕЛЬ
+MYTHIC LASSO	МІФІЧНЕ ЛАСО
+MYTHIC DUNGEON LASSO	МІФІЧНЕ ЛАСО ПІДЗЕМЕЛЬ
+MYTHIC CAPSULE	МІФІЧНА КАПСУЛА
+MYTHIC DUNGEON CAPSULE	МІФІЧНА КАПСУЛА ПІДЗЕМЕЛЬ
+DIVINE	БОЖЕСТВЕННИЙ
+DIVINE ITEM	БОЖЕСТВЕННИЙ ПРЕДМЕТ
+DIVINE DUNGEON ITEM	БОЖЕСТВЕННИЙ ПРЕДМЕТ ПІДЗЕМЕЛЬ
+DIVINE COSMETIC	БОЖЕСТВЕННА КОСМЕТИКА
+DIVINE DUNGEON COSMETIC	БОЖЕСТВЕННА КОСМЕТИКА ПІДЗЕМЕЛЬ
+DIVINE ACCESSORY	БОЖЕСТВЕННИЙ АКСЕСУАР
+DIVINE DUNGEON ACCESSORY	БОЖЕСТВЕННИЙ АКСЕСУАР ПІДЗЕМЕЛЬ
+DIVINE PET	БОЖЕСТВЕННИЙ УЛЮБЛЕНЕЦЬ
+DIVINE DUNGEON PET	БОЖЕСТВЕННИЙ УЛЮБЛЕНЕЦЬ ПІДЗЕМЕЛЬ
+DIVINE HELMET	БОЖЕСТВЕННИЙ ШОЛОМ
+DIVINE DUNGEON HELMET	БОЖЕСТВЕННИЙ ШОЛОМ ПІДЗЕМЕЛЬ
+DIVINE CHESTPLATE	БОЖЕСТВЕННИЙ НАГРУДНИК
+DIVINE DUNGEON CHESTPLATE	БОЖЕСТВЕННИЙ НАГРУДНИК ПІДЗЕМЕЛЬ
+DIVINE LEGGINGS	БОЖЕСТВЕННІ ПОНОЖІ
+DIVINE DUNGEON LEGGINGS	БОЖЕСТВЕННІ ПОНОЖІ ПІДЗЕМЕЛЬ
+DIVINE BOOTS	БОЖЕСТВЕННІ ЧОБОТИ
+DIVINE DUNGEON BOOTS	БОЖЕСТВЕННІ ЧОБОТИ ПІДЗЕМЕЛЬ
+DIVINE TROPHY	БОЖЕСТВЕННИЙ ТРОФЕЙ
+DIVINE DUNGEON TROPHY	БОЖЕСТВЕННИЙ ТРОФЕЙ ПІДЗЕМЕЛЬ
+DIVINE SWORD	БОЖЕСТВЕННИЙ МЕЧ
+DIVINE DUNGEON SWORD	БОЖЕСТВЕННИЙ МЕЧ ПІДЗЕМЕЛЬ
+DIVINE LONGSWORD	БОЖЕСТВЕННИЙ ДОВГИЙ МЕЧ
+DIVINE DUNGEON LONGSWORD	БОЖЕСТВЕННИЙ ДОВГИЙ МЕЧ ПІДЗЕМЕЛЬ
+DIVINE SLAYER SWORD	БОЖЕСТВЕННИЙ МЕЧ ВИНИЩУВАЧА
+DIVINE DUNGEON SLAYER SWORD	БОЖЕСТВЕННИЙ МЕЧ ВИНИЩУВАЧА ПІДЗЕМЕЛЬ
+DIVINE BOW	БОЖЕСТВЕННИЙ ЛУК
+DIVINE DUNGEON BOW	БОЖЕСТВЕННИЙ ЛУК ПІДЗЕМЕЛЬ
+DIVINE ARROW	БОЖЕСТВЕННА СТРІЛА
+DIVINE DUNGEON ARROW	БОЖЕСТВЕННА СТРІЛА ПІДЗЕМЕЛЬ
+DIVINE ARROW POISON	БОЖЕСТВЕННА ОТРУТА ДЛЯ СТРІЛ
+DIVINE DUNGEON ARROW POISON	БОЖЕСТВЕННА ОТРУТА ДЛЯ СТРІЛ ПІДЗЕМЕЛЬ
+DIVINE WAND	БОЖЕСТВЕННИЙ ЖЕЗЛ
+DIVINE DUNGEON WAND	БОЖЕСТВЕННИЙ ЖЕЗЛ ПІДЗЕМЕЛЬ
+DIVINE GAUNTLET	БОЖЕСТВЕННА ЛАТНА РУКАВИЦЯ
+DIVINE DUNGEON GAUNTLET	БОЖЕСТВЕННА ЛАТНА РУКАВИЦЯ ПІДЗЕМЕЛЬ
+DIVINE PET ITEM	БОЖЕСТВЕННИЙ ПРЕДМЕТ УЛЮБЛЕНЦЯ
+DIVINE DUNGEON PET ITEM	БОЖЕСТВЕННИЙ ПРЕДМЕТ УЛЮБЛЕНЦЯ ПІДЗЕМЕЛЬ
+DIVINE REFORGE STONE	БОЖЕСТВЕННИЙ КАМІНЬ ПЕРЕКУВАННЯ
+DIVINE DUNGEON REFORGE STONE	БОЖЕСТВЕННИЙ КАМІНЬ ПЕРЕКУВАННЯ ПІДЗЕМЕЛЬ
+DIVINE POWER STONE	БОЖЕСТВЕННИЙ КАМІНЬ СИЛИ
+DIVINE DUNGEON POWER STONE	БОЖЕСТВЕННИЙ КАМІНЬ СИЛИ ПІДЗЕМЕЛЬ
+DIVINE SEA CREATURE	БОЖЕСТВЕННА МОРСЬКА ІСТОТА
+DIVINE DUNGEON SEA CREATURE	БОЖЕСТВЕННА МОРСЬКА ІСТОТА ПІДЗЕМЕЛЬ
+DIVINE DYE	БОЖЕСТВЕННИЙ БАРВНИК
+DIVINE DUNGEON DYE	БОЖЕСТВЕННИЙ БАРВНИК ПІДЗЕМЕЛЬ
+DIVINE SACK	БОЖЕСТВЕННИЙ МІШОК
+DIVINE DUNGEON SACK	БОЖЕСТВЕННИЙ МІШОК ПІДЗЕМЕЛЬ
+DIVINE GEMSTONE	БОЖЕСТВЕННИЙ САМОЦВІТ
+DIVINE DUNGEON GEMSTONE	БОЖЕСТВЕННИЙ САМОЦВІТ ПІДЗЕМЕЛЬ
+DIVINE RABBIT	БОЖЕСТВЕННИЙ КРОЛИК
+DIVINE DUNGEON RABBIT	БОЖЕСТВЕННИЙ КРОЛИК ПІДЗЕМЕЛЬ
+DIVINE FARMING TOOL	БОЖЕСТВЕННИЙ ФЕРМЕРСЬКИЙ ІНСТРУМЕНТ
+DIVINE DUNGEON FARMING TOOL	БОЖЕСТВЕННИЙ ФЕРМЕРСЬКИЙ ІНСТРУМЕНТ ПІДЗЕМЕЛЬ
+DIVINE BELT	БОЖЕСТВЕННИЙ ПОЯС
+DIVINE DUNGEON BELT	БОЖЕСТВЕННИЙ ПОЯС ПІДЗЕМЕЛЬ
+DIVINE NECKLACE	БОЖЕСТВЕННЕ НАМИСТО
+DIVINE DUNGEON NECKLACE	БОЖЕСТВЕННЕ НАМИСТО ПІДЗЕМЕЛЬ
+DIVINE CLOAK	БОЖЕСТВЕННИЙ ПЛАЩ
+DIVINE DUNGEON CLOAK	БОЖЕСТВЕННИЙ ПЛАЩ ПІДЗЕМЕЛЬ
+DIVINE GLOVES	БОЖЕСТВЕННІ РУКАВИЧКИ
+DIVINE DUNGEON GLOVES	БОЖЕСТВЕННІ РУКАВИЧКИ ПІДЗЕМЕЛЬ
+DIVINE BRACELET	БОЖЕСТВЕННИЙ БРАСЛЕТ
+DIVINE DUNGEON BRACELET	БОЖЕСТВЕННИЙ БРАСЛЕТ ПІДЗЕМЕЛЬ
+DIVINE MUTATION	БОЖЕСТВЕННА МУТАЦІЯ
+DIVINE DUNGEON MUTATION	БОЖЕСТВЕННА МУТАЦІЯ ПІДЗЕМЕЛЬ
+DIVINE PORTAL	БОЖЕСТВЕННИЙ ПОРТАЛ
+DIVINE DUNGEON PORTAL	БОЖЕСТВЕННИЙ ПОРТАЛ ПІДЗЕМЕЛЬ
+DIVINE ORE	БОЖЕСТВЕННА РУДА
+DIVINE DUNGEON ORE	БОЖЕСТВЕННА РУДА ПІДЗЕМЕЛЬ
+DIVINE BLOCK	БОЖЕСТВЕННИЙ БЛОК
+DIVINE DUNGEON BLOCK	БОЖЕСТВЕННИЙ БЛОК ПІДЗЕМЕЛЬ
+DIVINE TRAVEL SCROLL	БОЖЕСТВЕННИЙ СУВІЙ ПОДОРОЖІ
+DIVINE DUNGEON TRAVEL SCROLL	БОЖЕСТВЕННИЙ СУВІЙ ПОДОРОЖІ ПІДЗЕМЕЛЬ
+DIVINE ABILITY SCROLL	БОЖЕСТВЕННИЙ СУВІЙ ЗДІБНОСТІ
+DIVINE DUNGEON ABILITY SCROLL	БОЖЕСТВЕННИЙ СУВІЙ ЗДІБНОСТІ ПІДЗЕМЕЛЬ
+DIVINE FISHING ROD	БОЖЕСТВЕННА ВУДКА
+DIVINE DUNGEON FISHING ROD	БОЖЕСТВЕННА ВУДКА ПІДЗЕМЕЛЬ
+DIVINE ROD PART	БОЖЕСТВЕННА ДЕТАЛЬ ВУДКИ
+DIVINE DUNGEON ROD PART	БОЖЕСТВЕННА ДЕТАЛЬ ВУДКИ ПІДЗЕМЕЛЬ
+DIVINE BAIT	БОЖЕСТВЕННА НАЖИВКА
+DIVINE DUNGEON BAIT	БОЖЕСТВЕННА НАЖИВКА ПІДЗЕМЕЛЬ
+DIVINE FISHING NET	БОЖЕСТВЕННА РИБАЛЬСЬКА СІТКА
+DIVINE DUNGEON FISHING NET	БОЖЕСТВЕННА РИБАЛЬСЬКА СІТКА ПІДЗЕМЕЛЬ
+DIVINE AXE	БОЖЕСТВЕННА СОКИРА
+DIVINE DUNGEON AXE	БОЖЕСТВЕННА СОКИРА ПІДЗЕМЕЛЬ
+DIVINE PICKAXE	БОЖЕСТВЕННА КИРКА
+DIVINE DUNGEON PICKAXE	БОЖЕСТВЕННА КИРКА ПІДЗЕМЕЛЬ
+DIVINE DRILL	БОЖЕСТВЕННИЙ БУР
+DIVINE DUNGEON DRILL	БОЖЕСТВЕННИЙ БУР ПІДЗЕМЕЛЬ
+DIVINE SHOVEL	БОЖЕСТВЕННА ЛОПАТА
+DIVINE DUNGEON SHOVEL	БОЖЕСТВЕННА ЛОПАТА ПІДЗЕМЕЛЬ
+DIVINE HOE	БОЖЕСТВЕННА МОТИКА
+DIVINE DUNGEON HOE	БОЖЕСТВЕННА МОТИКА ПІДЗЕМЕЛЬ
+DIVINE SHEARS	БОЖЕСТВЕННІ НОЖИЦІ
+DIVINE DUNGEON SHEARS	БОЖЕСТВЕННІ НОЖИЦІ ПІДЗЕМЕЛЬ
+DIVINE CHISEL	БОЖЕСТВЕННЕ ЗУБИЛО
+DIVINE DUNGEON CHISEL	БОЖЕСТВЕННЕ ЗУБИЛО ПІДЗЕМЕЛЬ
+DIVINE MEMENTO	БОЖЕСТВЕННА ПАМ'ЯТКА
+DIVINE DUNGEON MEMENTO	БОЖЕСТВЕННА ПАМ'ЯТКА ПІДЗЕМЕЛЬ
+DIVINE DEPLOYABLE	БОЖЕСТВЕННИЙ РОЗГОРТАНИЙ ПРЕДМЕТ
+DIVINE DUNGEON DEPLOYABLE	БОЖЕСТВЕННИЙ РОЗГОРТАНИЙ ПРЕДМЕТ ПІДЗЕМЕЛЬ
+DIVINE DWARVEN METAL	БОЖЕСТВЕННИЙ ГНОМСЬКИЙ МЕТАЛ
+DIVINE DUNGEON DWARVEN METAL	БОЖЕСТВЕННИЙ ГНОМСЬКИЙ МЕТАЛ ПІДЗЕМЕЛЬ
+DIVINE GARDEN CHIP	БОЖЕСТВЕННИЙ ЧІП САДУ
+DIVINE DUNGEON GARDEN CHIP	БОЖЕСТВЕННИЙ ЧІП САДУ ПІДЗЕМЕЛЬ
+DIVINE BOOSTER	БОЖЕСТВЕННИЙ ПІДСИЛЮВАЧ
+DIVINE DUNGEON BOOSTER	БОЖЕСТВЕННИЙ ПІДСИЛЮВАЧ ПІДЗЕМЕЛЬ
+DIVINE RIFT TIMECHARM	БОЖЕСТВЕННИЙ ЧАСОВИЙ ОБЕРІГ РИФТУ
+DIVINE DUNGEON RIFT TIMECHARM	БОЖЕСТВЕННИЙ ЧАСОВИЙ ОБЕРІГ РИФТУ ПІДЗЕМЕЛЬ
+DIVINE SALT	БОЖЕСТВЕННА СІЛЬ
+DIVINE DUNGEON SALT	БОЖЕСТВЕННА СІЛЬ ПІДЗЕМЕЛЬ
+DIVINE CARNIVAL MASK	БОЖЕСТВЕННА КАРНАВАЛЬНА МАСКА
+DIVINE DUNGEON CARNIVAL MASK	БОЖЕСТВЕННА КАРНАВАЛЬНА МАСКА ПІДЗЕМЕЛЬ
+DIVINE VACUUM	БОЖЕСТВЕННИЙ ПИЛОСОС
+DIVINE DUNGEON VACUUM	БОЖЕСТВЕННИЙ ПИЛОСОС ПІДЗЕМЕЛЬ
+DIVINE WATERING CAN	БОЖЕСТВЕННА ЛІЙКА
+DIVINE DUNGEON WATERING CAN	БОЖЕСТВЕННА ЛІЙКА ПІДЗЕМЕЛЬ
+DIVINE TRAP	БОЖЕСТВЕННА ПАСТКА
+DIVINE DUNGEON TRAP	БОЖЕСТВЕННА ПАСТКА ПІДЗЕМЕЛЬ
+DIVINE LASSO	БОЖЕСТВЕННЕ ЛАСО
+DIVINE DUNGEON LASSO	БОЖЕСТВЕННЕ ЛАСО ПІДЗЕМЕЛЬ
+DIVINE CAPSULE	БОЖЕСТВЕННА КАПСУЛА
+DIVINE DUNGEON CAPSULE	БОЖЕСТВЕННА КАПСУЛА ПІДЗЕМЕЛЬ
+SUPREME	ВЕРХОВНИЙ
+SUPREME ITEM	ВЕРХОВНИЙ ПРЕДМЕТ
+SUPREME DUNGEON ITEM	ВЕРХОВНИЙ ПРЕДМЕТ ПІДЗЕМЕЛЬ
+SUPREME COSMETIC	ВЕРХОВНА КОСМЕТИКА
+SUPREME DUNGEON COSMETIC	ВЕРХОВНА КОСМЕТИКА ПІДЗЕМЕЛЬ
+SUPREME ACCESSORY	ВЕРХОВНИЙ АКСЕСУАР
+SUPREME DUNGEON ACCESSORY	ВЕРХОВНИЙ АКСЕСУАР ПІДЗЕМЕЛЬ
+SUPREME PET	ВЕРХОВНИЙ УЛЮБЛЕНЕЦЬ
+SUPREME DUNGEON PET	ВЕРХОВНИЙ УЛЮБЛЕНЕЦЬ ПІДЗЕМЕЛЬ
+SUPREME HELMET	ВЕРХОВНИЙ ШОЛОМ
+SUPREME DUNGEON HELMET	ВЕРХОВНИЙ ШОЛОМ ПІДЗЕМЕЛЬ
+SUPREME CHESTPLATE	ВЕРХОВНИЙ НАГРУДНИК
+SUPREME DUNGEON CHESTPLATE	ВЕРХОВНИЙ НАГРУДНИК ПІДЗЕМЕЛЬ
+SUPREME LEGGINGS	ВЕРХОВНІ ПОНОЖІ
+SUPREME DUNGEON LEGGINGS	ВЕРХОВНІ ПОНОЖІ ПІДЗЕМЕЛЬ
+SUPREME BOOTS	ВЕРХОВНІ ЧОБОТИ
+SUPREME DUNGEON BOOTS	ВЕРХОВНІ ЧОБОТИ ПІДЗЕМЕЛЬ
+SUPREME TROPHY	ВЕРХОВНИЙ ТРОФЕЙ
+SUPREME DUNGEON TROPHY	ВЕРХОВНИЙ ТРОФЕЙ ПІДЗЕМЕЛЬ
+SUPREME SWORD	ВЕРХОВНИЙ МЕЧ
+SUPREME DUNGEON SWORD	ВЕРХОВНИЙ МЕЧ ПІДЗЕМЕЛЬ
+SUPREME LONGSWORD	ВЕРХОВНИЙ ДОВГИЙ МЕЧ
+SUPREME DUNGEON LONGSWORD	ВЕРХОВНИЙ ДОВГИЙ МЕЧ ПІДЗЕМЕЛЬ
+SUPREME SLAYER SWORD	ВЕРХОВНИЙ МЕЧ ВИНИЩУВАЧА
+SUPREME DUNGEON SLAYER SWORD	ВЕРХОВНИЙ МЕЧ ВИНИЩУВАЧА ПІДЗЕМЕЛЬ
+SUPREME BOW	ВЕРХОВНИЙ ЛУК
+SUPREME DUNGEON BOW	ВЕРХОВНИЙ ЛУК ПІДЗЕМЕЛЬ
+SUPREME ARROW	ВЕРХОВНА СТРІЛА
+SUPREME DUNGEON ARROW	ВЕРХОВНА СТРІЛА ПІДЗЕМЕЛЬ
+SUPREME ARROW POISON	ВЕРХОВНА ОТРУТА ДЛЯ СТРІЛ
+SUPREME DUNGEON ARROW POISON	ВЕРХОВНА ОТРУТА ДЛЯ СТРІЛ ПІДЗЕМЕЛЬ
+SUPREME WAND	ВЕРХОВНИЙ ЖЕЗЛ
+SUPREME DUNGEON WAND	ВЕРХОВНИЙ ЖЕЗЛ ПІДЗЕМЕЛЬ
+SUPREME GAUNTLET	ВЕРХОВНА ЛАТНА РУКАВИЦЯ
+SUPREME DUNGEON GAUNTLET	ВЕРХОВНА ЛАТНА РУКАВИЦЯ ПІДЗЕМЕЛЬ
+SUPREME PET ITEM	ВЕРХОВНИЙ ПРЕДМЕТ УЛЮБЛЕНЦЯ
+SUPREME DUNGEON PET ITEM	ВЕРХОВНИЙ ПРЕДМЕТ УЛЮБЛЕНЦЯ ПІДЗЕМЕЛЬ
+SUPREME REFORGE STONE	ВЕРХОВНИЙ КАМІНЬ ПЕРЕКУВАННЯ
+SUPREME DUNGEON REFORGE STONE	ВЕРХОВНИЙ КАМІНЬ ПЕРЕКУВАННЯ ПІДЗЕМЕЛЬ
+SUPREME POWER STONE	ВЕРХОВНИЙ КАМІНЬ СИЛИ
+SUPREME DUNGEON POWER STONE	ВЕРХОВНИЙ КАМІНЬ СИЛИ ПІДЗЕМЕЛЬ
+SUPREME SEA CREATURE	ВЕРХОВНА МОРСЬКА ІСТОТА
+SUPREME DUNGEON SEA CREATURE	ВЕРХОВНА МОРСЬКА ІСТОТА ПІДЗЕМЕЛЬ
+SUPREME DYE	ВЕРХОВНИЙ БАРВНИК
+SUPREME DUNGEON DYE	ВЕРХОВНИЙ БАРВНИК ПІДЗЕМЕЛЬ
+SUPREME SACK	ВЕРХОВНИЙ МІШОК
+SUPREME DUNGEON SACK	ВЕРХОВНИЙ МІШОК ПІДЗЕМЕЛЬ
+SUPREME GEMSTONE	ВЕРХОВНИЙ САМОЦВІТ
+SUPREME DUNGEON GEMSTONE	ВЕРХОВНИЙ САМОЦВІТ ПІДЗЕМЕЛЬ
+SUPREME RABBIT	ВЕРХОВНИЙ КРОЛИК
+SUPREME DUNGEON RABBIT	ВЕРХОВНИЙ КРОЛИК ПІДЗЕМЕЛЬ
+SUPREME FARMING TOOL	ВЕРХОВНИЙ ФЕРМЕРСЬКИЙ ІНСТРУМЕНТ
+SUPREME DUNGEON FARMING TOOL	ВЕРХОВНИЙ ФЕРМЕРСЬКИЙ ІНСТРУМЕНТ ПІДЗЕМЕЛЬ
+SUPREME BELT	ВЕРХОВНИЙ ПОЯС
+SUPREME DUNGEON BELT	ВЕРХОВНИЙ ПОЯС ПІДЗЕМЕЛЬ
+SUPREME NECKLACE	ВЕРХОВНЕ НАМИСТО
+SUPREME DUNGEON NECKLACE	ВЕРХОВНЕ НАМИСТО ПІДЗЕМЕЛЬ
+SUPREME CLOAK	ВЕРХОВНИЙ ПЛАЩ
+SUPREME DUNGEON CLOAK	ВЕРХОВНИЙ ПЛАЩ ПІДЗЕМЕЛЬ
+SUPREME GLOVES	ВЕРХОВНІ РУКАВИЧКИ
+SUPREME DUNGEON GLOVES	ВЕРХОВНІ РУКАВИЧКИ ПІДЗЕМЕЛЬ
+SUPREME BRACELET	ВЕРХОВНИЙ БРАСЛЕТ
+SUPREME DUNGEON BRACELET	ВЕРХОВНИЙ БРАСЛЕТ ПІДЗЕМЕЛЬ
+SUPREME MUTATION	ВЕРХОВНА МУТАЦІЯ
+SUPREME DUNGEON MUTATION	ВЕРХОВНА МУТАЦІЯ ПІДЗЕМЕЛЬ
+SUPREME PORTAL	ВЕРХОВНИЙ ПОРТАЛ
+SUPREME DUNGEON PORTAL	ВЕРХОВНИЙ ПОРТАЛ ПІДЗЕМЕЛЬ
+SUPREME ORE	ВЕРХОВНА РУДА
+SUPREME DUNGEON ORE	ВЕРХОВНА РУДА ПІДЗЕМЕЛЬ
+SUPREME BLOCK	ВЕРХОВНИЙ БЛОК
+SUPREME DUNGEON BLOCK	ВЕРХОВНИЙ БЛОК ПІДЗЕМЕЛЬ
+SUPREME TRAVEL SCROLL	ВЕРХОВНИЙ СУВІЙ ПОДОРОЖІ
+SUPREME DUNGEON TRAVEL SCROLL	ВЕРХОВНИЙ СУВІЙ ПОДОРОЖІ ПІДЗЕМЕЛЬ
+SUPREME ABILITY SCROLL	ВЕРХОВНИЙ СУВІЙ ЗДІБНОСТІ
+SUPREME DUNGEON ABILITY SCROLL	ВЕРХОВНИЙ СУВІЙ ЗДІБНОСТІ ПІДЗЕМЕЛЬ
+SUPREME FISHING ROD	ВЕРХОВНА ВУДКА
+SUPREME DUNGEON FISHING ROD	ВЕРХОВНА ВУДКА ПІДЗЕМЕЛЬ
+SUPREME ROD PART	ВЕРХОВНА ДЕТАЛЬ ВУДКИ
+SUPREME DUNGEON ROD PART	ВЕРХОВНА ДЕТАЛЬ ВУДКИ ПІДЗЕМЕЛЬ
+SUPREME BAIT	ВЕРХОВНА НАЖИВКА
+SUPREME DUNGEON BAIT	ВЕРХОВНА НАЖИВКА ПІДЗЕМЕЛЬ
+SUPREME FISHING NET	ВЕРХОВНА РИБАЛЬСЬКА СІТКА
+SUPREME DUNGEON FISHING NET	ВЕРХОВНА РИБАЛЬСЬКА СІТКА ПІДЗЕМЕЛЬ
+SUPREME AXE	ВЕРХОВНА СОКИРА
+SUPREME DUNGEON AXE	ВЕРХОВНА СОКИРА ПІДЗЕМЕЛЬ
+SUPREME PICKAXE	ВЕРХОВНА КИРКА
+SUPREME DUNGEON PICKAXE	ВЕРХОВНА КИРКА ПІДЗЕМЕЛЬ
+SUPREME DRILL	ВЕРХОВНИЙ БУР
+SUPREME DUNGEON DRILL	ВЕРХОВНИЙ БУР ПІДЗЕМЕЛЬ
+SUPREME SHOVEL	ВЕРХОВНА ЛОПАТА
+SUPREME DUNGEON SHOVEL	ВЕРХОВНА ЛОПАТА ПІДЗЕМЕЛЬ
+SUPREME HOE	ВЕРХОВНА МОТИКА
+SUPREME DUNGEON HOE	ВЕРХОВНА МОТИКА ПІДЗЕМЕЛЬ
+SUPREME SHEARS	ВЕРХОВНІ НОЖИЦІ
+SUPREME DUNGEON SHEARS	ВЕРХОВНІ НОЖИЦІ ПІДЗЕМЕЛЬ
+SUPREME CHISEL	ВЕРХОВНЕ ЗУБИЛО
+SUPREME DUNGEON CHISEL	ВЕРХОВНЕ ЗУБИЛО ПІДЗЕМЕЛЬ
+SUPREME MEMENTO	ВЕРХОВНА ПАМ'ЯТКА
+SUPREME DUNGEON MEMENTO	ВЕРХОВНА ПАМ'ЯТКА ПІДЗЕМЕЛЬ
+SUPREME DEPLOYABLE	ВЕРХОВНИЙ РОЗГОРТАНИЙ ПРЕДМЕТ
+SUPREME DUNGEON DEPLOYABLE	ВЕРХОВНИЙ РОЗГОРТАНИЙ ПРЕДМЕТ ПІДЗЕМЕЛЬ
+SUPREME DWARVEN METAL	ВЕРХОВНИЙ ГНОМСЬКИЙ МЕТАЛ
+SUPREME DUNGEON DWARVEN METAL	ВЕРХОВНИЙ ГНОМСЬКИЙ МЕТАЛ ПІДЗЕМЕЛЬ
+SUPREME GARDEN CHIP	ВЕРХОВНИЙ ЧІП САДУ
+SUPREME DUNGEON GARDEN CHIP	ВЕРХОВНИЙ ЧІП САДУ ПІДЗЕМЕЛЬ
+SUPREME BOOSTER	ВЕРХОВНИЙ ПІДСИЛЮВАЧ
+SUPREME DUNGEON BOOSTER	ВЕРХОВНИЙ ПІДСИЛЮВАЧ ПІДЗЕМЕЛЬ
+SUPREME RIFT TIMECHARM	ВЕРХОВНИЙ ЧАСОВИЙ ОБЕРІГ РИФТУ
+SUPREME DUNGEON RIFT TIMECHARM	ВЕРХОВНИЙ ЧАСОВИЙ ОБЕРІГ РИФТУ ПІДЗЕМЕЛЬ
+SUPREME SALT	ВЕРХОВНА СІЛЬ
+SUPREME DUNGEON SALT	ВЕРХОВНА СІЛЬ ПІДЗЕМЕЛЬ
+SUPREME CARNIVAL MASK	ВЕРХОВНА КАРНАВАЛЬНА МАСКА
+SUPREME DUNGEON CARNIVAL MASK	ВЕРХОВНА КАРНАВАЛЬНА МАСКА ПІДЗЕМЕЛЬ
+SUPREME VACUUM	ВЕРХОВНИЙ ПИЛОСОС
+SUPREME DUNGEON VACUUM	ВЕРХОВНИЙ ПИЛОСОС ПІДЗЕМЕЛЬ
+SUPREME WATERING CAN	ВЕРХОВНА ЛІЙКА
+SUPREME DUNGEON WATERING CAN	ВЕРХОВНА ЛІЙКА ПІДЗЕМЕЛЬ
+SUPREME TRAP	ВЕРХОВНА ПАСТКА
+SUPREME DUNGEON TRAP	ВЕРХОВНА ПАСТКА ПІДЗЕМЕЛЬ
+SUPREME LASSO	ВЕРХОВНЕ ЛАСО
+SUPREME DUNGEON LASSO	ВЕРХОВНЕ ЛАСО ПІДЗЕМЕЛЬ
+SUPREME CAPSULE	ВЕРХОВНА КАПСУЛА
+SUPREME DUNGEON CAPSULE	ВЕРХОВНА КАПСУЛА ПІДЗЕМЕЛЬ
+SPECIAL	ОСОБЛИВИЙ
+SPECIAL ITEM	ОСОБЛИВИЙ ПРЕДМЕТ
+SPECIAL DUNGEON ITEM	ОСОБЛИВИЙ ПРЕДМЕТ ПІДЗЕМЕЛЬ
+SPECIAL COSMETIC	ОСОБЛИВА КОСМЕТИКА
+SPECIAL DUNGEON COSMETIC	ОСОБЛИВА КОСМЕТИКА ПІДЗЕМЕЛЬ
+SPECIAL ACCESSORY	ОСОБЛИВИЙ АКСЕСУАР
+SPECIAL DUNGEON ACCESSORY	ОСОБЛИВИЙ АКСЕСУАР ПІДЗЕМЕЛЬ
+SPECIAL PET	ОСОБЛИВИЙ УЛЮБЛЕНЕЦЬ
+SPECIAL DUNGEON PET	ОСОБЛИВИЙ УЛЮБЛЕНЕЦЬ ПІДЗЕМЕЛЬ
+SPECIAL HELMET	ОСОБЛИВИЙ ШОЛОМ
+SPECIAL DUNGEON HELMET	ОСОБЛИВИЙ ШОЛОМ ПІДЗЕМЕЛЬ
+SPECIAL CHESTPLATE	ОСОБЛИВИЙ НАГРУДНИК
+SPECIAL DUNGEON CHESTPLATE	ОСОБЛИВИЙ НАГРУДНИК ПІДЗЕМЕЛЬ
+SPECIAL LEGGINGS	ОСОБЛИВІ ПОНОЖІ
+SPECIAL DUNGEON LEGGINGS	ОСОБЛИВІ ПОНОЖІ ПІДЗЕМЕЛЬ
+SPECIAL BOOTS	ОСОБЛИВІ ЧОБОТИ
+SPECIAL DUNGEON BOOTS	ОСОБЛИВІ ЧОБОТИ ПІДЗЕМЕЛЬ
+SPECIAL TROPHY	ОСОБЛИВИЙ ТРОФЕЙ
+SPECIAL DUNGEON TROPHY	ОСОБЛИВИЙ ТРОФЕЙ ПІДЗЕМЕЛЬ
+SPECIAL SWORD	ОСОБЛИВИЙ МЕЧ
+SPECIAL DUNGEON SWORD	ОСОБЛИВИЙ МЕЧ ПІДЗЕМЕЛЬ
+SPECIAL LONGSWORD	ОСОБЛИВИЙ ДОВГИЙ МЕЧ
+SPECIAL DUNGEON LONGSWORD	ОСОБЛИВИЙ ДОВГИЙ МЕЧ ПІДЗЕМЕЛЬ
+SPECIAL SLAYER SWORD	ОСОБЛИВИЙ МЕЧ ВИНИЩУВАЧА
+SPECIAL DUNGEON SLAYER SWORD	ОСОБЛИВИЙ МЕЧ ВИНИЩУВАЧА ПІДЗЕМЕЛЬ
+SPECIAL BOW	ОСОБЛИВИЙ ЛУК
+SPECIAL DUNGEON BOW	ОСОБЛИВИЙ ЛУК ПІДЗЕМЕЛЬ
+SPECIAL ARROW	ОСОБЛИВА СТРІЛА
+SPECIAL DUNGEON ARROW	ОСОБЛИВА СТРІЛА ПІДЗЕМЕЛЬ
+SPECIAL ARROW POISON	ОСОБЛИВА ОТРУТА ДЛЯ СТРІЛ
+SPECIAL DUNGEON ARROW POISON	ОСОБЛИВА ОТРУТА ДЛЯ СТРІЛ ПІДЗЕМЕЛЬ
+SPECIAL WAND	ОСОБЛИВИЙ ЖЕЗЛ
+SPECIAL DUNGEON WAND	ОСОБЛИВИЙ ЖЕЗЛ ПІДЗЕМЕЛЬ
+SPECIAL GAUNTLET	ОСОБЛИВА ЛАТНА РУКАВИЦЯ
+SPECIAL DUNGEON GAUNTLET	ОСОБЛИВА ЛАТНА РУКАВИЦЯ ПІДЗЕМЕЛЬ
+SPECIAL PET ITEM	ОСОБЛИВИЙ ПРЕДМЕТ УЛЮБЛЕНЦЯ
+SPECIAL DUNGEON PET ITEM	ОСОБЛИВИЙ ПРЕДМЕТ УЛЮБЛЕНЦЯ ПІДЗЕМЕЛЬ
+SPECIAL REFORGE STONE	ОСОБЛИВИЙ КАМІНЬ ПЕРЕКУВАННЯ
+SPECIAL DUNGEON REFORGE STONE	ОСОБЛИВИЙ КАМІНЬ ПЕРЕКУВАННЯ ПІДЗЕМЕЛЬ
+SPECIAL POWER STONE	ОСОБЛИВИЙ КАМІНЬ СИЛИ
+SPECIAL DUNGEON POWER STONE	ОСОБЛИВИЙ КАМІНЬ СИЛИ ПІДЗЕМЕЛЬ
+SPECIAL SEA CREATURE	ОСОБЛИВА МОРСЬКА ІСТОТА
+SPECIAL DUNGEON SEA CREATURE	ОСОБЛИВА МОРСЬКА ІСТОТА ПІДЗЕМЕЛЬ
+SPECIAL DYE	ОСОБЛИВИЙ БАРВНИК
+SPECIAL DUNGEON DYE	ОСОБЛИВИЙ БАРВНИК ПІДЗЕМЕЛЬ
+SPECIAL SACK	ОСОБЛИВИЙ МІШОК
+SPECIAL DUNGEON SACK	ОСОБЛИВИЙ МІШОК ПІДЗЕМЕЛЬ
+SPECIAL GEMSTONE	ОСОБЛИВИЙ САМОЦВІТ
+SPECIAL DUNGEON GEMSTONE	ОСОБЛИВИЙ САМОЦВІТ ПІДЗЕМЕЛЬ
+SPECIAL RABBIT	ОСОБЛИВИЙ КРОЛИК
+SPECIAL DUNGEON RABBIT	ОСОБЛИВИЙ КРОЛИК ПІДЗЕМЕЛЬ
+SPECIAL FARMING TOOL	ОСОБЛИВИЙ ФЕРМЕРСЬКИЙ ІНСТРУМЕНТ
+SPECIAL DUNGEON FARMING TOOL	ОСОБЛИВИЙ ФЕРМЕРСЬКИЙ ІНСТРУМЕНТ ПІДЗЕМЕЛЬ
+SPECIAL BELT	ОСОБЛИВИЙ ПОЯС
+SPECIAL DUNGEON BELT	ОСОБЛИВИЙ ПОЯС ПІДЗЕМЕЛЬ
+SPECIAL NECKLACE	ОСОБЛИВЕ НАМИСТО
+SPECIAL DUNGEON NECKLACE	ОСОБЛИВЕ НАМИСТО ПІДЗЕМЕЛЬ
+SPECIAL CLOAK	ОСОБЛИВИЙ ПЛАЩ
+SPECIAL DUNGEON CLOAK	ОСОБЛИВИЙ ПЛАЩ ПІДЗЕМЕЛЬ
+SPECIAL GLOVES	ОСОБЛИВІ РУКАВИЧКИ
+SPECIAL DUNGEON GLOVES	ОСОБЛИВІ РУКАВИЧКИ ПІДЗЕМЕЛЬ
+SPECIAL BRACELET	ОСОБЛИВИЙ БРАСЛЕТ
+SPECIAL DUNGEON BRACELET	ОСОБЛИВИЙ БРАСЛЕТ ПІДЗЕМЕЛЬ
+SPECIAL MUTATION	ОСОБЛИВА МУТАЦІЯ
+SPECIAL DUNGEON MUTATION	ОСОБЛИВА МУТАЦІЯ ПІДЗЕМЕЛЬ
+SPECIAL PORTAL	ОСОБЛИВИЙ ПОРТАЛ
+SPECIAL DUNGEON PORTAL	ОСОБЛИВИЙ ПОРТАЛ ПІДЗЕМЕЛЬ
+SPECIAL ORE	ОСОБЛИВА РУДА
+SPECIAL DUNGEON ORE	ОСОБЛИВА РУДА ПІДЗЕМЕЛЬ
+SPECIAL BLOCK	ОСОБЛИВИЙ БЛОК
+SPECIAL DUNGEON BLOCK	ОСОБЛИВИЙ БЛОК ПІДЗЕМЕЛЬ
+SPECIAL TRAVEL SCROLL	ОСОБЛИВИЙ СУВІЙ ПОДОРОЖІ
+SPECIAL DUNGEON TRAVEL SCROLL	ОСОБЛИВИЙ СУВІЙ ПОДОРОЖІ ПІДЗЕМЕЛЬ
+SPECIAL ABILITY SCROLL	ОСОБЛИВИЙ СУВІЙ ЗДІБНОСТІ
+SPECIAL DUNGEON ABILITY SCROLL	ОСОБЛИВИЙ СУВІЙ ЗДІБНОСТІ ПІДЗЕМЕЛЬ
+SPECIAL FISHING ROD	ОСОБЛИВА ВУДКА
+SPECIAL DUNGEON FISHING ROD	ОСОБЛИВА ВУДКА ПІДЗЕМЕЛЬ
+SPECIAL ROD PART	ОСОБЛИВА ДЕТАЛЬ ВУДКИ
+SPECIAL DUNGEON ROD PART	ОСОБЛИВА ДЕТАЛЬ ВУДКИ ПІДЗЕМЕЛЬ
+SPECIAL BAIT	ОСОБЛИВА НАЖИВКА
+SPECIAL DUNGEON BAIT	ОСОБЛИВА НАЖИВКА ПІДЗЕМЕЛЬ
+SPECIAL FISHING NET	ОСОБЛИВА РИБАЛЬСЬКА СІТКА
+SPECIAL DUNGEON FISHING NET	ОСОБЛИВА РИБАЛЬСЬКА СІТКА ПІДЗЕМЕЛЬ
+SPECIAL AXE	ОСОБЛИВА СОКИРА
+SPECIAL DUNGEON AXE	ОСОБЛИВА СОКИРА ПІДЗЕМЕЛЬ
+SPECIAL PICKAXE	ОСОБЛИВА КИРКА
+SPECIAL DUNGEON PICKAXE	ОСОБЛИВА КИРКА ПІДЗЕМЕЛЬ
+SPECIAL DRILL	ОСОБЛИВИЙ БУР
+SPECIAL DUNGEON DRILL	ОСОБЛИВИЙ БУР ПІДЗЕМЕЛЬ
+SPECIAL SHOVEL	ОСОБЛИВА ЛОПАТА
+SPECIAL DUNGEON SHOVEL	ОСОБЛИВА ЛОПАТА ПІДЗЕМЕЛЬ
+SPECIAL HOE	ОСОБЛИВА МОТИКА
+SPECIAL DUNGEON HOE	ОСОБЛИВА МОТИКА ПІДЗЕМЕЛЬ
+SPECIAL SHEARS	ОСОБЛИВІ НОЖИЦІ
+SPECIAL DUNGEON SHEARS	ОСОБЛИВІ НОЖИЦІ ПІДЗЕМЕЛЬ
+SPECIAL CHISEL	ОСОБЛИВЕ ЗУБИЛО
+SPECIAL DUNGEON CHISEL	ОСОБЛИВЕ ЗУБИЛО ПІДЗЕМЕЛЬ
+SPECIAL MEMENTO	ОСОБЛИВА ПАМ'ЯТКА
+SPECIAL DUNGEON MEMENTO	ОСОБЛИВА ПАМ'ЯТКА ПІДЗЕМЕЛЬ
+SPECIAL DEPLOYABLE	ОСОБЛИВИЙ РОЗГОРТАНИЙ ПРЕДМЕТ
+SPECIAL DUNGEON DEPLOYABLE	ОСОБЛИВИЙ РОЗГОРТАНИЙ ПРЕДМЕТ ПІДЗЕМЕЛЬ
+SPECIAL DWARVEN METAL	ОСОБЛИВИЙ ГНОМСЬКИЙ МЕТАЛ
+SPECIAL DUNGEON DWARVEN METAL	ОСОБЛИВИЙ ГНОМСЬКИЙ МЕТАЛ ПІДЗЕМЕЛЬ
+SPECIAL GARDEN CHIP	ОСОБЛИВИЙ ЧІП САДУ
+SPECIAL DUNGEON GARDEN CHIP	ОСОБЛИВИЙ ЧІП САДУ ПІДЗЕМЕЛЬ
+SPECIAL BOOSTER	ОСОБЛИВИЙ ПІДСИЛЮВАЧ
+SPECIAL DUNGEON BOOSTER	ОСОБЛИВИЙ ПІДСИЛЮВАЧ ПІДЗЕМЕЛЬ
+SPECIAL RIFT TIMECHARM	ОСОБЛИВИЙ ЧАСОВИЙ ОБЕРІГ РИФТУ
+SPECIAL DUNGEON RIFT TIMECHARM	ОСОБЛИВИЙ ЧАСОВИЙ ОБЕРІГ РИФТУ ПІДЗЕМЕЛЬ
+SPECIAL SALT	ОСОБЛИВА СІЛЬ
+SPECIAL DUNGEON SALT	ОСОБЛИВА СІЛЬ ПІДЗЕМЕЛЬ
+SPECIAL CARNIVAL MASK	ОСОБЛИВА КАРНАВАЛЬНА МАСКА
+SPECIAL DUNGEON CARNIVAL MASK	ОСОБЛИВА КАРНАВАЛЬНА МАСКА ПІДЗЕМЕЛЬ
+SPECIAL VACUUM	ОСОБЛИВИЙ ПИЛОСОС
+SPECIAL DUNGEON VACUUM	ОСОБЛИВИЙ ПИЛОСОС ПІДЗЕМЕЛЬ
+SPECIAL WATERING CAN	ОСОБЛИВА ЛІЙКА
+SPECIAL DUNGEON WATERING CAN	ОСОБЛИВА ЛІЙКА ПІДЗЕМЕЛЬ
+SPECIAL TRAP	ОСОБЛИВА ПАСТКА
+SPECIAL DUNGEON TRAP	ОСОБЛИВА ПАСТКА ПІДЗЕМЕЛЬ
+SPECIAL LASSO	ОСОБЛИВЕ ЛАСО
+SPECIAL DUNGEON LASSO	ОСОБЛИВЕ ЛАСО ПІДЗЕМЕЛЬ
+SPECIAL CAPSULE	ОСОБЛИВА КАПСУЛА
+SPECIAL DUNGEON CAPSULE	ОСОБЛИВА КАПСУЛА ПІДЗЕМЕЛЬ
+VERY SPECIAL	ДУЖЕ ОСОБЛИВИЙ
+VERY SPECIAL ITEM	ДУЖЕ ОСОБЛИВИЙ ПРЕДМЕТ
+VERY SPECIAL DUNGEON ITEM	ДУЖЕ ОСОБЛИВИЙ ПРЕДМЕТ ПІДЗЕМЕЛЬ
+VERY SPECIAL COSMETIC	ДУЖЕ ОСОБЛИВА КОСМЕТИКА
+VERY SPECIAL DUNGEON COSMETIC	ДУЖЕ ОСОБЛИВА КОСМЕТИКА ПІДЗЕМЕЛЬ
+VERY SPECIAL ACCESSORY	ДУЖЕ ОСОБЛИВИЙ АКСЕСУАР
+VERY SPECIAL DUNGEON ACCESSORY	ДУЖЕ ОСОБЛИВИЙ АКСЕСУАР ПІДЗЕМЕЛЬ
+VERY SPECIAL PET	ДУЖЕ ОСОБЛИВИЙ УЛЮБЛЕНЕЦЬ
+VERY SPECIAL DUNGEON PET	ДУЖЕ ОСОБЛИВИЙ УЛЮБЛЕНЕЦЬ ПІДЗЕМЕЛЬ
+VERY SPECIAL HELMET	ДУЖЕ ОСОБЛИВИЙ ШОЛОМ
+VERY SPECIAL DUNGEON HELMET	ДУЖЕ ОСОБЛИВИЙ ШОЛОМ ПІДЗЕМЕЛЬ
+VERY SPECIAL CHESTPLATE	ДУЖЕ ОСОБЛИВИЙ НАГРУДНИК
+VERY SPECIAL DUNGEON CHESTPLATE	ДУЖЕ ОСОБЛИВИЙ НАГРУДНИК ПІДЗЕМЕЛЬ
+VERY SPECIAL LEGGINGS	ДУЖЕ ОСОБЛИВІ ПОНОЖІ
+VERY SPECIAL DUNGEON LEGGINGS	ДУЖЕ ОСОБЛИВІ ПОНОЖІ ПІДЗЕМЕЛЬ
+VERY SPECIAL BOOTS	ДУЖЕ ОСОБЛИВІ ЧОБОТИ
+VERY SPECIAL DUNGEON BOOTS	ДУЖЕ ОСОБЛИВІ ЧОБОТИ ПІДЗЕМЕЛЬ
+VERY SPECIAL TROPHY	ДУЖЕ ОСОБЛИВИЙ ТРОФЕЙ
+VERY SPECIAL DUNGEON TROPHY	ДУЖЕ ОСОБЛИВИЙ ТРОФЕЙ ПІДЗЕМЕЛЬ
+VERY SPECIAL SWORD	ДУЖЕ ОСОБЛИВИЙ МЕЧ
+VERY SPECIAL DUNGEON SWORD	ДУЖЕ ОСОБЛИВИЙ МЕЧ ПІДЗЕМЕЛЬ
+VERY SPECIAL LONGSWORD	ДУЖЕ ОСОБЛИВИЙ ДОВГИЙ МЕЧ
+VERY SPECIAL DUNGEON LONGSWORD	ДУЖЕ ОСОБЛИВИЙ ДОВГИЙ МЕЧ ПІДЗЕМЕЛЬ
+VERY SPECIAL SLAYER SWORD	ДУЖЕ ОСОБЛИВИЙ МЕЧ ВИНИЩУВАЧА
+VERY SPECIAL DUNGEON SLAYER SWORD	ДУЖЕ ОСОБЛИВИЙ МЕЧ ВИНИЩУВАЧА ПІДЗЕМЕЛЬ
+VERY SPECIAL BOW	ДУЖЕ ОСОБЛИВИЙ ЛУК
+VERY SPECIAL DUNGEON BOW	ДУЖЕ ОСОБЛИВИЙ ЛУК ПІДЗЕМЕЛЬ
+VERY SPECIAL ARROW	ДУЖЕ ОСОБЛИВА СТРІЛА
+VERY SPECIAL DUNGEON ARROW	ДУЖЕ ОСОБЛИВА СТРІЛА ПІДЗЕМЕЛЬ
+VERY SPECIAL ARROW POISON	ДУЖЕ ОСОБЛИВА ОТРУТА ДЛЯ СТРІЛ
+VERY SPECIAL DUNGEON ARROW POISON	ДУЖЕ ОСОБЛИВА ОТРУТА ДЛЯ СТРІЛ ПІДЗЕМЕЛЬ
+VERY SPECIAL WAND	ДУЖЕ ОСОБЛИВИЙ ЖЕЗЛ
+VERY SPECIAL DUNGEON WAND	ДУЖЕ ОСОБЛИВИЙ ЖЕЗЛ ПІДЗЕМЕЛЬ
+VERY SPECIAL GAUNTLET	ДУЖЕ ОСОБЛИВА ЛАТНА РУКАВИЦЯ
+VERY SPECIAL DUNGEON GAUNTLET	ДУЖЕ ОСОБЛИВА ЛАТНА РУКАВИЦЯ ПІДЗЕМЕЛЬ
+VERY SPECIAL PET ITEM	ДУЖЕ ОСОБЛИВИЙ ПРЕДМЕТ УЛЮБЛЕНЦЯ
+VERY SPECIAL DUNGEON PET ITEM	ДУЖЕ ОСОБЛИВИЙ ПРЕДМЕТ УЛЮБЛЕНЦЯ ПІДЗЕМЕЛЬ
+VERY SPECIAL REFORGE STONE	ДУЖЕ ОСОБЛИВИЙ КАМІНЬ ПЕРЕКУВАННЯ
+VERY SPECIAL DUNGEON REFORGE STONE	ДУЖЕ ОСОБЛИВИЙ КАМІНЬ ПЕРЕКУВАННЯ ПІДЗЕМЕЛЬ
+VERY SPECIAL POWER STONE	ДУЖЕ ОСОБЛИВИЙ КАМІНЬ СИЛИ
+VERY SPECIAL DUNGEON POWER STONE	ДУЖЕ ОСОБЛИВИЙ КАМІНЬ СИЛИ ПІДЗЕМЕЛЬ
+VERY SPECIAL SEA CREATURE	ДУЖЕ ОСОБЛИВА МОРСЬКА ІСТОТА
+VERY SPECIAL DUNGEON SEA CREATURE	ДУЖЕ ОСОБЛИВА МОРСЬКА ІСТОТА ПІДЗЕМЕЛЬ
+VERY SPECIAL DYE	ДУЖЕ ОСОБЛИВИЙ БАРВНИК
+VERY SPECIAL DUNGEON DYE	ДУЖЕ ОСОБЛИВИЙ БАРВНИК ПІДЗЕМЕЛЬ
+VERY SPECIAL SACK	ДУЖЕ ОСОБЛИВИЙ МІШОК
+VERY SPECIAL DUNGEON SACK	ДУЖЕ ОСОБЛИВИЙ МІШОК ПІДЗЕМЕЛЬ
+VERY SPECIAL GEMSTONE	ДУЖЕ ОСОБЛИВИЙ САМОЦВІТ
+VERY SPECIAL DUNGEON GEMSTONE	ДУЖЕ ОСОБЛИВИЙ САМОЦВІТ ПІДЗЕМЕЛЬ
+VERY SPECIAL RABBIT	ДУЖЕ ОСОБЛИВИЙ КРОЛИК
+VERY SPECIAL DUNGEON RABBIT	ДУЖЕ ОСОБЛИВИЙ КРОЛИК ПІДЗЕМЕЛЬ
+VERY SPECIAL FARMING TOOL	ДУЖЕ ОСОБЛИВИЙ ФЕРМЕРСЬКИЙ ІНСТРУМЕНТ
+VERY SPECIAL DUNGEON FARMING TOOL	ДУЖЕ ОСОБЛИВИЙ ФЕРМЕРСЬКИЙ ІНСТРУМЕНТ ПІДЗЕМЕЛЬ
+VERY SPECIAL BELT	ДУЖЕ ОСОБЛИВИЙ ПОЯС
+VERY SPECIAL DUNGEON BELT	ДУЖЕ ОСОБЛИВИЙ ПОЯС ПІДЗЕМЕЛЬ
+VERY SPECIAL NECKLACE	ДУЖЕ ОСОБЛИВЕ НАМИСТО
+VERY SPECIAL DUNGEON NECKLACE	ДУЖЕ ОСОБЛИВЕ НАМИСТО ПІДЗЕМЕЛЬ
+VERY SPECIAL CLOAK	ДУЖЕ ОСОБЛИВИЙ ПЛАЩ
+VERY SPECIAL DUNGEON CLOAK	ДУЖЕ ОСОБЛИВИЙ ПЛАЩ ПІДЗЕМЕЛЬ
+VERY SPECIAL GLOVES	ДУЖЕ ОСОБЛИВІ РУКАВИЧКИ
+VERY SPECIAL DUNGEON GLOVES	ДУЖЕ ОСОБЛИВІ РУКАВИЧКИ ПІДЗЕМЕЛЬ
+VERY SPECIAL BRACELET	ДУЖЕ ОСОБЛИВИЙ БРАСЛЕТ
+VERY SPECIAL DUNGEON BRACELET	ДУЖЕ ОСОБЛИВИЙ БРАСЛЕТ ПІДЗЕМЕЛЬ
+VERY SPECIAL MUTATION	ДУЖЕ ОСОБЛИВА МУТАЦІЯ
+VERY SPECIAL DUNGEON MUTATION	ДУЖЕ ОСОБЛИВА МУТАЦІЯ ПІДЗЕМЕЛЬ
+VERY SPECIAL PORTAL	ДУЖЕ ОСОБЛИВИЙ ПОРТАЛ
+VERY SPECIAL DUNGEON PORTAL	ДУЖЕ ОСОБЛИВИЙ ПОРТАЛ ПІДЗЕМЕЛЬ
+VERY SPECIAL ORE	ДУЖЕ ОСОБЛИВА РУДА
+VERY SPECIAL DUNGEON ORE	ДУЖЕ ОСОБЛИВА РУДА ПІДЗЕМЕЛЬ
+VERY SPECIAL BLOCK	ДУЖЕ ОСОБЛИВИЙ БЛОК
+VERY SPECIAL DUNGEON BLOCK	ДУЖЕ ОСОБЛИВИЙ БЛОК ПІДЗЕМЕЛЬ
+VERY SPECIAL TRAVEL SCROLL	ДУЖЕ ОСОБЛИВИЙ СУВІЙ ПОДОРОЖІ
+VERY SPECIAL DUNGEON TRAVEL SCROLL	ДУЖЕ ОСОБЛИВИЙ СУВІЙ ПОДОРОЖІ ПІДЗЕМЕЛЬ
+VERY SPECIAL ABILITY SCROLL	ДУЖЕ ОСОБЛИВИЙ СУВІЙ ЗДІБНОСТІ
+VERY SPECIAL DUNGEON ABILITY SCROLL	ДУЖЕ ОСОБЛИВИЙ СУВІЙ ЗДІБНОСТІ ПІДЗЕМЕЛЬ
+VERY SPECIAL FISHING ROD	ДУЖЕ ОСОБЛИВА ВУДКА
+VERY SPECIAL DUNGEON FISHING ROD	ДУЖЕ ОСОБЛИВА ВУДКА ПІДЗЕМЕЛЬ
+VERY SPECIAL ROD PART	ДУЖЕ ОСОБЛИВА ДЕТАЛЬ ВУДКИ
+VERY SPECIAL DUNGEON ROD PART	ДУЖЕ ОСОБЛИВА ДЕТАЛЬ ВУДКИ ПІДЗЕМЕЛЬ
+VERY SPECIAL BAIT	ДУЖЕ ОСОБЛИВА НАЖИВКА
+VERY SPECIAL DUNGEON BAIT	ДУЖЕ ОСОБЛИВА НАЖИВКА ПІДЗЕМЕЛЬ
+VERY SPECIAL FISHING NET	ДУЖЕ ОСОБЛИВА РИБАЛЬСЬКА СІТКА
+VERY SPECIAL DUNGEON FISHING NET	ДУЖЕ ОСОБЛИВА РИБАЛЬСЬКА СІТКА ПІДЗЕМЕЛЬ
+VERY SPECIAL AXE	ДУЖЕ ОСОБЛИВА СОКИРА
+VERY SPECIAL DUNGEON AXE	ДУЖЕ ОСОБЛИВА СОКИРА ПІДЗЕМЕЛЬ
+VERY SPECIAL PICKAXE	ДУЖЕ ОСОБЛИВА КИРКА
+VERY SPECIAL DUNGEON PICKAXE	ДУЖЕ ОСОБЛИВА КИРКА ПІДЗЕМЕЛЬ
+VERY SPECIAL DRILL	ДУЖЕ ОСОБЛИВИЙ БУР
+VERY SPECIAL DUNGEON DRILL	ДУЖЕ ОСОБЛИВИЙ БУР ПІДЗЕМЕЛЬ
+VERY SPECIAL SHOVEL	ДУЖЕ ОСОБЛИВА ЛОПАТА
+VERY SPECIAL DUNGEON SHOVEL	ДУЖЕ ОСОБЛИВА ЛОПАТА ПІДЗЕМЕЛЬ
+VERY SPECIAL HOE	ДУЖЕ ОСОБЛИВА МОТИКА
+VERY SPECIAL DUNGEON HOE	ДУЖЕ ОСОБЛИВА МОТИКА ПІДЗЕМЕЛЬ
+VERY SPECIAL SHEARS	ДУЖЕ ОСОБЛИВІ НОЖИЦІ
+VERY SPECIAL DUNGEON SHEARS	ДУЖЕ ОСОБЛИВІ НОЖИЦІ ПІДЗЕМЕЛЬ
+VERY SPECIAL CHISEL	ДУЖЕ ОСОБЛИВЕ ЗУБИЛО
+VERY SPECIAL DUNGEON CHISEL	ДУЖЕ ОСОБЛИВЕ ЗУБИЛО ПІДЗЕМЕЛЬ
+VERY SPECIAL MEMENTO	ДУЖЕ ОСОБЛИВА ПАМ'ЯТКА
+VERY SPECIAL DUNGEON MEMENTO	ДУЖЕ ОСОБЛИВА ПАМ'ЯТКА ПІДЗЕМЕЛЬ
+VERY SPECIAL DEPLOYABLE	ДУЖЕ ОСОБЛИВИЙ РОЗГОРТАНИЙ ПРЕДМЕТ
+VERY SPECIAL DUNGEON DEPLOYABLE	ДУЖЕ ОСОБЛИВИЙ РОЗГОРТАНИЙ ПРЕДМЕТ ПІДЗЕМЕЛЬ
+VERY SPECIAL DWARVEN METAL	ДУЖЕ ОСОБЛИВИЙ ГНОМСЬКИЙ МЕТАЛ
+VERY SPECIAL DUNGEON DWARVEN METAL	ДУЖЕ ОСОБЛИВИЙ ГНОМСЬКИЙ МЕТАЛ ПІДЗЕМЕЛЬ
+VERY SPECIAL GARDEN CHIP	ДУЖЕ ОСОБЛИВИЙ ЧІП САДУ
+VERY SPECIAL DUNGEON GARDEN CHIP	ДУЖЕ ОСОБЛИВИЙ ЧІП САДУ ПІДЗЕМЕЛЬ
+VERY SPECIAL BOOSTER	ДУЖЕ ОСОБЛИВИЙ ПІДСИЛЮВАЧ
+VERY SPECIAL DUNGEON BOOSTER	ДУЖЕ ОСОБЛИВИЙ ПІДСИЛЮВАЧ ПІДЗЕМЕЛЬ
+VERY SPECIAL RIFT TIMECHARM	ДУЖЕ ОСОБЛИВИЙ ЧАСОВИЙ ОБЕРІГ РИФТУ
+VERY SPECIAL DUNGEON RIFT TIMECHARM	ДУЖЕ ОСОБЛИВИЙ ЧАСОВИЙ ОБЕРІГ РИФТУ ПІДЗЕМЕЛЬ
+VERY SPECIAL SALT	ДУЖЕ ОСОБЛИВА СІЛЬ
+VERY SPECIAL DUNGEON SALT	ДУЖЕ ОСОБЛИВА СІЛЬ ПІДЗЕМЕЛЬ
+VERY SPECIAL CARNIVAL MASK	ДУЖЕ ОСОБЛИВА КАРНАВАЛЬНА МАСКА
+VERY SPECIAL DUNGEON CARNIVAL MASK	ДУЖЕ ОСОБЛИВА КАРНАВАЛЬНА МАСКА ПІДЗЕМЕЛЬ
+VERY SPECIAL VACUUM	ДУЖЕ ОСОБЛИВИЙ ПИЛОСОС
+VERY SPECIAL DUNGEON VACUUM	ДУЖЕ ОСОБЛИВИЙ ПИЛОСОС ПІДЗЕМЕЛЬ
+VERY SPECIAL WATERING CAN	ДУЖЕ ОСОБЛИВА ЛІЙКА
+VERY SPECIAL DUNGEON WATERING CAN	ДУЖЕ ОСОБЛИВА ЛІЙКА ПІДЗЕМЕЛЬ
+VERY SPECIAL TRAP	ДУЖЕ ОСОБЛИВА ПАСТКА
+VERY SPECIAL DUNGEON TRAP	ДУЖЕ ОСОБЛИВА ПАСТКА ПІДЗЕМЕЛЬ
+VERY SPECIAL LASSO	ДУЖЕ ОСОБЛИВЕ ЛАСО
+VERY SPECIAL DUNGEON LASSO	ДУЖЕ ОСОБЛИВЕ ЛАСО ПІДЗЕМЕЛЬ
+VERY SPECIAL CAPSULE	ДУЖЕ ОСОБЛИВА КАПСУЛА
+VERY SPECIAL DUNGEON CAPSULE	ДУЖЕ ОСОБЛИВА КАПСУЛА ПІДЗЕМЕЛЬ
+ULTIMATE	УЛЬТИМАТИВНИЙ
+ULTIMATE ITEM	УЛЬТИМАТИВНИЙ ПРЕДМЕТ
+ULTIMATE DUNGEON ITEM	УЛЬТИМАТИВНИЙ ПРЕДМЕТ ПІДЗЕМЕЛЬ
+ULTIMATE COSMETIC	УЛЬТИМАТИВНА КОСМЕТИКА
+ULTIMATE DUNGEON COSMETIC	УЛЬТИМАТИВНА КОСМЕТИКА ПІДЗЕМЕЛЬ
+ULTIMATE ACCESSORY	УЛЬТИМАТИВНИЙ АКСЕСУАР
+ULTIMATE DUNGEON ACCESSORY	УЛЬТИМАТИВНИЙ АКСЕСУАР ПІДЗЕМЕЛЬ
+ULTIMATE PET	УЛЬТИМАТИВНИЙ УЛЮБЛЕНЕЦЬ
+ULTIMATE DUNGEON PET	УЛЬТИМАТИВНИЙ УЛЮБЛЕНЕЦЬ ПІДЗЕМЕЛЬ
+ULTIMATE HELMET	УЛЬТИМАТИВНИЙ ШОЛОМ
+ULTIMATE DUNGEON HELMET	УЛЬТИМАТИВНИЙ ШОЛОМ ПІДЗЕМЕЛЬ
+ULTIMATE CHESTPLATE	УЛЬТИМАТИВНИЙ НАГРУДНИК
+ULTIMATE DUNGEON CHESTPLATE	УЛЬТИМАТИВНИЙ НАГРУДНИК ПІДЗЕМЕЛЬ
+ULTIMATE LEGGINGS	УЛЬТИМАТИВНІ ПОНОЖІ
+ULTIMATE DUNGEON LEGGINGS	УЛЬТИМАТИВНІ ПОНОЖІ ПІДЗЕМЕЛЬ
+ULTIMATE BOOTS	УЛЬТИМАТИВНІ ЧОБОТИ
+ULTIMATE DUNGEON BOOTS	УЛЬТИМАТИВНІ ЧОБОТИ ПІДЗЕМЕЛЬ
+ULTIMATE TROPHY	УЛЬТИМАТИВНИЙ ТРОФЕЙ
+ULTIMATE DUNGEON TROPHY	УЛЬТИМАТИВНИЙ ТРОФЕЙ ПІДЗЕМЕЛЬ
+ULTIMATE SWORD	УЛЬТИМАТИВНИЙ МЕЧ
+ULTIMATE DUNGEON SWORD	УЛЬТИМАТИВНИЙ МЕЧ ПІДЗЕМЕЛЬ
+ULTIMATE LONGSWORD	УЛЬТИМАТИВНИЙ ДОВГИЙ МЕЧ
+ULTIMATE DUNGEON LONGSWORD	УЛЬТИМАТИВНИЙ ДОВГИЙ МЕЧ ПІДЗЕМЕЛЬ
+ULTIMATE SLAYER SWORD	УЛЬТИМАТИВНИЙ МЕЧ ВИНИЩУВАЧА
+ULTIMATE DUNGEON SLAYER SWORD	УЛЬТИМАТИВНИЙ МЕЧ ВИНИЩУВАЧА ПІДЗЕМЕЛЬ
+ULTIMATE BOW	УЛЬТИМАТИВНИЙ ЛУК
+ULTIMATE DUNGEON BOW	УЛЬТИМАТИВНИЙ ЛУК ПІДЗЕМЕЛЬ
+ULTIMATE ARROW	УЛЬТИМАТИВНА СТРІЛА
+ULTIMATE DUNGEON ARROW	УЛЬТИМАТИВНА СТРІЛА ПІДЗЕМЕЛЬ
+ULTIMATE ARROW POISON	УЛЬТИМАТИВНА ОТРУТА ДЛЯ СТРІЛ
+ULTIMATE DUNGEON ARROW POISON	УЛЬТИМАТИВНА ОТРУТА ДЛЯ СТРІЛ ПІДЗЕМЕЛЬ
+ULTIMATE WAND	УЛЬТИМАТИВНИЙ ЖЕЗЛ
+ULTIMATE DUNGEON WAND	УЛЬТИМАТИВНИЙ ЖЕЗЛ ПІДЗЕМЕЛЬ
+ULTIMATE GAUNTLET	УЛЬТИМАТИВНА ЛАТНА РУКАВИЦЯ
+ULTIMATE DUNGEON GAUNTLET	УЛЬТИМАТИВНА ЛАТНА РУКАВИЦЯ ПІДЗЕМЕЛЬ
+ULTIMATE PET ITEM	УЛЬТИМАТИВНИЙ ПРЕДМЕТ УЛЮБЛЕНЦЯ
+ULTIMATE DUNGEON PET ITEM	УЛЬТИМАТИВНИЙ ПРЕДМЕТ УЛЮБЛЕНЦЯ ПІДЗЕМЕЛЬ
+ULTIMATE REFORGE STONE	УЛЬТИМАТИВНИЙ КАМІНЬ ПЕРЕКУВАННЯ
+ULTIMATE DUNGEON REFORGE STONE	УЛЬТИМАТИВНИЙ КАМІНЬ ПЕРЕКУВАННЯ ПІДЗЕМЕЛЬ
+ULTIMATE POWER STONE	УЛЬТИМАТИВНИЙ КАМІНЬ СИЛИ
+ULTIMATE DUNGEON POWER STONE	УЛЬТИМАТИВНИЙ КАМІНЬ СИЛИ ПІДЗЕМЕЛЬ
+ULTIMATE SEA CREATURE	УЛЬТИМАТИВНА МОРСЬКА ІСТОТА
+ULTIMATE DUNGEON SEA CREATURE	УЛЬТИМАТИВНА МОРСЬКА ІСТОТА ПІДЗЕМЕЛЬ
+ULTIMATE DYE	УЛЬТИМАТИВНИЙ БАРВНИК
+ULTIMATE DUNGEON DYE	УЛЬТИМАТИВНИЙ БАРВНИК ПІДЗЕМЕЛЬ
+ULTIMATE SACK	УЛЬТИМАТИВНИЙ МІШОК
+ULTIMATE DUNGEON SACK	УЛЬТИМАТИВНИЙ МІШОК ПІДЗЕМЕЛЬ
+ULTIMATE GEMSTONE	УЛЬТИМАТИВНИЙ САМОЦВІТ
+ULTIMATE DUNGEON GEMSTONE	УЛЬТИМАТИВНИЙ САМОЦВІТ ПІДЗЕМЕЛЬ
+ULTIMATE RABBIT	УЛЬТИМАТИВНИЙ КРОЛИК
+ULTIMATE DUNGEON RABBIT	УЛЬТИМАТИВНИЙ КРОЛИК ПІДЗЕМЕЛЬ
+ULTIMATE FARMING TOOL	УЛЬТИМАТИВНИЙ ФЕРМЕРСЬКИЙ ІНСТРУМЕНТ
+ULTIMATE DUNGEON FARMING TOOL	УЛЬТИМАТИВНИЙ ФЕРМЕРСЬКИЙ ІНСТРУМЕНТ ПІДЗЕМЕЛЬ
+ULTIMATE BELT	УЛЬТИМАТИВНИЙ ПОЯС
+ULTIMATE DUNGEON BELT	УЛЬТИМАТИВНИЙ ПОЯС ПІДЗЕМЕЛЬ
+ULTIMATE NECKLACE	УЛЬТИМАТИВНЕ НАМИСТО
+ULTIMATE DUNGEON NECKLACE	УЛЬТИМАТИВНЕ НАМИСТО ПІДЗЕМЕЛЬ
+ULTIMATE CLOAK	УЛЬТИМАТИВНИЙ ПЛАЩ
+ULTIMATE DUNGEON CLOAK	УЛЬТИМАТИВНИЙ ПЛАЩ ПІДЗЕМЕЛЬ
+ULTIMATE GLOVES	УЛЬТИМАТИВНІ РУКАВИЧКИ
+ULTIMATE DUNGEON GLOVES	УЛЬТИМАТИВНІ РУКАВИЧКИ ПІДЗЕМЕЛЬ
+ULTIMATE BRACELET	УЛЬТИМАТИВНИЙ БРАСЛЕТ
+ULTIMATE DUNGEON BRACELET	УЛЬТИМАТИВНИЙ БРАСЛЕТ ПІДЗЕМЕЛЬ
+ULTIMATE MUTATION	УЛЬТИМАТИВНА МУТАЦІЯ
+ULTIMATE DUNGEON MUTATION	УЛЬТИМАТИВНА МУТАЦІЯ ПІДЗЕМЕЛЬ
+ULTIMATE PORTAL	УЛЬТИМАТИВНИЙ ПОРТАЛ
+ULTIMATE DUNGEON PORTAL	УЛЬТИМАТИВНИЙ ПОРТАЛ ПІДЗЕМЕЛЬ
+ULTIMATE ORE	УЛЬТИМАТИВНА РУДА
+ULTIMATE DUNGEON ORE	УЛЬТИМАТИВНА РУДА ПІДЗЕМЕЛЬ
+ULTIMATE BLOCK	УЛЬТИМАТИВНИЙ БЛОК
+ULTIMATE DUNGEON BLOCK	УЛЬТИМАТИВНИЙ БЛОК ПІДЗЕМЕЛЬ
+ULTIMATE TRAVEL SCROLL	УЛЬТИМАТИВНИЙ СУВІЙ ПОДОРОЖІ
+ULTIMATE DUNGEON TRAVEL SCROLL	УЛЬТИМАТИВНИЙ СУВІЙ ПОДОРОЖІ ПІДЗЕМЕЛЬ
+ULTIMATE ABILITY SCROLL	УЛЬТИМАТИВНИЙ СУВІЙ ЗДІБНОСТІ
+ULTIMATE DUNGEON ABILITY SCROLL	УЛЬТИМАТИВНИЙ СУВІЙ ЗДІБНОСТІ ПІДЗЕМЕЛЬ
+ULTIMATE FISHING ROD	УЛЬТИМАТИВНА ВУДКА
+ULTIMATE DUNGEON FISHING ROD	УЛЬТИМАТИВНА ВУДКА ПІДЗЕМЕЛЬ
+ULTIMATE ROD PART	УЛЬТИМАТИВНА ДЕТАЛЬ ВУДКИ
+ULTIMATE DUNGEON ROD PART	УЛЬТИМАТИВНА ДЕТАЛЬ ВУДКИ ПІДЗЕМЕЛЬ
+ULTIMATE BAIT	УЛЬТИМАТИВНА НАЖИВКА
+ULTIMATE DUNGEON BAIT	УЛЬТИМАТИВНА НАЖИВКА ПІДЗЕМЕЛЬ
+ULTIMATE FISHING NET	УЛЬТИМАТИВНА РИБАЛЬСЬКА СІТКА
+ULTIMATE DUNGEON FISHING NET	УЛЬТИМАТИВНА РИБАЛЬСЬКА СІТКА ПІДЗЕМЕЛЬ
+ULTIMATE AXE	УЛЬТИМАТИВНА СОКИРА
+ULTIMATE DUNGEON AXE	УЛЬТИМАТИВНА СОКИРА ПІДЗЕМЕЛЬ
+ULTIMATE PICKAXE	УЛЬТИМАТИВНА КИРКА
+ULTIMATE DUNGEON PICKAXE	УЛЬТИМАТИВНА КИРКА ПІДЗЕМЕЛЬ
+ULTIMATE DRILL	УЛЬТИМАТИВНИЙ БУР
+ULTIMATE DUNGEON DRILL	УЛЬТИМАТИВНИЙ БУР ПІДЗЕМЕЛЬ
+ULTIMATE SHOVEL	УЛЬТИМАТИВНА ЛОПАТА
+ULTIMATE DUNGEON SHOVEL	УЛЬТИМАТИВНА ЛОПАТА ПІДЗЕМЕЛЬ
+ULTIMATE HOE	УЛЬТИМАТИВНА МОТИКА
+ULTIMATE DUNGEON HOE	УЛЬТИМАТИВНА МОТИКА ПІДЗЕМЕЛЬ
+ULTIMATE SHEARS	УЛЬТИМАТИВНІ НОЖИЦІ
+ULTIMATE DUNGEON SHEARS	УЛЬТИМАТИВНІ НОЖИЦІ ПІДЗЕМЕЛЬ
+ULTIMATE CHISEL	УЛЬТИМАТИВНЕ ЗУБИЛО
+ULTIMATE DUNGEON CHISEL	УЛЬТИМАТИВНЕ ЗУБИЛО ПІДЗЕМЕЛЬ
+ULTIMATE MEMENTO	УЛЬТИМАТИВНА ПАМ'ЯТКА
+ULTIMATE DUNGEON MEMENTO	УЛЬТИМАТИВНА ПАМ'ЯТКА ПІДЗЕМЕЛЬ
+ULTIMATE DEPLOYABLE	УЛЬТИМАТИВНИЙ РОЗГОРТАНИЙ ПРЕДМЕТ
+ULTIMATE DUNGEON DEPLOYABLE	УЛЬТИМАТИВНИЙ РОЗГОРТАНИЙ ПРЕДМЕТ ПІДЗЕМЕЛЬ
+ULTIMATE DWARVEN METAL	УЛЬТИМАТИВНИЙ ГНОМСЬКИЙ МЕТАЛ
+ULTIMATE DUNGEON DWARVEN METAL	УЛЬТИМАТИВНИЙ ГНОМСЬКИЙ МЕТАЛ ПІДЗЕМЕЛЬ
+ULTIMATE GARDEN CHIP	УЛЬТИМАТИВНИЙ ЧІП САДУ
+ULTIMATE DUNGEON GARDEN CHIP	УЛЬТИМАТИВНИЙ ЧІП САДУ ПІДЗЕМЕЛЬ
+ULTIMATE BOOSTER	УЛЬТИМАТИВНИЙ ПІДСИЛЮВАЧ
+ULTIMATE DUNGEON BOOSTER	УЛЬТИМАТИВНИЙ ПІДСИЛЮВАЧ ПІДЗЕМЕЛЬ
+ULTIMATE RIFT TIMECHARM	УЛЬТИМАТИВНИЙ ЧАСОВИЙ ОБЕРІГ РИФТУ
+ULTIMATE DUNGEON RIFT TIMECHARM	УЛЬТИМАТИВНИЙ ЧАСОВИЙ ОБЕРІГ РИФТУ ПІДЗЕМЕЛЬ
+ULTIMATE SALT	УЛЬТИМАТИВНА СІЛЬ
+ULTIMATE DUNGEON SALT	УЛЬТИМАТИВНА СІЛЬ ПІДЗЕМЕЛЬ
+ULTIMATE CARNIVAL MASK	УЛЬТИМАТИВНА КАРНАВАЛЬНА МАСКА
+ULTIMATE DUNGEON CARNIVAL MASK	УЛЬТИМАТИВНА КАРНАВАЛЬНА МАСКА ПІДЗЕМЕЛЬ
+ULTIMATE VACUUM	УЛЬТИМАТИВНИЙ ПИЛОСОС
+ULTIMATE DUNGEON VACUUM	УЛЬТИМАТИВНИЙ ПИЛОСОС ПІДЗЕМЕЛЬ
+ULTIMATE WATERING CAN	УЛЬТИМАТИВНА ЛІЙКА
+ULTIMATE DUNGEON WATERING CAN	УЛЬТИМАТИВНА ЛІЙКА ПІДЗЕМЕЛЬ
+ULTIMATE TRAP	УЛЬТИМАТИВНА ПАСТКА
+ULTIMATE DUNGEON TRAP	УЛЬТИМАТИВНА ПАСТКА ПІДЗЕМЕЛЬ
+ULTIMATE LASSO	УЛЬТИМАТИВНЕ ЛАСО
+ULTIMATE DUNGEON LASSO	УЛЬТИМАТИВНЕ ЛАСО ПІДЗЕМЕЛЬ
+ULTIMATE CAPSULE	УЛЬТИМАТИВНА КАПСУЛА
+ULTIMATE DUNGEON CAPSULE	УЛЬТИМАТИВНА КАПСУЛА ПІДЗЕМЕЛЬ
+ADMIN	АДМІНСЬКИЙ
+ADMIN ITEM	АДМІНСЬКИЙ ПРЕДМЕТ
+ADMIN DUNGEON ITEM	АДМІНСЬКИЙ ПРЕДМЕТ ПІДЗЕМЕЛЬ
+ADMIN COSMETIC	АДМІНСЬКА КОСМЕТИКА
+ADMIN DUNGEON COSMETIC	АДМІНСЬКА КОСМЕТИКА ПІДЗЕМЕЛЬ
+ADMIN ACCESSORY	АДМІНСЬКИЙ АКСЕСУАР
+ADMIN DUNGEON ACCESSORY	АДМІНСЬКИЙ АКСЕСУАР ПІДЗЕМЕЛЬ
+ADMIN PET	АДМІНСЬКИЙ УЛЮБЛЕНЕЦЬ
+ADMIN DUNGEON PET	АДМІНСЬКИЙ УЛЮБЛЕНЕЦЬ ПІДЗЕМЕЛЬ
+ADMIN HELMET	АДМІНСЬКИЙ ШОЛОМ
+ADMIN DUNGEON HELMET	АДМІНСЬКИЙ ШОЛОМ ПІДЗЕМЕЛЬ
+ADMIN CHESTPLATE	АДМІНСЬКИЙ НАГРУДНИК
+ADMIN DUNGEON CHESTPLATE	АДМІНСЬКИЙ НАГРУДНИК ПІДЗЕМЕЛЬ
+ADMIN LEGGINGS	АДМІНСЬКІ ПОНОЖІ
+ADMIN DUNGEON LEGGINGS	АДМІНСЬКІ ПОНОЖІ ПІДЗЕМЕЛЬ
+ADMIN BOOTS	АДМІНСЬКІ ЧОБОТИ
+ADMIN DUNGEON BOOTS	АДМІНСЬКІ ЧОБОТИ ПІДЗЕМЕЛЬ
+ADMIN TROPHY	АДМІНСЬКИЙ ТРОФЕЙ
+ADMIN DUNGEON TROPHY	АДМІНСЬКИЙ ТРОФЕЙ ПІДЗЕМЕЛЬ
+ADMIN SWORD	АДМІНСЬКИЙ МЕЧ
+ADMIN DUNGEON SWORD	АДМІНСЬКИЙ МЕЧ ПІДЗЕМЕЛЬ
+ADMIN LONGSWORD	АДМІНСЬКИЙ ДОВГИЙ МЕЧ
+ADMIN DUNGEON LONGSWORD	АДМІНСЬКИЙ ДОВГИЙ МЕЧ ПІДЗЕМЕЛЬ
+ADMIN SLAYER SWORD	АДМІНСЬКИЙ МЕЧ ВИНИЩУВАЧА
+ADMIN DUNGEON SLAYER SWORD	АДМІНСЬКИЙ МЕЧ ВИНИЩУВАЧА ПІДЗЕМЕЛЬ
+ADMIN BOW	АДМІНСЬКИЙ ЛУК
+ADMIN DUNGEON BOW	АДМІНСЬКИЙ ЛУК ПІДЗЕМЕЛЬ
+ADMIN ARROW	АДМІНСЬКА СТРІЛА
+ADMIN DUNGEON ARROW	АДМІНСЬКА СТРІЛА ПІДЗЕМЕЛЬ
+ADMIN ARROW POISON	АДМІНСЬКА ОТРУТА ДЛЯ СТРІЛ
+ADMIN DUNGEON ARROW POISON	АДМІНСЬКА ОТРУТА ДЛЯ СТРІЛ ПІДЗЕМЕЛЬ
+ADMIN WAND	АДМІНСЬКИЙ ЖЕЗЛ
+ADMIN DUNGEON WAND	АДМІНСЬКИЙ ЖЕЗЛ ПІДЗЕМЕЛЬ
+ADMIN GAUNTLET	АДМІНСЬКА ЛАТНА РУКАВИЦЯ
+ADMIN DUNGEON GAUNTLET	АДМІНСЬКА ЛАТНА РУКАВИЦЯ ПІДЗЕМЕЛЬ
+ADMIN PET ITEM	АДМІНСЬКИЙ ПРЕДМЕТ УЛЮБЛЕНЦЯ
+ADMIN DUNGEON PET ITEM	АДМІНСЬКИЙ ПРЕДМЕТ УЛЮБЛЕНЦЯ ПІДЗЕМЕЛЬ
+ADMIN REFORGE STONE	АДМІНСЬКИЙ КАМІНЬ ПЕРЕКУВАННЯ
+ADMIN DUNGEON REFORGE STONE	АДМІНСЬКИЙ КАМІНЬ ПЕРЕКУВАННЯ ПІДЗЕМЕЛЬ
+ADMIN POWER STONE	АДМІНСЬКИЙ КАМІНЬ СИЛИ
+ADMIN DUNGEON POWER STONE	АДМІНСЬКИЙ КАМІНЬ СИЛИ ПІДЗЕМЕЛЬ
+ADMIN SEA CREATURE	АДМІНСЬКА МОРСЬКА ІСТОТА
+ADMIN DUNGEON SEA CREATURE	АДМІНСЬКА МОРСЬКА ІСТОТА ПІДЗЕМЕЛЬ
+ADMIN DYE	АДМІНСЬКИЙ БАРВНИК
+ADMIN DUNGEON DYE	АДМІНСЬКИЙ БАРВНИК ПІДЗЕМЕЛЬ
+ADMIN SACK	АДМІНСЬКИЙ МІШОК
+ADMIN DUNGEON SACK	АДМІНСЬКИЙ МІШОК ПІДЗЕМЕЛЬ
+ADMIN GEMSTONE	АДМІНСЬКИЙ САМОЦВІТ
+ADMIN DUNGEON GEMSTONE	АДМІНСЬКИЙ САМОЦВІТ ПІДЗЕМЕЛЬ
+ADMIN RABBIT	АДМІНСЬКИЙ КРОЛИК
+ADMIN DUNGEON RABBIT	АДМІНСЬКИЙ КРОЛИК ПІДЗЕМЕЛЬ
+ADMIN FARMING TOOL	АДМІНСЬКИЙ ФЕРМЕРСЬКИЙ ІНСТРУМЕНТ
+ADMIN DUNGEON FARMING TOOL	АДМІНСЬКИЙ ФЕРМЕРСЬКИЙ ІНСТРУМЕНТ ПІДЗЕМЕЛЬ
+ADMIN BELT	АДМІНСЬКИЙ ПОЯС
+ADMIN DUNGEON BELT	АДМІНСЬКИЙ ПОЯС ПІДЗЕМЕЛЬ
+ADMIN NECKLACE	АДМІНСЬКЕ НАМИСТО
+ADMIN DUNGEON NECKLACE	АДМІНСЬКЕ НАМИСТО ПІДЗЕМЕЛЬ
+ADMIN CLOAK	АДМІНСЬКИЙ ПЛАЩ
+ADMIN DUNGEON CLOAK	АДМІНСЬКИЙ ПЛАЩ ПІДЗЕМЕЛЬ
+ADMIN GLOVES	АДМІНСЬКІ РУКАВИЧКИ
+ADMIN DUNGEON GLOVES	АДМІНСЬКІ РУКАВИЧКИ ПІДЗЕМЕЛЬ
+ADMIN BRACELET	АДМІНСЬКИЙ БРАСЛЕТ
+ADMIN DUNGEON BRACELET	АДМІНСЬКИЙ БРАСЛЕТ ПІДЗЕМЕЛЬ
+ADMIN MUTATION	АДМІНСЬКА МУТАЦІЯ
+ADMIN DUNGEON MUTATION	АДМІНСЬКА МУТАЦІЯ ПІДЗЕМЕЛЬ
+ADMIN PORTAL	АДМІНСЬКИЙ ПОРТАЛ
+ADMIN DUNGEON PORTAL	АДМІНСЬКИЙ ПОРТАЛ ПІДЗЕМЕЛЬ
+ADMIN ORE	АДМІНСЬКА РУДА
+ADMIN DUNGEON ORE	АДМІНСЬКА РУДА ПІДЗЕМЕЛЬ
+ADMIN BLOCK	АДМІНСЬКИЙ БЛОК
+ADMIN DUNGEON BLOCK	АДМІНСЬКИЙ БЛОК ПІДЗЕМЕЛЬ
+ADMIN TRAVEL SCROLL	АДМІНСЬКИЙ СУВІЙ ПОДОРОЖІ
+ADMIN DUNGEON TRAVEL SCROLL	АДМІНСЬКИЙ СУВІЙ ПОДОРОЖІ ПІДЗЕМЕЛЬ
+ADMIN ABILITY SCROLL	АДМІНСЬКИЙ СУВІЙ ЗДІБНОСТІ
+ADMIN DUNGEON ABILITY SCROLL	АДМІНСЬКИЙ СУВІЙ ЗДІБНОСТІ ПІДЗЕМЕЛЬ
+ADMIN FISHING ROD	АДМІНСЬКА ВУДКА
+ADMIN DUNGEON FISHING ROD	АДМІНСЬКА ВУДКА ПІДЗЕМЕЛЬ
+ADMIN ROD PART	АДМІНСЬКА ДЕТАЛЬ ВУДКИ
+ADMIN DUNGEON ROD PART	АДМІНСЬКА ДЕТАЛЬ ВУДКИ ПІДЗЕМЕЛЬ
+ADMIN BAIT	АДМІНСЬКА НАЖИВКА
+ADMIN DUNGEON BAIT	АДМІНСЬКА НАЖИВКА ПІДЗЕМЕЛЬ
+ADMIN FISHING NET	АДМІНСЬКА РИБАЛЬСЬКА СІТКА
+ADMIN DUNGEON FISHING NET	АДМІНСЬКА РИБАЛЬСЬКА СІТКА ПІДЗЕМЕЛЬ
+ADMIN AXE	АДМІНСЬКА СОКИРА
+ADMIN DUNGEON AXE	АДМІНСЬКА СОКИРА ПІДЗЕМЕЛЬ
+ADMIN PICKAXE	АДМІНСЬКА КИРКА
+ADMIN DUNGEON PICKAXE	АДМІНСЬКА КИРКА ПІДЗЕМЕЛЬ
+ADMIN DRILL	АДМІНСЬКИЙ БУР
+ADMIN DUNGEON DRILL	АДМІНСЬКИЙ БУР ПІДЗЕМЕЛЬ
+ADMIN SHOVEL	АДМІНСЬКА ЛОПАТА
+ADMIN DUNGEON SHOVEL	АДМІНСЬКА ЛОПАТА ПІДЗЕМЕЛЬ
+ADMIN HOE	АДМІНСЬКА МОТИКА
+ADMIN DUNGEON HOE	АДМІНСЬКА МОТИКА ПІДЗЕМЕЛЬ
+ADMIN SHEARS	АДМІНСЬКІ НОЖИЦІ
+ADMIN DUNGEON SHEARS	АДМІНСЬКІ НОЖИЦІ ПІДЗЕМЕЛЬ
+ADMIN CHISEL	АДМІНСЬКЕ ЗУБИЛО
+ADMIN DUNGEON CHISEL	АДМІНСЬКЕ ЗУБИЛО ПІДЗЕМЕЛЬ
+ADMIN MEMENTO	АДМІНСЬКА ПАМ'ЯТКА
+ADMIN DUNGEON MEMENTO	АДМІНСЬКА ПАМ'ЯТКА ПІДЗЕМЕЛЬ
+ADMIN DEPLOYABLE	АДМІНСЬКИЙ РОЗГОРТАНИЙ ПРЕДМЕТ
+ADMIN DUNGEON DEPLOYABLE	АДМІНСЬКИЙ РОЗГОРТАНИЙ ПРЕДМЕТ ПІДЗЕМЕЛЬ
+ADMIN DWARVEN METAL	АДМІНСЬКИЙ ГНОМСЬКИЙ МЕТАЛ
+ADMIN DUNGEON DWARVEN METAL	АДМІНСЬКИЙ ГНОМСЬКИЙ МЕТАЛ ПІДЗЕМЕЛЬ
+ADMIN GARDEN CHIP	АДМІНСЬКИЙ ЧІП САДУ
+ADMIN DUNGEON GARDEN CHIP	АДМІНСЬКИЙ ЧІП САДУ ПІДЗЕМЕЛЬ
+ADMIN BOOSTER	АДМІНСЬКИЙ ПІДСИЛЮВАЧ
+ADMIN DUNGEON BOOSTER	АДМІНСЬКИЙ ПІДСИЛЮВАЧ ПІДЗЕМЕЛЬ
+ADMIN RIFT TIMECHARM	АДМІНСЬКИЙ ЧАСОВИЙ ОБЕРІГ РИФТУ
+ADMIN DUNGEON RIFT TIMECHARM	АДМІНСЬКИЙ ЧАСОВИЙ ОБЕРІГ РИФТУ ПІДЗЕМЕЛЬ
+ADMIN SALT	АДМІНСЬКА СІЛЬ
+ADMIN DUNGEON SALT	АДМІНСЬКА СІЛЬ ПІДЗЕМЕЛЬ
+ADMIN CARNIVAL MASK	АДМІНСЬКА КАРНАВАЛЬНА МАСКА
+ADMIN DUNGEON CARNIVAL MASK	АДМІНСЬКА КАРНАВАЛЬНА МАСКА ПІДЗЕМЕЛЬ
+ADMIN VACUUM	АДМІНСЬКИЙ ПИЛОСОС
+ADMIN DUNGEON VACUUM	АДМІНСЬКИЙ ПИЛОСОС ПІДЗЕМЕЛЬ
+ADMIN WATERING CAN	АДМІНСЬКА ЛІЙКА
+ADMIN DUNGEON WATERING CAN	АДМІНСЬКА ЛІЙКА ПІДЗЕМЕЛЬ
+ADMIN TRAP	АДМІНСЬКА ПАСТКА
+ADMIN DUNGEON TRAP	АДМІНСЬКА ПАСТКА ПІДЗЕМЕЛЬ
+ADMIN LASSO	АДМІНСЬКЕ ЛАСО
+ADMIN DUNGEON LASSO	АДМІНСЬКЕ ЛАСО ПІДЗЕМЕЛЬ
+ADMIN CAPSULE	АДМІНСЬКА КАПСУЛА
+ADMIN DUNGEON CAPSULE	АДМІНСЬКА КАПСУЛА ПІДЗЕМЕЛЬ
