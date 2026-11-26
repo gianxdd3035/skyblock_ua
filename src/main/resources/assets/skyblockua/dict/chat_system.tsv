@@ -111,7 +111,7 @@ Your Kill Combo has expired! You reached a {0} Kill Combo!	Твоє комбо �
 Rapid Fire is ready to use! Press DROP to activate it!	Швидкий вогонь готовий! Натисни «Викинути», щоб активувати!
 Thunderstorm is ready to use! Press DROP to activate it!	Гроза готова! Натисни «Викинути», щоб активувати!
 Guided Sheep is now available!	Керована вівця знову доступна!
-You used Syphon on {0} Shards!	Ти використав Викачування на {0} осколках!
+You used Syphon on {0} Shards!	Ти поглинув {0} осколків!
 Maxed the Supercraft to {0}x crafts!	Суперкрафт збільшено до {0}x!
 Your previous Umberella was removed!	Твою попередню Умберелу прибрано!
 Your Wormhole closed up...	Твоя кротова нора закрилася...
@@ -169,3 +169,4 @@ Your Damage: {0} (Position #{1})	Твоя шкода: {0} (місце №{1})
 ✆ RING... RING... [PICK UP]	✆ ДЗЕЛЕНЬ... ДЗЕЛЕНЬ... [ВЗЯТИ СЛУХАВКУ]
 ✆ RING... RING... RING... [PICK UP]	✆ ДЗЕЛЕНЬ... ДЗЕЛЕНЬ... ДЗЕЛЕНЬ... [ВЗЯТИ СЛУХАВКУ]
 [PICK UP]	[ВЗЯТИ СЛУХАВКУ]
+☠ You fell into the void.	☠ Ти падаєш у порожнечу.

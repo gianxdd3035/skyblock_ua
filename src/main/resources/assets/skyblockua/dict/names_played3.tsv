@@ -1,0 +1,109 @@
+# Назви з гри, третя партія (26.11.2026): мішки, бури, голови Катакомб, наживки, колекції
+Rune Sack	Мішок рун	m
+Dwarven Sack	Гномський мішок	m
+Small Gemstone Sack	Малий мішок самоцвітів	m
+Medium Gemstone Sack	Середній мішок самоцвітів	m
+Large Gemstone Sack	Великий мішок самоцвітів	m
+Small Mining Sack	Малий шахтарський мішок	m
+Medium Mining Sack	Середній шахтарський мішок	m
+Large Mining Sack	Великий шахтарський мішок	m
+Small Combat Sack	Малий бойовий мішок	m
+Medium Combat Sack	Середній бойовий мішок	m
+Large Combat Sack	Великий бойовий мішок	m
+Medium Slayer Sack	Середній мішок вбивці	m
+Large Slayer Sack	Великий мішок вбивці	m
+Small Dragon Sack	Малий драконячий мішок	m
+Medium Dragon Sack	Середній драконячий мішок	m
+Large Dragon Sack	Великий драконячий мішок	m
+Small Lava Fishing Sack	Малий мішок лавової риболовлі	m
+Medium Lava Fishing Sack	Середній мішок лавової риболовлі	m
+Large Lava Fishing Sack	Великий мішок лавової риболовлі	m
+Small Nether Sack	Малий незерський мішок	m
+Medium Nether Sack	Середній незерський мішок	m
+Large Nether Sack	Великий незерський мішок	m
+Small Agronomy Sack	Малий агрономічний мішок	m
+Medium Agronomy Sack	Середній агрономічний мішок	m
+Large Agronomy Sack	Великий агрономічний мішок	m
+Small Foraging Sack	Малий мішок лісоруба	m
+Medium Foraging Sack	Середній мішок лісоруба	m
+Large Foraging Sack	Великий мішок лісоруба	m
+Small Fishing Sack	Малий рибальський мішок	m
+Medium Fishing Sack	Середній рибальський мішок	m
+Large Fishing Sack	Великий рибальський мішок	m
+Small Mutations Sack	Малий мішок мутацій	m
+Medium Mutations Sack	Середній мішок мутацій	m
+Large Mutations Sack	Великий мішок мутацій	m
+Small Husbandry Sack	Малий мішок тваринника	m
+Medium Husbandry Sack	Середній мішок тваринника	m
+Large Husbandry Sack	Великий мішок тваринника	m
+Small Bait Sack	Малий мішок наживки	m
+Medium Bait Sack	Середній мішок наживки	m
+Large Bait Sack	Великий мішок наживки	m
+Mithril Drill SX-R226	Міфриловий бур SX-R226	m
+Mithril Drill SX-R326	Міфриловий бур SX-R326	m
+Titanium Drill DR-X355	Титановий бур DR-X355	m
+Titanium Drill DR-X455	Титановий бур DR-X455	m
+Titanium Drill DR-X555	Титановий бур DR-X555	m
+Titanium Drill DR-X655	Титановий бур DR-X655	m
+Ruby Drill TX-{0}	Рубіновий бур TX-{0}	m
+Gemstone Drill LT-{0}	Самоцвітний бур LT-{0}	m
+Topaz Drill KGR-{0}	Топазовий бур KGR-{0}	m
+Jasper Drill X	Яшмовий бур X	m
+Golden Bonzo Head	Золота голова Бонзо	f
+Diamond Bonzo Head	Діамантова голова Бонзо	f
+Golden Scarf Head	Золота голова Скарфа	f
+Diamond Scarf Head	Діамантова голова Скарфа	f
+Golden Professor Head	Золота голова Професора	f
+Diamond Professor Head	Діамантова голова Професора	f
+Golden Thorn Head	Золота голова Торна	f
+Diamond Thorn Head	Діамантова голова Торна	f
+Golden Livid Head	Золота голова Лівіда	f
+Diamond Livid Head	Діамантова голова Лівіда	f
+Golden Sadan Head	Золота голова Садана	f
+Diamond Sadan Head	Діамантова голова Садана	f
+Golden Necron Head	Золота голова Некрона	f
+Diamond Necron Head	Діамантова голова Некрона	f
+Worm Bait	Наживка з черв'яків	f
+Hotspot Bait	Наживка для гарячих точок	f
+Wooden Bait	Дерев'яна наживка	f
+Mini Bosses	Мінібоси	p
+Boss Drops	Здобич із босів	f
+Wheat & Seeds	Пшениця й насіння	f
+Chicken & Feather	Курятина й пір'я	f
+Mutton & Wool	Баранина й вовна	f
+Leather & Beef	Шкіра й яловичина	f
+Flint & Gravel	Кремінь і гравій	m
+Nether Warts	Пекельні нарости	p
+Chorus Fruit	Плід хорусу	m
+Jungle Heart	Серце джунглів	n
+Bobbin' Scriptures	Поплавкові писання	p
+Prickly Kiss	Колючий поцілунок	m
+"Fragranced" Brown Mushroom "Paste"	«Ароматизована» паста з коричневих грибів	f
+Do-not-eat-shroom	Гриб-не-їж-мене	m
+Stoplight Petal	Пелюстка-світлофор	f
+Magic Jellybean	Чарівний желейний боб	m
+All-in Aloe	Алое ва-банк	n
+Soul Esoward	Есовард душ	m
+Revenant Shard	Осколок мерлеця	m
+Helmet of the Pack	Шолом зграї	m
+Chestplate of the Pack	Нагрудник зграї	m
+Leggings of the Pack	Поножі зграї	p
+Boots of the Pack	Чоботи зграї	p
+Spring Boots	Пружинні чоботи	p
+Hyper Spring Boots	Гіперпружинні чоботи	p
+Dead Man's Chestplate	Нагрудник мерця	m
+Ancient Turtle Skin	Скін «Стародавня черепаха»	m
+Moody Grappleshot	Похмурий гакомет	m
+Stock of Stonks	Акція стонксів	f
+Hype Diamond (Right Click)	Хайп-діамант (ПКМ)	m
+Tarantula Fang	Ікло тарантула	n
+Conjuring	Чаклунство	n
+Starter Lava Rod	Початкова лавова вудка	f
+Chomp Starter Lava Rod	Хрумка початкова лавова вудка	f
+Ember Fragment	Фрагмент жару	m
+InfiniBoom™ TNT	Динаміт InfiniBoom™	m
+Blazetekk™ Ham Radio	Рація Blazetekk™	f
+Skeleton Fish	Риба-скелет	f
+Wisp's Ice-Flavored Water I Splash Potion	Вибухове зілля «Крижана вода Віспа I»	n
+Personal Deletor {0}	Особистий знищувач {0}	m
+Bonzo's Mask	Маска Бонзо	f

@@ -85,7 +85,6 @@ Absorb {any}: {0}/{1} logs	Поглинання {any}: {0}/{1} колод
 Friend > {any} left.	Друг > {any} виходить.
 Friend > {any} joined.	Друг > {any} заходить.
 ☠ {any} fell into the void.	☠ {any} падає в порожнечу.
-☠ You fell into the void.	☠ Ти падаєш у порожнечу.
 Enchanted Book ({item})	Зачарована книга ({item})
 {known} RNG Meter	Лічильник РНГ: {known}
 {known} Drops	Здобич: {known}
@@ -146,3 +145,8 @@ MYTHIC COMBAT SHARD (ID {any})	МІФІЧНИЙ БОЙОВИЙ ОСКОЛОК (I
 {known} (Global)	{known} (загальний)
 Buffed by {known} attribute.	Посилено атрибутом: {known}.
 {known} Backpack	Рюкзак: {known}
+Bestiary Milestone {any}	Віха бестіарію {any}
+{0}x {known}	{0}x {known}
+Milestone {any} Reward	Нагорода віхи {any}
+{any} Bonuses	Бонуси: {any}
+Your [Lv{0}] {any} Stats:	Твої характеристики [Рів.{0}] {any}:

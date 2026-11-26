@@ -1,0 +1,315 @@
+# Тринадцята партія з гри (26.11.2026): бестіарій (описи родин, бонуси, рівні), лічильник РНГ
+Tier I Rewards	§7Нагороди рівня I
+Capped at Tier I	§8Максимум — рівень I
+Tier II Rewards	§7Нагороди рівня II
+Capped at Tier II	§8Максимум — рівень II
+Tier III Rewards	§7Нагороди рівня III
+Capped at Tier III	§8Максимум — рівень III
+Tier IV Rewards	§7Нагороди рівня IV
+Capped at Tier IV	§8Максимум — рівень IV
+Tier V Rewards	§7Нагороди рівня V
+Capped at Tier V	§8Максимум — рівень V
+Tier VI Rewards	§7Нагороди рівня VI
+Capped at Tier VI	§8Максимум — рівень VI
+Tier VII Rewards	§7Нагороди рівня VII
+Capped at Tier VII	§8Максимум — рівень VII
+Tier VIII Rewards	§7Нагороди рівня VIII
+Capped at Tier VIII	§8Максимум — рівень VIII
+Tier IX Rewards	§7Нагороди рівня IX
+Capped at Tier IX	§8Максимум — рівень IX
+Tier X Rewards	§7Нагороди рівня X
+Capped at Tier X	§8Максимум — рівень X
+Tier XI Rewards	§7Нагороди рівня XI
+Capped at Tier XI	§8Максимум — рівень XI
+Tier XII Rewards	§7Нагороди рівня XII
+Capped at Tier XII	§8Максимум — рівень XII
+Tier XIII Rewards	§7Нагороди рівня XIII
+Capped at Tier XIII	§8Максимум — рівень XIII
+Tier XIV Rewards	§7Нагороди рівня XIV
+Capped at Tier XIV	§8Максимум — рівень XIV
+Tier XV Rewards	§7Нагороди рівня XV
+Capped at Tier XV	§8Максимум — рівень XV
+Tier XVI Rewards	§7Нагороди рівня XVI
+Capped at Tier XVI	§8Максимум — рівень XVI
+Tier XVII Rewards	§7Нагороди рівня XVII
+Capped at Tier XVII	§8Максимум — рівень XVII
+Tier XVIII Rewards	§7Нагороди рівня XVIII
+Capped at Tier XVIII	§8Максимум — рівень XVIII
+Tier XIX Rewards	§7Нагороди рівня XIX
+Capped at Tier XIX	§8Максимум — рівень XIX
+Tier XX Rewards	§7Нагороди рівня XX
+Capped at Tier XX	§8Максимум — рівень XX
+Tier XXI Rewards	§7Нагороди рівня XXI
+Capped at Tier XXI	§8Максимум — рівень XXI
+Tier XXII Rewards	§7Нагороди рівня XXII
+Capped at Tier XXII	§8Максимум — рівень XXII
+Tier XXIII Rewards	§7Нагороди рівня XXIII
+Capped at Tier XXIII	§8Максимум — рівень XXIII
+Tier XXIV Rewards	§7Нагороди рівня XXIV
+Capped at Tier XXIV	§8Максимум — рівень XXIV
+Tier XXV Rewards	§7Нагороди рівня XXV
+Capped at Tier XXV	§8Максимум — рівень XXV
+{0} Bat  Magic Find	§5  §8+§a{0} §b магічної удачі §7(кажанів)
+{0} Bat  Strength	§5  §8+§a{0} §c сили §7(кажанів)
+{0} Bat coins	§5  §8+§6{0} §7монет (кажанів)
+{0} Enderman  Magic Find	§5  §8+§a{0} §b магічної удачі §7(ендерменів)
+{0} Enderman  Strength	§5  §8+§a{0} §c сили §7(ендерменів)
+{0} Enderman coins	§5  §8+§6{0} §7монет (ендерменів)
+{0} Skeleton  Magic Find	§5  §8+§a{0} §b магічної удачі §7(скелетів)
+{0} Skeleton  Strength	§5  §8+§a{0} §c сили §7(скелетів)
+{0} Skeleton coins	§5  §8+§6{0} §7монет (скелетів)
+{0} Slime  Magic Find	§5  §8+§a{0} §b магічної удачі §7(слизнів)
+{0} Slime  Strength	§5  §8+§a{0} §c сили §7(слизнів)
+{0} Slime coins	§5  §8+§6{0} §7монет (слизнів)
+{0} Witch  Magic Find	§5  §8+§a{0} §b магічної удачі §7(відьом)
+{0} Witch  Strength	§5  §8+§a{0} §c сили §7(відьом)
+{0} Witch coins	§5  §8+§6{0} §7монет (відьом)
+{0} Ent  Magic Find	§5  §8+§a{0} §b магічної удачі §7(ентів)
+{0} Ent  Strength	§5  §8+§a{0} §c сили §7(ентів)
+{0} Ent coins	§5  §8+§6{0} §7монет (ентів)
+{0} Nessie  Magic Find	§5  §8+§a{0} §b магічної удачі §7(Нессі)
+{0} Nessie  Strength	§5  §8+§a{0} §c сили §7(Нессі)
+{0} Nessie coins	§5  §8+§6{0} §7монет (Нессі)
+{0} Stridersurfer  Magic Find	§5  §8+§a{0} §b магічної удачі §7(страйдерсерферів)
+{0} Stridersurfer  Strength	§5  §8+§a{0} §c сили §7(страйдерсерферів)
+{0} Stridersurfer coins	§5  §8+§6{0} §7монет (страйдерсерферів)
+{0} Brineling  Magic Find	§5  §8+§a{0} §b магічної удачі §7(брайнлінгів)
+{0} Brineling  Strength	§5  §8+§a{0} §c сили §7(брайнлінгів)
+{0} Brineling coins	§5  §8+§6{0} §7монет (брайнлінгів)
+{0} Giant Isopod  Magic Find	§5  §8+§a{0} §b магічної удачі §7(гігантських рівноногих)
+{0} Giant Isopod  Strength	§5  §8+§a{0} §c сили §7(гігантських рівноногих)
+{0} Giant Isopod coins	§5  §8+§6{0} §7монет (гігантських рівноногих)
+{0} Spider  Magic Find	§5  §8+§a{0} §b магічної удачі §7(павуків)
+{0} Spider  Strength	§5  §8+§a{0} §c сили §7(павуків)
+{0} Spider coins	§5  §8+§6{0} §7монет (павуків)
+{0} Zombie  Magic Find	§5  §8+§a{0} §b магічної удачі §7(зомбі)
+{0} Zombie  Strength	§5  §8+§a{0} §c сили §7(зомбі)
+{0} Zombie coins	§5  §8+§6{0} §7монет (зомбі)
+{0} Murkbat  Hunting Fortune	§5  §8+§a{0} §d фортуни полювання §7(муркбатів)
+{0} Murkbat Hunting XP	§5  §8+§3{0} §7досвіду полювання (муркбатів)
+{0} Dustybit  Hunting Fortune	§5  §8+§a{0} §d фортуни полювання §7(дастібітів)
+{0} Dustybit Hunting XP	§5  §8+§3{0} §7досвіду полювання (дастібітів)
+Bat Bonuses	§aБонуси: кажани
+Enderman Bonuses	§aБонуси: ендермени
+Skeleton Bonuses	§aБонуси: скелети
+Slime Bonuses	§aБонуси: слизні
+Spider Bonuses	§aБонуси: павуки
+Witch Bonuses	§aБонуси: відьми
+Zombie Bonuses	§aБонуси: зомбі
+Chicken Bonuses	§aБонуси: кури
+Cow Bonuses	§aБонуси: корови
+Mushroom Cow Bonuses	§aБонуси: грибні корови
+Pig Bonuses	§aБонуси: свині
+Rabbit Bonuses	§aБонуси: кролики
+Sheep Bonuses	§aБонуси: вівці
+Beetle Bonuses	§aБонуси: жуки
+Cricket Bonuses	§aБонуси: цвіркуни
+Dragonfly Bonuses	§aБонуси: бабки
+Earthworm Bonuses	§aБонуси: дощові черв'яки
+Field Mouse Bonuses	§aБонуси: польові миші
+Firefly Bonuses	§aБонуси: світлячки
+Fly Bonuses	§aБонуси: мухи
+Locust Bonuses	§aБонуси: сарана
+Lunar Moth Bonuses	§aБонуси: місячні метелики
+Mite Bonuses	§aБонуси: кліщі
+Mosquito Bonuses	§aБонуси: комарі
+Moth Bonuses	§aБонуси: молі
+Praying Mantis Bonuses	§aБонуси: богомоли
+Rat Bonuses	§aБонуси: щури
+Slug Bonuses	§aБонуси: слимаки
+Ent Bonuses	§aБонуси: енти
+Nessie Bonuses	§aБонуси: Нессі
+Stag Beetle Bonuses	§aБонуси: жуки-олені
+Ant Bonuses	§aБонуси: мурахи
+Blue Jay Bonuses	§aБонуси: блакитні сойки
+Giant Isopod Bonuses	§aБонуси: гігантські рівноногі
+Grizzly Bear Bonuses	§aБонуси: ведмеді гризлі
+Groundhog Bonuses	§aБонуси: бабаки
+Mountain Goat Bonuses	§aБонуси: гірські кози
+Pangolin Bonuses	§aБонуси: панголіни
+Firefox Bonuses	§aБонуси: вогнелиси
+Ember Bonuses	§aБонуси: жаринки
+Lustrous	§5    §9Сяйливий
+Gabagool.	§5 §dГабагул.
+Your RNG Meter fills with Enderman	§7Твій §dлічильник РНГ §7заповнюється §dдосвідом
+Your RNG Meter fills with Wolf Slayer	§7Твій §dлічильник РНГ §7заповнюється §dдосвідом вбивці
+XP every time you defeat Sven	§dвовків §7щоразу, як ти перемагаєш §aСвена-
+Packmaster III or higher!	§aватажка III §7або вище!
+Your RNG Meter fills with Spider	§7Твій §dлічильник РНГ §7заповнюється §dдосвідом
+Your RNG Meter fills with Zombie	§7Твій §dлічильник РНГ §7заповнюється §dдосвідом
+Judgement Core	§6Ядро Судження
+Celeste Dye which are used for	§bнебесно-блакитний барвник§7, з якого крафтять
+slayer crafts.	§7предмети вбивці.
+Usually, the boss will drop Brick	§7Зазвичай бос скидає §cцегляно-
+Red Dye which are used for	§cчервоний барвник§7, з якого крафтять
+Matcha Dye which are used for	§2барвник матча§7, з якого крафтять
+View all of the mobs that you've	§7Переглянь усіх мобів, яких ти
+found and killed on Your Island.	§7знайшов і вбив на §aсвоєму острові§7.
+found and killed in the Hub.	§7знайшов і вбив у §aХабі§7.
+found and killed in The Farming	§7знайшов і вбив на §aФермерських
+View all of the  Pests that you've	§7Переглянь усіх §2 шкідників§7, яких ти
+killed on The Garden.	§7вбив у §aСаду§7.
+Garden Bonus	§aБонус Саду
+found and killed in the Spider's Den.	§7знайшов і вбив у §cПавуковому лігві§7.
+found and killed in The End.	§7знайшов і вбив у §dКраю§7.
+found and killed in the Crimson Isle.	§7знайшов і вбив на §cБагряному острові§7.
+found and killed in the Deep Caverns.	§7знайшов і вбив у §bГлибоких печерах§7.
+found and killed in the Dwarven Mines.	§7знайшов і вбив у §2Гномських шахтах§7.
+found and killed in the Crystal	§7знайшов і вбив у §5Кришталевих
+found and killed in The Park.	§7знайшов і вбив у §3Парку§7.
+found and killed in the Moonglade	§7знайшов і вбив на §2Місячній
+Marsh.	§2галявині§7.
+found and killed in the Torrhus	§7знайшов і вбив у §6каньйоні
+found and killed in the Critter Safari.	§7знайшов і вбив на §2Сафарі звірят§7.
+found and killed during the Spooky	§7знайшов і вбив під час §6Моторошного
+Festival.	§6фестивалю§7.
+found and killed in The Catacombs.	§7знайшов і вбив у §cКатакомбах§7.
+View all of the Sea Creatures that	§7Переглянь усіх §3морських істот§7,
+you've killed while fishing.	§7яких ти вбив під час риболовлі.
+View all of the Mythological	§7Переглянь усіх §2міфологічних
+Creatures that you've killed.	§2істот§7, яких ти вбив.
+found and killed while fighting Jerry.	§7знайшов і вбив у битві з §6Джеррі§7.
+found and killed while fighting Kuudra.	§7знайшов і вбив у битві з §cКуудрою§7.
+found and killed on the Lotus Atoll.	§7знайшов і вбив на §aАтолі лотосів§7.
+Search through all of the mobs in	§7Пошук серед усіх мобів
+the Bestiary.	§7бестіарію.
+Reach new Milestones in your	§7Досягай нових §aвіх §7у своєму
+Bestiary by unlocking unique Family	§7бестіарії, відкриваючи унікальні рівні
+Milestone Bonus	§aБонус віхи
+Toggle the families completed display	§7Перемикає показ завершених родин
+for each Bestiary Family.	§7для кожної родини бестіарію.
+Can be found hanging around.	§7Зазвичай висить десь поруч.
+Kill a mob belonging to this Family to	§7Вбий моба з цієї родини, щоб
+unlock it in your Bestiary!	§7відкрити її в бестіарії!
+You haven't unlocked this Family yet!	§cТи ще не відкрив цю родину!
+Don't like making eye contact.	§7Не люблять дивитися в очі.
+Just a normal skelly.	§7Просто звичайний скелетик.
+World's loudest creatures.	§7Найгучніші створіння у світі.
+Likes to climb.	§7Любить лазити.
+Masters of alchemy.	§7Майстрині алхімії.
+Brains.	§7Мізки.
+Your [Lv1] Bat Stats:	§7Твої характеристики §8[§7Рів.1§8] §fкажана§7:
+Loot	§eЗдобич
+players!	§7гравців!
+Rankings may take some time to	§8Рейтинг може оновлюватися
+refresh.	§8не одразу.
+Wishes it could fly.	§7Мріє вміти літати.
+Natural predator of grass.	§7Природний хижак трави.
+Technically a health code violation.	§7Технічно — порушення санітарних норм.
+Smells like Bacon.	§7Пахне беконом.
+Never stops hopping.	§7Ніколи не перестає стрибати.
+Beep beep I'm a sheep.	§7Біп-біп, я вівця.
+A particularly gross pest.	§7Особливо гидкий шкідник.
+Usually just a hop, skip, and a jump	§7Зазвичай до нього — рукою
+away.	§7подати.
+Glides by in a blur of wings and	§7Пролітає розмитою плямою крил
+whispers.	§7і шепоту.
+Big, scary, and pink.	§7Великий, страшний і рожевий.
+A shy little fellow!	§7Сором'язливий малюк!
+Flickers softly - here one moment,	§7М'яко мерехтить — щойно був тут,
+gone the next.	§7а вже нема.
+A common Garden pest, known for its	§7Поширений садовий шкідник, відомий
+big eyes.	§7своїми великими очима.
+Pretty loud, and pretty annoying.	§7Досить гучна й досить набридлива.
+Drawn to the light and dew of the	§7Його вабить світло й роса
+moon.	§7місяця.
+Try and you just mite.	§7Спробуй — і, може, кліщ вийде.
+One of nature's most useless	§7Одне з найбезкорисніших створінь
+creatures.	§7природи.
+Fluttering around a Garden near you.	§7Пурхає в саду поруч із тобою.
+Strikes fast - *blink* - and it's	§7Б'є швидко — *блим* — і його
+already gone.	§7вже нема.
+Quick, yet nasty.	§7Швидкий, але мерзенний.
+Methodical in movement, ineffective in	§7Методичний у рухах, неефективний у
+survival.	§7виживанні.
+There can only be one, sometimes	§7Може бути лише один, а часом,
+two apparently.	§7як виявилося, і два.
+Zombuddy that I used to know.	§7Зомбудді, якого я колись знав.
+Nibbles away at underwater plants.	§7Гризе підводні рослини.
+Gorges itself on bamboo, never	§7Об'їдається бамбуком, ніколи
+knowing when to stop.	§7не знаючи міри.
+Capable of eating its entire body	§7Може з'їсти ягід стільки,
+weight in berries.	§7скільки важить сам.
+Learn to swim before you learn to	§7Навчися плавати, перш ніж учитися
+dive!	§7пірнати!
+No chill.	§7Жодного спокою.
+Capable of reaching high speeds	§7Розвиває таку швидкість,
+that allow it to shake off potential	§7що легко відривається від можливих
+predators.	§7хижаків.
+Capable of regenerating its limbs.	§7Уміє відрощувати кінцівки.
+It silently soars through the skies,	§7Він безшумно ширяє небом,
+its presence only betrayed by its	§7і видає його лише
+shadow.	§7тінь.
+Thinks photosynthesis is a	§7Вважає фотосинтез
+surface-plant propaganda invented	§7пропагандою наземних рослин, вигаданою
+by leafy elites to sell fertilizers.	§7листяними елітами, щоб продавати добрива.
+Unaware it even eats critters, just	§7Навіть не знає, що їсть звірят, — просто
+thinks the floor tastes nice.	§7вважає, що підлога смачна.
+Watch the foliage for the slightest	§7Стеж за листям — найменша
+sign of movement.	§7ознака руху.
+Though still an adolescent, it will	§7Хоч іще підліток, він
+defend honey with its life.	§7захищатиме мед ціною життя.
+Loves honey, the bees are just	§7Любить мед, а бджоли — це просто
+collateral.	§7супутні втрати.
+Tiny bugs flickering at the edge of	§7Крихітні комашки, що мерехтять на межі
+sight.	§7зору.
+Gets a rush from diving as deep as	§7Кайфує, пірнаючи якомога глибше,
+it can before surfacing at speed.	§7а потім стрімко виринаючи.
+Dwells in the depths, luring in small	§7Живе в глибинах і приманює дрібну
+fish with its lights.	§7рибу своїми вогниками.
+Its particularly thick fur causes it	§7Через особливо густе хутро він
+to frequently overheat, so it stays	§7часто перегрівається, тож тримається
+near water.	§7біля води.
+These frogs are agile jumpers.	§7Ці жаби — спритні стрибуни.
+Drawn to the scent of mangrove	§7Його вабить запах мангрових
+trees.	§7дерев.
+Whispers of a monster lurking in the	§7Чутки про чудовисько, що ховається
+loch permeate Galatea.	§7в озері, ширяться Галатеєю.
+Its wings, now more developed, can	§7Його крила, тепер розвиненіші,
+carry it great distances.	§7несуть його на великі відстані.
+Still young, its wings are particularly	§7Ще молодий, тож його крила особливо
+frail.	§7тендітні.
+Particularly sensitive to the	§7Особливо чутливий до
+pressure of the water in which it	§7тиску води, в якій
+resides.	§7живе.
+Lives for dozens of years taking	§7Живе десятки років, проживаючи
+one day at a time.	§7кожен день по черзі.
+Has a symbiotic relationship with the	§7Живе в симбіозі з
+dolphins of Murkwater Loch.	§7дельфінами озера Мурквотер.
+Reaches a new level of intimidating	§7Лякає ще більше,
+once you realize it can fly.	§7коли розумієш, що він уміє літати.
+Ugliest crossover.	§7Найпотворніший кросовер.
+They grow up so fast.	§7Як швидко вони ростуть.
+Ants are not meant to serve	§7Мурахи не створені, щоб служити
+grasshoppers!	§7коникам!
+Defies all scientific reasoning - how	§7Суперечить усім законам науки — як
+can it even fly?	§7воно взагалі літає?
+High up in the sky, and your	§7Високо в небі — і всі твої
+problems seem so far away.	§7проблеми здаються такими далекими.
+An old soul who's ready for a fight!	§7Стара душа, що завжди готова до бою!
+So cute you just want to take one	§7Такі милі, що хочеться забрати одного
+home.	§7додому.
+Ancient tales warn children to be	§7Давні казки застерігають дітей
+weary of any strange-looking trees.	§7остерігатися дивних на вигляд дерев.
+They burrow under the sand to keep	§7Вони зариваються в пісок, щоб
+cool.	§7не перегрітися.
+Schools of them light the way for	§7Їхні зграї освітлюють шлях
+each other.	§7одна одній.
+Firefoxes glow so brightly in the	§7Вогнелиси світяться так яскраво
+dark that they can be spotted from	§7в темряві, що їх видно
+nearly a mile away on a clear night.	§7майже за милю ясної ночі.
+And you thought the Giant Water	§7А ти думав, що гігантські водяні
+Bugs were big...	§7клопи великі...
+On rainy days it becomes a drizzly	§7У дощові дні він стає
+bear.	§7мрячним ведмедем.
+The complex tunnel systems of	§7За складні системи тунелів
+Torrhus Canyon are hotly contested	§7каньйону Торрус запекло борються
+by many creatures, Groundhogs	§7багато істот, і бабаки
+included.	§7теж.
+Its coloring helps it blend in with the	§7Забарвлення допомагає йому зливатися
+rest of the canyon.	§7з рештою каньйону.
+The bee equivalent of a UFO.	§7Бджолиний відповідник НЛО.
+Sometimes all that stands between	§7Іноді між тобою й вершиною
+you and the summit is an angry goat.	§7стоїть лише сердита коза.
+Rolls into a tight ball when	§7Згортається в тугий клубок, коли
+threatened.	§7йому загрожують.

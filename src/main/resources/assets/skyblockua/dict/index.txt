@@ -37,3 +37,9 @@ lore_played7.tsv
 bosses.tsv
 lore_played8.tsv
 lore_played9.tsv
+lore_played10.tsv
+names_played3.tsv
+lore_played11.tsv
+lore_played12.tsv
+lore_played13.tsv
+lore_played14.tsv

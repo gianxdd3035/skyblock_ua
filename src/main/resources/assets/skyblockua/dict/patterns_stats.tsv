@@ -15,6 +15,7 @@ Increases {stat} by {0}.	Додає {0} до {stat}.
 Increases {stat} by {0} and	Додає {0} до {stat} і
 {0}{stat}.	{0}{stat}.
 Grants {0}{stat} against	Дає {0}{stat} проти
+Grants {0} {stat} on	Дає {0} {stat} проти
 Grants {0}{stat} on	Дає {0}{stat} на
 Grants {0}{stat} if	Дає {0}{stat}, якщо
 Grants {0}{stat} for each	Дає {0}{stat} за кожен
@@ -36,3 +37,28 @@ Grants {0}{stat} while	Дає {0}{stat}, поки
 Grants {0}{stat}, which	Дає {0}{stat}, що
 {0}{stat}, which	{0}{stat}, що
 Grants {0}{stat} and {1}	Дає {0}{stat} і {1}
+Grants {0}{stat} when	Дає {0}{stat}, коли
+Grants {0}{stat} when mining	Дає {0}{stat} під час видобутку
+Gain {0}{stat} when mining	Отримуєш {0}{stat} під час видобутку
+{0}{stat} when mining	{0}{stat} під час видобутку
+Grants {0}{stat} for	Дає {0}{stat} за
+grants {0}{stat} for	дає {0}{stat} за
+Grants {0}{stat} for {1}s	Дає {0}{stat} на {1}с
+Grants {0}{stat} for {1}s.	Дає {0}{stat} на {1}с.
+Gain {0}{stat} for {1}s.	Отримуєш {0}{stat} на {1}с.
+Gain {0}{stat} for {1} seconds.	Отримуєш {0}{stat} на {1} секунд.
+Gain {0} {stat} while in	Отримуєш {0} {stat}, коли ти в
+Gain {0}{stat} while in	Отримуєш {0}{stat}, коли ти в
+Grants {0}{stat} while in the	Дає {0}{stat}, коли ти в
+Grants {0}{stat} to your pet	Дає улюбленцю {0}{stat}
+Grants {0}{stat} on weekdays and	Дає {0}{stat} у будні та
+Gives {0}{stat} to players	Дає {0}{stat} гравцям
+Grants an additional {0}{stat}	Дає додатково {0}{stat}
+Grants an additional {0}{stat}.	Дає додатково {0}{stat}.
+Grants {0}{stat} per level.	Дає {0}{stat} за кожен рівень.
+Gain {0}{stat} per level.	Отримуєш {0}{stat} за кожен рівень.
+{0}{stat} for each player on	{0}{stat} за кожного гравця на
+{0}{stat} for every digit in your	{0}{stat} за кожну цифру твоєї
+Grants {0}{stat} and {1}{stat2}	Дає {0}{stat} і {1}{stat2}
+Grants {0}{stat} and {1}{stat2} while	Дає {0}{stat} і {1}{stat2}, коли
+Gain {0}{stat} and {1}{stat2}.	Отримуєш {0}{stat} і {1}{stat2}.

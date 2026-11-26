@@ -60,7 +60,7 @@ public final class Translator<S> {
     private static final Pattern VALUE_LAST = Pattern.compile("^[^\\p{L}]*?([A-Za-z][A-Za-z ']*[A-Za-z]) [+-]?[\\d,.]+%?$");
     private static final Pattern ROMAN_LABEL = Pattern.compile(" [IVXLCDM]+$");
     private static final Pattern ENGLISH_WORD = Pattern.compile("(?<![A-Za-z])[A-Za-z]{3,}(?![A-Za-z])");
-    private static final Pattern TRAILING_DECOR = Pattern.compile("[^\\p{L}\\p{N})\\]!?.'\"]+$");
+    private static final Pattern TRAILING_DECOR = Pattern.compile("[^\\p{L}0-9)\\]!?.'\"]+$");
 
     /* Перекладена назва предмета разом із її родом. */
     private record NameHit(String text, char gender, boolean fromArmor) {

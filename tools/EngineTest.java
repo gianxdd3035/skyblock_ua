@@ -44,7 +44,8 @@ public class EngineTest {
 
     static List<Seg<TStyle>> parse(String legacy) {
         List<Seg<TStyle>> out = new ArrayList<>();
-        Lines.appendLegacy(out, legacy, BASE, OPS);
+        /* у missing.tsv RGB-кольори записано як §#rrggbb — тут вистачає наближення §f */
+        Lines.appendLegacy(out, legacy.replaceAll("§#[0-9a-fA-F]{6}", "§f"), BASE, OPS);
         return out;
     }
 
@@ -76,6 +77,7 @@ public class EngineTest {
                     + ", names " + dict.size(Dict.Section.NAMES) + ", labels " + dict.size(Dict.Section.LABELS)
                     + ", tokens " + dict.size(Dict.Section.TOKENS) + "), invalid lines: " + dict.invalidLines());
             if (args.length >= 2 && args[1].endsWith(".tsv")) played(dict, Paths.get(args[1]));
+            else if (args.length >= 2 && args[1].endsWith(".txt")) show(dict, Paths.get(args[1]));
             else if (args.length >= 2) corpus(dict, Paths.get(args[1]));
         }
         System.out.println(failures == 0 ? "ALL MECHANICS TESTS PASSED" : failures + " FAILURES");
@@ -123,6 +125,9 @@ public class EngineTest {
         /* назва з рефоржем (узгодженим за родом) і зірками */
         expect(t, "§6Fierce Superior Dragon Helmet §6✪✪✪", Translator.Kind.NAME,
                 "§6Лютий Шолом Вищого Дракона ✪✪✪");
+        /* майстерні зірки (➊-➎) після ✪ теж лишаються як прикраса */
+        expect(t, "§6Fierce Hyperion §6✪✪✪✪✪§c➋", Translator.Kind.NAME,
+                "§6Лютий Гіперіон ✪✪✪✪✪§c➋");
         /* броня: частина + сет, рефорж у роді частини */
         expect(t, "§6Ancient Necron's Boots", Translator.Kind.NAME, "§6Стародавні чоботи Некрона");
         expect(t, "§5Necron's Helmet", Translator.Kind.NAME, "§5Шолом Некрона");
@@ -321,6 +326,20 @@ public class EngineTest {
         }
         System.out.printf("played lines: %d/%d translated%n", done, total);
         Files.write(Paths.get("build/played_left.tsv"), left, StandardCharsets.UTF_8);
+    }
+
+    /* Перекласти рядки з файлу (по одному, як LORE) і показати результат — для перегляду перекладу в контексті */
+    static void show(Dict dict, Path file) throws Exception {
+        Translator<TStyle> t = new Translator<>(OPS);
+        t.setDict(dict);
+        for (String l : Files.readAllLines(file, StandardCharsets.UTF_8)) {
+            if (l.isBlank()) { System.out.println(); continue; }
+            /* рядок із префіксом "N:" перекладається як назва предмета */
+            boolean name = l.startsWith("N:");
+            String src = name ? l.substring(2) : l;
+            String r = run(t, src, name ? Translator.Kind.NAME : Translator.Kind.LORE);
+            System.out.println((r == null ? "  -- " + src : "  ok " + r).replaceAll("§.", ""));
+        }
     }
 
     /* Прогнати весь корпус NEU і порахувати, яка частка рядків перекладається. */

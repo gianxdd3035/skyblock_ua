@@ -1,0 +1,376 @@
+# Одинадцята партія з гри (26.11.2026): дати, кукі-баф, меню, підземелля, гарячі точки
+January {0}, {1}	§8{0} січня {1}
+January {0}st, {1}	§8{0} січня {1}
+January {0}nd, {1}	§8{0} січня {1}
+January {0}rd, {1}	§8{0} січня {1}
+January {0}th, {1}	§8{0} січня {1}
+January {0}	§8січень {0}
+Mon Jan {0} {1} {2}:{3}:{4}	§8§oПн, {0} січня {1} {2}:{3}:{4}
+Tue Jan {0} {1} {2}:{3}:{4}	§8§oВт, {0} січня {1} {2}:{3}:{4}
+Wed Jan {0} {1} {2}:{3}:{4}	§8§oСр, {0} січня {1} {2}:{3}:{4}
+Thu Jan {0} {1} {2}:{3}:{4}	§8§oЧт, {0} січня {1} {2}:{3}:{4}
+Fri Jan {0} {1} {2}:{3}:{4}	§8§oПт, {0} січня {1} {2}:{3}:{4}
+Sat Jan {0} {1} {2}:{3}:{4}	§8§oСб, {0} січня {1} {2}:{3}:{4}
+Sun Jan {0} {1} {2}:{3}:{4}	§8§oНд, {0} січня {1} {2}:{3}:{4}
+February {0}, {1}	§8{0} лютого {1}
+February {0}st, {1}	§8{0} лютого {1}
+February {0}nd, {1}	§8{0} лютого {1}
+February {0}rd, {1}	§8{0} лютого {1}
+February {0}th, {1}	§8{0} лютого {1}
+February {0}	§8лютий {0}
+Mon Feb {0} {1} {2}:{3}:{4}	§8§oПн, {0} лютого {1} {2}:{3}:{4}
+Tue Feb {0} {1} {2}:{3}:{4}	§8§oВт, {0} лютого {1} {2}:{3}:{4}
+Wed Feb {0} {1} {2}:{3}:{4}	§8§oСр, {0} лютого {1} {2}:{3}:{4}
+Thu Feb {0} {1} {2}:{3}:{4}	§8§oЧт, {0} лютого {1} {2}:{3}:{4}
+Fri Feb {0} {1} {2}:{3}:{4}	§8§oПт, {0} лютого {1} {2}:{3}:{4}
+Sat Feb {0} {1} {2}:{3}:{4}	§8§oСб, {0} лютого {1} {2}:{3}:{4}
+Sun Feb {0} {1} {2}:{3}:{4}	§8§oНд, {0} лютого {1} {2}:{3}:{4}
+March {0}, {1}	§8{0} березня {1}
+March {0}st, {1}	§8{0} березня {1}
+March {0}nd, {1}	§8{0} березня {1}
+March {0}rd, {1}	§8{0} березня {1}
+March {0}th, {1}	§8{0} березня {1}
+March {0}	§8березень {0}
+Mon Mar {0} {1} {2}:{3}:{4}	§8§oПн, {0} березня {1} {2}:{3}:{4}
+Tue Mar {0} {1} {2}:{3}:{4}	§8§oВт, {0} березня {1} {2}:{3}:{4}
+Wed Mar {0} {1} {2}:{3}:{4}	§8§oСр, {0} березня {1} {2}:{3}:{4}
+Thu Mar {0} {1} {2}:{3}:{4}	§8§oЧт, {0} березня {1} {2}:{3}:{4}
+Fri Mar {0} {1} {2}:{3}:{4}	§8§oПт, {0} березня {1} {2}:{3}:{4}
+Sat Mar {0} {1} {2}:{3}:{4}	§8§oСб, {0} березня {1} {2}:{3}:{4}
+Sun Mar {0} {1} {2}:{3}:{4}	§8§oНд, {0} березня {1} {2}:{3}:{4}
+April {0}, {1}	§8{0} квітня {1}
+April {0}st, {1}	§8{0} квітня {1}
+April {0}nd, {1}	§8{0} квітня {1}
+April {0}rd, {1}	§8{0} квітня {1}
+April {0}th, {1}	§8{0} квітня {1}
+April {0}	§8квітень {0}
+Mon Apr {0} {1} {2}:{3}:{4}	§8§oПн, {0} квітня {1} {2}:{3}:{4}
+Tue Apr {0} {1} {2}:{3}:{4}	§8§oВт, {0} квітня {1} {2}:{3}:{4}
+Wed Apr {0} {1} {2}:{3}:{4}	§8§oСр, {0} квітня {1} {2}:{3}:{4}
+Thu Apr {0} {1} {2}:{3}:{4}	§8§oЧт, {0} квітня {1} {2}:{3}:{4}
+Fri Apr {0} {1} {2}:{3}:{4}	§8§oПт, {0} квітня {1} {2}:{3}:{4}
+Sat Apr {0} {1} {2}:{3}:{4}	§8§oСб, {0} квітня {1} {2}:{3}:{4}
+Sun Apr {0} {1} {2}:{3}:{4}	§8§oНд, {0} квітня {1} {2}:{3}:{4}
+May {0}, {1}	§8{0} травня {1}
+May {0}st, {1}	§8{0} травня {1}
+May {0}nd, {1}	§8{0} травня {1}
+May {0}rd, {1}	§8{0} травня {1}
+May {0}th, {1}	§8{0} травня {1}
+May {0}	§8травень {0}
+Mon May {0} {1} {2}:{3}:{4}	§8§oПн, {0} травня {1} {2}:{3}:{4}
+Tue May {0} {1} {2}:{3}:{4}	§8§oВт, {0} травня {1} {2}:{3}:{4}
+Wed May {0} {1} {2}:{3}:{4}	§8§oСр, {0} травня {1} {2}:{3}:{4}
+Thu May {0} {1} {2}:{3}:{4}	§8§oЧт, {0} травня {1} {2}:{3}:{4}
+Fri May {0} {1} {2}:{3}:{4}	§8§oПт, {0} травня {1} {2}:{3}:{4}
+Sat May {0} {1} {2}:{3}:{4}	§8§oСб, {0} травня {1} {2}:{3}:{4}
+Sun May {0} {1} {2}:{3}:{4}	§8§oНд, {0} травня {1} {2}:{3}:{4}
+June {0}, {1}	§8{0} червня {1}
+June {0}st, {1}	§8{0} червня {1}
+June {0}nd, {1}	§8{0} червня {1}
+June {0}rd, {1}	§8{0} червня {1}
+June {0}th, {1}	§8{0} червня {1}
+June {0}	§8червень {0}
+Mon Jun {0} {1} {2}:{3}:{4}	§8§oПн, {0} червня {1} {2}:{3}:{4}
+Tue Jun {0} {1} {2}:{3}:{4}	§8§oВт, {0} червня {1} {2}:{3}:{4}
+Wed Jun {0} {1} {2}:{3}:{4}	§8§oСр, {0} червня {1} {2}:{3}:{4}
+Thu Jun {0} {1} {2}:{3}:{4}	§8§oЧт, {0} червня {1} {2}:{3}:{4}
+Fri Jun {0} {1} {2}:{3}:{4}	§8§oПт, {0} червня {1} {2}:{3}:{4}
+Sat Jun {0} {1} {2}:{3}:{4}	§8§oСб, {0} червня {1} {2}:{3}:{4}
+Sun Jun {0} {1} {2}:{3}:{4}	§8§oНд, {0} червня {1} {2}:{3}:{4}
+July {0}, {1}	§8{0} липня {1}
+July {0}st, {1}	§8{0} липня {1}
+July {0}nd, {1}	§8{0} липня {1}
+July {0}rd, {1}	§8{0} липня {1}
+July {0}th, {1}	§8{0} липня {1}
+July {0}	§8липень {0}
+Mon Jul {0} {1} {2}:{3}:{4}	§8§oПн, {0} липня {1} {2}:{3}:{4}
+Tue Jul {0} {1} {2}:{3}:{4}	§8§oВт, {0} липня {1} {2}:{3}:{4}
+Wed Jul {0} {1} {2}:{3}:{4}	§8§oСр, {0} липня {1} {2}:{3}:{4}
+Thu Jul {0} {1} {2}:{3}:{4}	§8§oЧт, {0} липня {1} {2}:{3}:{4}
+Fri Jul {0} {1} {2}:{3}:{4}	§8§oПт, {0} липня {1} {2}:{3}:{4}
+Sat Jul {0} {1} {2}:{3}:{4}	§8§oСб, {0} липня {1} {2}:{3}:{4}
+Sun Jul {0} {1} {2}:{3}:{4}	§8§oНд, {0} липня {1} {2}:{3}:{4}
+August {0}, {1}	§8{0} серпня {1}
+August {0}st, {1}	§8{0} серпня {1}
+August {0}nd, {1}	§8{0} серпня {1}
+August {0}rd, {1}	§8{0} серпня {1}
+August {0}th, {1}	§8{0} серпня {1}
+August {0}	§8серпень {0}
+Mon Aug {0} {1} {2}:{3}:{4}	§8§oПн, {0} серпня {1} {2}:{3}:{4}
+Tue Aug {0} {1} {2}:{3}:{4}	§8§oВт, {0} серпня {1} {2}:{3}:{4}
+Wed Aug {0} {1} {2}:{3}:{4}	§8§oСр, {0} серпня {1} {2}:{3}:{4}
+Thu Aug {0} {1} {2}:{3}:{4}	§8§oЧт, {0} серпня {1} {2}:{3}:{4}
+Fri Aug {0} {1} {2}:{3}:{4}	§8§oПт, {0} серпня {1} {2}:{3}:{4}
+Sat Aug {0} {1} {2}:{3}:{4}	§8§oСб, {0} серпня {1} {2}:{3}:{4}
+Sun Aug {0} {1} {2}:{3}:{4}	§8§oНд, {0} серпня {1} {2}:{3}:{4}
+September {0}, {1}	§8{0} вересня {1}
+September {0}st, {1}	§8{0} вересня {1}
+September {0}nd, {1}	§8{0} вересня {1}
+September {0}rd, {1}	§8{0} вересня {1}
+September {0}th, {1}	§8{0} вересня {1}
+September {0}	§8вересень {0}
+Mon Sep {0} {1} {2}:{3}:{4}	§8§oПн, {0} вересня {1} {2}:{3}:{4}
+Tue Sep {0} {1} {2}:{3}:{4}	§8§oВт, {0} вересня {1} {2}:{3}:{4}
+Wed Sep {0} {1} {2}:{3}:{4}	§8§oСр, {0} вересня {1} {2}:{3}:{4}
+Thu Sep {0} {1} {2}:{3}:{4}	§8§oЧт, {0} вересня {1} {2}:{3}:{4}
+Fri Sep {0} {1} {2}:{3}:{4}	§8§oПт, {0} вересня {1} {2}:{3}:{4}
+Sat Sep {0} {1} {2}:{3}:{4}	§8§oСб, {0} вересня {1} {2}:{3}:{4}
+Sun Sep {0} {1} {2}:{3}:{4}	§8§oНд, {0} вересня {1} {2}:{3}:{4}
+October {0}, {1}	§8{0} жовтня {1}
+October {0}st, {1}	§8{0} жовтня {1}
+October {0}nd, {1}	§8{0} жовтня {1}
+October {0}rd, {1}	§8{0} жовтня {1}
+October {0}th, {1}	§8{0} жовтня {1}
+October {0}	§8жовтень {0}
+Mon Oct {0} {1} {2}:{3}:{4}	§8§oПн, {0} жовтня {1} {2}:{3}:{4}
+Tue Oct {0} {1} {2}:{3}:{4}	§8§oВт, {0} жовтня {1} {2}:{3}:{4}
+Wed Oct {0} {1} {2}:{3}:{4}	§8§oСр, {0} жовтня {1} {2}:{3}:{4}
+Thu Oct {0} {1} {2}:{3}:{4}	§8§oЧт, {0} жовтня {1} {2}:{3}:{4}
+Fri Oct {0} {1} {2}:{3}:{4}	§8§oПт, {0} жовтня {1} {2}:{3}:{4}
+Sat Oct {0} {1} {2}:{3}:{4}	§8§oСб, {0} жовтня {1} {2}:{3}:{4}
+Sun Oct {0} {1} {2}:{3}:{4}	§8§oНд, {0} жовтня {1} {2}:{3}:{4}
+November {0}, {1}	§8{0} листопада {1}
+November {0}st, {1}	§8{0} листопада {1}
+November {0}nd, {1}	§8{0} листопада {1}
+November {0}rd, {1}	§8{0} листопада {1}
+November {0}th, {1}	§8{0} листопада {1}
+November {0}	§8листопад {0}
+Mon Nov {0} {1} {2}:{3}:{4}	§8§oПн, {0} листопада {1} {2}:{3}:{4}
+Tue Nov {0} {1} {2}:{3}:{4}	§8§oВт, {0} листопада {1} {2}:{3}:{4}
+Wed Nov {0} {1} {2}:{3}:{4}	§8§oСр, {0} листопада {1} {2}:{3}:{4}
+Thu Nov {0} {1} {2}:{3}:{4}	§8§oЧт, {0} листопада {1} {2}:{3}:{4}
+Fri Nov {0} {1} {2}:{3}:{4}	§8§oПт, {0} листопада {1} {2}:{3}:{4}
+Sat Nov {0} {1} {2}:{3}:{4}	§8§oСб, {0} листопада {1} {2}:{3}:{4}
+Sun Nov {0} {1} {2}:{3}:{4}	§8§oНд, {0} листопада {1} {2}:{3}:{4}
+December {0}, {1}	§8{0} грудня {1}
+December {0}st, {1}	§8{0} грудня {1}
+December {0}nd, {1}	§8{0} грудня {1}
+December {0}rd, {1}	§8{0} грудня {1}
+December {0}th, {1}	§8{0} грудня {1}
+December {0}	§8грудень {0}
+Mon Dec {0} {1} {2}:{3}:{4}	§8§oПн, {0} грудня {1} {2}:{3}:{4}
+Tue Dec {0} {1} {2}:{3}:{4}	§8§oВт, {0} грудня {1} {2}:{3}:{4}
+Wed Dec {0} {1} {2}:{3}:{4}	§8§oСр, {0} грудня {1} {2}:{3}:{4}
+Thu Dec {0} {1} {2}:{3}:{4}	§8§oЧт, {0} грудня {1} {2}:{3}:{4}
+Fri Dec {0} {1} {2}:{3}:{4}	§8§oПт, {0} грудня {1} {2}:{3}:{4}
+Sat Dec {0} {1} {2}:{3}:{4}	§8§oСб, {0} грудня {1} {2}:{3}:{4}
+Sun Dec {0} {1} {2}:{3}:{4}	§8§oНд, {0} грудня {1} {2}:{3}:{4}
+Grants {0} Mining Spread towards	§7Дає §e{0} поширення копання §7для
+{0} Tracking	§5 §d{0} вистежування
+{0} Fishing Speed, {1} Speed and	§b{0} швидкості риболовлі§7, §f{1} швидкості §7і
+and {0} Ferocity.	§7і §c{0} лютості§7.
+dealing {0}x Swipe Damage to mobs in its	§7завдаючи §c{0}x §4шкоди розмаху§7 мобам на
+Armor.	§5броні§7.
+Convert {0} of  Mana used as 	§7Перетворює §a{0} §7витраченої §b мани §7на §a
+Defense for {0}s.	§aзахист §7на §a{0}с§7.
+ Mangrove Fortune.	§6 фортуни мангрового дерева§7.
+Jumbo Backpack	§6Велетенський рюкзак
+Greater Backpack	§5Великий рюкзак
+Large Backpack	§5Широкий рюкзак
+Perfectly-Cut Fuel Tank	§aІдеально огранений паливний бак
+Amber-Polished Drill Engine	§aДвигун бура з бурштиновим поліруванням
+Blue Cheese Goblin Omelette Part	§aДеталь «Гоблінський омлет із блакитним сиром»
+- Glacite Walker Lv24 ({0} Mana)	§8- §cГляцитовий ходак §7Рів.24 §8(§3{0} мани§8)
+Powder {0} {1} {2}/{3} {4} {5} ({6},{7})	§7Порох {0} {1} {2}§8/{3} {4} {5} (§e{6},{7}§8)
+Upon hitting a monster, it becomes	§7Коли б'єш монстра, він
+slowed by {0}.	§7сповільнюється на §a{0}§7.
+Spider Whisperer	§6Шептун павуків
+Spider, Cave Spider and Tarantula	§7Міньйони павуків, печерних павуків і тарантулів
+minions work {0} faster while on	§7працюють на §a{0} §7швидше, коли ти на
+your island.	§7своєму острові.
+Web Battlefield	§6Павутинне поле бою
+Killing mobs grants {0} Strength	§7Вбивство мобів дає §c{0} сили
+for {0}s to all players staying within	§7на §a{0}с §7усім гравцям у межах
+{0} blocks of where they died. Stacks	§a{0} §7блоків від місця їхньої смерті. §8Складається
+up to {0} times.	§8до {0} разів.
+Webbed Cells	§6Павутинні клітини
+Tarantula Broodfather's  Vitality	§7Зменшення §4 життєздатності §7від §cТарантула-праотця
+reduction is {0} less effective	§7діє на §a{0} §7слабше
+against you.	§7проти тебе.
+Eight Legs	§6Вісім лап
+Decreases the mana cost of Spider,	§7Зменшує вартість мани Павукових,
+Tarantula, Primordial and Spirit Boots	§7Тарантулових, Первісних і Духовних чобіт
+Arachnid Slayer	§6Вбивця павукоподібних
+Spiders.	§4павуків§7.
+Furnace	§6Піч
+Magma Fields.	§cМагмових полях§7.
+Dispersion	§6Розсіювання
+While in the Crystal Hollows, killing	§7У §5Кришталевих печерах §7вбивство
+mobs reduces your  Heat by {0}.	§7мобів зменшує твій §c жар §7на §c{0}§7.
+Cannibal	§6Канібал
+Increases damage dealt to Bal by	§7Збільшує шкоду по §c§lБалу §7на
+Define custom rules to automatically	§7Задай власні §cправила§7, щоб автоматично
+equip your pets.	§7одягати улюбленців.
+Rules used: {0}/{1}	§7Використано правил: §c{0}/{1}
+Click to setup autopet!	§eНатисни, щоб налаштувати автоулюбленця!
+Right-click to toggle name tags!	§bПКМ, щоб перемкнути підписи!
+Left-click to switch visibility!	§eЛКМ, щоб змінити видимість!
+{0} faster while on your island	§a{0} §7швидше, коли ти на своєму острові
+produce {0} Chocolate per second!	§7виробляють §6{0} шоколаду §7щосекунди!
+produce {0} Chocolate per	§7виробляють §6{0} шоколаду §7за
+amount of upgrades!	§aкількості покращень!
+arrows by {0}.	§7стрілами на §c{0}§7.
+Each stack grants {0} Damage and {1}	§7Кожен заряд дає §c{0} шкоди§7 і §b{1}
+At {0} stacks shoot {1} arrows that deal {2}	§7На §c{0}§7 зарядах випускаєш §a{1}§7 стріл, що завдають §c{2}
+Calcified Bonus	§9Скам'янілий бонус
+Grants {0} Defense towards Sea	§7Дає §a{0} захисту §7проти §3морських
+increases the amount of time you	§7що збільшує час, який ти
+can stay under water.	§7можеш провести під водою.
+underwater.	§9під водою§7.
+ Timid mobs have a {0} chance to	§e Полохливі §7моби мають §a{0} §7шансу
+remain still instead of fleeing.	§7завмерти замість того, щоб утекти.
+Pests by {0}.	§2шкідників §7на §a{0}§7.
+{0} Small Sack of Sacks Slots	§5  §8+§7{0} §7слотів §aМалого мішка мішків
+{0} Mining Experience	§5  §8+§3{0} §7досвіду копання
+Chance for double drops: {0}	§7Шанс §aподвійної §7здобичі: §a{0}
+Chance for double blocks: {0}	§7Шанс §aподвійних §7блоків: §a{0}
+Damage Reduction: {0}	§7Зменшення шкоди: §a{0}
+Level up a pet to {0}.	§7Прокачай улюбленця до {0}.
+by {0}. Unlimited Duration!	§7на §a{0}§7. Безстрокова дія!
+Uses the magic of Hoppity to	§7Використовує магію §aХоппіті§7, щоб
+uncover hidden Chocolate Rabbit	§7знаходити приховані §aяйця шоколадних
+Eggs.	§aкроликів§7.
+Points towards the nearest unclaimed	§7Вказує на найближче незібране
+Chocolate Rabbit Egg!	§aяйце шоколадного кролика§7!
+Only works during Hoppity's Hunt.	§7Працює лише під час §dПолювання Хоппіті§7.
+Advance Time by {0} hour!	§7Пересуває час на §d{0} год§7!
+Impacts your Minions, Chocolate	§7Впливає на міньйонів, шоколадну
+Factory, Aging Items, Kat, Fann,	§7фабрику, предмети, що старіють, Кет, Фенна,
+Greenhouse, and The Forge.	§7теплицю і Кузню.
+ꨃ Speedy Line	§9ꨃ §aШвидка волосінь
+Stiff Bonus	§9Жорсткий бонус
+Sea Creatures killed with this Fishing	§3Морські істоти§7, вбиті цією §bвудкою§7,
+Rod drop {0} Chum.	§7дають §a{0} прикорму§7.
+Gains {0} Damage per Taming level	§7Отримує §c{0} шкоди §7за кожен рівень приручення
+and copies the base Combat stats of	§7і копіює базові §cбойові §7характеристики
+your active pet.	§7твого активного улюбленця.
+Magic Find on  Mythological mobs	§bмагічної удачі §7проти §2 міфологічних §7мобів
+per Bestiary tier you have across	§7за кожен рівень §3бестіарію§7, який маєш
+all of them.	§7по всіх них.
+ Mythological Bestiary Tiers: {0}	§7Рівні бестіарію §2 міфологічних§7: §3{0}
+Withered Bonus	§9Зів'ялий бонус
+Grants {0} Strength per Catacombs	§7Дає §c{0} сили §7за кожен рівень уміння §cКатакомб§7,
+skill level you have.	§7який у тебе є.
+Ringtones	§5 §6§lРингтони
+Tic Tac Toe	§5 §d§lХрестики-нулики
+Snake	§5 §d§lЗмійка
+Speed Dial	§5 §b§lШвидкий набір
+ථ Hotspot Hook	§9ථ §5Гачок гарячих точок
+Grants a {0} chance to catch	§7Дає §a{0} §7шансу виловити
+Hotspot Sea Creatures while fishing	§dморських істот гарячих точок§7, коли рибалиш
+in a Hotspot.	§7у §dгарячій точці§7.
+࿉ Hotspot Sinker	§9࿉ Грузило гарячих точок
+Increases the bonuses of Fishing	§7Збільшує бонуси §dрибальських
+Hotspots by {0}.	§dгарячих точок §7на §a{0}§7.
+gain {0}  Speed for {1} seconds.	§7отримуєш §a{0} §f швидкості§7 на §a{1} секунд§7.
+Teleport to your targeted block up	§7Телепортує до блоку, на який ти дивишся,
+View all of your SkyBlock progress,	§7Переглянь увесь свій прогрес у SkyBlock,
+including your Skills, Collections,	§7зокрема вміння, колекції,
+Recipes, and more!	§7рецепти та інше!
+{0} product	§8{0} товар
+▶ Normal Enchantments	§6▶ §7Звичайні зачарування
+Unique items that allow you to learn	§7Унікальні предмети, що дають вивчити
+Powers at the Thaumaturgist.	§7Сили в Тауматурга.
+▶ Pet Candies	§d▶ §7Цукерки для улюбленців
+▶ Griffin Upgrade Stones	§d▶ §7Камені покращення грифона
+▶ Pig Ears	§d▶ §7Свинячі вуха
+▶ Seal Plushies	§b▶ §7Плюшеві тюлені
+▶ Honey Dippers	§6▶ §7Медові ложки
+▶ Witch Cauldrons	§5▶ §7Відьмині казани
+▶ Frog Treats	§a▶ §7Ласощі для жаб
+▶ Sloth Claws	§f▶ §7Кігті лінивця
+▶ Minerals	§9▶ §7Мінерали
+▶ Coupons	§a▶ §7Купони
+▶ Mythological	§9▶ §7Міфологічне
+▶ Jerry Boxes	§9▶ §7Коробки Джеррі
+▶ Diaz	§6▶ §7Діас
+▶ Hoppity's Hunt	§d▶ §7Полювання Хоппіті
+▶ Year of the Seal	§9▶ §7Рік тюленя
+Consume to gain the Cookie Buff for	§7З'їж, щоб отримати §dпечивний баф §7на
+{0} days	§b{0} §7днів
+‣ Gain {0} {1} Bits	§8‣ §7Отримуєш §b{0} {1} бітів
+‣ Ability to gain Bits!	§8‣ §7Можливість отримувати §bбіти§7!
+‣ {0}☯ on all Wisdom stats	§8‣ §3{0}☯ §7до всіх видів §3мудрості
+‣ {0} Magic Find	§8‣ §b{0} §7магічної удачі
+‣ Keep coins on death	§8‣ §7Не втрачаєш §6монети §7при смерті
+‣ Permafly on private islands and gardens	§8‣ §eПостійний політ §7на приватних островах і в садах
+‣ Quick access to some menus using their	§8‣ §7Швидкий доступ до деяких меню через
+respective commands:	§7відповідні команди:
+/compactor, and /deletor	§5  §c/compactor§7 і §c/deletor
+‣ Sell items directly to the trades and cookie menu	§8‣ §7Продаж предметів прямо в меню торгівлі та печива
+‣ AFK immunity on your island and garden	§8‣ §aНевразливість §7до АФК на острові й у саду
+‣ Toggle specific potion effects	§8‣ §7Вмикання й вимикання окремих §dефектів зілль
+‣ Link your items in chat using /show	§8‣ §7Показ предметів у чаті через §e/show
+‣ Insta-sell your Material stash to the Bazaar	§8‣ §7Миттєвий продаж схованки матеріалів на §6Базарі
+‣ Increases Chocolate Factory production by {0}x	§8‣ §7Збільшує виробництво §6шоколадної фабрики §7на §6{0}x
+‣ Allows consuming Mixins directly from your inventory	§8‣ §7Дає вживати §9міксини §7прямо з інвентаря
+‣ Call Abiphone Contacts with /call	§8‣ §7Дзвінки §3контактам Абіфона §7через §b/call
+Legendary commodity	§8Легендарний товар
+Epic commodity	§8Епічний товар
+Rare minerals found from mining that	§7Рідкісні мінерали з копання, що
+enhance your items.	§7покращують твої предмети.
+Seller is in your co-op!	§bПродавець у твоєму кооперативі!
+ Pests have a {0}→{1} chance to	§2 Шкідники §7мають {0}→{1} §7шансу
+drop a second Vinyl.	§7скинути другу платівку.
+{0} unrenewable energy!	§8{0} невідновної енергії!
+Consume this while on your Garden	§7З'їж це у своєму §aСаду§7,
+to add {0} Pest to your vacuum bag.	§7щоб додати §2{0} шкідника §7у мішок пилососа.
+A cup of soup from the Communal	§7Чашка супу з §eСпільного
+Stew.	§eрагу§7.
+Found in the Burning Desert.	§7Трапляється в §eПалючій пустелі§7.
+Bring this to Odger at the top of the	§7Принеси це §fОджеру §7на вершину
+Adds {0} Level to all of your unlocked Heart of	§7Додає §a{0} рівень §7до всіх відкритих перків §5Серця
+the Mountain perks.	§5гори§7.
+Grants {0} Trophy Chance, doubled	§7Дає §6{0} шансу трофею§7, подвоєного
+during Weather!	§7під час §bнегоди§7!
+Charge your jump by sneaking. The longer	§7Заряджай стрибок, присівши. Що довше
+you sneak, the higher you will jump!	§7сидиш, то вище стрибнеш!
+Hyper Bonus	§9Гіпербонус
+Grants {0} Speed for {1}s after	§7Дає §f{0} швидкості §7на §a{1}с §7після
+using a Transmission ability.	§7використання здібності §6телепортації§7.
+Instead of dying, gain damage	§7Замість смерті отримуєш невразливість
+immunity and {0}  Strength for {1}s	§7до шкоди і §a{0} §c сили §7на §a{1}с
+and fully replenish your health. The	§7і повністю відновлюєш здоров'я.
+cooldown and Strength bonus you	§7Перезарядка й бонус сили, який ти
+receive improve based on your	§7отримуєш, залежать від твого
+Dungeoneering Skill level. This ability	§7рівня §aвміння підземель§7. Ця здібність
+only works while in The Catacombs!	§7діє лише в §cКатакомбах§7!
+As a weapon created by Scarf, it automatically	§7Як зброя, створена §cСкарфом§7, вона сама
+adapts to its user inside Dungeons.	§7підлаштовується під власника в підземеллях.
+players within {0} blocks are healed for {1}	§7гравці в радіусі §e{0} §7блоків лікуються на §a{1}
+of your Life Steal, Drain, and Vampirism healing.	§7від твого лікування §9Крадіжкою життя§7, §9Висмоктуванням §7і §9Вампіризмом§7.
+melee attacks restore {0} additional mana.	§7удари ближнього бою відновлюють §b{0} §7додаткової мани.
+take {0} more damage from your arrows for	§7отримують на §c{0} §7більше шкоди від твоїх стріл протягом
+Reduces the defense of your target	§7Зменшує захист твоєї цілі
+by {0} of their max  Defense on	§7на §a{0} §7від її макс. §a захисту §7при
+hit, stacking up to {0} times.	§7ударі, складається до §a{0} §7разів.
+Shoots balloons that create a large explosion	§7Стріляє кульками, що створюють великий вибух
+on impact, dealing up to {0} damage.	§7при влучанні й завдають до §c{0} §7шкоди.
+While in The Catacombs, consume {0}⸕	§7У §cКатакомбах §7витрачає §e{0}§c⸕
+charge to break a block. {0} blocks can	§7заряд, щоб зламати блок. §3{0}§7 блоків можна
+be broken at a time, and re-appear after	§7зламати одночасно, і вони з'являються знову через
+{0}s. {1}⸕ charges are regenerated each	§a{0}с§7. §e{1}§c⸕§7 заряди відновлюються кожні
+Creates a circle with a radius of {0} blocks.	§7Створює коло радіусом §a{0} блоків§7.
+After {0}s, all mobs inside are frozen for {1}s.	§7Через §a{0}с§7 усі моби всередині замерзають на §a{1}с§7.
+Shoots {0} arrows at once.	§7Випускає §b{0} §7стріли одночасно.
+Can damage endermen.	§7Може ранити ендерменів.
+Divides your  Crit Chance by {0}!	§cДілить твій §9 шанс криту §cна {0}!
+Can be cast after landing {0} hits.	§7Можна застосувати після §6{0} §7влучань.
+Shoot a beam, penetrating up to {0}	§7Випускає промінь, що пробиває до §e{0}
+The beam always crits.	§7Промінь завжди критує.
+◆ Blood Rune I	§c◆ Руна крові I
+Spawns a layered veil that negates	§7Створює багатошарову завісу, що поглинає
+damage for {0}s, as follows:	§7шкоду на §a{0}с§7 ось так:
+➤ Lose a layer on hit, consuming	§8➤ §7При ударі втрачаєш шар, витрачаючи
+{0} Vitality and block up to {1}	§4{0} життєздатності §7і блокуючи до §c{1}
+➤ The damage blocked scales with	§8➤ §7Заблокована шкода залежить від
+your Dungeon Stat Boost while in The	§7твого §5підсилення характеристик у підземеллях§7 у
+➤ When the damage exceeds a	§8➤ §7Коли шкода перевищує
+layer's limit, another layer is	§7межу шару, витрачається
+consumed, until all damage is	§7наступний шар, доки всю шкоду
+accounted for.	§7не буде враховано.
+➤ When you run out of  Vitality,	§8➤ §7Коли закінчується §4 життєздатність§7,
+consume all  Vitality and take slight	§7витрачаєш усю §4 життєздатність §7і отримуєш легке
+➤ You cannot attack or regenerate	§8➤ §7Ти не можеш атакувати чи відновлювати
+Vitality while the veil is up.	§4життєздатність§7, поки завіса активна.
+Gain {0}☯ Combat Wisdom towards	§7Отримуєш §3{0}☯ бойової мудрості §7проти
