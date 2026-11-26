@@ -52,6 +52,7 @@ public final class Bridge {
     public static void clearCache() {
         CACHE.clear();
         SEQ_CACHE.clear();
+        TAG_CACHE.clear();
     }
 
     /* Чи треба зараз перекладати взагалі. */
@@ -156,18 +157,39 @@ public final class Bridge {
      * Результати кешуються, тож повторне сканування того самого меню майже нічого не коштує.
      */
     /*
-     * Поки сканер меню читає тултіпи, ItemStackMixin не перекладає їх:
-     * сканеру потрібні оригінальні англійські рядки.
+     * Назва зачарування для Iconographic: він сам будує тег навколо назви (фон під текст рахує
+     * за шириною назви), тому підміняємо назву ще до того, як тег побудовано.
      */
-    private static boolean rawTooltips;
+    public static String translateEnchantName(String name) {
+        if (name == null || !translatesEnchantNames()) return name;
+        String ua = TRANSLATOR.lookupPlain(name);
+        if (ua != null) return ua;
+        if (Config.get().collectMissing) TRANSLATOR.missing().record(Translator.Kind.ANY, name.strip(), name);
+        return name;
+    }
 
-    public static List<Component> rawTooltip(java.util.function.Supplier<List<Component>> reader) {
-        rawTooltips = true;
-        try {
-            return reader.get();
-        } finally {
-            rawTooltips = false;
-        }
+    /* Підпис над головою сутності (не гравця): імена NPC і "CLICK" на голограмах */
+    public static Component translateNameTag(Component tag) {
+        if (tag == null || !active()) return tag;
+        Component cached = TAG_CACHE.get(tag);
+        if (cached != null) return cached;
+        List<Seg<Style>> segs = flatten(tag);
+        List<Seg<Style>> r = TRANSLATOR.translateTag(segs);
+        Component out = r == null ? tag : build(r);
+        TAG_CACHE.put(tag, out);
+        return out;
+    }
+
+    private static final Map<Component, Component> TAG_CACHE = java.util.Collections.synchronizedMap(
+            new java.util.LinkedHashMap<>(256, 0.75f, true) {
+                @Override
+                protected boolean removeEldestEntry(Map.Entry<Component, Component> eldest) {
+                    return size() > 2048;
+                }
+            });
+
+    public static boolean translatesEnchantNames() {
+        return Config.get().translateLore && active();
     }
 
     public static void recordTooltip(List<Component> lines) {
@@ -183,7 +205,7 @@ public final class Bridge {
      */
     public static List<Component> translateTooltip(List<Component> lines) {
         Config c = Config.get();
-        if (lines == null || lines.isEmpty() || rawTooltips || !active()) return lines;
+        if (lines == null || lines.isEmpty() || !active()) return lines;
         /* З Iconographic рядки лишаються англійськими до малювання (див. IconographicCompat) */
         if (IconographicCompat.PRESENT) return lines;
         List<Component> out = null;

@@ -17,3 +17,6 @@ patterns.tsv
 enchants.tsv
 lore_played1.tsv
 lore_played2.tsv
+abilities.tsv
+menus2.tsv
+npcs.tsv

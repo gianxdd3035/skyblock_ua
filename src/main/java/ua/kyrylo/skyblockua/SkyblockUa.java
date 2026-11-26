@@ -15,9 +15,9 @@ import net.minecraft.client.multiplayer.chat.GuiMessage;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.Identifier;
 import net.minecraft.world.inventory.Slot;
-import net.minecraft.world.item.Item;
+import net.minecraft.core.component.DataComponents;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.component.ItemLore;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import ua.kyrylo.skyblockua.core.Translator;
@@ -28,6 +28,7 @@ import java.io.Writer;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.IdentityHashMap;
 import java.util.List;
@@ -84,6 +85,7 @@ public final class SkyblockUa implements ClientModInitializer {
         Config c = Config.get();
         Bridge.TRANSLATOR.translateNames = c.translateNames;
         Bridge.TRANSLATOR.collectMissing = c.collectMissing;
+        Bridge.TRANSLATOR.translateNpcs = c.translateNpcNames;
         Bridge.clearCache();
     }
 
@@ -106,11 +108,19 @@ public final class SkyblockUa implements ClientModInitializer {
         if (!Config.get().collectMissing || !Bridge.active() || client.player == null) return;
         if (scanCooldown-- > 0) return;
         scanCooldown = 20;
-        Item.TooltipContext context = Item.TooltipContext.of(client.level);
+        /*
+         * Читаємо назву й опис прямо з даних предмета, а не через getTooltipLines:
+         * так не викликаються обробники тултіпів інших модів (SkyHanni, Skyblocker)
+         * і ми бачимо саме текст Hypixel без доданих модами рядків.
+         */
         for (Slot slot : screen.getMenu().slots) {
             ItemStack stack = slot.getItem();
             if (stack.isEmpty()) continue;
-            Bridge.recordTooltip(Bridge.rawTooltip(() -> stack.getTooltipLines(context, client.player, TooltipFlag.NORMAL)));
+            List<Component> lines = new ArrayList<>();
+            lines.add(stack.getHoverName());
+            ItemLore lore = stack.get(DataComponents.LORE);
+            if (lore != null) lines.addAll(lore.lines());
+            Bridge.recordTooltip(lines);
         }
     }
 

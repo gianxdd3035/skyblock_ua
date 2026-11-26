@@ -22,7 +22,7 @@ public final class Template {
     public static final Pattern NUMBER = Pattern.compile(
             "(?<![A-Za-z0-9])[+-]?(?:\\d{1,3}(?:,\\d{3})+|\\d+)(?:\\.\\d+)?(?:[kKmMbB](?![A-Za-z]))?%?");
 
-    private static final Pattern PLACEHOLDER = Pattern.compile("\\{(\\d{1,2})}");
+    public static final Pattern PLACEHOLDER = Pattern.compile("\\{(\\d{1,2})}");
 
     public final String key;
     public final List<String> args;

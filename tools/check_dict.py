@@ -33,12 +33,12 @@ for f in sorted(glob.glob(os.path.join(d, "*"))):
             print(f"{name}:{n}: duplicate key with different value (line {seen[k]}): {k}"); problems += 1
         seen[k] = v
         stripped = PH.sub("", k)
-        if NUM.search(stripped) and not name.startswith(("labels", "tokens")):
+        if NUM.search(stripped) and not name.startswith(("labels", "tokens", "npcs")):
             print(f"{name}:{n}: digits in key outside {{n}}: {k}"); problems += 1
         kp = set(PH.findall(k)); vp = set(PH.findall(v))
         if not vp <= kp:
             print(f"{name}:{n}: value uses placeholders not in key: {k} -> {v}"); problems += 1
-        if kp and vp != kp and not name.startswith(("labels", "tokens")):
+        if kp and vp != kp and not name.startswith(("labels", "tokens", "npcs")):
             print(f"{name}:{n}: warning, value drops placeholders {kp - vp}: {k}")
         if v.rstrip().endswith("§"):
             print(f"{name}:{n}: dangling § at end"); problems += 1

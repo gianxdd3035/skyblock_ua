@@ -53,6 +53,13 @@ public class EngineTest {
         return r == null ? null : Lines.legacy(r, OPS);
     }
 
+    static void check(String what, String got, String expected) {
+        if (!Objects.equals(got, expected)) {
+            failures++;
+            System.out.println("FAIL: " + what + "\n   got:      " + got + "\n   expected: " + expected);
+        }
+    }
+
     static void expect(Translator<TStyle> t, String legacy, Translator.Kind kind, String expected) {
         String got = run(t, legacy, kind);
         if (!Objects.equals(got, expected)) {
@@ -136,14 +143,14 @@ public class EngineTest {
         expect(t, "§cStrength", Translator.Kind.ANY, "§cСила");
         /* подвійний префікс, рамка тегу, список зачарувань, Skyblocker */
         Dict ed = new Dict();
-        ed.load("reforges.tsv", new StringReader("Shiny\tБлискотливий\tБлискотлива\tБлискотливе\tБлискотливі\nHeroic\tГероїчний\tГероїчна\tГероїчне\tГероїчні\n"));
+        ed.load("reforges.tsv", new StringReader("Shiny\tСяючий\tСяюча\tСяюче\tСяючі\nHeroic\tГероїчний\tГероїчна\tГероїчне\tГероїчні\n"));
         ed.load("names_t.tsv", new StringReader("Hyperion\tГіперіон\n"));
         ed.load("lines_t.tsv", new StringReader("MYTHIC\tМІФІЧНИЙ\nSharpness\tГострота\nCritical\tКритичний удар\nBane of Arthropods\tЗагибель членистоногих\nDUNGEON SWORD\tМеч підземель\nLegion\tЛегіон\n"));
         ed.load("patterns_t.tsv", new StringReader("{item} {0} | {1}\t{item} {0} | {1}\n"));
         ed.load("names_m.tsv", new StringReader("Enchanted Sponge\tЗачарована губка\n"));
         Translator<TStyle> et = new Translator<>(OPS);
         et.setDict(ed);
-        expect(et, "§dShiny Heroic Hyperion", Translator.Kind.NAME, "§dБлискотливий героїчний Гіперіон");
+        expect(et, "§dShiny Heroic Hyperion", Translator.Kind.NAME, "§dСяючий героїчний Гіперіон");
         expect(et, "§d> Mythic <", Translator.Kind.ANY, "§d> МІФІЧНИЙ <");
         expect(et, "§7dungeon sword", Translator.Kind.ANY, "§7Меч підземель");
         expect(et, "§7DUNGEON SWORD", Translator.Kind.ANY, "§7МЕЧ ПІДЗЕМЕЛЬ");
@@ -151,6 +158,44 @@ public class EngineTest {
         expect(et, "§9Sharpness VI, §9Critical VI", Translator.Kind.LORE, "§9Гострота VI, Критичний удар VI");
         expect(et, "§e› Bane Of Arthropods VI→VII, Sharpness VI→VII", Translator.Kind.ANY, "§e› Загибель членистоногих VI→VII, Гострота VI→VII");
         expect(et, "§9▶ §7Enchanted Sponge §c7.2k§8 | §a10.3k", Translator.Kind.ANY, "§9▶ §7Зачарована губка§8 §c7.2k§8 | §a10.3k");
+        /* кольори в перекладі без §-кодів, теги Iconographic, здібності, книги */
+        Dict cd2 = new Dict();
+        cd2.load("lines_c.tsv", new StringReader(
+                "Grants {0}\u279C{1} \u2763 Charm Chance.\tДає {0}\u279C{1} \u2763 шансу чарів.\n"
+                + "{0} SkyBlock XP\t{0} досвіду SkyBlock\n"
+                + "{0} Farming XP\t{0} досвіду фермерства\n"
+                + "Grants {0}\u2764 Health and {1}\u2748 Defense.\tДає {0}\u2764 здоров'я і {1}\u2748 захисту.\n"
+                + "Sharpness\tГострота\nSmite\tКара\nWither Impact\tУдар візера\n"));
+        cd2.load("labels_c.tsv", new StringReader("Ability\tЗдібність\nFull Set Bonus\tБонус повного комплекту\n"));
+        cd2.load("tokens_c.tsv", new StringReader("RIGHT CLICK\tПКМ\n"));
+        cd2.load("patterns_c.tsv", new StringReader("Enchanted Book ({item})\tЗачарована книга ({item})\n"));
+        Translator<TStyle> ct2 = new Translator<>(OPS);
+        ct2.setDict(cd2);
+        expect(ct2, "§fGrants §a+§81.64\u279C§a1.68§f §b\u2763 Charm Chance§f.", Translator.Kind.LORE,
+                "§fДає §a+§81.64\u279C§a1.68§f §b\u2763 шансу чарів§f.");
+        expect(ct2, "§8+§b20 SkyBlock XP", Translator.Kind.LORE, "§8+§b20 досвіду SkyBlock");
+        expect(ct2, "§8+§3912 §7Farming XP", Translator.Kind.LORE, "§8+§3912§7 досвіду фермерства");
+        expect(ct2, "§7Grants §a+5§c\u2764 Health §7and §a+3§a\u2748 Defense§7.", Translator.Kind.LORE,
+                "§7Дає §a+5§c\u2764 здоров'я§7 і §a+3\u2748 захисту§7.");
+        expect(ct2, "§9Sharpness\uE917\uE900\uE910VII\uE905\uE910", Translator.Kind.ANY, "§9Гострота\uE917\uE900\uE910VII\uE905\uE910");
+        expect(ct2, "§6Ability: Wither Impact  §e§lRIGHT CLICK", Translator.Kind.LORE, "§6Здібність: Удар візера  §e§lПКМ");
+        expect(ct2, "§6Ability: Wither Impact", Translator.Kind.ANY, "§6Здібність: Удар візера");
+        expect(ct2, "§fEnchanted Book (Smite VI)", Translator.Kind.NAME, "§fЗачарована книга (Кара VI)");
+        cd2.load("lines_m.tsv", new StringReader("Bestiary\tБестіарій\nSpider's Den\tПавуче лігво\nPets\tУлюбленці\n"));
+        expect(ct2, "§8(2/3) Bestiary \u279C Spider's Den", Translator.Kind.TITLE, "§8(2/3) Бестіарій \u279C Павуче лігво");
+        expect(ct2, "§8Spider's Den \u279C Arachne", Translator.Kind.TITLE, "§8Павуче лігво \u279C Arachne");
+        expect(ct2, "§8(1/3) Pets", Translator.Kind.TITLE, "§8(1/3) Улюбленці");
+        cd2.load("npcs_t.tsv", new StringReader("Jacob\tДжейкоб\nSafari Receptionist\tАдміністраторка сафарі\n"));
+        cd2.load("chat_t.tsv", new StringReader("Welcome to the Critter Safari!\tЛаскаво просимо на сафарі звірят!\nCLICK\tНАТИСНИ\n"));
+        expect(ct2, "§e[NPC] §bSafari Receptionist§f: Welcome to the Critter Safari!", Translator.Kind.CHAT,
+                "§e[NPC] §bАдміністраторка сафарі§f: Ласкаво просимо на сафарі звірят!");
+        expect(ct2, "§e[NPC] Jacob§f: Something new", Translator.Kind.CHAT, "§e[NPC] Джейкоб§f: Something new");
+        expect(ct2, "§9Jacob", Translator.Kind.NAME, "§9Джейкоб");
+        List<Seg<TStyle>> tag = ct2.translateTag(parse("§6Jacob"));
+        check("nametag", tag == null ? null : Lines.legacy(tag, OPS), "§6Джейкоб");
+        List<Seg<TStyle>> tag2 = ct2.translateTag(parse("§e§lCLICK"));
+        check("nametag click", tag2 == null ? null : Lines.legacy(tag2, OPS), "§e§lНАТИСНИ");
+        check("mob tag untouched", ct2.translateTag(parse("§c[Lv10] Zombie §a100§f/§a100§c❤")) == null ? "null" : "changed", "null");
         /* рід за першим словом */
         String[][] genders = {{"Зачарована книга", "f"}, {"Вугілля", "n"}, {"Насіння", "n"}, {"Кристали призмарину", "p"},
                 {"Шолом Вищого Дракона", "m"}, {"Риба-фугу", "f"}, {"Сіль", "f"}, {"Око Енду", "n"}, {"Стародавній меч", "m"}};
@@ -179,7 +224,7 @@ public class EngineTest {
         Translator<TStyle> ct = new Translator<>(OPS);
         ct.setDict(cd);
         expect(ct, "§cYour inventory is full! §7(×3)", Translator.Kind.CHAT, "§cТвій інвентар заповнено! §7(×3)");
-        expect(ct, "§6§lRARE DROP! §fYou dropped §a2x Bone§f!", Translator.Kind.CHAT, "§6§lРІДКІСНИЙ ДРОП! §fТобі випало 2x кістки!");
+        expect(ct, "§6§lRARE DROP! §fYou dropped §a2x Bone§f!", Translator.Kind.CHAT, "§6§lРІДКІСНИЙ ДРОП! §fТобі випало §a2x§f кістки!");
         expect(ct, "§6§lRARE DROP! §fYou dropped §9Something§f!", Translator.Kind.CHAT, "§6§lРІДКІСНИЙ ДРОП! §fYou dropped §9Something§f!");
         /* шаблон: назва предмета перекладається й зберігає свій колір */
         expect(ct, "§6§lRARE DROP! §fYou dropped §a3x §9Enchanted Bone§f!", Translator.Kind.CHAT, "§6§lРІДКІСНИЙ ДРОП! §fТобі випало §a3§fx §9Зачарована кістка§f!");

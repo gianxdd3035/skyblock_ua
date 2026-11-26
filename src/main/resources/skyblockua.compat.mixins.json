@@ -5,6 +5,7 @@
 	"client": [
 		"IconographicAbilityMixin",
 		"IconographicComponentLikeMixin",
+		"IconographicEnchantNameMixin",
 		"IconographicEnchantsMixin",
 		"IconographicHeaderMixin",
 		"IconographicStatLineMixin",

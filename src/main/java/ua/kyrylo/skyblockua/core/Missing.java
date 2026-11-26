@@ -81,12 +81,17 @@ public final class Missing {
                 w.write('\t');
                 w.write(Integer.toString(e.getValue().count));
                 w.write('\t');
-                w.write(e.getKey().replace('\t', ' '));
+                w.write(oneLine(e.getKey()));
                 w.write('\t');
-                w.write(e.getValue().example.replace('\t', ' '));
+                w.write(oneLine(e.getValue().example));
                 w.write('\n');
             }
         }
+    }
+
+    /* Багаторядкові повідомлення (наприклад, від інших модів) записуємо в один рядок файлу */
+    private static String oneLine(String s) {
+        return s.replace('\t', ' ').replace("\r", "").replace("\n", " \u23CE ");
     }
 
     private static boolean hasLetters(String s) {

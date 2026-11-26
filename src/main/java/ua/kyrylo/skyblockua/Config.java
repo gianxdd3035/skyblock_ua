@@ -30,6 +30,7 @@ public final class Config {
     public boolean translateTitles = true;
     /* Збирати неперекладені рядки для /ukr dump. */
     public boolean collectMissing = true;
+    public boolean translateNpcNames = true;
 
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
     private static Config instance = new Config();

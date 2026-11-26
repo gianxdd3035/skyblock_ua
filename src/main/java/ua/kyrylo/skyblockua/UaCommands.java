@@ -36,6 +36,7 @@ public final class UaCommands {
                 .then(ClientCommands.literal("lore").executes(ctx -> flip(ctx, "Описи предметів", c -> c.translateLore, (c, v) -> c.translateLore = v)))
                 .then(ClientCommands.literal("chat").executes(ctx -> flip(ctx, "Чат", c -> c.translateChat, (c, v) -> c.translateChat = v)))
                 .then(ClientCommands.literal("titles").executes(ctx -> flip(ctx, "Заголовки меню", c -> c.translateTitles, (c, v) -> c.translateTitles = v)))
+                .then(ClientCommands.literal("npc").executes(ctx -> flip(ctx, "Імена NPC", c -> c.translateNpcNames, (c, v) -> c.translateNpcNames = v)))
                 .then(ClientCommands.literal("hypixel").executes(ctx -> flip(ctx, "Лише на Hypixel", c -> c.onlyOnHypixel, (c, v) -> c.onlyOnHypixel = v)))
                 .then(ClientCommands.literal("collect").executes(ctx -> flip(ctx, "Збір неперекладеного", c -> c.collectMissing, (c, v) -> c.collectMissing = v)))
                 .then(ClientCommands.literal("reload").executes(ctx -> {
@@ -81,10 +82,11 @@ public final class UaCommands {
         line.accept("§6SkyBlock UA");
         line.accept("§7Переклад: " + onOff(c.enabled) + "§7, на Hypixel зараз: " + onOff(Bridge.onHypixel(Minecraft.getInstance())));
         line.accept("§7Назви: " + onOff(c.translateNames) + "§7, описи: " + onOff(c.translateLore)
-                + "§7, чат: " + onOff(c.translateChat) + "§7, меню: " + onOff(c.translateTitles));
+                + "§7, чат: " + onOff(c.translateChat) + "§7, меню: " + onOff(c.translateTitles)
+                + "§7, імена NPC: " + onOff(c.translateNpcNames));
         line.accept("§7Записів у словнику: §f" + Bridge.TRANSLATOR.dict().size()
                 + "§7, неперекладених зібрано: §f" + Bridge.TRANSLATOR.missing().size());
-        line.accept("§8/ukr toggle | names | lore | chat | titles | hypixel | collect | reload | dump | clear");
+        line.accept("§8/ukr toggle | names | lore | chat | titles | npc | hypixel | collect | reload | dump | clear");
         return 1;
     }
 

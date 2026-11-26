@@ -32,6 +32,9 @@ public final class Translator<S> {
     private static final Pattern NPC_PREFIX = Pattern.compile("^\\[NPC] [^:]{1,40}: ");
     private static final Pattern LABEL = Pattern.compile("^([A-Za-z0-9][A-Za-z0-9 '\\-.()&/]{0,40}?):(?= |$)");
     private static final Pattern VALUE_FIRST = Pattern.compile("^[+-]?\\d[\\d,.]*[%x]?[^A-Za-z]{0,3}?\\s*([A-Za-z][A-Za-z ']*[A-Za-z])$");
+    /* Номер сторінки меню: "(2/5) Pets" */
+    private static final Pattern PAGE_PREFIX = Pattern.compile("^\\(\\d+/\\d+\\) ");
+    private static final String CRUMB = " \u279C ";
     private static final Pattern PET_LEVEL = Pattern.compile("^\\[Lvl \\d+] ");
     private static final Pattern RECOMB = Pattern.compile("^a (.+) a$");
     private static final Pattern BULLET = Pattern.compile("^(?:- |• |▶ )");
@@ -48,6 +51,13 @@ public final class Translator<S> {
     private static final Pattern ROMAN_TAIL = Pattern.compile(" [IVXLCDM]+(?:\u2192[IVXLCDM]+)?$");
     private static final Pattern ROMAN_WORD = Pattern.compile(" (?:Mk\\. )?[IVXL]+$");
     /* "Прикраси" в кінці: зірки ✪, ➊–➎ та інші символи, що не є літерами, цифрами чи дужками. */
+    /* Тег зачарування від Iconographic: назва, далі службові значки шрифту з уставленим рівнем ("VII") */
+    private static final Pattern GLYPH_TAIL = Pattern.compile("^([^\uE000-\uF8FF]*?\\p{L})([\uE000-\uF8FF][\uE000-\uF8FF\\sIVXLCDM0-9{},./:+\\-]*)$");
+    /* Підписи, після яких іде назва здібності чи бонусу: "Ability: Wither Impact  RIGHT CLICK" */
+    private static final Pattern ABILITY_LABEL = Pattern.compile(".*(?:Ability|Bonus)$");
+    private static final Pattern ABILITY_TAIL = Pattern.compile(
+            "(?:\\s+(?:(?:SNEAK|SHIFT|DOUBLE|HOLD|ON)\\s+)*(?:(?:LEFT/RIGHT|RIGHT|LEFT|MIDDLE)\\s+)?(?:CLICK|TAP JUMP|DIG|SHOOT)(?:\\s+HOLD)?)?(?:\\s+\\(\\d+/\\d+\\))?[^\\p{L}\\p{N}!?'.)]*$");
+    private static final Pattern ENGLISH_WORD = Pattern.compile("(?<![A-Za-z])[A-Za-z]{3,}(?![A-Za-z])");
     private static final Pattern TRAILING_DECOR = Pattern.compile("[^\\p{L}\\p{N})\\]!?.'\"]+$");
 
     /* Перекладена назва предмета разом із її родом. */
@@ -60,6 +70,7 @@ public final class Translator<S> {
 
     public volatile boolean translateNames = true;
     public volatile boolean collectMissing = true;
+    public volatile boolean translateNpcs = true;
 
     public Translator(StyleOps<S> ops) {
         this.ops = ops;
@@ -95,15 +106,19 @@ public final class Translator<S> {
         List<Seg<S>> r = wholeLookup(line, start, end, core, kind, d);
         if (r != null) return applyTokens(r, d);
 
-        /* 1б. Шаблони з підстановками ("You dropped {0}x {item}!") */
-        if (kind != Kind.NAME) {
-            r = patternLookup(line, start, end, core, kind, d);
-            if (r != null) return r;
-        }
+        /* 1б. Шаблони з підстановками ("You dropped {0}x {item}!", "Enchanted Book ({item})") */
+        r = patternLookup(line, start, end, core, kind, d);
+        if (r != null) return r;
 
         /* 2. Без прикрас */
         r = peeled(line, start, end, core, kind, d);
         if (r != null) return applyTokens(r, d);
+
+        /* 2б. Шлях у меню: "Bestiary ➜ Spider's Den" — кожну частину окремо, невідомі (імена мобів) лишаються */
+        if (core.contains(CRUMB)) {
+            r = breadcrumb(line, start, core, d);
+            if (r != null) return r;
+        }
 
         /* 3. Чат: без лічильника повторів, капсовий префікс окремо, діалог NPC */
         if (kind == Kind.CHAT) {
@@ -127,7 +142,13 @@ public final class Translator<S> {
             if (m.find()) {
                 int bodyStart = start + m.end();
                 r = rangeLookup(line, bodyStart, end, plain.substring(bodyStart, end), kind, d);
-                if (r != null) return r;
+                /* ім'я NPC у префіксі "[NPC] Jacob:" */
+                List<Seg<S>> named = npcPrefixName(r != null ? r : line, start, core, d);
+                if (r != null) return named != null ? named : r;
+                if (named != null) {
+                    if (collectMissing) missing.record(kind, Template.of(core).key, Lines.legacy(line, ops));
+                    return named;
+                }
             }
         }
 
@@ -145,7 +166,13 @@ public final class Translator<S> {
             List<Seg<S>> labelled = labelRule(line, start, end, core, d);
             List<Seg<S>> base = labelled != null ? labelled : line;
             List<Seg<S>> tokens = applyTokens(base, d);
-            if (labelled != null || tokens != base) return tokens;
+            if (labelled != null || tokens != base) {
+                /* переклад частковий (лишились англійські слова) — теж збираємо, щоб доперекласти */
+                if (collectMissing && ENGLISH_WORD.matcher(Lines.plain(tokens)).find()) {
+                    missing.record(kind, Template.of(core).key, Lines.legacy(line, ops));
+                }
+                return tokens;
+            }
         } else {
             List<Seg<S>> tokens = applyTokens(line, d);
             if (tokens != line) return tokens;
@@ -187,6 +214,18 @@ public final class Translator<S> {
         Template t = Template.of(text);
         String value = lookup(kind, t.key, d);
         if (value == null) return null;
+        /*
+         * Переклад без §-кодів, а оригінал різнокольоровий ("Grants +5 ❣ Charm Chance."):
+         * числа, значки статів і перенесені англійські слова зберігають свої кольори.
+         */
+        if (value.indexOf('\u00A7') < 0 && !uniformStyle(line, s, e)) {
+            String v = isAllCaps(text) ? value.toUpperCase(Locale.ROOT) : value;
+            Restyled<S> rs = restyle(line, s, e, text, v);
+            if (rs != null) {
+                List<Seg<S>> r = Lines.replaceRange(line, s, e, rs.text, ops, rs.base);
+                if (r != null) return r;
+            }
+        }
         String filled = t.fill(value);
         if (filled == null) return null;
         /* Оригінал великими літерами ("LEGION", "DUNGEON SWORD") — переклад теж великими */
@@ -197,19 +236,181 @@ public final class Translator<S> {
         return Lines.replaceRange(line, s, e, filled, ops);
     }
 
+    private record Restyled<S>(String text, S base) {}
+
+    private boolean uniformStyle(List<Seg<S>> line, int s, int e) {
+        String first = null;
+        int pos = 0;
+        for (Seg<S> seg : line) {
+            String t = seg.text();
+            int a = Math.max(s, pos), b = Math.min(e, pos + t.length());
+            pos += t.length();
+            if (a >= b || t.substring(a - (pos - t.length()), b - (pos - t.length())).isBlank()) continue;
+            String codes = ops.legacy(seg.style());
+            if (first == null) first = codes;
+            else if (!first.equals(codes)) return false;
+        }
+        return true;
+    }
+
+    /* Значок стату Hypixel або Iconographic: ❤ ❈ ❁ ✎ ☣ ❣ ☘ ⸕, символи шрифту (U+E000-U+F8FF), стрілка ➜ */
+    private static boolean isIcon(char c) {
+        int type = Character.getType(c);
+        return type == Character.OTHER_SYMBOL || type == Character.PRIVATE_USE || c == '\u2E15' || c == '\u2726';
+    }
+
+    /*
+     * Розфарбувати переклад за оригіналом:
+     * - основний колір — той, яким написано більшість літер поза числами й кольоровими "значок + назва";
+     * - кожне {n} — число з оригіналу з усіма його кольорами;
+     * - значок (❣) і стільки ж слів після нього, скільки їх було в оригіналі тим самим кольором;
+     * - англійські слова, перенесені без перекладу (SkyBlock, імена), — своїм кольором.
+     */
+    @SuppressWarnings({"unchecked", "rawtypes"})
+    private Restyled<S> restyle(List<Seg<S>> line, int s, int e, String text, String value) {
+        List<int[]> nums = new ArrayList<>();
+        Matcher nm = Template.NUMBER.matcher(text);
+        while (nm.find()) nums.add(new int[]{s + nm.start(), s + nm.end()});
+
+        /* кольорові відрізки "значок + слова" в оригіналі не впливають на основний колір */
+        boolean[] excluded = new boolean[e - s];
+        for (int[] n : nums) for (int i = n[0]; i < n[1]; i++) excluded[i - s] = true;
+        for (int i = 0; i < text.length(); i++) {
+            if (!isIcon(text.charAt(i))) continue;
+            String codes = ops.legacy(Lines.styleAt(line, s + i));
+            int j = i;
+            while (j < text.length() && ops.legacy(Lines.styleAt(line, s + j)).equals(codes)
+                    && (j == i || !isIcon(text.charAt(j)))) {
+                excluded[j] = true;
+                j++;
+            }
+        }
+        java.util.Map<String, Integer> letters = new java.util.LinkedHashMap<>();
+        java.util.Map<String, S> styles = new java.util.HashMap<>();
+        for (int i = 0; i < text.length(); i++) {
+            if (excluded[i] || !Character.isLetter(text.charAt(i))) continue;
+            S st = Lines.styleAt(line, s + i);
+            String codes = ops.legacy(st);
+            letters.merge(codes, 1, Integer::sum);
+            styles.putIfAbsent(codes, st);
+        }
+        S base = Lines.styleAt(line, s);
+        int max = -1;
+        for (java.util.Map.Entry<String, Integer> en : letters.entrySet()) {
+            if (en.getValue() > max) {
+                max = en.getValue();
+                base = styles.get(en.getKey());
+            }
+        }
+        String baseCodes = ops.legacy(base);
+
+        StringBuilder out = new StringBuilder(baseCodes);
+        java.util.Map<Character, Integer> iconSeen = new java.util.HashMap<>();
+        int i = 0;
+        while (i < value.length()) {
+            char c = value.charAt(i);
+            Matcher pm = Template.PLACEHOLDER.matcher(value);
+            if (c == '{' && pm.find(i) && pm.start() == i) {
+                int idx = Integer.parseInt(pm.group(1));
+                if (idx >= nums.size()) return null;
+                int ns = nums.get(idx)[0], ne = nums.get(idx)[1];
+                int after = pm.end();
+                /* множник "2x" / "x2" фарбуємо разом із числом */
+                boolean xAfter = after < value.length() && value.charAt(after) == 'x'
+                        && ne < e && line != null && Lines.plain(line).charAt(ne) == 'x';
+                boolean xBefore = out.length() > 0 && out.charAt(out.length() - 1) == 'x'
+                        && ns > s && Lines.plain(line).charAt(ns - 1) == 'x';
+                if (xBefore) {
+                    out.setLength(out.length() - 1);
+                    ns--;
+                }
+                if (xAfter) {
+                    ne++;
+                    after++;
+                }
+                out.append(Lines.legacySlice(line, ns, ne, ops)).append(baseCodes);
+                i = after;
+                continue;
+            }
+            if (isIcon(c)) {
+                int occurrence = iconSeen.merge(c, 1, Integer::sum);
+                int pos = nthIndex(text, c, occurrence);
+                if (pos >= 0) {
+                    S iconStyle = Lines.styleAt(line, s + pos);
+                    String codes = ops.legacy(iconStyle);
+                    if (!codes.equals(baseCodes)) {
+                        int words = 0;
+                        boolean inWord = false;
+                        for (int k = pos + 1; k < text.length() && ops.legacy(Lines.styleAt(line, s + k)).equals(codes); k++) {
+                            boolean letter = Character.isLetter(text.charAt(k));
+                            if (letter && !inWord) words++;
+                            inWord = letter || (inWord && (text.charAt(k) == '\'' || text.charAt(k) == '-'));
+                        }
+                        int j = i + 1;
+                        int counted = 0;
+                        inWord = false;
+                        while (j < value.length()) {
+                            char ch = value.charAt(j);
+                            if (".,;:!?)(".indexOf(ch) >= 0 || ch == '{' || isIcon(ch)) break;
+                            boolean letter = Character.isLetter(ch) || (inWord && (ch == '\'' || ch == '-'));
+                            if (letter && !inWord) {
+                                if (counted == words) break;
+                                counted++;
+                            }
+                            inWord = letter;
+                            j++;
+                        }
+                        while (j > i + 1 && value.charAt(j - 1) == ' ') j--;
+                        out.append(codes).append(value, i, j).append(baseCodes);
+                        i = j;
+                        continue;
+                    }
+                }
+            }
+            if (c < 128 && Character.isLetter(c) && (i == 0 || !Character.isLetter(value.charAt(i - 1)))) {
+                int j = i;
+                while (j < value.length() && value.charAt(j) < 128 && Character.isLetter(value.charAt(j))) j++;
+                String word = value.substring(i, j);
+                Matcher wm = Pattern.compile("(?<![A-Za-z])" + Pattern.quote(word) + "(?![A-Za-z])").matcher(text);
+                if (word.length() >= 2 && wm.find()) {
+                    String codes = ops.legacy(Lines.styleAt(line, s + wm.start()));
+                    if (!codes.equals(baseCodes)) {
+                        out.append(codes).append(word).append(baseCodes);
+                        i = j;
+                        continue;
+                    }
+                }
+                out.append(word);
+                i = j;
+                continue;
+            }
+            out.append(c);
+            i++;
+        }
+        return new Restyled(out.toString(), base);
+    }
+
+    private static int nthIndex(String text, char c, int n) {
+        int idx = -1;
+        for (int k = 0; k < n; k++) {
+            int next = text.indexOf(c, idx + 1);
+            if (next < 0) return idx;
+            idx = next;
+        }
+        return idx;
+    }
+
     /*
      * Назви предметів шукаються в розділі names (якщо назви увімкнені) і в lines
      * (там лежать назви кнопок меню: "Close", "Go Back" — їх перекладаємо завжди).
      */
     private String lookup(Kind kind, String key, Dict d) {
-        if (kind == Kind.NAME) {
-            if (translateNames) {
-                String v = d.get(Dict.Section.NAMES, key);
-                if (v != null) return v;
-            }
-            return d.get(Dict.Section.LINES, key);
-        }
-        return d.get(Dict.Section.LINES, key);
+        String v = null;
+        if (kind == Kind.NAME && translateNames) v = d.get(Dict.Section.NAMES, key);
+        if (v == null) v = d.get(Dict.Section.LINES, key);
+        /* імена NPC у меню (відвідувачі Саду, контакти Abiphone, заголовки крамниць) */
+        if (v == null && translateNpcs && kind != Kind.CHAT && kind != Kind.LORE) v = d.get(Dict.Section.NPCS, key);
+        return v;
     }
 
     /*
@@ -260,6 +461,18 @@ public final class Translator<S> {
             s += 2;
             e -= 2;
             mid = m.group(1);
+            changed = true;
+        }
+        m = GLYPH_TAIL.matcher(mid);
+        if (m.matches()) {
+            e -= mid.length() - m.end(1);
+            mid = m.group(1);
+            changed = true;
+        }
+        m = PAGE_PREFIX.matcher(mid);
+        if (m.find() && m.end() < mid.length()) {
+            s += m.end();
+            mid = mid.substring(m.end());
             changed = true;
         }
         m = PET_LEVEL.matcher(mid);
@@ -314,10 +527,8 @@ public final class Translator<S> {
         if (changed && mid.length() >= 2) {
             List<Seg<S>> r = wholeLookup(line, s, e, mid, kind, d);
             if (r != null) return r;
-            if (kind != Kind.NAME) {
-                r = patternLookup(line, s, e, mid, kind, d);
-                if (r != null) return r;
-            }
+            r = patternLookup(line, s, e, mid, kind, d);
+            if (r != null) return r;
         }
 
         /*
@@ -413,10 +624,15 @@ public final class Translator<S> {
                     Matcher decor = LEADING_DECOR.matcher(captured.substring(skip));
                     if (decor.lookingAt()) skip += decor.end();
                     String core = captured.substring(skip).strip();
-                    String tr = null;
-                    NameHit hit = resolveName(core, d);
-                    if (hit != null) tr = hit.text();
-                    else tr = d.get(Dict.Section.LINES, core);
+                    String tr = lookupItem(core, d);
+                    if (tr == null) {
+                        /* "Smite VI" -> "Кара VI" */
+                        Matcher roman = ROMAN_TAIL.matcher(core);
+                        if (roman.find() && roman.start() > 0) {
+                            String head = lookupItem(core.substring(0, roman.start()), d);
+                            if (head != null) tr = head + core.substring(roman.start());
+                        }
+                    }
                     if (tr != null) {
                         styled = Lines.legacySlice(line, gs, gs + skip, ops)
                                 + ops.legacy(Lines.styleAt(line, gs + skip)) + tr + baseCodes;
@@ -430,6 +646,85 @@ public final class Translator<S> {
             if (r != null) return r;
         }
         return null;
+    }
+
+    private List<Seg<S>> npcPrefixName(List<Seg<S>> line, int start, String core, Dict d) {
+        if (!translateNpcs) return null;
+        int nameStart = "[NPC] ".length();
+        int colon = core.indexOf(": ", nameStart);
+        if (colon <= nameStart) return null;
+        String ua = d.get(Dict.Section.NPCS, core.substring(nameStart, colon).strip());
+        if (ua == null) return null;
+        return Lines.replaceRange(line, start + nameStart, start + colon, ua, ops);
+    }
+
+    /*
+     * Підпис над головою (голограма NPC): лише точний збіг з іменем NPC або короткою підказкою ("CLICK").
+     * Імена мобів і гравців не чіпаємо й у файл неперекладеного не пишемо.
+     */
+    public List<Seg<S>> translateTag(List<Seg<S>> line) {
+        Dict d = dict;
+        if (d == null) return null;
+        String plain = Lines.plain(line);
+        int start = 0, end = plain.length();
+        while (start < end && Character.isWhitespace(plain.charAt(start))) start++;
+        while (end > start && Character.isWhitespace(plain.charAt(end - 1))) end--;
+        if (end - start < 2) return null;
+        String core = plain.substring(start, end);
+        if (core.startsWith("[NPC] ")) {
+            start += 6;
+            core = core.substring(6);
+        }
+        String ua = translateNpcs ? d.get(Dict.Section.NPCS, core) : null;
+        if (ua == null) ua = d.get(Dict.Section.LINES, core);
+        if (ua == null) return null;
+        return Lines.replaceRange(line, start, end, ua, ops);
+    }
+
+    private List<Seg<S>> breadcrumb(List<Seg<S>> line, int start, String core, Dict d) {
+        List<int[]> parts = new ArrayList<>();
+        int from = 0;
+        Matcher page = PAGE_PREFIX.matcher(core);
+        if (page.find()) from = page.end();
+        while (true) {
+            int idx = core.indexOf(CRUMB, from);
+            parts.add(new int[]{from, idx < 0 ? core.length() : idx});
+            if (idx < 0) break;
+            from = idx + CRUMB.length();
+        }
+        List<Seg<S>> current = line;
+        boolean any = false;
+        for (int k = parts.size() - 1; k >= 0; k--) {
+            String part = core.substring(parts.get(k)[0], parts.get(k)[1]).strip();
+            if (part.isEmpty()) continue;
+            String ua = d.get(Dict.Section.LINES, part);
+            if (ua == null) ua = lookupItem(part, d);
+            if (ua == null) continue;
+            List<Seg<S>> next = Lines.replaceRange(current, start + parts.get(k)[0], start + parts.get(k)[1], ua, ops);
+            if (next != null) {
+                current = next;
+                any = true;
+            }
+        }
+        return any ? current : null;
+    }
+
+    private String lookupItem(String text, Dict d) {
+        NameHit hit = resolveName(text, d);
+        if (hit != null) return hit.text();
+        return d.get(Dict.Section.LINES, text);
+    }
+
+    /*
+     * Переклад окремої назви без кольорів (назва зачарування для Iconographic, який
+     * будує тег сам). Повертає null, якщо назви немає в словнику.
+     */
+    public String lookupPlain(String text) {
+        Dict d = dict;
+        if (d == null || text == null) return null;
+        String v = d.get(Dict.Section.LINES, text.strip());
+        if (v == null) v = d.get(Dict.Section.NAMES, text.strip());
+        return v == null ? null : v.replaceAll("\u00A7.", "");
     }
 
     /*
@@ -548,7 +843,25 @@ public final class Translator<S> {
             String label = m.group(1);
             String ua = d.get(Dict.Section.LABELS, label.strip());
             if (ua == null) return null;
-            return Lines.replaceRange(line, start, start + label.length(), ua, ops);
+            List<Seg<S>> base = line;
+            /* Назва здібності чи бонусу після підпису: шукаємо її без кнопки миші в кінці */
+            if (ABILITY_LABEL.matcher(label).matches()) {
+                String value = core.substring(m.end());
+                int lead = 0;
+                while (lead < value.length() && value.charAt(lead) == ' ') lead++;
+                String rest = value.substring(lead);
+                Matcher tail = ABILITY_TAIL.matcher(rest);
+                int nameEnd = tail.find() ? tail.start() : rest.length();
+                String name = rest.substring(0, nameEnd);
+                String uaName = name.isBlank() ? null : d.get(Dict.Section.LINES, name.strip());
+                if (uaName == null && !name.isBlank()) uaName = d.get(Dict.Section.NAMES, name.strip());
+                if (uaName != null) {
+                    int ns = start + m.end() + lead;
+                    List<Seg<S>> r = Lines.replaceRange(line, ns, ns + name.length(), uaName, ops);
+                    if (r != null) base = r;
+                }
+            }
+            return Lines.replaceRange(base, start, start + label.length(), ua, ops);
         }
         /* Стат після числа: "+57.85 Strength", "+2☯ Combat Wisdom" */
         m = VALUE_FIRST.matcher(core);

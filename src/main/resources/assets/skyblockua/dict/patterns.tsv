@@ -86,3 +86,7 @@ Friend > {any} left.	Друг > {any} виходить.
 Friend > {any} joined.	Друг > {any} заходить.
 ☠ {any} fell into the void.	☠ {any} падає в порожнечу.
 ☠ You fell into the void.	☠ Ти падаєш у порожнечу.
+Enchanted Book ({item})	Зачарована книга ({item})
+{any} RNG Meter	Лічильник удачі: {any}
+{any} Drops	Здобич: {any}
+{any} Recipes	Рецепти: {any}
