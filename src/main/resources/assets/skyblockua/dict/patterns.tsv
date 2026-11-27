@@ -152,3 +152,39 @@ Milestone {any} Reward	Нагорода віхи {any}
 Your [Lv{0}] {known} Stats:	Твої характеристики [Рів.{0}] {known}:
 Your [Lv{0}] {known} (Master) Stats:	Твої характеристики [Рів.{0}] {known} (Майстер):
 Your [Lv{0}] {any} Stats:	Твої характеристики [Рів.{0}] {any}:
+{0} {known}  Magic Find	{0} §b магічної удачі §7({known})
+{0} {known}  Strength	{0} §c сили §7({known})
+{0} {known} coins	{0} §7монет ({known})
+{0} {known}  Hunting Fortune	{0} §d фортуни полювання §7({known})
+{0} {known} Hunting XP	{0} §3досвіду полювання §7({known})
+[Bazaar] Cancelled! Refunded {0}x {item} from cancelling Sell Offer!	[Базар] Скасовано! Повернуто {0}x {item} після скасування пропозиції продажу!
+[Bazaar] Your Sell Offer for {0}x {item} was filled! [Go To Orders]	[Базар] Твою пропозицію продажу {0}x {item} виконано! [До замовлень]
+BIN Auction started for {item}!	Аукціон «Купити зараз» для {item} розпочато!
+{any} created a BIN auction for {item} at {0} coins!	{any} створює аукціон «Купити зараз» для {item} за {0} монет!
+CAUGHT! You cocooned a {known}!	ПОПАВСЯ! Ти загорнув у кокон: {known}!
+{known} got scared!	{known} злякався!
+{0} Kill Combo {1} coins per kill	{0} комбо вбивств {1} монет за вбивство
+{0} Kill Combo {1}☯ Combat Wisdom	{0} комбо вбивств {1}☯ бойової мудрості
+You have just received {0} coins as interest in your co-op bank account!	Ти щойно отримав {0} монет відсотків на рахунок кооперативу!
+You have just received {0} coins as interest in your bank account!	Ти щойно отримав {0} монет відсотків на свій рахунок!
+You equipped {any}!	Ти вдягнув набір {any}!
+[Lv{0}] {known}	[Рів.{0}] {known}
+[Lv{0}] {known} (Master)	[Рів.{0}] {known} (Майстер)
+[Lv{0}] Blessed {known}	[Рів.{0}] {known} (благословенний)
+[Lv{0}] Stalwart {known}	[Рів.{0}] {known} (стійкий)
+[Lv{0}] Venerable {known}	[Рів.{0}] {known} (шанований)
+[Lv{0}] Exalted {known}	[Рів.{0}] {known} (звеличений)
+[Lv{0}] Empyrean {known}	[Рів.{0}] {known} (небесний)
+# --- 27.11.2026: колекції, нагороди босів, рецепти ---
+View all your {known}	§7Переглянь «{known}»:
+Progress to {item}: {0}	§7Прогрес до «{item}»: {0}
+{known} x{any}	{known} §8x{any}
+{known} Exp Discount ({0})	§7Знижка на досвід «{known}» ({0})
+Trading with {any}.	§7Обмін з {any}§7.
+✖ {0}/{1} {known}	✖ {0}/{1} {known}
+✔ {0}/{1} ({2}x) {known}	✔ {0}/{1} ({2}x) {known}
+- {known}: {0}	- {known}: {0}
+Player: {any}	§7Гравець: {any}
+{known} ✖ Not Found	{known} §c✖ Не знайдено
+{known} ✔ Found	{known} §a✔ Знайдено
+{known} ✖	{known} §c✖

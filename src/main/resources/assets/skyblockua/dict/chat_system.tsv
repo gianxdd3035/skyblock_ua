@@ -170,3 +170,8 @@ Your Damage: {0} (Position #{1})	Твоя шкода: {0} (місце №{1})
 ✆ RING... RING... RING... [PICK UP]	✆ ДЗЕЛЕНЬ... ДЗЕЛЕНЬ... ДЗЕЛЕНЬ... [ВЗЯТИ СЛУХАВКУ]
 [PICK UP]	[ВЗЯТИ СЛУХАВКУ]
 ☠ You fell into the void.	☠ Ти падаєш у порожнечу.
+Setting up the auction...	Налаштовуємо аукціон...
+Putting item in escrow...	Передаємо предмет на зберігання...
+Swapping your current tool!	Міняємо твій поточний інструмент!
+You are not in a party right now.	Ти зараз не в групі.
+You are not in a party right now. ({0})	Ти зараз не в групі. ({0})

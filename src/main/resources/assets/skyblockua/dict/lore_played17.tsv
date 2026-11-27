@@ -1,0 +1,237 @@
+# Сімнадцята партія з гри (27.11.2026): досягнення, конкурс Мірії, Абіфон, Сафарі, Сад, обмін, підземелля, базар
+This chance is added on top of your	§7Цей шанс додається до твого
+God Potion Effects	§7Ефекти божественного зілля
+Non-God Potion Effects	§7Ефекти інших зілль
+Mixins	§7Міксини
+Challenge achievements may be	§7Досягнення-виклики можна
+completed a single time.	§7виконати лише раз.
+Tiered achievements are completed	§7Ступеневі досягнення виконуються
+over multiple tiers.	§7в кілька ступенів.
+Achievement unlocked!	§aДосягнення відкрито!
+Achievement locked!	§cДосягнення закрите!
+Sorts by name from A to Z.	§7Сортує за назвою від А до Я.
+Left click to use!	§eЛКМ, щоб використати!
+Achievements.	§7досягнень.
+Tier unlocked!	§aСтупінь відкрито!
+Achieve Hunting Level V	§fДосягни V рівня полювання
+Sell an item using the Enchanted	§7Продай предмет за допомогою зачарованої
+Hopper.	§7лійки.
+Drink an Agility potion.	§7Випий зілля спритності.
+Open the Garden Time menu in The	§7Відкрий меню часу Саду в
+Fish an Oasis Sea Creature.	§7Злови оазисну морську істоту.
+[Co-op or you] Place {0} unique	§7[Ти або кооп] Постав {0} унікальних
+Islands on your private world.	§7острови у своєму приватному світі.
+Power a Beacon of any kind.	§7Запусти маяк будь-якого типу.
+Kill a sea creature that	§7Вбий морську істоту, для якої
+requires fishing level {0} or	§7потрібен {0} рівень риболовлі або
+higher.	§7вище.
+[Co-op or you] Place a Large	§7[Ти або кооп] Постав велику
+Storage Chest.	§7скриню для зберігання.
+Grapple {0} blazes at once.	§7Зачепи гаком {0} іфритів одночасно.
+Find a Squash while farming.	§7Знайди кабачок під час фермерства.
+Fully repair Reed's Boat in the	§7Повністю полагодь човен Ріда в
+Rift.	§7Ріфті.
+Recombobulate an Aspect of the	§7Рекомбобулюй Аспект
+Take down an Endstone Protector.	§7Здолай Захисника ендерняку.
+Wash off the King's Scent using	§7Змий Королівський запах
+water.	§7водою.
+Mine a Living Metal Snake in the	§7Видобудь Змію з живого металу в
+Find {0} fairy souls.	§7Знайди {0} душ фей.
+Cancels the Search	§7Скасовує пошук
+Perhaps even the trees of Galatea	§7Можливо, навіть дерева Галатеї
+have something to say about its	§7мають що сказати про його
+technological intricacies.	§7технологічні тонкощі.
+Buy Order Quantity	§8Кількість у замовленні на купівлю
+Buy up to {0}x.	§7Купити до §a{0}§7x.
+Search all recipes in SkyBlock. May	§7Пошук серед усіх рецептів SkyBlock. Можуть
+include recipes which aren't in the	§7траплятися рецепти, яких немає в
+recipe book.	§7книзі рецептів.
+Grants {0} Fishing Speed and a	§7Дає §b{0} швидкості риболовлі §7і
+{0} chance to catch Spooky Sea	§a{0} §7шансу виловити §6моторошних морських
+Creatures during the Spooky Festival.	§6істот §7під час §6Моторошного фестивалю§7.
+Successfully tuning the frequency	§7Успішне налаштування частоти
+grants {0} Stack to all players on	§7дає §b{0} заряд §7усім гравцям на
+Change your color to match the	§7Зміни свій колір під
+beats.	§7біт.
+Change your speed to match the	§7Зміни свою швидкість під
+Change your pitch to match the beats.	§7Зміни висоту звуку під біт.
+Shift-click to toggle sound!	§eShift+клік, щоб увімкнути чи вимкнути звук!
+Pause your movement to align it to	§7Зупинись, щоб вирівнятися з
+the beat.	§7бітом.
+Every SkyBlock Day, Miria holds a	§7Щодня в SkyBlock §bМірія §7проводить
+contest for everyone currently on	§7конкурс для всіх, хто зараз у
+the Torrhus Canyon.	§6каньйоні Торрус§7.
+Doing various activities while on the	§7Різні заняття в
+Torrhus Canyon grants points.	§6каньйоні Торрус §7дають §9очки§7.
+Reaching point brackets will earn	§7Досягнення §dпорогів очок §7приносить
+you even greater rewards!	§7ще кращі нагороди!
+Spend your Miria's Coupons in her	§7Витрачай §9купони Мірії §7в її
+shop!	§7крамниці!
+Some items are locked behind higher	§7Деякі предмети відкриваються лише на вищих
+tiers of Miria's Milestones!	§7рівнях §6віх Мірії§7!
+Once purchased in her shop, Miria	§7Після покупки в її крамниці §bМірія
+will keep track of your Personal	§7відстежуватиме твої §6особисті
+Bests during her contest!	§6рекорди §7під час конкурсу!
+The higher your Personal Best, the	§7Що вищий твій §6особистий рекорд§7, то
+more  Sweep you'll get!	§7більше §2 розмаху §7отримаєш!
+Helix Personal Best: {0} Logs	§aОсобистий рекорд гелікса§7: §e{0} колод
+Previous contests	§8Попередні конкурси
+You don't have any rewards to claim!	§7У тебе немає нагород, які можна забрати!
+You will earn rewards if you	§7Нагороди отримаєш, якщо
+accumulate at least {0} points in a	§7набереш щонайменше §a{0} §7очок за
+contest.	§7конкурс.
+The first {0} contests each day	§7Перші §e{0} §7конкурси щодня
+reward {0} Forest Whispers.	§7дають §3{0} лісових шепотів§7.
+Can be spent in Miria's Shop!	§7Можна витратити в §bкрамниці Мірії§7!
++New items in Miria's Shop	§8  +§aНові предмети в крамниці Мірії
+Whispers from Miria's Contests are	§9Шепоти з конкурсів Мірії
+Miria's Coupon x{0}	§9Купон Мірії §8x{0}
+Grants {0} Respiration, doubled while	§7Дає §3{0} дихання§7, подвоєного, коли ти
+on Foraging Islands.	§7на §2островах лісорубів§7.
+To Miria	§7До Мірії
+Allows you to do maintenance on	§7Дає обслуговувати
+relays for the Abiphone network.	§7ретранслятори мережі §3Абіфон§7.
+Wear Fairy Armor to view relays.	§7Вдягни §dброню феї§7, щоб бачити ретранслятори.
+First Added	§7Спершу додані
+Last Called	§7Останні дзвінки
+Most Called	§7Найчастіші дзвінки
+Do Not Disturb First	§7Спершу «Не турбувати»
+Browse through all NPCs in SkyBlock	§7Переглянь усіх NPC у SkyBlock,
+which both own an Abiphone AND are	§7які мають Абіфон І готові
+willing to add you as a contact.	§7додати тебе до контактів.
+Find contacts by name!	§7Шукай контакти за іменем!
+View a complete list of all Attributes!	§7Переглянь повний список усіх атрибутів!
+Check your progress, discover new	§7Перевіряй прогрес, відкривай нові
+Attributes, and learn how to obtain	§7атрибути й дізнавайся, як отримати
+the ones you don't own yet.	§7ті, яких у тебе ще немає.
+Start the Critter Safari with a	§7Починай §2Сафарі звірят§7 з
+Highlight a random zone each time	§7Підсвічує випадкову зону щоразу,
+you enter the Critter Safari. Gain	§7як ти входиш на §2Сафарі звірят§7. Отримуєш
+{0}  Hunting Fortune while in it.	§a{0}§7 §d фортуни полювання§7, поки ти в ній.
+in the Critter Safari.	§7на §2Сафарі звірят§7.
+LEGENDARY Eagle Pet, which has	§6§lЛЕГЕНДАРНИМ§7 §eулюбленцем-орлом§7, що має
+perks to help you out while on the	§7перки, які допомагають тобі на
+hunt!	§7полюванні!
+Start the Critter Safari with a Sparkling	§7Починай §2Сафарі звірят§7 з §bІскристим
+Amulet, which increases the chance of 	§bамулетом§7, що збільшує шанс, що §a
+Critters being SPARKLING by {0}x.	§aзвірята§7 будуть §6§lІСКРИСТИМИ§7, у §a{0}x§7.
+Sparkling Amulet bonuses do not stack.	§8Бонуси Іскристого амулета не сумуються.
+Applies the Majestic reforge when	§7Накладає перекування §9Величавий§7, коли
+combined with Safari Belt.	§7поєднаний із §fпоясом сафарі§7.
+That, too, soon fades away, along	§8І це теж скоро зникне разом
+with a single tear, like morning dew.	§8з єдиною сльозою, мов ранкова роса.
+{0} Safari Essence	§d{0} есенції сафарі
+Start the Critter Safari with the following:	§7Починай §2Сафарі звірят§7 із таким:
+- {0}x Masterful Critter Capsule	§8- §7{0}x §cмайстерна капсула для звірят
+- Random Quest Item	§8- §7Випадковий §cквестовий предмет
+Hungry Hiker will leave your Garden	§aГолодний турист §7покине твій §aСад
+and maybe come back later.	§7і, можливо, повернеться пізніше.
+maybe come back later.	§7можливо, повернеться пізніше.
+Tarwen will leave your Garden and	§aТарвен §7покине твій §aСад §7і,
+Dusk will leave your Garden and	§aДаск §7покине твій §aСад §7і,
+Puzzler will leave your Garden and	§9Загадник §7покине твій §aСад §7і,
+Jacob will leave your Garden and	§aДжейкоб §7покине твій §aСад §7і,
+Alchemist will leave your Garden and	§aАлхімік §7покине твій §aСад §7і,
+Missing items to accept!	§cБракує предметів, щоб прийняти!
+You have the items to craft.	§7У тебе є предмети для крафту.
+Click me to open the supercrafter!	§7Натисни, щоб відкрити суперкрафтер!
+Their stuff ⇨	§7Їхні речі ⇨
+The trade recently changed.	§7Обмін нещодавно змінився.
+Please review it before	§7Будь ласка, перевір його перед
+accepting.	§7прийняттям.
+The trade changed recently.	§7Обмін нещодавно змінився.
+Show all pets	§7Показати всіх улюбленців
+You can improve your minion by	§7Міньйона можна покращити,
+adding a minion upgrade item here.	§7додавши сюди предмет покращення.
+Open Storage to get Correct Value	§eВідкрий сховище, щоб отримати точне значення
+Click here to upgrade your minion to	§7Натисни тут, щоб покращити міньйона до
+the next tier.	§7наступного рівня.
+This minion has reached the maximum	§cЦей міньйон досяг максимального
+tier.	§cрівня.
+You accepted the trade. Wait	§7Ти прийняв обмін. Зачекай,
+for the other party to accept.	§7поки інша сторона теж прийме.
+Waiting for them to confirm...	§7Чекаємо на підтвердження...
+{0} hours on Hub	§b{0} год §7у Хабі
+{0} hours on Dungeon	§b{0} год §7у підземеллі
+{0} hours on Crimson Isle	§b{0} год §7на Багряному острові
+{0} hours on Crystal Hollows	§b{0} год §7у Кришталевих печерах
+{0} hours on Dungeon Hub	§b{0} год §7у Хабі підземель
+{0} hours on The End	§b{0} год §7у Краю
+{0} hours on Private Island	§b{0} год §7на приватному острові
+{0} hours on Garden	§b{0} год §7у Саду
+{0} hours on Dwarven Mines	§b{0} год §7у Гномських шахтах
+{0} hours on Moonglade Marsh	§b{0} год §7на Місячногаєвому болоті
+{0} hours on The Park	§b{0} год §7у Парку
+{0} hours on Spider's Den	§b{0} год §7у Павуковому лігві
+{0} hours on The Rift	§b{0} год §7у Ріфті
+{0} hours on Backwater Bayou	§b{0} год §7у Тихій затоці
+{0} hours on Jerry's Workshop	§b{0} год §7у майстерні Джеррі
+{0} hours on Torrhus Canyon	§b{0} год §7у каньйоні Торрус
+{0} hours on Lotus Atoll	§b{0} год §7на Атолі лотосів
+{0} hours on Mineshaft	§b{0} год §7у шахті
+{0} hours on Kuudra	§b{0} год §7у Куудрі
+{0} hours on Instanced	§b{0} год §7в окремих світах
+{0} hours on Safari	§b{0} год §7на Сафарі
+{0} hours on The Farming Islands	§b{0} год §7на Фермерських островах
+{0} hours on Deep Caverns	§b{0} год §7у Глибоких печерах
+{0} hours on Mushroom Desert	§b{0} год §7у Грибній пустелі
+{0} hours on Dark Auction	§b{0} год §7на Темному аукціоні
+{0} hours on Gold Mine	§b{0} год §7у Золотій шахті
+{0} hours on Limbo	§b{0} год §7у Лімбо
+{0} hours on Winter Island	§b{0} год §7на Зимовому острові
+{0} hours on Galatea	§b{0} год §7на Галатеї
+Totalling {0} hours on this profile!	§7Загалом §b{0} год §7на цьому профілі!
+Salvage weapons and armor for	§7Розбирай зброю й броню на
+materials.	§7матеріали.
+Upgrade items or convert regular	§7Покращуй предмети або перетворюй звичайні
+items into Dungeon items using	§7на предмети підземель за допомогою
+Essence!	§dесенції§7!
+Exchange Undead Essence for perks	§7Обмінюй §dесенцію нежиті §7на перки
+and items useful in The Catacombs!	§7і предмети, корисні в §cКатакомбах§7!
+Exchange Wither Essence for perks	§7Обмінюй §dесенцію візера §7на перки
+and items!	§7і предмети!
+Upgrade regular items to Dungeon	§7Покращуй звичайні предмети до §bпредметів
+Items using Essence!	§bпідземель §7за допомогою §dесенції§7!
+Upgrade items using materials and	§7Покращуй предмети матеріалами та
+Essence to improve their stats!	§dесенцією§7, щоб посилити характеристики!
+Select items to salvage for materials!	§7Вибери предмети, щоб розібрати на матеріали!
+it forever!	§cназавжди!
+Insert all salvageable Uncommon	§7Вкласти всі §aнезвичайні §7предмети для розбору,
+items dropped from mobs in your	§7що випали з мобів, у твоєму
+inventory that have not been	§7інвентарі, які не були
+modified or upgraded.	§7змінені чи покращені.
+Insert all salvageable Rare items	§7Вкласти всі §9рідкісні §7предмети для розбору,
+dropped from mobs in your	§7що випали з мобів, у твоєму
+The Wither Lords	§8Лорди візера
+Disciples of the Wither King. Inherited the	§7Учні Короля візерів. Успадкували
+Catacombs eons ago. Never defeated, feared by	§7Катакомби еони тому. Непереможні, їх бояться
+anything living AND dead.	§7всі живі Й мертві.
+✓ The Catacombs Floor VI Completion.	§a✓ Пройдено Катакомби, поверх VI.
+Like normal Dungeons... but more	§8Як звичайні підземелля... тільки
+hardcore.	§8хардкорніші.
+Use the Party Finder to join a party	§7Скористайся пошуком групи, щоб приєднатися
+queued for the dungeon.	§7до групи в черзі на підземелля.
+WARNING! Don't click any suspicious	§cУВАГА! Не переходь за підозрілими
+links or Discord invites. Never share	§cпосиланнями чи запрошеннями в Discord. Ніколи не ділися
+your account information!	§cданими свого акаунта!
+You should party up with {0} players	§7Збери групу з {0} гравців
+for this instance!	§7для цього світу!
+THIS INSTANCE IS BEST	§cЦЕЙ СВІТ НАЙКРАЩЕ
+WITH A {0} PLAYER PARTY!	§c§lПРОХОДИТИ ГРУПОЮ З §b§l{0} ГРАВЦІВ§c§l!
+rare Sea Creatures during the day.	§7рідкісних морських істот удень.
+Right-Click to set amount!	§bПКМ, щоб указати кількість!
+Missing ingredients!	§cБракує інгредієнтів!
+This recipe has {0}	§7Цей рецепт має {0}
+versions.	§7версій.
+Not enough inventory space!	§cНедостатньо місця в інвентарі!
+Buy Order Setup	§8Налаштування замовлення на купівлю
+Use the same price as the highest	§7Використати ту саму ціну, що й у найвищому
+Buy Order for this item.	§7замовленні на купівлю цього предмета.
+Beat the price of the top order so	§7Переплюнь ціну найкращого замовлення, щоб
+Set the price per unit you're willing	§7Вкажи ціну за одиницю, яку готовий
+to pay. Minimum {0} of the best order.	§7заплатити. Мінімум {0} від найкращого замовлення.
+To picking quantity.	§7До вибору кількості.
+Undercut!	§cПеребили ціну!
+Right-Click for options!	§bПКМ — варіанти!
+Instant buy: {0} coins ({1} each)	§7Миттєва купівля: §6{0} монет ({1} за шт.)
+Buy order: {0} coins ({1} each)	§7Замовлення: §6{0} монет ({1} за шт.)

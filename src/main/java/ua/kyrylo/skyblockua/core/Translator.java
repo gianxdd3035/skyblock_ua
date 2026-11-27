@@ -703,6 +703,8 @@ public final class Translator<S> {
         return translateNpcs ? mobTag(line, plain, start, end, d) : null;
     }
 
+    private static final Pattern MOB_TYPES_LABEL = Pattern.compile("Mob Types?");
+    private static final Pattern WORD = Pattern.compile("[A-Za-z]+");
     private static final Pattern MOB_LEVEL = Pattern.compile("\\[Lv\\d+]");
     private static final Pattern MOB_NAME = Pattern.compile("[A-Za-z][A-Za-z'\u2019\\-]*(?: [A-Za-z][A-Za-z'\u2019\\-]*)*");
 
@@ -772,7 +774,20 @@ public final class Translator<S> {
     private String lookupItem(String text, Dict d) {
         NameHit hit = resolveName(text, d);
         if (hit != null) return hit.text();
-        return d.get(Dict.Section.LINES, text);
+        String v = d.get(Dict.Section.LINES, text);
+        return v != null ? v : reforgedName(text, d);
+    }
+
+    /* "Renowned Sorrow Helmet" у шаблоні -> "Славетний шолом скорботи" (рефорж у роді назви) */
+    private String reforgedName(String text, Dict d) {
+        if (!translateNames) return null;
+        int sp = text.indexOf(' ');
+        if (sp <= 0 || !d.isReforge(text.substring(0, sp))) return null;
+        NameHit hit = resolveName(text.substring(sp + 1), d);
+        if (hit == null) return null;
+        String form = d.reforgeForm(text.substring(0, sp), hit.gender());
+        String head = form == null || form.isEmpty() ? text.substring(0, sp) : form;
+        return head + " " + (hit.fromArmor() ? decapitalize(hit.text()) : hit.text());
     }
 
     /*
@@ -887,14 +902,15 @@ public final class Translator<S> {
         return current == line ? null : current;
     }
 
+    /* Великими літерами вважаємо рядок щонайменше з трьох літер: "10/100 XP" лишається звичайним */
     private static boolean isAllCaps(String s) {
-        boolean letters = false;
+        int letters = 0;
         for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
             if (Character.isLowerCase(c)) return false;
-            if (Character.isUpperCase(c)) letters = true;
+            if (Character.isUpperCase(c)) letters++;
         }
-        return letters;
+        return letters >= 3;
     }
 
     private List<Seg<S>> labelRule(List<Seg<S>> line, int start, int end, String core, Dict d) {
@@ -929,6 +945,20 @@ public final class Translator<S> {
                     int ns = start + m.end() + lead;
                     List<Seg<S>> r = Lines.replaceRange(line, ns, ns + name.length(), uaName, ops);
                     if (r != null) base = r;
+                }
+            }
+            /* Типи мобів у бестіарії: "Mob Types: ◇ Aquatic, ◇ Animal" — кожне слово окремо, значки й кольори лишаються */
+            if (MOB_TYPES_LABEL.matcher(label).matches()) {
+                int vs = start + m.end();
+                Matcher w = WORD.matcher(core.substring(m.end()));
+                List<int[]> words = new ArrayList<>();
+                while (w.find()) words.add(new int[]{w.start(), w.end()});
+                for (int i = words.size() - 1; i >= 0; i--) {
+                    int[] r = words.get(i);
+                    String t = d.get(Dict.Section.NAMES, core.substring(m.end() + r[0], m.end() + r[1]));
+                    if (t == null) continue;
+                    List<Seg<S>> next = Lines.replaceRange(base, vs + r[0], vs + r[1], t, ops);
+                    if (next != null) base = next;
                 }
             }
             return Lines.replaceRange(base, start, start + label.length(), ua, ops);

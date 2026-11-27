@@ -1,0 +1,91 @@
+# Назви з гри, четверта партія (27.11.2026): аукціон, базар, мисливські інструменти, броня
+Edible Seaweed	Їстівні водорості	p
+Cancel Order	Скасувати замовлення	n
+Same as Best Offer	Як у найкращій пропозиції	n
+Custom Price	Власна ціна	f
+Cancel Sell Offer	Скасувати пропозицію продажу	n
+Sell Offer	Пропозиція продажу	f
+Snowy Gillsplash Cloak	Сніжний плащ Зябробризку	m
+Snowy Gillsplash Gloves	Сніжні рукавиці Зябробризку	p
+Gillsplash Cloak	Плащ Зябробризку	m
+Gillsplash Gloves	Рукавиці Зябробризку	p
+Auctions Management	Керування аукціонами	n
+Bat Talisman	Талісман кажана	m
+Bat Ring	Перстень кажана	m
+Bat Artifact	Артефакт кажана	m
+Click an item in your inventory!	Натисни на предмет в інвентарі!	n
+Switch to Auction	Перемкнути на аукціон	n
+AUCTION FOR ITEM:	АУКЦІОН ПРЕДМЕТА:	m
+Confirm BIN Auction	Підтвердити аукціон «Купити зараз»	n
+Buy Item Right Now	Купити предмет просто зараз	n
+Cancel Auction	Скасувати аукціон	n
+Open Chocolate Factory	Відкрити шоколадну фабрику	n
+Quests & Chapters	Квести й розділи	p
+Spook Helmet	Шолом переляку	m
+Spook Chestplate	Нагрудник переляку	m
+Spook Leggings	Поножі переляку	p
+Spook Boots	Чоботи переляку	p
+Great Spook Helmet	Шолом Великого переляку	m
+Great Spook Chestplate	Нагрудник Великого переляку	m
+Great Spook Leggings	Поножі Великого переляку	p
+Great Spook Boots	Чоботи Великого переляку	p
+Greater Spook Helmet	Шолом Ще більшого переляку	m
+Greater Spook Chestplate	Нагрудник Ще більшого переляку	m
+Greater Spook Leggings	Поножі Ще більшого переляку	p
+Greater Spook Boots	Чоботи Ще більшого переляку	p
+Helmet of Divan	Шолом Дівана	m
+Chestplate of Divan	Нагрудник Дівана	m
+Leggings of Divan	Поножі Дівана	p
+Boots of Divan	Чоботи Дівана	p
+Huntaxe	Мисливська сокира	f
+Prime Huntaxe	Первісна мисливська сокира	f
+Fishing Net	Рибальська сітка	f
+Gigantic Fishing Net	Велетенська рибальська сітка	f
+Huntrap	Мисливська пастка	f
+Astral Huntrap	Астральна мисливська пастка	f
+Toolkit Information	Інформація про набір	f
+Stats Tuning	Налаштування характеристик	n
+Hunting Toolkit	Мисливський набір	m
+At what price are you selling?	За якою ціною продаєш?	n
+BIN Auction View	Перегляд аукціону «Купити зараз»	m
+Best Offer {0}	Найкраща пропозиція {0}	f
+{0} of Spread	{0} від різниці цін	n
+Item price: {0} coins	Ціна предмета: {0} монет	f
+Duration: {0} Hours	Тривалість: {0} год	f
+Toggle Claim Reminders	Нагадування про нагороди	p
+Mist	Туман	m
+Mudworm	Грязечерв	m
+Bezal	Безал	m
+Bob-omb	Боб-омб	m
+Will-o'-wisp	Блукаючий вогник	m
+Yoggie	Йоггі	m
+Sorrow	Смуток	m
+Helixis	Гелікс	m
+Silex	Сілекс	m
+Prickly Creeper	Колючий кріпер	m
+Reptiloid	Рептилоїд	m
+Iron	Залізо	n
+Gold	Золото	n
+Lapis	Лазурит	m
+Snow	Сніг	m
+Quartz	Кварц	m
+Pork	Свинина	f
+Mushrooms	Гриби	p
+Gemstones	Самоцвіти	p
+Aggourdian	Гарбузовартовий	m
+Botroot	Ботокорінь	m
+Ashwreath	Попелевінок	m
+Duskbloom	Сутінкоцвіт	m
+Shadevine	Тіньолоза	f
+Creambloom	Вершкоцвіт	m
+Lonelily	Самотлілія	f
+Chloronite	Хлороніт	m
+Cindershade	Жаротінь	f
+Cheesebite	Сирокус	m
+Scourroot	Бичокорінь	m
+Startlevine	Лякалоза	f
+Choconut	Шоколадний горіх	m
+Thunderling	Громовичок	m
+Chocoberry	Шокоягода	f
+Puffercloud	Пухохмарка	f
+Blastberry	Вибухоягода	f

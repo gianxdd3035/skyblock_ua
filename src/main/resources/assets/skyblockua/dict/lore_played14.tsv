@@ -1,15 +1,8 @@
 # Чотирнадцята партія з гри (26.11.2026): описи мобів бестіарію, морські істоти, Куудра
-{0} Queen Ant  Hunting Fortune	§5  §8+§a{0} §d фортуни полювання §7(мурашині матки)
-{0} Sepialot  Hunting Fortune	§5  §8+§a{0} §d фортуни полювання §7(сепіалоти)
-{0} Sepialot Hunting XP	§5  §8+§3{0} §7досвіду полювання (сепіалоти)
-{0} Lotum  Hunting Fortune	§5  §8+§a{0} §d фортуни полювання §7(лотуми)
-{0} Lotum Hunting XP	§5  §8+§3{0} §7досвіду полювання (лотуми)
 found and killed in the Cavern Biome.	§7знайшов і вбив у §6печерному біомі§7.
 found and killed in the Forest Biome.	§7знайшов і вбив у §2лісовому біомі§7.
 found and killed in the Haunted Biome.	§7знайшов і вбив у §5примарному біомі§7.
 found and killed in the Icy Biome.	§7знайшов і вбив у §bкрижаному біомі§7.
-to...possess...you.	§7...вселитися...в тебе.
-Silent, but deadly.	§7Тихий, але смертоносний.
 you've killed while fishing in Lava.	§7яких ти вбив, рибалячи в §cлаві§7.
 you've killed while fishing during the	§7яких ти вбив, рибалячи під час
 Fishing Festival.	§bРибальського фестивалю§7.
@@ -18,8 +11,6 @@ that you've killed while fishing.	§7яких ти вбив під час риб
 you've killed while fishing in the	§7яких ти вбив, рибалячи в
 Backwater Bayou.	§2Тихій затоці§7.
 Loading rankings...	§7Завантаження рейтингу...
-The ultimate guardian of Minos'	§7Найвищий охоронець бібліотеки
-Literature.	§7Міноса.
 Toggle chat reminders of when you	§7Вмикає нагадування в чаті, коли в тебе
 have a pending Bestiary Milestone to	§7є неотримана §3віха бестіарію§7, яку можна
 claim.	§7забрати.

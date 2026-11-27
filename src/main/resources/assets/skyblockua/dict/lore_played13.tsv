@@ -49,46 +49,6 @@ Tier XXIV Rewards	§7Нагороди рівня XXIV
 Capped at Tier XXIV	§8Максимум — рівень XXIV
 Tier XXV Rewards	§7Нагороди рівня XXV
 Capped at Tier XXV	§8Максимум — рівень XXV
-{0} Bat  Magic Find	§5  §8+§a{0} §b магічної удачі §7(кажанів)
-{0} Bat  Strength	§5  §8+§a{0} §c сили §7(кажанів)
-{0} Bat coins	§5  §8+§6{0} §7монет (кажанів)
-{0} Enderman  Magic Find	§5  §8+§a{0} §b магічної удачі §7(ендерменів)
-{0} Enderman  Strength	§5  §8+§a{0} §c сили §7(ендерменів)
-{0} Enderman coins	§5  §8+§6{0} §7монет (ендерменів)
-{0} Skeleton  Magic Find	§5  §8+§a{0} §b магічної удачі §7(скелетів)
-{0} Skeleton  Strength	§5  §8+§a{0} §c сили §7(скелетів)
-{0} Skeleton coins	§5  §8+§6{0} §7монет (скелетів)
-{0} Slime  Magic Find	§5  §8+§a{0} §b магічної удачі §7(слизнів)
-{0} Slime  Strength	§5  §8+§a{0} §c сили §7(слизнів)
-{0} Slime coins	§5  §8+§6{0} §7монет (слизнів)
-{0} Witch  Magic Find	§5  §8+§a{0} §b магічної удачі §7(відьом)
-{0} Witch  Strength	§5  §8+§a{0} §c сили §7(відьом)
-{0} Witch coins	§5  §8+§6{0} §7монет (відьом)
-{0} Ent  Magic Find	§5  §8+§a{0} §b магічної удачі §7(ентів)
-{0} Ent  Strength	§5  §8+§a{0} §c сили §7(ентів)
-{0} Ent coins	§5  §8+§6{0} §7монет (ентів)
-{0} Nessie  Magic Find	§5  §8+§a{0} §b магічної удачі §7(Нессі)
-{0} Nessie  Strength	§5  §8+§a{0} §c сили §7(Нессі)
-{0} Nessie coins	§5  §8+§6{0} §7монет (Нессі)
-{0} Stridersurfer  Magic Find	§5  §8+§a{0} §b магічної удачі §7(страйдерсерферів)
-{0} Stridersurfer  Strength	§5  §8+§a{0} §c сили §7(страйдерсерферів)
-{0} Stridersurfer coins	§5  §8+§6{0} §7монет (страйдерсерферів)
-{0} Brineling  Magic Find	§5  §8+§a{0} §b магічної удачі §7(брайнлінгів)
-{0} Brineling  Strength	§5  §8+§a{0} §c сили §7(брайнлінгів)
-{0} Brineling coins	§5  §8+§6{0} §7монет (брайнлінгів)
-{0} Giant Isopod  Magic Find	§5  §8+§a{0} §b магічної удачі §7(гігантських рівноногих)
-{0} Giant Isopod  Strength	§5  §8+§a{0} §c сили §7(гігантських рівноногих)
-{0} Giant Isopod coins	§5  §8+§6{0} §7монет (гігантських рівноногих)
-{0} Spider  Magic Find	§5  §8+§a{0} §b магічної удачі §7(павуків)
-{0} Spider  Strength	§5  §8+§a{0} §c сили §7(павуків)
-{0} Spider coins	§5  §8+§6{0} §7монет (павуків)
-{0} Zombie  Magic Find	§5  §8+§a{0} §b магічної удачі §7(зомбі)
-{0} Zombie  Strength	§5  §8+§a{0} §c сили §7(зомбі)
-{0} Zombie coins	§5  §8+§6{0} §7монет (зомбі)
-{0} Murkbat  Hunting Fortune	§5  §8+§a{0} §d фортуни полювання §7(муркбатів)
-{0} Murkbat Hunting XP	§5  §8+§3{0} §7досвіду полювання (муркбатів)
-{0} Dustybit  Hunting Fortune	§5  §8+§a{0} §d фортуни полювання §7(дастібітів)
-{0} Dustybit Hunting XP	§5  §8+§3{0} §7досвіду полювання (дастібітів)
 Lustrous	§5    §9Сяйливий
 Gabagool.	§5 §dГабагул.
 Your RNG Meter fills with Enderman	§7Твій §dлічильник РНГ §7заповнюється §dдосвідом
@@ -146,18 +106,3 @@ Loot	§eЗдобич
 players!	§7гравців!
 Rankings may take some time to	§8Рейтинг може оновлюватися
 refresh.	§8не одразу.
-Smells like Bacon.	§7Пахне беконом.
-Glides by in a blur of wings and	§7Пролітає розмитою плямою крил
-A common Garden pest, known for its	§7Поширений садовий шкідник, відомий
-big eyes.	§7своїми великими очима.
-Pretty loud, and pretty annoying.	§7Досить гучна й досить набридлива.
-Fluttering around a Garden near you.	§7Пурхає в саду поруч із тобою.
-Methodical in movement, ineffective in	§7Методичний у рухах, неефективний у
-survival.	§7виживанні.
-There can only be one, sometimes	§7Може бути лише один, а часом,
-two apparently.	§7як виявилося, і два.
-It silently soars through the skies,	§7Він безшумно ширяє небом,
-Tiny bugs flickering at the edge of	§7Крихітні комашки, що мерехтять на межі
-An old soul who's ready for a fight!	§7Стара душа, що завжди готова до бою!
-The complex tunnel systems of	§7За складні системи тунелів
-Its coloring helps it blend in with the	§7Забарвлення допомагає йому зливатися

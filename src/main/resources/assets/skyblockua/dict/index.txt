@@ -45,3 +45,12 @@ lore_played13.tsv
 lore_played14.tsv
 names_mobs.tsv
 lore_mobs.tsv
+names_mobtypes.tsv
+lore_played15.tsv
+names_played4.tsv
+lore_played16.tsv
+lore_played17.tsv
+names_played5.tsv
+lore_played18.tsv
+lore_played19.tsv
+lore_played20.tsv

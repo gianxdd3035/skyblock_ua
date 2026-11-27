@@ -151,7 +151,7 @@ public class EngineTest {
         ed.load("reforges.tsv", new StringReader("Shiny\tСяючий\tСяюча\tСяюче\tСяючі\nHeroic\tГероїчний\tГероїчна\tГероїчне\tГероїчні\n"));
         ed.load("names_t.tsv", new StringReader("Hyperion\tГіперіон\n"));
         ed.load("lines_t.tsv", new StringReader("MYTHIC\tМІФІЧНИЙ\nSharpness\tГострота\nCritical\tКритичний удар\nBane of Arthropods\tЗагибель членистоногих\nDUNGEON SWORD\tМеч підземель\nLegion\tЛегіон\n"));
-        ed.load("patterns_t.tsv", new StringReader("{item} {0} | {1}\t{item} {0} | {1}\n"));
+        ed.load("patterns_t.tsv", new StringReader("{item} {0} | {1}\t{item} {0} | {1}\n- {known}: {0}\t- {known}: {0}\n{0}/{1} XP\t{0}/{1} досвіду\n"));
         ed.load("names_m.tsv", new StringReader("Enchanted Sponge\tЗачарована губка\n"));
         Translator<TStyle> et = new Translator<>(OPS);
         et.setDict(ed);
@@ -160,6 +160,9 @@ public class EngineTest {
         expect(et, "§7dungeon sword", Translator.Kind.ANY, "§7Меч підземель");
         expect(et, "§7DUNGEON SWORD", Translator.Kind.ANY, "§7МЕЧ ПІДЗЕМЕЛЬ");
         expect(et, "§dLEGION", Translator.Kind.ANY, "§dЛЕГІОН");
+        /* рефорж у шаблоні; дві великі літери ("XP") — ще не капс */
+        expect(et, "§7- §dHeroic Hyperion: §622.9M", Translator.Kind.LORE, "§7- §dГероїчний Гіперіон§7: §622.9M");
+        expect(et, "§b10§3/§b100 XP", Translator.Kind.LORE, "§b10/100 досвіду");
         expect(et, "§9Sharpness VI, §9Critical VI", Translator.Kind.LORE, "§9Гострота VI, Критичний удар VI");
         expect(et, "§e› Bane Of Arthropods VI→VII, Sharpness VI→VII", Translator.Kind.ANY, "§e› Загибель членистоногих VI→VII, Гострота VI→VII");
         expect(et, "§9▶ §7Enchanted Sponge §c7.2k§8 | §a10.3k", Translator.Kind.ANY, "§9▶ §7Зачарована губка§8 §c7.2k§8 | §a10.3k");
@@ -233,6 +236,10 @@ public class EngineTest {
         check("boss tag", mob2 == null ? null : Lines.legacy(mob2, OPS), "§c☠ §4Невпокоєний жах IV §e900k§c❤");
         List<Seg<TStyle>> mob3 = ct2.translateTag(parse("§8[§7Lv1§8] §cCorrupted Zombie §a50§c❤"));
         check("mob tag partial", mob3 == null ? null : Lines.legacy(mob3, OPS), "§8[§7Рів.1§8] §cCorrupted Зомбі §a50§c❤");
+        /* типи мобів у бестіарії: кожне слово після підпису окремо */
+        cd2.load("labels_t2.tsv", new StringReader("Mob Types\tТипи мобів\n"));
+        cd2.load("names_mobtypes_t.tsv", new StringReader("Aquatic\tВодні\tp\nAnimal\tТварини\tp\n"));
+        check("mob types", run(ct2, "§7Mob Types: §9☂ Aquatic§7, §a☘ Animal", Translator.Kind.LORE), "§7Типи мобів: §9☂ Водні§7, §a☘ Тварини");
         check("plain hologram untouched", ct2.translateTag(parse("§aZombie")) == null ? "null" : "changed", "null");
         /* рід за першим словом */
         String[][] genders = {{"Зачарована книга", "f"}, {"Вугілля", "n"}, {"Насіння", "n"}, {"Кристали призмарину", "p"},

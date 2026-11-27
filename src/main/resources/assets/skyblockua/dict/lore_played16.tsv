@@ -1,0 +1,232 @@
+# Шістнадцята партія з гри (27.11.2026): сумка аксесуарів, мер і вибори, шоколадна фабрика, перки улюбленців
+Empty sack!	§8Мішок порожній!
+Right-Click for stack!	§bПКМ — цілий стос!
+Attempts to pickup all items in this	§7Намагається забрати всі предмети з цього
+sack.	§7мішка.
+Right-Click to pick up a stack.	§bПКМ, щоб забрати стос.
+A special bag which can hold	§7Особлива сумка, у якій можна тримати
+Talismans, Rings, Artifacts, and Orbs	§7талісмани, персні, артефакти й сфери.
+within it. All will still work while in this	§7Усі вони працюють і тоді, коли лежать у цій
+bag!	§7сумці!
+This has been  Enriched and will	§7Цей предмет §e збагачено§7, і він
+grant an additional Tuning Point.	§7дає додаткове §eочко налаштування§7.
+Professional Game Stage	§8Професійний етап гри
+Master Game Stage	§8Майстерний етап гри
+Starter Game Stage	§8Початковий етап гри
+Amateur Game Stage	§8Аматорський етап гри
+Game Stage	§7Етап гри
+Strength while in Master Mode	§cсили §7в режимі §cМайстра
+Dungeons.	§7у підземеллях.
+Upgraded using Master Skull - Tier	§7Покращено §9Майстерним черепом — рівень
+Points towards the nearest Relic	§7Вказує на найближчу §bреліквію§7,
+while on the Spider's Den.	§7коли ти в §cПавуковому лігві§7.
+Automatically compacts various	§7Автоматично ущільнює різні
+Combat items that are in your Sacks.	§cбойові §7предмети у твоїх мішках.
+Keeps {0} of Sack capacity uncompacted!	§8Лишає {0} місткості мішка неущільненими!
+Does not grant Carpentry XP!	§8Не дає досвіду теслярства!
+You hold your breath as you enter	§7Ти затамовуєш подих, входячи в
+the Rift Dimension, allowing you to	§dвимір Ріфту§7, що дає змогу
+delay the loss of  Rift Time by {0}s.	§7відтягнути втрату §a часу Ріфту §7на §a{0}с§7.
+You can expand your Accessory Bag	§7Сумку аксесуарів можна розширити
+by doing any of the following:	§7будь-яким із цих способів:
+• Increasing your Redstone Collection.	§8 • §7Збільшуючи §bколекцію редстоуну§7.
+Jacobus in the Combat Settlement in	§6Якобус §7у §cБойовому поселенні §7в
+the Hub.	§bХабі§7.
+• Unlocking slots from Elizabeth in the	§8 • §7Відкриваючи слоти в §dЕлізабет §7у
+Community Center in the Hub.	§bГромадському центрі §7Хабу.
+Find accessories by name!	§7Шукай аксесуари за назвою!
+▶ Upgrades First	§b▶ §7Спершу покращення
+Missing First	§7Спершу відсутні
+Configurable First	§7Спершу налаштовувані
+Your Dungeon Reward Chests have a	§7Твої скрині з нагородами підземель мають
+{0} higher quality.	§7на §a{0} §7вищу якість.
+Apply a natural regen tick when you	§7Природне відновлення спрацьовує, коли
+deal  Melee Damage.	§7завдаєш §c шкоди ближнього бою§7.
+Purchased from  Shen's Auction.	§7Куплено на  §6аукціоні Шена§7.
+Crafted using a Pre-Digestion Fish	§7Скрафчено з §5Неперетравленої риби§7,
+obtained by feeding Tasty Cat Food	§7яку отримують, годуючи §9Смачним котячим кормом
+to two hungry Siamese Lynxes.	§7двох голодних §2сіамських рисей§7.
+Gifts.	§7подарунків.
+Obtained during the {0} Alchemist	§7Отримано під час §e{0} §5алхімічних
+Grants {0} Intelligence in combat	§7Дає §b{0} інтелекту §7в бою
+for a cost of {0}⸎ Soulflow per {1}s.	§7ціною §3{0}⸎ потоку душ §7кожні §a{1}с§7.
+Take {0} less  Damage from 	§7Отримуєш на §c{0} §7менше §c шкоди §7від §8
+unique Visitor you have served.	§7унікального §bвідвідувача§7, якого ти обслужив.
+(Excludes SPECIAL Visitors)	§8(Крім ОСОБЛИВИХ відвідувачів)
+Blazing Bonus	§9Палаючий бонус
+For every {0}♨ Heat, you are {1}	§7За кожен §c{0}♨ жару§7 маєш на §a{1}
+more likely to find Worms.	§7більше шансів знайти §6черв'яків§7.
+Mining Fortune.	§6фортуни копання§7.
+Radiant Scyphozoa	§6Сяйлива сцифомедуза
+While in dungeons, reduces the mana	§7У підземеллях зменшує витрату мани
+Stored Energy	§6Накопичена енергія
+Powerful Potions	§6Могутні зілля
+While in dungeons, increase the	§7У підземеллях підвищує
+effectiveness of Dungeon Potions by	§7ефективність зілль підземель на
+Spiky Quills	§6Колючі голки
+Deal {0} more damage to  Pests.	§7Завдаєш на §a{0}§7 більше шкоди §2 шкідникам§7.
+Fearsome Farmer	§6Грізний фермер
+{0} Overbloom on  Pests.	§e{0} буйноцвіту §7на §2 шкідниках§7.
+Hunter's Insight	§6Чуття мисливця
+Pest Bestiary Tier.	§7рівень бестіарію шкідників.
+▶ Show all pets	§3▶ §7Показати всіх улюбленців
+Only your pet	§7Лише твій улюбленець
+Z to A	§7Від Я до А
+Perks List	§8Список перків
+Shopping Spree	§dШопінг-марафон
+Increase daily NPC buy limits by	§7Збільшує денні ліміти купівлі в NPC у
+Stock Exchange	§dФондова біржа
+Participate in the Stonks Auction	§7Бери участь в §dаукціоні стонксів
+for a chance to win Stock of	§7і май шанс виграти §5Акцію
+Stonks! Trade them for	§5стонксів§7! Обмінюй їх на
+extravagant items at the Trade	§6екстравагантні предмети §7в §bТорговому
+Center.	§bцентрі§7.
+Volume Trading	§dОптова торгівля
+The available item quantity per	§7Доступну кількість предметів на кожному
+Shen's Auction has been doubled,	§6аукціоні Шена §7подвоєно,
+and two additional Shen's Special	§7а ще два §6особливі аукціони Шена
+auctions will be available if Diaz is	§7будуть доступні, коли Діас —
+Mayor.	§7мер.
+Long Term Investment	§dДовгострокова інвестиція
+The elected minister will appear as	§7§bОбраний міністр §7з'явиться як
+a candidate with all of their perks	§7кандидат з §dусіма §7своїми перками
+in the next election cycle.	§7на §aнаступних виборах§7.
+The listed perks are available to	§7Ці перки доступні
+all players until the closing of	§7всім гравцям до закриття
+the next elections.	§7наступних виборів.
+Year {0}	§8Рік {0}
+{0} ○ {1} votes | Diaz	{0}§8 ○ §e{1} голосів§8 | §dДіас
+{0} ○ {1} votes | Diana	{0}§8 ○ §e{1} голосів§8 | §cДіана
+{0} ○ {1} votes | Paul	{0}§8 ○ §e{1} голосів§8 | §eПол
+{0} ○ {1} votes | Finnegan	{0}§8 ○ §e{1} голосів§8 | §bФіннеган
+{0} ○ {1} votes | Marina	{0}§8 ○ §e{1} голосів§8 | §aМарина
+{0} ○ {1} votes | Aatrox	{0}§8 ○ §e{1} голосів§8 | §5Аатрокс
+{0} ○ {1} votes | Cole	{0}§8 ○ §e{1} голосів§8 | §eКоул
+{0} ○ {1} votes | Foxy	{0}§8 ○ §e{1} голосів§8 | §dФоксі
+{0} ○ {1} votes | Barry	{0}§8 ○ §e{1} голосів§8 | §bБаррі
+These are the votes for the	§7Це голоси на
+last election in which Diaz was	§7останніх виборах, де Діаса
+elected.	§7обрали.
+Active Perk	§8Активний перк
+The Minister is who came in {0}nd Place	§7Міністр — той, хто посів {0}-ге місце
+The Minister is who came in {0}nd place	§7Міністр — той, хто посів {0}-ге місце
+during the election. They have one	§7на виборах. У нього діє
+of their perks active.	§7один із його перків.
+The Mayor election booth opens in	§7Виборча дільниця відкриється в
+the community center!	§7громадському центрі!
+Event lasts for {0}d {1}h!	§7Подія триває §e{0}д {1}год§7!
+Event lasts for {0}h!	§7Подія триває §e{0}год§7!
+Farm in-season crops to help	§7Вирощуй сезонні культури, щоб допомогти
+season the Communal Stew. Talk to	§7приправити §eСпільне рагу§7. Поговори з
+Feast Chef Ted in the Hub for more	§7кухарем свята Тедом у §bХабі§7, щоб
+info.	§7дізнатися більше.
+Autumn is in full swing and the air is	§7Осінь у розпалі, і повітря
+full of fright. Mob drops have a	§7сповнене жаху. Здобич мобів має
+chance to contain Candy, which can	§7шанс містити цукерки, які можна
+be traded with the Fear Mongerer	§7обміняти в Страхоторговця
+for rare items!	§7на рідкісні предмети!
+Oringo the Traveling Zookeeper is	§7Орінго, мандрівний доглядач звіринця,
+visiting SkyBlock with pets to trade!	§7завітав у SkyBlock з улюбленцями на обмін!
+The Mayor is selected until the next	§7Мера обрано до завершення
+election ends!	§7наступних виборів!
+View and claim rewards obtained	§7Переглядай і забирай нагороди,
+through participating in Events!	§7здобуті за участь у подіях!
+Lantern of the Dead	§cЛіхтар мертвих
+Singing Fish	§cСпівоча риба
+Plastic Shovel	§cПластикова лопатка
+The mayor has been elected for	§7Мера обрано на
+year {0} by the whole SkyBlock	§7рік {0} усією спільнотою
+community.	§7SkyBlock.
+Opens the full SkyBlock Calendar.	§7Відкриває повний календар SkyBlock.
+Hoppity the Rabbit needs help finding	§aКролик Хоппіті §7потребує допомоги в пошуках
+all of his chocolate friends during	§7усіх своїх шоколадних друзів
+the Spring season.	§7навесні.
+Meanwhile, he has granted you	§7А тим часом він дав тобі
+access to his Chocolate Factory all	§7доступ до своєї §6шоколадної фабрики §7цілий
+year round!	§7рік!
+In the future, everything is chrome	§8У майбутньому все буде з §fхрому
+and everything is automated. For this	§8і все §aавтоматизоване§8. Для цієї
+little old factory, that future is now!	§8старенької фабрики майбутнє — §dвже зараз§8!
+This is what that guy was singing	§8Ось про що співав той тип
+about in that musical.	§8у тому §5мюзиклі§8.
+Hire this private rabbit to hunt eggs	§7Найми цього приватного кролика шукати яйця
+for you, they will collect eggs you	§7замість тебе — він збере яйця, які ти
+missed!	§7пропустив!
+Open the eggs collected by the	§7Відкрий яйця, зібрані
+Rabbit Hitman.	§cКроликом-кілером§7.
+Your Factory is now famous	§7Твоя фабрика тепер відома
+worldwide! But some "political"	§7на весь світ! Але деякі «політичні»
+Rabbits are waiting for you to	§7кролики чекають, поки ти
+choose a faction before they will eat	§7обереш фракцію, і лише тоді їстимуть
+your Chocolate.	§7твій шоколад.
+{0} (Hoppity's Collection)	§5  §6{0} §8(колекція Хоппіті)
+{0} (Prestige Chocolate Realm)	§5  §6{0} §8(§6Престижне шоколадне царство§8)
+{0} (Rabbit Employees)	§5  §6{0} §8(кролики-працівники)
+{0} (Sigma)	§5  §6{0} §8(§dСигма§8)
+{0} (Rabbit Crew)	§5  §6{0} §8(§6Кроляча команда§8)
+{0}x (Base Multiplier)	§5  §6{0}x §8(базовий множник)
+{0}x (Hoppity's Collection)	§5  §6{0}x §8(колекція Хоппіті)
+{0}x (Chocolate Factory VI)	§5  §6{0}x §8(Шоколадна фабрика VI)
+{0}x (Time Tower)	§5  §6{0}x §8(§dВежа часу§8)
+{0}x (Cookie Buff)	§5  §6{0}x §8(§dпечивний баф§8)
+{0}x (Coach Jackrabbit)	§5  §6{0}x §8(тренер Джекребіт)
+{0}x (Hot Chocolate Mixin)	§5  §6{0}x §8(міксин гарячого шоколаду)
+{0}x (Chocolate Speed Attribute)	§5  §6{0}x §8(§6атрибут швидкості шоколаду§8)
+Spend your Chocolate on the world's	§7Витрачай свій §6шоколад §7на
+most delectable treats in the	§7найсмачніші ласощі світу в
+Chocolate Shop.	§6Шоколадній крамниці§7.
+Help Hoppity find all of his Chocolate	§7Допоможи §aХоппіті §7знайти всіх його §aшоколадних
+Rabbits during the Hoppity's Hunt	§aкроликів §7під час §dПолювання Хоппіті§7, великої
+event!	§7події!
+The more unique Chocolate Rabbits	§7Що більше унікальних §aшоколадних кроликів
+that you find, the more your	§7ти знайдеш, то більше вироблятиме
+Chocolate Factory will produce!	§7твоя §6шоколадна фабрика§7!
+Finding duplicate Rabbits grants	§7Кожен знайдений дублікат кролика дає
+{0} extra Chocolate per duplicate,	§a{0} §7додаткового §6шоколаду§7,
+up to {0}!	§7аж до §a{0}§7!
+Total Chocolate Production Boosts	§7Загальні прискорення виробництва шоколаду
+{0}x Chocolate Multiplier	§6{0}x множник шоколаду
+You are #{0} in all-time Chocolate.	§7Ти §8#§b{0} §7за шоколадом за весь час.
+You are in the top {0} of players!	§8Ти серед найкращих §a{0}§8 гравців!
+Unlock special Chocolate Rabbits by	§7Відкривай особливих §aшоколадних кроликів§7,
+reaching all-time Chocolate	§7досягаючи віх §6шоколаду
+milestones!	§7за весь час!
+You have not found this rabbit yet!	§8Ти ще не знайшов цього кролика!
+Lotus Atoll Resident	§3Мешканець Атолу лотосів
+Moonglade Marsh Resident	§2Мешканець Місячної галявини
+Backwater Bayou Resident	§2Мешканець Тихої затоки
+Each Spring, most rabbits hop to	§7Щовесни більшість кроликів скачуть
+another island, just for fun.	§7на інший острів — просто для розваги.
+The Hotspot of a Rabbit means that	§7§9Гаряча точка §7кролика означає, що
+this season they have a {0} higher	§7цього сезону в нього на §a{0} §7вищий
+chance to be found on this specific	§7шанс трапитися на цьому
+Resident rabbits however, can ONLY	§6Кролики-мешканці §7трапляються §cЛИШЕ
+be found on their respective islands.	§7на своїх островах.
+▶ Lowest Rarity	§b▶ §7Найнижча рідкість
+Highest Rarity	§7Найвища рідкість
+▶ Rabbits Not Found	§a▶ §7Незнайдені кролики
+Has Requirement	§7Є вимога
+No Requirement	§7Без вимог
+Grants {0}x Chocolate per second	§7Дає §6{0}x шоколаду §7щосекунди
+to your Chocolate Factory.	§7твоїй §6шоколадній фабриці§7.
+Grants {0}x Chocolate per	§7Дає §6{0}x шоколаду §7за
+second to your Chocolate Factory.	§7секунду твоїй §6шоколадній фабриці§7.
+Each Starborn Rabbit increases	§7Кожен §bЗірконароджений кролик §7підвищує
+your max Employee level by {0}.	§7макс. рівень працівників на §a{0}§7.
+Heh... Ever get that itch? The one	§7Хе-хе... Буває, свербить? Отой голосок,
+that whispers, "What if I just... walked	§7що шепоче: «А може, просто... взяти й
+away?" Just..."poof"...gone. You know,	§7піти?» Просто... «пуф»... і нема. Ну знаєш,
+switch sides, see how the others live.	§7перейти на інший бік, глянути, як живуть інші.
+It's not betrayal, not really. More	§7Це не зрада, ні. Радше
+like... expanding horizons. Maybe they	§7таке... розширення горизонтів. Може, тебе
+don't appreciate you here. Maybe	§7тут не цінують. Може,
+the grass is greener in another	§7в іншій фракції трава
+faction. Or... maybe you just want to	§7зеленіша. Або... може, ти просто хочеш
+watch the world burn a little, shake	§7трохи подивитися, як горить світ, розворушити
+things up. I'm just saying... they	§7все. Я просто кажу... вони
+wouldn't even see it coming. You	§7навіть не помітять. Ти
+could do it. You could leave them	§7можеш це зробити. Можеш покинути їх,
+behind like they were never anything	§7ніби вони ніколи нічого
+to you. Mmh... just think about it.	§7для тебе не значили. Мгм... просто подумай.
+Leave your faction: {0}	§7Покинути фракцію: §6{0}
+Chocolate	§6шоколаду
